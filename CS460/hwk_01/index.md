@@ -1,11 +1,14 @@
 # homework one
 the assignment instructions are <a href="http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html" target="_blank">here</a>   
 the repository to the main part of the assignment, found in Step 3, is <a href="https://github.com/Stormy9/CS460/tree/master/hwk_01" target="_blank">here</a>   
+and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here</a> is the multi-page/hyperlinked site i made to practice HTML/CSS & Bootstrap (see Step 3).   
+
 
 ### Step 1 [setup]: 
 * I'd already installed Git, for Fall '18 / CS407MA  -- but I updated my version   
    * In that class, I also learned how to *use* Git -- in connection with Github, and about 99% of that use was from the command line (on a Linux system)   
-   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway... but I did refresh myself on it with the tutorials I found [here](http://www.wou.edu/~morses/classes/cs46x/resources/resources.html "excellent CS460 resources") and by just googling some additional thoughts and questions I came up with.  I gathered all the stuff I liked best, [here](https://stormy9.github.io/CS460/references/git/ "my favorite git references").
+   
+   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway... but I did refresh myself on it with the tutorials I found <a href="http://www.wou.edu/~morses/classes/cs46x/resources/resources.html" target="_blank">here</a> and by just googling some additional thoughts and questions I came up with.  I gathered all the stuff I liked best, <a href="https://stormy9.github.io/CS460/references/git/" target="_blank">here</a>.
 
 * Got github repo set up for CS460 -- and synched locally, so I'll be all ready to start developing
     * with sub-directory/repos for each homework to come   
@@ -21,9 +24,9 @@ the repository to the main part of the assignment, found in Step 3, is <a href="
 ### Step 2 [more setup]:
 * Obviously, I already had a github account (:
 * I went ahead and set up my Bitbucket account now   
-   [my bitbucket account/repo](https://bitbucket.org/Stormy9/ "my bitbucket account")   
+   <a href="https://bitbucket.org/Stormy9/" target="_blank">my bitbucket account/repo</a>   
    * I even got this set up:
-      [my bitbucket.io site](https://stormy9.bitbucket.io/ "my bitbucket.io site")   
+      <a hfre="https://stormy9.bitbucket.io/" target="_blank">my bitbucket.io site</a>   
       Yeah, i know there's nothing to speak of there, yet, but i should be able to figure that out okay
 
 ---
