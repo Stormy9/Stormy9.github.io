@@ -23,7 +23,7 @@ you can email me at:  stormcloud.enterprises@gmail.com
 ---
 
 ### CS460 --> Software Engineering I
-<a href="https://stormy9.github.io/CS460/" target="_blank">all my stuff for CS460</a>
+[all my stuff for CS460](https://stormy9.github.io/CS460/ "my CS460 stuff")
 
 ---
 
