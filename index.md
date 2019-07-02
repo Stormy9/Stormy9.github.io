@@ -27,7 +27,8 @@ you can email me at:  <a href="mailto:stormcloud.enterprises@gmail.com?Subject=H
 * <a href="https://stormy9.bitbucket.io/" target="_blank">my Bitbucket page</a>   
 * <a href="https://stormcloudenterprises.000webhostapp.com/stormy/index.html" target="_blank">my Chemeketa portfolio</a>   
 
-If you want to message and set up a chat with me, go to <a href="https://www.facebook.com/tricia.l.holman" target="_blank">my facebook page</a>.  There are also lots of Sheltie photos.  And a few Collie photos.  And some silly stuff.
+If you want to message and set up a chat with me, go to <a href="https://www.facebook.com/tricia.l.holman" target="_blank">my facebook page</a>.   
+There are also lots of Sheltie photos.  And a few Collie photos.  And some silly stuff.
 
 I don't own a smart phone, and the stupid one I *do* own, doesn't get reception when I'm home, since I live in a vortex.   
 So messaging me on facebook is your best bet most of the time.  (:
