@@ -29,27 +29,22 @@
 ---
 
 ## Notes & References --> all the good stuff:
-* <a name="git"></a>[Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")   
-   stuff   
+* <a name="git">[Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")</a>   
    
-* <a name="html"></a>[HTML](https://Stormy9.github.io/CS460/references/html/ "notes for html")   
-   stuff   
+* <a name="html">[HTML](https://Stormy9.github.io/CS460/references/html/ "notes for html")</a>   
 
-* <a name="css"></a>[CSS](https://Stormy9.github.io/CS460/references/css/ "notes for css")   
-  stuff   
+* <a name="css">[CSS](https://Stormy9.github.io/CS460/references/css/ "notes for css")</a>   
 
 * <a id="bootstrap">[Bootstrap](https://Stormy9.github.io/CS460/references/bootstrap/ "notes for bootstrap")</a>   
-   stuff   
 
-* <a name="js_jq"></a>[JavaScript / jQuery](https://Stormy9.github.io/CS460/references/js_jq/ "notes for Javascript & jQuery")   
-   stuff   
+* <a name="js_jq">[JavaScript / jQuery](https://Stormy9.github.io/CS460/references/js_jq/ "notes for Javascript & jQuery")</a>   
  
-* <a name="c_sharp"></a>[C#](https://Stormy9.github.io/CS460/references/c_sharp/ "notes for C#")   
-   stuff   
+* <a name="c_sharp">[C#](https://Stormy9.github.io/CS460/references/c_sharp/ "notes for C#")</a>   
 
 ---
 
 [back to main page](https://Stormy9.github.io/ "main page")   
 
-:p:p
-
+[//]: # "so i tried to put in anchor tags" 
+[//]: # "so when coming back here from the sub-pages, it would be vertially aligned in a pleasing way"
+[//]: # "but it isn't working correctly....."
