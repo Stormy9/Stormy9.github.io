@@ -47,3 +47,7 @@
 * [C#](https://Stormy9.github.io/CS460/references/c_sharp/ "notes for C#")   
    stuff   
 
+---
+<p align="center">
+[<back to main page>](https://Stormy9.github.io/"main page")   
+   </p>
