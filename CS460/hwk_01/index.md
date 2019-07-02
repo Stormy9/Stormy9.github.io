@@ -5,7 +5,7 @@ the repository to the main part of the assignment, found in Step 3, is <a href="
 ### Step 1 [setup]: 
 * I'd already installed Git, for Fall '18 / CS407MA  -- but I updated my version   
    * In that class, I also learned how to *use* Git -- via Github, and about 99% was from the command line (on a Linux system)   
-   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway but I did refresh myself on it with the tutorials I found [here](http://www.wou.edu/~morses/classes/cs46x/resources/resources.html "excellent CS460 resources") and just googling some additional things I thought of.
+   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway but I did refresh myself on it with the tutorials I found [here](http://www.wou.edu/~morses/classes/cs46x/resources/resources.html "excellent CS460 resources") and just googling some additional things I thought of.  I gathered all the stuff I liked best, [here](https://stormy9.github.io/CS460/references/git/ "my favorite git references").
 
 * Got github repo set up for CS460 -- and synched locally, so I'll be all ready to start developing
     * with sub-directory/repos for each homework to come   
@@ -13,12 +13,9 @@ the repository to the main part of the assignment, found in Step 3, is <a href="
        **it looks like this on Github:**   
        ![screenshot of CS460 repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01.PNG)   
        
-       **and this from Github Desktop:**   
-       ![screenshot of CS460 repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01_b.PNG)   
+       **and here's locally via Git Bash:**   
+       ![screenshot of CS460 repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01_d.PNG)   
        
-       **and this from VisualStudio Code:**   
-       ![screenshot of CS460 repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01_c.PNG)   
-
 ---
 
 ### Step 2 [more setup]:
@@ -43,19 +40,21 @@ This part was actually fun.  That's not to say that Steps 1 & 2 *weren't* fun...
 ---
 
 ### Step 4 [test]:
-
+The test to which this refers, is to test if the stuff you do in Step 3 will work from anywhere.....
+I will test all that when I finish Step 3.  (:
 
 ---
 
 ### Step 5 [even more setup]:
 This is the part about making a repo on GitHub + enabling your GitHub Pages.   
-After some googling around, I found that since I have an existing GitHub account, all I had to do to enable my GitHub pages, was to create a specially-named new repo in it.   
 
-At first I tested it with an `.html` page, but then after investigating the sample pages referenced in the assignment instructions, went with `.md` pages, using one of the GitHub/Jekyll themes.  For one thing, it was easier & faster... for another thing, the practice making stuff with markdown was cool (I had very minimal practice with it til now).  And even Dr. Morse made his GitHub Page that way.  (:   
+After some googling around, I found that since I have an existing GitHub account, all I had to do to enable my GitHub pages, was to create a specially-named new repo in it like so: `username.github.io`   
 
-I mean, you could have it be in `.html`... that worked and all... but I went with `.md`.
+At first I tested it out with an `.html` page, and that worked just fine and all..... but after investigating the sample pages referenced in the assignment instructions, I opted to go with `.md` pages, using one of the GitHub/Jekyll themes.   
 
-I set up my GitHub Page loosely following the examples, taking a little from here and a little from there for inspiration -- and also following the instructions, of course.  
+For one thing, it was easier & faster to make them... for another thing, the practice making pages with markdown was cool -- I had very minimal practice with it til now.  And, hey -- even Dr. Morse made his GitHub Page that way.  (:   
+
+I set up my GitHub Portfolio loosely following the examples, borrowing a little from here and a little from there for inspiration -- and also following the instructions, of course, and putting my own twist on it.  
 
 [Here's a link to the front page](https://stormy9.github.io/ "my github pages front page")   
 
