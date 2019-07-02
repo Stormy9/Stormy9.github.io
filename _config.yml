@@ -1,3 +1,5 @@
 theme: jekyll-theme-midnight
 title: "Tricia Holman"
 url: "https://stormy9.github.io/"
+plugins:
+  - jemoji
