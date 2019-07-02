@@ -8,11 +8,11 @@ the assignment instructions are <a href="http://www.wou.edu/~morses/classes/cs46
 
 * Got github repo set up for CS460 -- and synched locally, so I'll be all ready to start developing
     * with sub-directory/repos for each homework to come   
-       it looks like this on Github:   
+       **it looks like this on Github:**   
        ![screenshot of CS460 repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01.PNG)   
-       from Github Desktop:
+       **and this from Github Desktop:**   
        ![screenshot of CS460 repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01_b.PNG)   
-       from VisualStudio Code:
+       **and this from VisualStudio Code:**   
        ![screenshot of CS460 repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01_c.PNG)   
 
 ---
@@ -72,10 +72,10 @@ I will.  (:
 ### Step 8 [collection of notes/references + cheat-sheets + code snippets + etc]:
 So I haven't started actually putting all of the above in there... BUT... I *do* have everything in place to do so... see?
 
-github repo structure:
+**github repo structure:**   
 ![screenshot of relevant github repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_08.PNG)   
 
-screenshot of my page:
+**screenshot of my page:**   
 ![screenshot of my page w/links to the good stuff](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_08_b.PNG)   
 
 
