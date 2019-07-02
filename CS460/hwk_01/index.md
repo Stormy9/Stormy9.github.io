@@ -4,8 +4,8 @@ the repository to the main part of the assignment, found in Step 3, is <a href="
 
 ### Step 1 [setup]: 
 * I'd already installed Git, for Fall '18 / CS407MA  -- but I updated my version   
-   * In that class, I also learned how to *use* Git -- via Github, and about 99% was from the command line (on a Linux system)   
-   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway but I did refresh myself on it with the tutorials I found [here](http://www.wou.edu/~morses/classes/cs46x/resources/resources.html "excellent CS460 resources") and just googling some additional things I thought of.  I gathered all the stuff I liked best, [here](https://stormy9.github.io/CS460/references/git/ "my favorite git references").
+   * In that class, I also learned how to *use* Git -- in connection with Github, and about 99% of that use was from the command line (on a Linux system)   
+   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway... but I did refresh myself on it with the tutorials I found [here](http://www.wou.edu/~morses/classes/cs46x/resources/resources.html "excellent CS460 resources") and by just googling some additional thoughts and questions I came up with.  I gathered all the stuff I liked best, [here](https://stormy9.github.io/CS460/references/git/ "my favorite git references").
 
 * Got github repo set up for CS460 -- and synched locally, so I'll be all ready to start developing
     * with sub-directory/repos for each homework to come   
@@ -24,7 +24,7 @@ the repository to the main part of the assignment, found in Step 3, is <a href="
    [my bitbucket account/repo](https://bitbucket.org/Stormy9/ "my bitbucket account")   
    * I even got this set up:
       [my bitbucket.io site](https://stormy9.bitbucket.io/ "my bitbucket.io site")   
-      I mean, i know there's nothing to speak of there, yet, but i should be able to figure that out okay
+      Yeah, i know there's nothing to speak of there, yet, but i should be able to figure that out okay
 
 ---
 
