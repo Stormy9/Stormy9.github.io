@@ -38,7 +38,7 @@
 * <a name="css"></a>[CSS](https://Stormy9.github.io/CS460/references/css/ "notes for css")   
   stuff   
 
-* <a name="bootstrap">[Bootstrap](https://Stormy9.github.io/CS460/references/bootstrap/ "notes for bootstrap")</a>   
+* <a id="bootstrap">[Bootstrap](https://Stormy9.github.io/CS460/references/bootstrap/ "notes for bootstrap")</a>   
    stuff   
 
 * <a name="js_jq"></a>[JavaScript / jQuery](https://Stormy9.github.io/CS460/references/js_jq/ "notes for Javascript & jQuery")   
@@ -51,5 +51,5 @@
 
 [back to main page](https://Stormy9.github.io/ "main page")   
 
-:p
+:p:p
 
