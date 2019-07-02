@@ -26,7 +26,7 @@ bootstrap example (borrowed from W3Schools)
 ```
 
 ---
-[back to CS460 page](https://Stormy9.github.io/CS460#bootstrap/ "CS460 main page")ha!   
+[back to CS460 page](https://Stormy9.github.io/CS460/#bootstrap/ "CS460 main page")haha!   
 
 [back to main page](https://Stormy9.github.io/ "main page")   
 
