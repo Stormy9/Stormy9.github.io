@@ -1,12 +1,17 @@
 # My Portfolio
-I'm a student at <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a> in the Computer Science degree program.
+I'm a student at <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a> in the Computer Science degree program.   
+This is my senior year!   (:
 
 ---
 
 ### About Me 
-This would be a good spot to say a little about yourself. And then explain a little more about why you're doing this.
+I started at <a href="https://www.chemeketa.edu/" target="_blank">Chemeketa Community College</a>, Fall Term of 2015... and graduated with an Associate/Science degree in Computer Information Systems after Spring term of 2017.   
 
-Students at Western Oregon University create a Portfolio of their work during their Senior year. This is done as a part of the Senior Project, a year-long Software Engineering course (CS 460, 461 and 462).
+Then I went to <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a>, embarking on the Applied Baccalaureate degree program for Computer Science.
+
+I need to say how well the instructors in the CIS program at Chemeketa prepared me for everything to come at WOU!   
+
+Fo our senior year, all of us in the CS program -- regular BS or applied BS -- create this nifty portfolio showing all of our work for the year, as part of our Senior Project -- a year-long, three-term course in Software Engineering.
 
 ---
 
@@ -22,7 +27,9 @@ you can email me at:  <a href="mailto:stormcloud.enterprises@gmail.com?Subject=H
 
 If you want to message and set up a chat with me, go to <a href="https://www.facebook.com/tricia.l.holman" target="_blank">my facebook page</a>.  There are also lots of Sheltie photos.  And a few Collie photos.  And some silly stuff.
 
-But I don't own a smart phone, and the stupid one I *do* own doesn't get reception when I'm home, since I live in a vortex..... so messaging me on facebook is your best bet most of the time.  (:
+I don't own a smart phone, and the stupid one I *do* own, doesn't get reception when I'm home, since I live in a vortex.   
+So messaging me on facebook is your best bet most of the time.  (:
+
 ---
 
 ### CS460 --> Software Engineering I
