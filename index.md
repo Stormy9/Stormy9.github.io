@@ -5,13 +5,15 @@ This is my senior year!   (:
 ---
 
 ### About Me 
-I started at <a href="https://www.chemeketa.edu/" target="_blank">Chemeketa Community College</a>, Fall Term of 2015... and graduated with an Associate/Science degree in Computer Information Systems after Spring term of 2017.   
+I started at <a href="https://www.chemeketa.edu/" target="_blank">Chemeketa Community College</a>, Fall Term of 2015... and graduated with an Associate/Science degree in <a href="https://www.chemeketa.edu/programs-classes/program-finder/computer-information-systems/" target="_blank">Computer Information Systems</a> after Spring term of 2017.   
 
-Then I went to <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a>, embarking on the Applied Baccalaureate degree program for Computer Science.
+Then I went to <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a>, embarking on the <a href="http://www.wou.edu/cs/degrees-programs/ab-in-computer-science/" target="_blank">Applied Baccalaureate</a> degree program for <a href="http://www.wou.edu/cs/" target="_blank">Computer Science</a>.
 
-I need to say how well the instructors in the CIS program at Chemeketa prepared me for everything to come at WOU!   
+I need to say how well the CIS program at Chemeketa prepared me for everything to come at WOU!  The instructors, the coursework and labs, the experiences.   
 
-Fo our senior year, all of us in the CS program -- regular BS or applied BS -- create this nifty portfolio showing all of our work for the year, as part of our Senior Project -- a year-long, three-term course in Software Engineering.
+For our senior year, all of us in the CS program -- whether regular BS or applied BS -- create this nifty portfolio showing all of our work for the year, as part of our Senior Project -- a year-long/three-term capstone course in Software Engineering:  <a href="http://www.wou.edu/~morses/classes/cs46x/Prep.html" target="_blank">CS460</a>, CS461, and CS462.   
+
+From the sounds of it, the first term starts us off like we're in a little red wagon at the top of a steep hill... but it should be a fun ride!  (:
 
 ---
 
