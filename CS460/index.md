@@ -49,5 +49,5 @@
 
 ---
 <p align="center">
-[<back to main page>](https://Stormy9.github.io/"main page")   
+[back to main page](https://Stormy9.github.io/"main page")   
    </p>
