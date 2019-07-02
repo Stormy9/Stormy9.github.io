@@ -58,7 +58,7 @@ I set up my GitHub Page loosely following the examples, taking a little from her
 
 [Here's a link to the front page](https://stormy9.github.io/ "my github pages front page")   
 
-[Here's some sources I used to learn/refresh/practice markdown-ing](https://stormy9.github.io/markdown/ "my markdown notes page")   
+[Here's some sources I used to learn/refresh/practice markdown-ing](https://stormy9.github.io/CS460/references/markdown/ "my markdown notes page")   
 
 ---
 
