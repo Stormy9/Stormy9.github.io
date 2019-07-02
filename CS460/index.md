@@ -29,23 +29,23 @@
 ---
 
 ## Notes & References --> all the good stuff:
-* [Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")(#html)   
-   stuff   
+* [Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")   
+   [stuff](#git)   
    
 * [HTML](https://Stormy9.github.io/CS460/references/html/ "notes for html")   
-   stuff
+   [stuff](#html)   
 
 * [CSS](https://Stormy9.github.io/CS460/references/css/ "notes for css")   
-  stuff   
+  [stuff](#css)   
 
 * [Bootstrap](https://Stormy9.github.io/CS460/references/bootstrap/ "notes for bootstrap")   
-   stuff   
+   [stuff](#bootstrap)   
 
 * [JavaScript / jQuery](https://Stormy9.github.io/CS460/references/js_jq/ "notes for Javascript & jQuery")   
-   stuff   
+   [stuff](#js_jq)   
 
 * [C#](https://Stormy9.github.io/CS460/references/c_sharp/ "notes for C#")   
-   stuff   
+   [stuff](#c_sharp)   
 
 ---
 
