@@ -1,6 +1,6 @@
 # My Portfolio
 I'm a student at <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a> in the Computer Science degree program.   
-This is my senior year! :blush:   gg
+This is my senior year!  Go :wolf:'s!   
 
 ---
 
@@ -14,7 +14,7 @@ I need to say how well the CIS program at Chemeketa prepared me for everything t
 For our senior year, all of us in the CS program -- whether regular BS or applied BS -- create this nifty portfolio showing all of our work for the year, as part of our Senior Project -- a year-long/three-term capstone course in Software Engineering:  <a href="http://www.wou.edu/~morses/classes/cs46x/Prep.html" target="_blank">CS460</a>, CS461, and CS462.   
 
 From the sounds of it, the first term starts us off like we're in a little red wagon at the top of a steep hill... :astonished:   
-but it should be a fun ride!  :grin:
+but it should be a fun ride!  :blush:
 
 ---
 
@@ -58,4 +58,3 @@ I made a custom 404 page.  I have yet to style it, though.
 Click [here](https://stormy9.github.io/oops "oops!") to go to a page that does not exist to see it.....
 
 ---
-Western Oregon :wolf:'s
