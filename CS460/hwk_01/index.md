@@ -22,9 +22,10 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
 ---
 
 ### Step 2 [more setup]:
-* Obviously, I already had a github account (:
+* Obviously, I already had a github account (:   
+
 * I went ahead and set up my Bitbucket account now   
-   <a href="https://bitbucket.org/Stormy9/" target="_blank">my bitbucket account/repo</a>   
+   <a href="https://bitbucket.org/Stormy9/" target="_blank">my bitbucket account/repo</a>      
    * I even got this set up:
       <a hfre="https://stormy9.bitbucket.io/" target="_blank">my bitbucket.io site</a>   
       Yeah, i know there's nothing to speak of there, yet, but i should be able to figure that out okay
