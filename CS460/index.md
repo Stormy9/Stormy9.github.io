@@ -29,8 +29,7 @@
 ---
 
 ## Notes & References --> all the good stuff:
-(#html)
-* [Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")   
+* [Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")(#html)   
    stuff   
    
 * [HTML](https://Stormy9.github.io/CS460/references/html/ "notes for html")   
