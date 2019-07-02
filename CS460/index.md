@@ -30,7 +30,9 @@
 
 ## Notes & References --> all the good stuff:
 * <a name="git">[Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")</a>   
-   
+
+* <a name="markdown">[Markdown](https://Stormy9.github.io/CS460/references/markdown/ "notes for markdown")</a>   
+
 * <a name="html">[HTML](https://Stormy9.github.io/CS460/references/html/ "notes for html")</a>   
 
 * <a name="css">[CSS](https://Stormy9.github.io/CS460/references/css/ "notes for css")</a>   
