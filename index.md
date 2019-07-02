@@ -1,6 +1,6 @@
 # My Portfolio
 I'm a student at <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a> in the Computer Science degree program.   
-This is my senior year!   (:
+This is my senior year!   :blush:
 
 ---
 
@@ -13,7 +13,8 @@ I need to say how well the CIS program at Chemeketa prepared me for everything t
 
 For our senior year, all of us in the CS program -- whether regular BS or applied BS -- create this nifty portfolio showing all of our work for the year, as part of our Senior Project -- a year-long/three-term capstone course in Software Engineering:  <a href="http://www.wou.edu/~morses/classes/cs46x/Prep.html" target="_blank">CS460</a>, CS461, and CS462.   
 
-From the sounds of it, the first term starts us off like we're in a little red wagon at the top of a steep hill... but it should be a fun ride!  (:
+From the sounds of it, the first term starts us off like we're in a little red wagon at the top of a steep hill... :astonished:   
+but it should be a fun ride!  :grin:
 
 ---
 
@@ -31,7 +32,7 @@ If you want to message and set up a chat with me, go to <a href="https://www.fac
 There are also lots of Sheltie photos.  And a few Collie photos.  And some silly stuff.
 
 I don't own a smart phone, and the stupid one I *do* own, doesn't get reception when I'm home, since I live in a vortex.   
-So messaging me on facebook is your best bet most of the time.  (:
+So messaging me on facebook is your best bet most of the time.  :eyes:
 
 ---
 
@@ -55,3 +56,6 @@ So messaging me on facebook is your best bet most of the time.  (:
 ### just for the fun of it...   
 I made a custom 404 page.  I have yet to style it, though.   
 Click [here](https://stormy9.github.io/oops "oops!") to go to a page that does not exist to see it.....
+
+---
+Western Oregon :wolf:'s
