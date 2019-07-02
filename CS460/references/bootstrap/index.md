@@ -1,7 +1,7 @@
 ### this is where notes about bootstrap will go.....
 
 bootstrap example (borrowed from W3Schools)
-```bootstrap
+```html
 <div class="jumbotron text-center">
   <h1>My First Bootstrap Page</h1>
   <p>Resize this responsive page to see the effect!</p> 
