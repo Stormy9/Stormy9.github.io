@@ -29,23 +29,23 @@
 ---
 
 ## Notes & References --> all the good stuff:
-* [Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")   
-   [stuff](#git)   
+* <a name="git"></a>[Git / Github / Bitbucket](https://Stormy9.github.io/CS460/references/git/ "notes for git")   
+   stuff   
    
-* [HTML](https://Stormy9.github.io/CS460/references/html/ "notes for html")   
-   [stuff](#html)   
+* <a name="html"></a>[HTML](https://Stormy9.github.io/CS460/references/html/ "notes for html")   
+   stuff   
 
-* [CSS](https://Stormy9.github.io/CS460/references/css/ "notes for css")   
-  [stuff](#css)   
+* <a name="css"></a>[CSS](https://Stormy9.github.io/CS460/references/css/ "notes for css")   
+  stuff   
 
-* [Bootstrap](https://Stormy9.github.io/CS460/references/bootstrap/ "notes for bootstrap")   
-   [stuff](#bootstrap)   
+* <a name="bootstrap"></a>[Bootstrap](https://Stormy9.github.io/CS460/references/bootstrap/ "notes for bootstrap")   
+   stuff   
 
-* [JavaScript / jQuery](https://Stormy9.github.io/CS460/references/js_jq/ "notes for Javascript & jQuery")   
-   [stuff](#js_jq)   
-
-* [C#](https://Stormy9.github.io/CS460/references/c_sharp/ "notes for C#")   
-   [stuff](#c_sharp)   
+* <a name="js_jq"></a>[JavaScript / jQuery](https://Stormy9.github.io/CS460/references/js_jq/ "notes for Javascript & jQuery")   
+   stuff   
+ 
+* <a name="c_sharp"></a>[C#](https://Stormy9.github.io/CS460/references/c_sharp/ "notes for C#")   
+   stuff   
 
 ---
 
