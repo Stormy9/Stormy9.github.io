@@ -13,8 +13,7 @@ I need to say how well the CIS program at Chemeketa prepared me for everything t
 
 For our senior year, all of us in the CS program -- whether regular BS or applied BS -- create this nifty portfolio showing all of our work for the year, as part of our Senior Project -- a year-long/three-term capstone course in Software Engineering:  <a href="http://www.wou.edu/~morses/classes/cs46x/Prep.html" target="_blank">CS460</a>, CS461, and CS462.   
 
-From the sounds of it, the first term starts us off like we're in a little red wagon at the top of a steep hill... :astonished:   
-but it should be a fun ride!  :blush:
+From the sounds of it, the first term starts us off like we're in a little red wagon at the top of a steep hill... :astonished: but it should be a fun ride!  :blush:   
 
 ---
 
@@ -31,8 +30,7 @@ you can email me at:  <a href="mailto:stormcloud.enterprises@gmail.com?Subject=H
 If you want to message and set up a chat with me, go to <a href="https://www.facebook.com/tricia.l.holman" target="_blank">my facebook page</a>.   
 There are also lots of Sheltie photos.  And a few Collie photos.  And some silly stuff.
 
-I don't own a smart phone, and the stupid one I *do* own, doesn't get reception when I'm home, since I live in a vortex.   
-So messaging me on facebook is your best bet most of the time.  :eyes:
+I don't own a smart phone, and the stupid one I *do* own, doesn't get reception when I'm home, since I live in a vortex. So messaging me on facebook is your best bet most of the time.  :eyes:   
 
 ---
 
