@@ -1,5 +1,6 @@
 # homework one
-the assignment instructions are <a href="http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html" target="_blank">here</a>...   
+the assignment instructions are <a href="http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html" target="_blank">here</a>   
+the repository to the main part of the assignment, found in Step 3, is <a href="https://github.com/Stormy9/CS460/tree/master/hwk_01" target="_blank">here</a>   
 
 ### Step 1 [setup]: 
 * I'd already installed Git, for Fall '18 / CS407MA  -- but I updated my version   
