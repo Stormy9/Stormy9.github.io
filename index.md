@@ -13,7 +13,7 @@ Students at Western Oregon University create a Portfolio of their work during th
 ### Find Me
 you can email me at:  stormcloud.enterprises@gmail.com 
 
-
+| my stuff  |
 | ------------- |-------------| -----|
 | <a href="https://www.linkedin.com/in/tricia-l-holman-55a00a24/" target="_blank">my LinkedIn</a> | <a href="https://github.com/Stormy9/" target="_blank">my GitHub code repos</a> |
 | col 2 is      | centered      |
