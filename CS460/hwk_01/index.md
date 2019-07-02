@@ -82,7 +82,7 @@ So I haven't started actually putting all of the above in there... BUT... I *do*
 
 **screenshot of my page:**   
 ![screenshot of my page w/links to the good stuff](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_08_b.PNG)   
-
+*(from github, so you can see where it starts/ends and not get all befuddled about where to click...)*
 
 ---
 
