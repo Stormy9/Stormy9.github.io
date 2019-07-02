@@ -9,22 +9,22 @@
    Learning C# --> translate a Java app into a C# console app   
 
 * [Homework/Lab Four](https://Stormy9.github.io/CS460/hwk_04/ "Homework/Lab Four")   
-   stuff   
+   Learning .NET MVC5 --> create a multi-page web app   
 
 * [Homework/Lab Five](https://Stormy9.github.io/CS460/hwk_05/ "Homework/Lab Five")   
-   stuff   
+   Continue with .NET MVC5 --> make a web app that uses a simple database   
 
 * [Homework/Lab Six](https://Stormy9.github.io/CS460/hwk_06/ "Homework/Lab Six")   
-   stuff   
+   Continue with .NET MVC5 --> make a web app that uses a complex (pre-existing) database   
 
 * [Homework/Lab Seven](https://Stormy9.github.io/CS460/hwk_07/ "Homework/Lab Seven")   
-   stuff   
+   Continue with .NET MVC5 --> make a web app that uses a that uses a REST API (giphy) + AJAX   
 
 * [Homework/Lab Eight](https://Stormy9.github.io/CS460/hwk_08/ "Homework/Lab Eight")   
-   stuff   
+   Continue with .NET MVC5 --> make a web app that uses a self-created relational database   
 
 * [Homework/Lab Nine](https://Stormy9.github.io/CS460/hwk_09/ "Homework/Lab Nine")   
-   stuff   
+   Publish homework eight to the web --> using Microsoft Azure   
 
 ---
 
@@ -48,3 +48,4 @@
 [//]: # "so i tried to put in anchor tags" 
 [//]: # "so when coming back here from the sub-pages, it would be vertially aligned in a pleasing way"
 [//]: # "but it isn't working correctly....."
+[//]: # "i think b/c not using direct page links and going to index.md automatically"
