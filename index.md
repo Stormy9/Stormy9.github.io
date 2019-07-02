@@ -1,6 +1,6 @@
 # My Portfolio
 I'm a student at <a href="https://www.wou.edu/" target="_blank">Western Oregon University</a> in the Computer Science degree program.   
-This is my senior year!   :blush:
+This is my senior year! :blush:   gg
 
 ---
 
