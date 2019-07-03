@@ -54,7 +54,7 @@ However, as I recall, neither HTML nor CSS were very difficult or confounding or
 
 But again, for a refresher and to play around with it to get acclimated again, I went to W3Schools for <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a> and <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a>.
 
-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Mozilla Developer Network - HTML</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank>Mozilla Developer Network - CSS</a> sites recommended on Dr. Morse's site are also awesome -- easy to navigate and learn from, full of well-organized important stuff.   
+The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Mozilla Developer Network - HTML</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla Developer Network - CSS</a> sites recommended on Dr. Morse's site are also awesome -- easy to navigate and learn from, full of well-organized important stuff.   
 
 For CSS, <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a> is also a very good resource... for HTML, <a href="https://html.spec.whatwg.org/dev/" target="_blank">HTML: The Living Standard</a> is pretty cool, too.
 
