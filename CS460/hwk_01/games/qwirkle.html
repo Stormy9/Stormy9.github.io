@@ -14,23 +14,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- my CSS file -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styling/my-styles.css">
 
         <title>old-school gaming | Qwirkle</title>
     </head>
 
 <!-------------------------------------------------------------------------------------->
 <!------------------------------- CONTENT SECTION -------------------------------------->
-
     <body>
         
         <!-- nav part -->
-        <nav class="navbar navbar-expand-sm bg-warning navbar-light fixed-top">
+        <nav class="navbar navbar-expand-sm 
+                    bg-warning navbar-light fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">old-school gaming</a>
               
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <button class="navbar-toggler" type="button" 
+                data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
               
@@ -38,15 +39,15 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="index.html">home</a>
+                        <a class="nav-link" href="index.html">home</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="about.html">about</a>
+                        <a class="nav-link" href="about.html">about</a>
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">contact</a>
+                        <a class="nav-link" href="contact.html">contact</a>
                     </li> 
 
                     <!-- drop-down -->
@@ -54,9 +55,12 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">games
                     </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="smartass.html">Smart Ass</a>
-                            <a class="dropdown-item" href="explodingkittens.html">Exploding Kittens</a>
-                            <a class="dropdown-item-active" href="#">Qwirkle</a>
+                            <a class="dropdown-item" 
+                                href="smartass.html">Smart Ass</a>
+                            <a class="dropdown-item" 
+                                href="explodingkittens.html">Exploding Kittens</a>
+                            <a class="dropdown-item-active" 
+                                href="#">Qwirkle</a>
                         </div>
                     </li>
                     <!-- end drop-down -->
@@ -67,80 +71,82 @@
 
         <!-- welcome part -->   <!-- before first row -->
         <div class="container-fluid mt-5 mb-5 pt-3 pb-3"  id="header">
-                <!-- putting this part in a row made the <p>
-                     float alongside the <h1>!            -->
-                    <h1>Qwirkle!</h1>
+            <!-- putting this part in a row made the <p>
+                 float alongside the <h1>!            -->
+            <h1>Qwirkle!</h1>
                 
-                    <p>you haven't had this much fun playing with blocks
-                        since you were five years old! </p>
-                    <p>deceptively simple in appearance, it is indeed
-                        easy to learn and play -- but fun to plot out 
-                        the slickest moves to get the best score! </p>
-                    <p>colorful chunky block playing pieces.</p>
-                    <p>also in a "cubes" and a "cards" version!</p>
+            <p>you haven't had this much fun playing with blocks
+                since you were five years old! </p>
+            
+            <p>deceptively simple in appearance, it is indeed
+                easy to learn and play -- but fun to plot out 
+                the slickest moves to get the best score! </p>
+            
+            <p>colorful chunky block playing pieces.</p>
+            
+            <p>also in a "cubes" and a "cards" version!</p>
                     
-                    <p><a href="https://www.ultraqwirkle.com/" target="_blank" 
-                            style="text-decoration:none">official game fan site</a></p>
-                    <p><a href="http://iloveboardgames.com/wp-content/uploads/2012/02/Qwirkle-Rules.pdf" 
-                        target="_blank" style="text-decoration:none">official rules of the game</a></p>
+            <p><a href="https://www.ultraqwirkle.com/" target="_blank" 
+                    style="text-decoration:none">official game fan site</a></p>
+            <p><a href="http://iloveboardgames.com/wp-content/uploads/2012/02/Qwirkle-Rules.pdf" 
+                    target="_blank" style="text-decoration:none">official rules of the game</a></p>
         
         
-                <!-- table part -->     <!-- first row -->
-                <div class="row">            
-                    <div class="col-sm-5" style="background-color:lavender;">
-                        <div class="table-responsive-lg">
-                        <table class="table">
-                            <thead>
-                            <!-- THIS IS THE ONLY PART i don't think figured
-                                 out exactly right & like i want!!!!!       
-                                 it's the column min width -- for the middle 
-                                 column in particular!                  -->
-                                <tr>
-                                    <th style="width:25%">genre</th>
-                                    <th style="width:25%">ages</th>
-                                    <th style="width:50%">#players</th>
-                                </tr>
-                            </thead>
+            <!-- table part -->     <!-- first row -->
+            <div class="row">            
+                <div class="col-sm-5" style="background-color:lavender;">
+                <div class="table-responsive-lg">
+                    <table class="table">
+                        <thead>
+                        <!-- THIS IS THE ONLY PART i don't think figured
+                             out exactly right & like i want!!!!!       
+                             it's the column min width -- for the middle 
+                             column in particular!                  -->
+                            <tr>
+                                <th style="width:25%">genre</th>
+                                <th style="width:25%">ages</th>
+                                <th style="width:50%">#players</th>
+                            </tr>
+                        </thead>
         
-                            <tbody>     
-                                <tr class="table-success">
-                                    <td><p>puzzle-type</p>
-                                        <p>pattern/color matching</p></td>
-                                    <td>6 & up</td>
-                                    <td>2 to 4<br>(according to the box -- 
-                                                    we've played with more!)</td>
-                                </tr>
+                        <tbody>     
+                            <tr class="table-success">
+                                <td><p>puzzle-type</p>
+                                    <p>pattern/color matching</p></td>
+                                <td>6 & up</td>
+                                <td>2 to 4<br>(according to the box -- 
+                                            we've played with more!)</td>
+                            </tr>
         
-                            </tbody>
-                        </table>
-                        </div>
-                    </div> <!-- end of col-5 div -->
+                        </tbody>
+                    </table>
+                </div><!-- end of table-responsive-lg div -->
+                </div> <!-- end of col-5 div -->
                       
-                    <div class="col-sm-7 pt-3 pb-3" style="background-color: rgb(255, 217, 204);">
-                        <h3>pictures!</h3>
-                        <img class ="img-fluid" src="images/Qwirkle Box.jpg"
-                             alt="Qwirkle Box" 
-                             title="this is what your Qwirkle box will look like...">
-                        <img class ="img-fluid" src="images/Qwirkle In Play.jpg"
-                             alt="Qwirkle in play"
-                             title="Qwirkle game well in progress">
-                        <img class ="img-fluid" src="images/Qwirkle Cubes.jpg"
-                             alt="there's Qwirkle Cubes, too!"
-                             title="with Qwirkle Cubes, you can roll your cubes
-                                    for different playing options...">
-                    </div><!-- end of col-7 div -->
+                <div class="col-sm-7 pt-3 pb-3" style="background-color: rgb(255, 217, 204);">
+                    <h3>pictures!</h3>
+                    <img class ="img-fluid" src="images/Qwirkle Box.jpg"
+                         alt="Qwirkle Box" 
+                         title="this is what your Qwirkle box will look like...">
+                    <img class ="img-fluid" src="images/Qwirkle In Play.jpg"
+                         alt="Qwirkle in play"
+                         title="Qwirkle game well in progress">
+                    <img class ="img-fluid" src="images/Qwirkle Cubes.jpg"
+                         alt="there's Qwirkle Cubes, too!"
+                         title="with Qwirkle Cubes, you can roll your cubes
+                                for different playing options...">
+                </div><!-- end of col-7 div -->
         
-                </div><!-- this is end of row one -->
+            </div><!-- this is end of row one -->
         
-                </div>
+        </div>
         
         
-                <!-- footer part -->
-                <div class="page-footer fixed-bottom 
-                            font-small font-weight-light text-right 
-                            bg-dark text-muted pr-1">woof! [=
-                    </div>
-                </div>
+        <!-- footer part -->
+        <div class="page-footer fixed-bottom 
+                    font-small font-weight-light text-right 
+                    bg-dark text-muted pr-1">woof! [=
+        </div>
 
 <!-------------------------------------------------------------------------------------->
     <!-- optional Bootstrap-related JavaScript -->
@@ -151,5 +157,5 @@
     <!-- Official Bootstrap page says to put these script tags at the bottom.....
             but not everyone does       -->
 <!-------------------------------------------------------------------------------------->
-  </body>
+    </body>
 </html>
