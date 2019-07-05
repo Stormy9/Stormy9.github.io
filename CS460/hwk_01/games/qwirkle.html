@@ -65,21 +65,82 @@
         </nav>
         <!-- end nav part -->
 
-        <!-- welcome part -->
-        <div class="container-fluid" style="margin-top:72px" id="header">
-            <h1>Qwirkle!</h1>
-
-            <p>describe Qwirkle!.....</p>
-
-            <a href="http://iloveboardgames.com/wp-content/uploads/2012/02/Qwirkle-Rules.pdf" 
-                target="_blank" style="text-decoration:none" >official rules of the game</a>
-
-        </div>
-
-        <div class="page-footer fixed-bottom font-small font-weight-light text-right bg-dark text-muted pr-1">woof!
-              </div>
-
-
+        <!-- welcome part -->   <!-- before first row -->
+        <div class="container-fluid mt-5 mb-5 pt-3 pb-3"  id="header">
+                <!-- putting this part in a row made the <p>
+                     float alongside the <h1>!            -->
+                    <h1>Qwirkle!</h1>
+                
+                    <p>you haven't had this much fun playing with blocks
+                        since you were five years old! </p>
+                    <p>deceptively simple in appearance, it is indeed
+                        easy to learn and play -- but fun to plot out 
+                        the slickest moves to get the best score! </p>
+                    <p>colorful chunky block playing pieces.</p>
+                    <p>also in a "cubes" and a "cards" version!</p>
+                    
+                    <p><a href="https://www.ultraqwirkle.com/" target="_blank" 
+                            style="text-decoration:none">official game fan site</a></p>
+                    <p><a href="http://iloveboardgames.com/wp-content/uploads/2012/02/Qwirkle-Rules.pdf" 
+                        target="_blank" style="text-decoration:none">official rules of the game</a></p>
+        
+        
+                <!-- table part -->     <!-- first row -->
+                <div class="row">            
+                    <div class="col-sm-5" style="background-color:lavender;">
+                        <div class="table-responsive-lg">
+                        <table class="table">
+                            <thead>
+                            <!-- THIS IS THE ONLY PART i don't think figured
+                                 out exactly right & like i want!!!!!       
+                                 it's the column min width -- for the middle 
+                                 column in particular!                  -->
+                                <tr>
+                                    <th style="width:25%">genre</th>
+                                    <th style="width:25%">ages</th>
+                                    <th style="width:50%">#players</th>
+                                </tr>
+                            </thead>
+        
+                            <tbody>     
+                                <tr class="table-success">
+                                    <td><p>puzzle-type</p>
+                                        <p>pattern/color matching</p></td>
+                                    <td>6 & up</td>
+                                    <td>2 to 4<br>(according to the box -- 
+                                                    we've played with more!)</td>
+                                </tr>
+        
+                            </tbody>
+                        </table>
+                        </div>
+                    </div> <!-- end of col-5 div -->
+                      
+                    <div class="col-sm-7 pt-3 pb-3" style="background-color: rgb(255, 217, 204);">
+                        <h3>pictures!</h3>
+                        <img class ="img-fluid" src="images/Qwirkle Box.jpg"
+                             alt="Qwirkle Box" 
+                             title="this is what your Qwirkle box will look like...">
+                        <img class ="img-fluid" src="images/Qwirkle In Play.jpg"
+                             alt="Qwirkle in play"
+                             title="Qwirkle game well in progress">
+                        <img class ="img-fluid" src="images/Qwirkle Cubes.jpg"
+                             alt="there's Qwirkle Cubes, too!"
+                             title="with Qwirkle Cubes, you can roll your cubes
+                                    for different playing options...">
+                    </div><!-- end of col-7 div -->
+        
+                </div><!-- this is end of row one -->
+        
+                </div>
+        
+        
+                <!-- footer part -->
+                <div class="page-footer fixed-bottom 
+                            font-small font-weight-light text-right 
+                            bg-dark text-muted pr-1">woof! [=
+                    </div>
+                </div>
 
 <!-------------------------------------------------------------------------------------->
     <!-- optional Bootstrap-related JavaScript -->

@@ -65,15 +65,90 @@
         </nav>
         <!-- end nav part -->
 
-        <!-- welcome part -->
-        <div class="container-fluid" style="margin-top:72px" id="header">
-            <h1>Exploding Kittens!</h1>
+        <!-- welcome part -->   <!-- before first row -->
+        <div class="container-fluid mt-5 mb-5 pt-3 pb-3"  id="header">
+                <!-- putting this part in a row made the <p>
+                     float alongside the <h1>!            -->
+                    <h1>Exploding Kittens!</h1>
+                
+                    <p>from Matt Inman -- creator of the hilarious and
+                        perceptive Oatmeal web cartoons! </p>
 
-            <p>describe exploding kittens!.....</p>
-        </div>
-
-        <div class="page-footer fixed-bottom font-small font-weight-light text-right bg-dark text-muted pr-1">woof!
-            </div>
+                    <p>avoid getting the Exploding Kitten card -- the 
+                        kitten trying to blow up the world!
+                    </p>
+                    <p>hint: just go ahead and look through all the cards
+                        and laugh at the illustrations first, or you'll
+                        be tempted to mid-game -- literally giving up 
+                        your hand!
+                    </p>
+                    <p>some of the most creative action cards ever -- 
+                        the "nope" card, the "attack" card, the "see
+                        the future" card, and more...
+                    </p>
+                    
+                    <p><a href="https://explodingkittens.com//" target="_blank" 
+                            style="text-decoration:none">official game site</a></p>
+                    <p><a href="https://www.fgbradleys.com/rules/rules2/ExplodingKittens-rules.pdf" 
+                        target="_blank" style="text-decoration:none">official rules of the game</a></p>
+        
+        
+                <!-- table part -->     <!-- first row -->
+                <div class="row">            
+                    <div class="col-sm-5" style="background-color:lavender;">
+                        <div class="table-responsive-lg">
+                        <table class="table">
+                            <thead>
+                            <!-- THIS IS THE ONLY PART i don't think figured
+                                 out exactly right & like i want!!!!!       
+                                 it's the column min width -- for the middle 
+                                 column in particular!                  -->
+                                <tr>
+                                    <th style="width:35%">genre</th>
+                                    <th style="width:25%">ages</th>
+                                    <th style="width:40%">#players</th>
+                                </tr>
+                            </thead>
+        
+                            <tbody>     
+                                <tr class="table-success">
+                                    <td><p>cards</p>
+                                        <p>luck-of-the-draw + strategy</p>
+                                        <p>party fun</p></td>
+                                    <td>7 & up</td>
+                                    <td>2 to 5<br>(according to the box -- 
+                                                    we've played with more!)</td>
+                                </tr>
+        
+                            </tbody>
+                        </table>
+                        </div>
+                    </div> <!-- end of col-5 div -->
+                      
+                    <div class="col-sm-7 pt-3 pb-3" style="background-color: rgb(255, 217, 204);">
+                        <h3>pictures!</h3>
+                        <img class ="img-fluid" src="images/exploding kittens box.png"
+                             alt="Exploding Kittens Box" 
+                             title="this is the game box you'll see when you open your amazon box...">
+                        <img class ="img-fluid" src="images/exploding kittens cards.png"
+                             alt="some of the Exploding Kittens game cards"
+                             title="here's some of the action cards...">
+                        <img class ="img-fluid" src="images/exploding kittens more cards.jpg"
+                             alt="some more of the Exploding Kittens game cards"
+                             title="and some more action cards">
+                    </div><!-- end of col-7 div -->
+        
+                </div><!-- this is end of row one -->
+        
+                </div>
+        
+        
+                <!-- footer part -->
+                <div class="page-footer fixed-bottom 
+                            font-small font-weight-light text-right 
+                            bg-dark text-muted pr-1">woof! [=
+                    </div>
+                </div>
 
 <!-------------------------------------------------------------------------------------->
     <!-- optional Bootstrap-related JavaScript -->
