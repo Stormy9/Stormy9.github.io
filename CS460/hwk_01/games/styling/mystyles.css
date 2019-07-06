@@ -26,7 +26,7 @@ a.official:visited {
     text-decoration: none;
 }
 
-a.official:hover, a:active {
+a.official:hover, a.official:active {
     color: springgreen;
     text-decoration: none;
 }
@@ -35,17 +35,17 @@ a.official:hover, a:active {
 /* a:hover MUST come after a:link and a:visited  */
 /* a:active MUST come after a:hover             */
 a.contact:link {
-    color: slateblue;
+    color: crimson;
     text-decoration: none;
 }
 
 a.contact:visited {
-    color: royalblue;
+    color: indianred;
     text-decoration: none;
-}
+}  
 
-a.contact:hover, a:active {
-    color: springgreen;
+a.contact:hover, a.contact:active {
+    color: palevioletred;
     text-decoration: none;
 }
 
