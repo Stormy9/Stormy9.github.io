@@ -7,17 +7,17 @@
 
 /* okay -- so all the a:whatevers work & over-ride... */
 /* but nothing else!!!  wtf?!                       */
-a:link {
+a.official:link {
     color: slateblue;
     text-decoration: none;
 }
 
-a:visited {
+a.official:visited {
     color: royalblue;
     text-decoration: none;
 }
 
-a:hover, a:active {
+a.official:hover, a:active {
     color: springgreen;
     text-decoration: none;
 }
