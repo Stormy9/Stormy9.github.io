@@ -1,7 +1,7 @@
 /* okay -- so FINALLY the class & ID's i made */
 /* finally DID start over-riding!  yay!!!    */
 
-.my-drop {
+#noline {
     text-decoration: none;
 }
 
@@ -11,8 +11,7 @@
 }
 
 
-/* okay -- so all the a:whatevers work & over-ride... */
-/* but nothing else!!!  wtf?!                       */
+
 a.official:link {
     color: slateblue;
     text-decoration: none;
@@ -36,21 +35,16 @@ a.official:hover, a:active {
 
 #desc {
     background-color:tomato;
-    /* why is this not working from here?? */
-    /* boo!!!  =[                         */
 }
 
 #photos {
     background-color: orange;
-    /* of course, this isn't working either */
-    /* these id selectors should TOTALLY over-ride */
-    /* the class stuff!!                        */ 
 }
 
 
 .last {
     border-bottom-style: double;
-    border-color: midnightblue;
+    border-color: gainsboro;
 }
 
 
