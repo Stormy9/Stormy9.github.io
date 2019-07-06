@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- my CSS file -->
-    <link rel="stylesheet" type="text/css" href="styling/my-styles.css">
+    <link rel="stylesheet" type="text/css" href="styling/mystyles.css">
 
         <title>old-school gaming | Qwirkle</title>
     </head>
@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-sm 
                     bg-warning navbar-light fixed-top">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">old-school gaming</a>
+            <a class="navbar-brand" href="index.html">old-school gaming</a>
               
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" 
@@ -59,7 +59,7 @@
                                 href="smartass.html">Smart Ass</a>
                             <a class="dropdown-item" 
                                 href="explodingkittens.html">Exploding Kittens</a>
-                            <a class="dropdown-item-active" 
+                            <a class="dropdown-item-active" id="noline"
                                 href="#">Qwirkle</a>
                         </div>
                     </li>
@@ -70,32 +70,25 @@
         <!-- end nav part -->
 
         <!-- welcome part -->   <!-- before first row -->
-        <div class="container-fluid mt-5 mb-5 pt-3 pb-3"  id="main">
+        <div class="container-fluid mt-5 mb-5 pt-3 pb-3">
             <!-- putting this part in a row made the <p>
                  float alongside the <h1>!            -->
-            <h1>Qwirkle!</h1>
+            <h1 class="headline">Qwirkle!</h1>
                 
             <p>you haven't had this much fun playing with blocks
                 since you were five years old! </p>
-            
-            <p>deceptively simple in appearance, it is indeed
-                easy to learn and play -- but fun to plot out 
-                the slickest moves to get the best score! </p>
-            
-            <p>colorful chunky block playing pieces.</p>
-            
-            <p>also in a "cubes" and a "cards" version!</p>
+
                     
             <p><a href="https://www.ultraqwirkle.com/" target="_blank" 
-                    style="text-decoration:none">official game fan site</a></p>
+                class="official">official game fan site</a></p>
             <p><a href="http://iloveboardgames.com/wp-content/uploads/2012/02/Qwirkle-Rules.pdf" 
-                    target="_blank" style="text-decoration:none">official rules of the game</a></p>
+                    target="_blank" class="official">official rules of the game</a></p>
         
         
             <!-- table part -->     <!-- first row -->
             <div class="row">            
-                <div class="col-sm-5" style="background-color:lavender;">
-                <div class="table-responsive-lg">
+                <div class="col-sm-5" id="desc">
+                <div class="table-responsive-lg pb-5">
                     <table class="table">
                         <thead>
                         <!-- THIS IS THE ONLY PART i don't think figured
@@ -110,7 +103,7 @@
                         </thead>
         
                         <tbody>     
-                            <tr class="table-success">
+                            <tr class="last">
                                 <td><p>puzzle-type</p>
                                     <p>pattern/color matching</p></td>
                                 <td>6 & up</td>
@@ -121,9 +114,19 @@
                         </tbody>
                     </table>
                 </div><!-- end of table-responsive-lg div -->
+                
+                    <ul class="fun">
+                        <li>deceptively simple in appearance, it is indeed
+                        easy to learn and play -- but fun to plot out 
+                        the slickest moves to get the best score! </li>
+                    
+                        <li>colorful chunky block playing pieces.</li>
+                    
+                        <li>also in a "cubes" and a "cards" version!</li>
+                    </ul>
                 </div> <!-- end of col-5 div -->
                       
-                <div class="col-sm-7 pt-3 pb-3" style="background-color: rgb(255, 217, 204);">
+                <div class="col-sm-7 pt-3 pb-3" id="photos">
                     <h3>pictures!</h3>
                     <img class ="img-fluid" src="images/Qwirkle Box.jpg"
                          alt="Qwirkle Box" 

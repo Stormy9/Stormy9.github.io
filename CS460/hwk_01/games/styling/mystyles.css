@@ -5,9 +5,13 @@
     text-decoration: none;
 }
 
+.main {
+    background-color: lemonchiffon;
+}
+
 
 .headline {
-    color: midnightblue;
+    color: indigo;
 }
 
 
