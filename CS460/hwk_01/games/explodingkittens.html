@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- my CSS file -->
-    <link rel="stylesheet" type="text/css" href="styling/my-styles.css">
+    <link rel="stylesheet" type="text/css" href="styling/mystyles.css">
 
         <title>old-school gaming | Exploding Kittens</title>
     </head>
@@ -71,41 +71,26 @@
         <!-- end nav part -->
 
         <!-- welcome part -->   <!-- before first row -->
-        <div class="container-fluid mt-5 mb-5 pt-3 pb-3"  id="header">
+        <div class="container-fluid mt-5 mb-5 pt-3 pb-3"  id="main">
             <!-- putting this part in a row made the <p>
                  float alongside the <h1>!            -->
             <!-- and <p>'s alongside other <p>'s!       -->
             <!-- and <a>'s alongside <p>'s!            -->
-            <h1>Exploding Kittens!</h1>
+            <h1 class="headline">Exploding Kittens!</h1>
                 
             <p>from Matt Inman -- creator of the hilarious and
                 perceptive Oatmeal web cartoons! </p>
-
-                <p>avoid getting the Exploding Kitten card -- the 
-                    kitten trying to blow up the world!
-                </p>
-
-                <p>hint: just go ahead and look through all the cards
-                    and laugh at the illustrations first, or you'll
-                    be tempted to mid-game -- literally giving up 
-                    your hand!
-                </p>
-                
-                <p>some of the most creative action cards ever -- 
-                    the "nope" card, the "attack" card, the "see
-                    the future" card, and more...
-                </p>
                     
-                <p><a href="https://explodingkittens.com//" target="_blank" 
-                        style="text-decoration:none">official game site</a></p>
+                <p><a href="https://explodingkittens.com/" target="_blank">
+                            official game site</a></p>
                 <p><a href="https://www.fgbradleys.com/rules/rules2/ExplodingKittens-rules.pdf" 
-                        target="_blank" style="text-decoration:none">official rules of the game</a></p>
+                        target="_blank">official rules of the game</a></p>
                 
         
                 <!-- table part -->     <!-- first row -->
                 <div class="row">            
-                    <div class="col-sm-5" style="background-color:lavender;">
-                    <div class="table-responsive-lg">
+                    <div class="col-sm-5" id="desc">
+                    <div class="table-responsive-lg pb-5">
                         <table class="table">
                             <thead>
                             <!-- THIS IS THE ONLY PART i don't think figured
@@ -120,7 +105,7 @@
                             </thead>
         
                             <tbody>     
-                                <tr class="table-success">
+                                <tr>
                                     <td><p>cards</p>
                                         <p>luck-of-the-draw + strategy</p>
                                         <p>party fun</p></td>
@@ -131,24 +116,41 @@
                             </tbody>
                         </table>
                     </div><!-- end table-responsive-lg div -->
+
+                        <p>avoid getting the Exploding Kitten card -- the 
+                            kitten trying to blow up the world!
+                        </p>
+            
+                        <p>hint: just go ahead and look through all the cards
+                            and laugh at the illustrations first, or you'll
+                            be tempted to mid-game -- literally giving up 
+                            your hand!
+                        </p>
+                            
+                        <p>play some of the most creative action cards ever 
+                            in a card game -- 
+                            the "nope" card, the "attack" card, the "see
+                            the future" card, and more...
+                        </p>
+
                     </div> <!-- end of col-5 div -->
                       
-                    <div class="col-sm-7 pt-3 pb-3" style="background-color: rgb(255, 217, 204);">
+                    <div class="col-sm-7 pt-3 pb-3" id="photos">
                         <h3>pictures!</h3>
-                        <img class ="img-fluid" src="images/exploding kittens box.png"
+                        <img class="img-fluid" src="images/exploding kittens box.png"
                              alt="Exploding Kittens Box" 
                              title="this is the game box you'll see when you open your amazon box...">
-                        <img class ="img-fluid" src="images/exploding kittens cards.png"
+                        <img class="img-fluid" src="images/exploding kittens cards.png"
                              alt="some of the Exploding Kittens game cards"
                              title="here's some of the action cards...">
-                        <img class ="img-fluid" src="images/exploding kittens more cards.jpg"
+                        <img class="img-fluid" src="images/exploding kittens more cards.jpg"
                              alt="some more of the Exploding Kittens game cards"
                              title="and some more action cards">
                     </div><!-- end of col-7 div -->
         
                 </div><!-- this is end of first (and only) row div -->
         
-        </div><!-- end of main content container -->
+        </div><!-- end of container-fluid / main div -->        
         
         
         <!-- footer part -->

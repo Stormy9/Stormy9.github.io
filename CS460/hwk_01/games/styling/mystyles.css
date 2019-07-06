@@ -1,0 +1,38 @@
+/* okay -- so FINALLY the class & ID's i made */
+/* finally DID start over-riding!  yay!!!    */
+
+.headline {
+    color: midnightblue;
+}
+
+/* okay -- so all the a:whatevers work & over-ride... */
+/* but nothing else!!!  wtf?!                       */
+a:link {
+    color: slateblue;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: springgreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+
+
+#desc {
+    background-color:tomato;
+    /* why is this not working from here?? */
+    /* boo!!!  =[                         */
+}
+
+#photos {
+    background-color: orange;
+    /* of course, this isn't working either */
+    /* these id selectors should TOTALLY over-ride */
+    /* the class stuff!!                        */ 
+}
