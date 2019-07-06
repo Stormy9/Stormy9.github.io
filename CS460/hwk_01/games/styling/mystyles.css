@@ -41,6 +41,10 @@ a.official:hover, a:active {
     /* the class stuff!!                        */ 
 }
 
+.last {
+    border-bottom-style: dotted;
+}
+
 
 .fun {
     list-style-type: circle;
