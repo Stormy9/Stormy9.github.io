@@ -50,7 +50,7 @@ a.contact:visited {
 }  
 
 a.contact:hover, a.contact:active {
-    color: palevioletred;
+    color: rgb(252, 108, 133); /* watermelon! */
     text-decoration: none;
     font-weight: bold;
 }
