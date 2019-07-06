@@ -1,9 +1,15 @@
 /* okay -- so FINALLY the class & ID's i made */
 /* finally DID start over-riding!  yay!!!    */
 
+.dropdown-item {
+    text-decoration: none;
+}
+
+
 .headline {
     color: midnightblue;
 }
+
 
 /* okay -- so all the a:whatevers work & over-ride... */
 /* but nothing else!!!  wtf?!                       */
@@ -41,8 +47,10 @@ a.official:hover, a:active {
     /* the class stuff!!                        */ 
 }
 
+
 .last {
     border-bottom-style: dotted;
+    border-color: midnightblue;
 }
 
 
