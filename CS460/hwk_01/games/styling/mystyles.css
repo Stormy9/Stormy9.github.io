@@ -12,15 +12,19 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: royalblue;
+    text-decoration: none;
+}
+
 a:hover, a:active {
     color: springgreen;
     text-decoration: none;
 }
-
-a:visited {
-    color: cornflowerblue;
-    text-decoration: none;
-}
+/* When setting the style for several link states, */
+/* there are some order rules:                    */
+/* a:hover MUST come after a:link and a:visited  */
+/* a:active MUST come after a:hover             */
 
 
 
@@ -36,3 +40,13 @@ a:visited {
     /* these id selectors should TOTALLY over-ride */
     /* the class stuff!!                        */ 
 }
+
+
+.fun {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 9px;
+}
+
