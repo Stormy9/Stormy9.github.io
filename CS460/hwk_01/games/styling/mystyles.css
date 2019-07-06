@@ -49,7 +49,7 @@ a.official:hover, a:active {
 
 
 .last {
-    border-bottom-style: dotted;
+    border-bottom-style: double;
     border-color: midnightblue;
 }
 
