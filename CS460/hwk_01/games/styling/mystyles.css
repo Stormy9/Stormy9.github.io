@@ -34,7 +34,20 @@ a.official:hover, a:active {
 /* there are some order rules:                    */
 /* a:hover MUST come after a:link and a:visited  */
 /* a:active MUST come after a:hover             */
+a.contact:link {
+    color: slateblue;
+    text-decoration: none;
+}
 
+a.contact:visited {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a.contact:hover, a:active {
+    color: springgreen;
+    text-decoration: none;
+}
 
 
 #desc {
