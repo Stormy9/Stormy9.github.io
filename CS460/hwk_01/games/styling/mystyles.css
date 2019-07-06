@@ -79,3 +79,6 @@ li {
     margin-bottom: 9px;
 }
 
+dd {
+    text-indent: 9px;
+}
