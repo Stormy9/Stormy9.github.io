@@ -246,6 +246,12 @@ and the deleting-the-branch process:
 ![screenshot of step 48](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48.PNG)
 of course, it still shows on my Github page.   [=
 
+then later -- like an hour later -- in looking over this page online, I realized something -- I'd *only* deleted the `remote` version of the `another` branch!
+
+So I did this:
+![screenshot of step 48-5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48-5.PNG)
+
+
 So just doing this -- which is what it looks like all we'll need to do for the actual assignment, per the instruction page -- took about 1/17th the time of all that up there.  haha!
 
 But, extra learning.   [=
