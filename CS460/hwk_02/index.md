@@ -238,6 +238,7 @@ and when I was all done -- including the `push`, you gotta do the `push` part! -
 
 and the deleting-the-branch process:
 ![screenshot of step 48](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48.PNG)
+of course, it still shows on my Github page.   [=
 
 So just doing this -- which is what it looks like all we'll need to do for the actual assignment, per the instruction page -- took about 1/17th the time of all that up there.  haha!
 
