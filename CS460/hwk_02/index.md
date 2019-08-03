@@ -45,13 +45,189 @@ So then I proceeded thusly:
 
 ---
 
+and here is how it looks on Github -- note that we're looking at the 'working' branch:
 ![screenshot of step 7](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_07.PNG)
+
+*(there's a little pull/drop-down thingie to pick which branch to look at)*
 
 ---
 ---
 So it appears to be working up to here!  woo-hoo!
 Now for some other playing around to see what happens..... 
 
+First I made an `index.md` file for the 'working' branch:
+![screenshot of step 8](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_08.PNG)
+![screenshot of step 9](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_09.PNG)
+
+---
+then flipped to 'master' branch and made an `index.md` there, too:
+![screenshot of step 10](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_10.PNG)
+
+Now my Github looks like this -- note the two branches:
+![screenshot of step 11](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_11.PNG)
+![screenshot of step 12](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_12.PNG)
+
+---
+then flipped back to 'working' branch and updated `index.md`:
+![screenshot of step 13](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_13.PNG)
+
+and now look on Github:
+then flipped back to 'working' branch and updated `index.md`:
+![screenshot of step 14](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_14.PNG)
+So I forgot about the line break thing.  No biggie and not relevant here and I can just look it up when I actually need to.   [=
+*(although it shows w/correct line breaks when opened in Brackets or some such thing)*
+
+---
+now..... let's try the merging of 'working' to 'master'!
+so... wait.  that didn't quite work:
+![screenshot of step 15](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_15.PNG)
+i obviously forgot a step and need to go re-read and stuff.   [=
+
+this still looks like this:
+![screenshot of step 16](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_16.PNG)
+
+---
+ah.  well.  after re-reading <a href="" target="_blank">this</a> (a little more closely this time, and specially the "Resolving Conflict" part) and <a href="" target="_blank">this</a>, things make a little more sense.  haha!
+
+*note I like the <a href="https://git-scm.com/book/en/v2" target="_blank">official Git book"</a> too, but this Atlassian page is a little more short/quick/direct.   [=*
+
+<a href="https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line" target="_blank">this Github help page was helpful, too</a>.
+
+so i have to go in an fix stuff manually -- `Git` doesn't know what to do, since it went and took the stupid line breaks out.  damn thing.
+
+note:  the line breaks show up when you `cat` the files from the Git bash... when you open the files in something like `Bracket`... just not once they are on Github.  *sigh*
+
+see?
+![screenshot of step 17](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_17.PNG)
+![screenshot of step 18](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18.PNG)
+
+wonder what it will do if I go into `Brackets` and add in `<br>` tags??
+
+although, in markdown, you're supposed to get a *sigle* line break just by hitting 'enter' once at the end of your line... and a *double* line break by hitting 'enter' twice -- just like in word processing.  (that's been working from a text editor, btw)
+
+some googling tells me you (may) also need to add two spaces at the end of the line -- it seems i do remember reading/doing this for `hwk_01` too.   *(apparently i googled with `hwk_01` when some stuff wasn't rendering like i wanted, because this isn't in the main markdown guides i'd marked from before)*
+
+of course, just `cat`ing my stuff into the file from the command line, that didn't happen -- hitting enter, putting in space, whatever.
+
+sooooo... let me go into `Brackets`, and make sure there are line breaks, and see what happens.....
+
+..... because this wasn't/isn't the idea of what I wanted to see happen.  I wanted `index.md` as it appeared in the `working` branch, to like "mix & mingle" with the `index.md` that's in the `master` branch.  
+
+Although I admit I hadn't thought about "what if you change the exact same line??"  But I kinda thought it would over-write, kinda like a `save-as`... but it makes total sense that it wouldn't *(and i'd forgotten reading this from a couple weeks ago)*
+
+So.  Let's try putting in some line breaks, with `Brackets`, using the "two spaces at the end of each line" method to be "pure markdown" -- avoiding `html` tags -- and see what happens.
+![screenshot of step 18-5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18-5.PNG)
+
+Git detected it the change, so I proceeded with the `add/commit/push` sequence...
+![screenshot of step 19](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_19.PNG)
+![screenshot of step 20](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_20.PNG)
+
+and now look at how `index.md` looks from the `working` branch on Github:
+![screenshot of step 21](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_21.PNG)
+
+and remember, `index.md` looks like this from the `master` branch:
+![screenshot of step 22](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_22.PNG)
+
+*(note these are in `edit` mode, so we can see line #'s)*
+
+so *now* what happens, when I go to merge??
+first make sure both branches are all "clean":
+![screenshot of step 23](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_23.PNG)
+
+note how it tells us how many commits the branch is ahead of `origin/master`.....
+
+this is what happened:
+![screenshot of step 24](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_24.PNG)
+
+and this is what our `index.md` file looks like in `Brackets` now:
+![screenshot of step 25](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_25.PNG)
+
+ooo!  i can just `cat` it in the Git bash, too:
+![screenshot of step 26](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_26.PNG)
+
+So!  this is cool!  now I get more about how Git looks at things:  a blank line, is a legitimate change -- not just a "nothing"!   [=
+
+*(note that it marked both times I added lines, when I tried to merge before and it didn't work and then I added another line after that)*
+
+So, per <a href="https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line" target="_blank">this Github help page</a>, and <a href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts" target="_blank">this Atlassian page</a> (and there's always the official Git book too)... I gotta go into the brackets file -- while in the `master` branch -- and resolve the conflict -- resolve the final file into what I really want, which will be this:
+![screenshot of step 27](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_27.PNG)
+
+and lookie here:
+![screenshot of step 28](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_28.PNG)
+
+
+so now will it merge for me?  let's see.....
+![screenshot of step 29](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_29.PNG)
+
+aha!!  nowhere did it distinctly, specifically, explicitly *say* this, but I figured out that at this point, I have to do a regular old `push`:
+![screenshot of step 30](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_30.PNG)
+
+
+and now look at what my `master` branch looks like on Github!
+![screenshot of step 31](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_31.PNG)
+
+see -- the one `testing.md` file that had only been in `working` is now here in `master`.
+
+and the `index.md` file in `master` now looks like this:
+![screenshot of step 32](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_32.PNG)
+
+we'll just ignore & not worry about why that one line is so damned big, for now.   [=
+
+---
+notice the distinctions in the `commit` count & history:
+![screenshot of step 33](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_33.PNG)
+
+![screenshot of step 34](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_34.PNG)
+
+![screenshot of step 35](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_35.PNG)
+
+![screenshot of step 36](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_36.PNG)
+
+---
+
+and now we can delete the `working` branch -- we don't need that, anymore:
+![screenshot of step 37](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_37.PNG)
+and see?  it's not listed anymore.
+
+But, it still shows up on the Github GUI, for some reason.....
+Some Googling led me to try this:
+![screenshot of step 38](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_38.PNG)
+aha!  it's because of the `remote` thing.
+
+<a href="https://stackoverflow.com/questions/5094293/git-remote-branch-deleted-but-still-appears-in-branch-a" target="_blank">this StackOverflow page</a> says to do this:
+![screenshot of step 39](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_39.PNG)
+
+but it's *still* showing on my Github webpage.  dammit.
+
+StackOverflow also said to do this:
+(and this is probably a better solution -- a *far* better solution, actually, as it is more specific, only removing the specified branch!)
+![screenshot of step 40](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_40.PNG)
+note the `origin/working`... 
+also note the result of `git branch -a`, now.
+
+However, the `working` branch *still* shows on my Github webpage.  I'm thinking *maybe* that's to preserve the history of _every_ revision and where everything originated?
+
+I'm gonna go with that, for now.  
+Because, the `working` branch is not accessible or anything, anymore -- at least you can't do a `checkout` on it:
+![screenshot of step 41](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_41.PNG)
+
+Although, I don't get why the branch would have to stay there on my Github webpage -- look, you can even still pull it up!
+![screenshot of step 41](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_41.PNG)
+and it's still tracking how many `commit`s behind `master` it is!
+Why?!
+
+I mean, I *created* the `working` branch from the command line on my Git Bash, and it showed up on my Github webpage..... so why can't I delete it from the command line on my Git Bash and have it disappear on my Github webpage? 
+
+hmmmmm.
+as of this time (08/02/19) i emailed Github help to ask them.  May as well find out from the horse's mouth.  They were helpful when I emailed them before -- and this specific question/problem didn't come up when I googled.
+
+---
+---
+sorry about the... elongated "Step 0"..... but this is how my brain works to figure this crap out.  If I'd just read about this, and not tested it out and played with everyting, I wouldn't remember stuff, and wouldn't get it as well..... and then when I started doing the *real* stuff for this assignment, I'd like freak out and stuff.
+
+Better to freak out with an experimental repo & branch, that matters not to anything nor anyone.   [=
+
+---
 ---
 btw, doing cd in my Git Bash looks like this:
 ![screenshot of step 0](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG)
