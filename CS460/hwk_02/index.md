@@ -13,7 +13,7 @@ First, I had to be reminded that you can NOT create/start a repo on your Github 
 So once i did that, it was easier.  I just had to review some of the basic commands, since it had been a couple/few weeks since I'd last done some Github stuff.  (and remember how to 'cd' in the Git bash -- haha!)
 
 Here's the steps I took, plus what it ended up looking like on Github:
-![screenshot of step 1](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_01.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_01.PNG">![screenshot of step 1](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_01.PNG)</a>
 
 
 I could swear I remember typing (including in CS407MA, Fall '18):
@@ -21,15 +21,15 @@ I could swear I remember typing (including in CS407MA, Fall '18):
 git add -a
 ```
 but i got this:
-![screenshot of step 2](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_02.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_02.PNG">![screenshot of step 2](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_02.PNG)</a>
 
 I also found out this works:
-![screenshot of step 3](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_03.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_03.PNG">![screenshot of step 3](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_03.PNG)</a>
 
 By the way, that message is explained <a href="https://www.google.com/search?q=git+warning%3A+LF+will+be+replaced+by+CRLF" target="_blank">here</a>.
 
 So then I proceeded thusly:
-![screenshot of step 4](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_04.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_04.PNG">![screenshot of step 4](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_04.PNG)</a>
 
 ---
 
@@ -37,16 +37,16 @@ So then I proceeded thusly:
 
 ---
 
-![screenshot of step 5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_05.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_05.PNG">![screenshot of step 5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_05.PNG)</a>
 
 ---
 
-![screenshot of step 6](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_06.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_06.PNG">![screenshot of step 6](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_06.PNG)</a>
 
 ---
 
 and here is how it looks on Github -- note that we're looking at the 'working' branch:
-![screenshot of step 7](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_07.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_07.PNG">![screenshot of step 7](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_07.PNG)</a>
 
 *(there's a little pull/drop-down thingie to pick which branch to look at)*
 
@@ -62,35 +62,35 @@ So it appears to be working up to here!  woo-hoo!
 Now for some other playing around to see what happens..... 
 
 First I made an `index.md` file for the 'working' branch:
-![screenshot of step 8](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_08.PNG)
-![screenshot of step 9](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_09.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_08.PNG">![screenshot of step 8](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_08.PNG)</a>
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_09.PNG">![screenshot of step 9](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_09.PNG)</a>
 
 ---
 then flipped to 'master' branch and made an `index.md` there, too:
-![screenshot of step 10](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_10.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_10.PNG">![screenshot of step 10](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_10.PNG)</a>
 
 Now my Github looks like this -- note the two branches:
-![screenshot of step 11](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_11.PNG)
-![screenshot of step 12](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_12.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_11.PNG">![screenshot of step 11](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_11.PNG)</a>
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_12.PNG">![screenshot of step 12](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_12.PNG)</a>
 
 ---
 then flipped back to 'working' branch and updated `index.md`:
-![screenshot of step 13](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_13.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_13.PNG">![screenshot of step 13](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_13.PNG)</a>
 
 and now look on Github:
 then flipped back to 'working' branch and updated `index.md`:
-![screenshot of step 14](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_14.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_14.PNG">![screenshot of step 14](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_14.PNG)</a>
 So I forgot about the line break thing.  No biggie and not relevant here and I can just look it up when I actually need to.   [=
 *(although it shows w/correct line breaks when opened in Brackets or some such thing)*
 
 ---
 now..... let's try the merging of 'working' to 'master'!
 so... wait.  that didn't quite work:
-![screenshot of step 15](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_15.PNG)
+<<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_15.PNG">![screenshot of step 15](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_15.PNG)</a>
 i obviously forgot a step and need to go re-read and stuff.   [=
 
 this still looks like this:
-![screenshot of step 16](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_16.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_16.PNG">![screenshot of step 16](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_16.PNG)</a>
 
 ---
 ah.  well.  after re-reading <a href="" target="_blank">this</a> (a little more closely this time, and specially the "Resolving Conflict" part) and <a href="" target="_blank">this</a>, things make a little more sense.  haha!
@@ -104,8 +104,8 @@ so i have to go in an fix stuff manually -- `Git` doesn't know what to do, since
 note:  the line breaks show up when you `cat` the files from the Git bash... when you open the files in something like `Bracket`... just not once they are on Github.  *sigh*
 
 see?
-![screenshot of step 17](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_17.PNG)
-![screenshot of step 18](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_17.PNG">![screenshot of step 17](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_17.PNG)</a>
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18.PNG">![screenshot of step 18](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18.PNG)</a>
 
 wonder what it will do if I go into `Brackets` and add in `<br>` tags??
 
@@ -122,92 +122,92 @@ sooooo... let me go into `Brackets`, and make sure there are line breaks, and se
 Although I admit I hadn't thought about "what if you change the exact same line??"  But I kinda thought it would over-write, kinda like a `save-as`... but it makes total sense that it wouldn't *(and i'd forgotten reading this from a couple weeks ago)*
 
 So.  Let's try putting in some line breaks, with `Brackets`, using the "two spaces at the end of each line" method to be "pure markdown" -- avoiding `html` tags -- and see what happens.
-![screenshot of step 18-5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18-5.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18-5.PNG">![screenshot of step 18-5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_18-5.PNG)</a>
 
 Git detected it the change, so I proceeded with the `add/commit/push` sequence...
-![screenshot of step 19](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_19.PNG)
-![screenshot of step 20](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_20.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_19.PNG">![screenshot of step 19](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_19.PNG)</a>
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_20.PNG">![screenshot of step 20](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_20.PNG)</a>
 
 and now look at how `index.md` looks from the `working` branch on Github:
-![screenshot of step 21](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_21.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_21.PNG">![screenshot of step 21](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_21.PNG)</a>
 
 and remember, `index.md` looks like this from the `master` branch:
-![screenshot of step 22](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_22.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_22.PNG">![screenshot of step 22](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_22.PNG)</a>
 
 *(note these are in `edit` mode, so we can see line #'s)*
 
 so *now* what happens, when I go to merge??
 first make sure both branches are all "clean":
-![screenshot of step 23](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_23.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_23.PNG">![screenshot of step 23](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_23.PNG)</a>
 
 note how it tells us how many commits the branch is ahead of `origin/master`.....
 
 this is what happened:
-![screenshot of step 24](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_24.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_24.PNG">![screenshot of step 24](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_24.PNG)</a>
 
 and this is what our `index.md` file looks like in `Brackets` now:
-![screenshot of step 25](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_25.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_25.PNG">![screenshot of step 25](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_25.PNG)</a>
 
-ooo!  i can just `cat` it in the Git bash, too:
-![screenshot of step 26](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_26.PNG)
+ooo, yeah!  i can just `cat` it in the Git bash, too:
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_26.PNG">![screenshot of step 26](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_26.PNG)</a>
 
 So!  this is cool!  now I get more about how Git looks at things:  a blank line, is a legitimate change -- not just a "nothing"!   [=
 
 *(note that it marked both times I added lines, when I tried to merge before and it didn't work and then I added another line after that)*
 
 So, per <a href="https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line" target="_blank">this Github help page</a>, and <a href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts" target="_blank">this Atlassian page</a> (and there's always the official Git book too)... I gotta go into the brackets file -- while in the `master` branch -- and resolve the conflict -- resolve the final file into what I really want, which will be this:
-![screenshot of step 27](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_27.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_27.PNG">![screenshot of step 27](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_27.PNG)</a>
 
 and lookie here:
-![screenshot of step 28](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_28.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_28.PNG">![screenshot of step 28](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_28.PNG)</a>
 
 
 so now will it merge for me?  let's see.....
-![screenshot of step 29](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_29.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_29.PNG">![screenshot of step 29](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_29.PNG)</a>
 
 aha!!  nowhere did it distinctly, specifically, explicitly *say* this, but I figured out that at this point, I have to do a regular old `push`:
-![screenshot of step 30](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_30.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_30.PNG">![screenshot of step 30](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_30.PNG)</a>
 
 
 and now look at what my `master` branch looks like on Github!
-![screenshot of step 31](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_31.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_31.PNG">![screenshot of step 31](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_31.PNG)</a>
 
 see -- the one `testing.md` file that had only been in `working` is now here in `master`.
 
 and the `index.md` file in `master` now looks like this:
-![screenshot of step 32](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_32.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_32.PNG">![screenshot of step 32](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_32.PNG)</a>
 
 we'll just ignore & not worry about why that one line is so damned big, for now.   [=
 
 ---
 notice the distinctions in the `commit` count & history:
-![screenshot of step 33](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_33.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_33.PNG">![screenshot of step 33](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_33.PNG)</a>
 
-![screenshot of step 34](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_34.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_34.PNG">![screenshot of step 34](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_34.PNG)</a>
 
-![screenshot of step 35](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_35.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_35.PNG">![screenshot of step 35](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_35.PNG)</a>
 
-![screenshot of step 36](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_36.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_36.PNG">![screenshot of step 36](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_36.PNG)</a>
 
 ---
 
 and now we can delete the `working` branch -- we don't need that, anymore:
-![screenshot of step 37](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_37.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_37.PNG">![screenshot of step 37](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_37.PNG)</a>
 and see?  it's not listed anymore.
 
 But, it still shows up on the Github GUI, for some reason.....
 Some Googling led me to try this:
-![screenshot of step 38](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_38.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_38.PNG">![screenshot of step 38](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_38.PNG)</a>
 aha!  it's because of the `remote` thing.
 
 <a href="https://stackoverflow.com/questions/5094293/git-remote-branch-deleted-but-still-appears-in-branch-a" target="_blank">this StackOverflow page</a> says to do this:
-![screenshot of step 39](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_39.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_39.PNG">![screenshot of step 39](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_39.PNG)</a>
 
 but it's *still* showing on my Github webpage.  dammit.
 
 StackOverflow also said to do this:
 (and this is probably a better solution -- a *far* better solution, actually, as it is more specific, only removing the specified branch!)
-![screenshot of step 40](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_40.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_40.PNG">![screenshot of step 40](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_40.PNG)</a>
 note the `origin/working`... 
 also note the result of `git branch -a`, now.
 
@@ -215,10 +215,10 @@ However, the `working` branch *still* shows on my Github webpage.  I'm thinking 
 
 I'm gonna go with that, for now.  
 Because, the `working` branch is not accessible or anything, anymore -- at least you can't do a `checkout` on it:
-![screenshot of step 41](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_41.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_41.PNG">![screenshot of step 41](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_41.PNG)</a>
 
 Although, I don't get why the branch would have to stay there on my Github webpage -- look, you can even still pull it up!
-![screenshot of step 42](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42.PNG">![screenshot of step 42](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42.PNG)</a>
 and it's still tracking how many `commit`s behind `master` it is!
 Why?!
 
@@ -233,35 +233,37 @@ Then, I realized that I had apparently gone and learned a lot more than I actual
 But hey -- extra or early learning is never a *bad* thing, right?   [=
 
 Anyway, just to see how the `merege` would work, with just bringing in a new file from the `branch` to the `master`, I did this:
-![screenshot of step 43](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_43.PNG)
-![screenshot of step 44](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_44.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_43.PNG">![screenshot of step 43](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_43.PNG)</a>
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_44.PNG">![screenshot of step 44](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_44.PNG)</a>
 
 and here's the new `another` branch on my Github page:
-![screenshot of step 45](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_45.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_45.PNG">![screenshot of step 45](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_45.PNG)</a>
 
 and when I was all done -- including the `push`, you gotta do the `push` part! -- here is how my `master` branch looks now, on my Github page:
-![screenshot of step 46](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_46.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_46.PNG">![screenshot of step 46](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_46.PNG)</a>
 
 and the deleting-the-branch process:
-![screenshot of step 48](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48.PNG">![screenshot of step 48](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48.PNG)</a>
 of course, it still shows on my Github page.   [=
 
 then later -- like an hour later -- in looking over this page online, I realized something -- I'd *only* deleted the `remote` version of the `another` branch!
 
 So I did this:
-![screenshot of step 48-5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48-5.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48-5.PNG">![screenshot of step 48-5](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48-5.PNG)</a>
 
 
-So just doing this -- which is what it looks like all we'll need to do for the actual assignment, per the instruction page -- took about 1/17th the time of all that up there.  haha!
+So just doing this -- this sub-step of 'Step 0' -- which is what it looks like all we'll need to do for the actual assignment, per the instruction page -- took about 1/17th the time of all that up there.  haha!
 
 But, extra learning.   [=
 
 btw, here is what "footle" means:
-![screenshot of step 47](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_47.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_47.PNG">![screenshot of step 47](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_47.PNG)</a>
 
 ---
 ---
-sorry about the... elongated "Step 0"..... but this is how my brain works to figure this crap out.  If I'd just read about this, and not tested it out and played with everyting, I wouldn't remember stuff, and wouldn't get it as well..... and then when I started doing the *real* stuff for this assignment, I'd like freak out and stuff.
+sorry about the... elongated "Step 0"..... but this is how my brain works to figure this crap out.  If I'd just read about this, and not tested it out and played with everything, I wouldn't remember stuff, and wouldn't get it as well..... and then when I started doing the *real* stuff for this assignment, I'd like freak out and stuff.
+
+Plus, I need the visuals (screenshots) to lock it in.
 
 Better to freak out with an experimental repo & branch, that matters not to anything nor anyone.   [=
 
@@ -310,23 +312,23 @@ So maybe that's all I needed to do, for those first attempts?  Does it matter fr
 
 
 Here's some of the stuff I did (including the end part that worked):
-![screenshot of step 49](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_49.PNG)
-![screenshot of step 50](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_50.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_49.PNG">![screenshot of step 49](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_49.PNG)</a>
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_50.PNG">![screenshot of step 50](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_50.PNG)</a>
 
 *(i shoulda gotten *some* clue from the `error: remote-tracking branch 'origin/working' not found.` thing, right?  haha!  eventually I did)*
 
 I did all this for each "So..." above.   [=
 
 Then the light-bulb came on and I did this:
-![screenshot of step 51](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_51.PNG)
-![screenshot of step 52](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_52.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_51.PNG">![screenshot of step 51](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_51.PNG)</a>
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_52.PNG">![screenshot of step 52](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_52.PNG)</a>
 
 
 And finally my Github page looks like this:
-![screenshot of step 53](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_53.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_53.PNG">![screenshot of step 53](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_53.PNG)</a>
 
 Note you can *only* see the `branch` from the main/front repo page, *not* from any of the folder pages:
-![screenshot of step 54](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_54.PNG)  
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_54.PNG">![screenshot of step 54](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_54.PNG)</a>  
 
 *(gotta remember this stuff, get comfy with how it all works & looks & stuff like that)*
 
@@ -342,18 +344,18 @@ Note that I also reassured myself I was in the `hwk02_working` branch.
 (but note my "oops!" in there -- haha!)
 
 I did:
-![screenshot of step 55](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_55.PNG) 
-![screenshot of step 56](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_56.PNG) 
-![screenshot of step 57](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_57.PNG) 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_55.PNG">![screenshot of step 55](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_55.PNG)</a> 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_56.PNG">![screenshot of step 56](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_56.PNG)</a> 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_57.PNG">![screenshot of step 57](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_57.PNG)</a> 
 note how it shows all the new image files for this blog page, and that they are untracked and not being dealt with in this `commit/push`... isn't that cool?
 
-![screenshot of step 58](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_58.PNG) 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_58.PNG">![screenshot of step 58](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_58.PNG)</a> 
 
 
 And here's how things look on my Github page (note the branches):
-![screenshot of step 59](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_59.PNG) 
-![screenshot of step 60](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_60.PNG) 
-![screenshot of step 61](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_61.PNG) 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_59.PNG">![screenshot of step 59](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_59.PNG)</a> 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_60.PNG">![screenshot of step 60](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_60.PNG)</a> 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_61.PNG">![screenshot of step 61](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_61.PNG)</a> 
 
 at first I was alarmed that my `index.html` and `styling/mystyles.css` files were not showing up in my `g_oz` directory -- or anywhere -- but only momentarily, until I remembered to switch to the `hwk02_working` view.  duh.  
 
@@ -381,7 +383,7 @@ And I'd rather just type in my number, and click "convert", and get my answer.  
 ---
 ---
 btw, doing cd in my Git Bash looks like this:
-![screenshot of step 0](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG)
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG">![screenshot of step 0](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG)</a>
 *(don't worry, i'll memorize it or better yet figure out how to get it to start there in the first place!)*
 
 
