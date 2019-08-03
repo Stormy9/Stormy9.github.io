@@ -260,7 +260,7 @@ sorry about the... elongated "Step 0"..... but this is how my brain works to fig
 Better to freak out with an experimental repo & branch, that matters not to anything nor anyone.   [=
 
 ---
-These are the primary helpful pages:
+These are the primary helpful pages:  
 <a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging" target="_blank">Official Git Book Chapter/section 3.2: Basic Branching & Merging</a>
 
 <a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">Atlassian: Using Branches: git branch</a>
