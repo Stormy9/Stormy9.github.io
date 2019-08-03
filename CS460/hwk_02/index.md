@@ -336,13 +336,23 @@ Note that I also reassured myself I was in the `hwk02_working` branch.
 
 I did:
 ![screenshot of step 55](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_55.PNG) 
-
-
+![screenshot of step 56](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_56.PNG) 
+![screenshot of step 57](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_57.PNG) 
 note how it shows all the new image files for this blog page, and that they are untracked and not being dealt with in this `commit/push`... isn't that cool?
 
+![screenshot of step 58](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_58.PNG) 
 
-And here's my Github page:
 
+And here's how things look on my Github page (note the branches):
+![screenshot of step 59](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_59.PNG) 
+![screenshot of step 60](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_60.PNG) 
+![screenshot of step 61](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_61.PNG) 
+
+at first I was alarmed that my `index.html` and `styling/mystyles.css` files were not showing up in my `g_oz` directory -- or anywhere -- but only momentarily, until I remembered to switch to the `hwk02_working` view.  duh.  
+
+Everything is now as it should be.
+
+(at first, stuff didn't show up there... then I realized that when I `push`ed, the `commit` had not taken, since I forgot to type in `-m` like a dork.  fixed that, and all's good.....)
 
 
 Woo-hoo!   [=
