@@ -369,14 +369,15 @@ Ready to start on the actual, you know, *stuff*.
 
 ---
 ---
-### Step 2 [planning & design]:  
+### Step 2 [planning & design -- what to do]:  
 So, what I want to do, is to make a grams-to-ounces & ounces-to-grams converter.
 
 This is something I do pretty much every day (except for I have a few commonly-used (by me) conversions memorized), and constantly typing "28.34" into the calculator to do the calculattions/conversions, is kind of a pain-in-the-ass.  
 
 I mean, I suppose I could just type in "28", but, I am precise.   [=
 
-And I'd rather just type in my number, and click "convert", and get my answer.  Quicker & easier!  Plus I'll make it look cuter than just a calculator.
+And I'd rather just type in my number, and click "convert", and get my answer.  Quicker & easier!  Plus I'll make it look cuter than just a calculator.  
+
 
 
 How I'll make this meet the basic requirements:
@@ -396,23 +397,30 @@ it will return the results in a little table.  or list.  one of those.
 
 ---
 ---
-### Step 3 [*(more)* planning & design]:
+### Step 3 [planning & design - wireframe/sketch]:
+So, I had to review & re-familiarize with the Bootstap grid, quickly, since it's been about 3 weeks since I did the games page for homework/lab 1... remember all the details, and class names, and stuff like that.  I returned to <a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp" target="_blank">W3School's Bootstrap page</a> for that.
+
+And I like the reminder to plan for how it willl look when re-sized -- that is *always* important (and not everyone does this!)
+
+I decided to draw mine with pencil/paper.  I know there are online tools to do wireframes -- I saw the previous student examples, plus, I just figured there *has* to be... but, I went old-school.
 
 
 ---
 ---
 ### Step 4 [content & coding]:
-
+This will be the hard part.   [=
 
 ---
 ---
 ### Step 5 [testing]:
+Remember to commit & push frequently, but DO NOT MERGE until it is not only done, but _tested thoroughly_, too!
 
+Also remember to do at least one commit to `master` before merging, so the full `commit` history shows up!
 
 ---
 ---
 ### Step 6 [turn it in]:
-
+Do this by the `merge` and `push`.
 
 ---
 ---
