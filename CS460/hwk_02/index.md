@@ -212,7 +212,7 @@ Because, the `working` branch is not accessible or anything, anymore -- at least
 ![screenshot of step 41](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_41.PNG)
 
 Although, I don't get why the branch would have to stay there on my Github webpage -- look, you can even still pull it up!
-![screenshot of step 41](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_41.PNG)
+![screenshot of step 42](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42.PNG)
 and it's still tracking how many `commit`s behind `master` it is!
 Why?!
 
@@ -220,6 +220,31 @@ I mean, I *created* the `working` branch from the command line on my Git Bash, a
 
 hmmmmm.
 as of this time (08/02/19) i emailed Github help to ask them.  May as well find out from the horse's mouth.  They were helpful when I emailed them before -- and this specific question/problem didn't come up when I googled.
+
+--- 
+Then, I realized that I had apparently gone and learned a lot more than I actually needed, for this particular assignment.  As in, the whole thing with a file in `master` and in `working` with the same name, when you merge.
+
+But hey -- extra or early learning is never a *bad* thing, right?   [=
+
+Anyway, just to see how the `merege` would work, with just bringing in a new file from the `branch` to the `master`, I did this:
+![screenshot of step 43](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_43.PNG)
+![screenshot of step 44](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_44.PNG)
+
+and here's the new `another` branch on my Github page:
+![screenshot of step 45](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_45.PNG)
+
+and when I was all done -- including the `push`, you gotta do the `push` part! -- here is how my `master` branch looks now, on my Github page:
+![screenshot of step 46](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_46.PNG)
+
+and the deleting-the-branch process:
+![screenshot of step 48](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_48.PNG)
+
+So just doing this -- which is what it looks like all we'll need to do for the actual assignment, per the instruction page -- took about 1/17th the time of all that up there.  haha!
+
+But, extra learning.   [=
+
+btw, here is what "footle" means:
+![screenshot of step 47](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_47.PNG)
 
 ---
 ---
