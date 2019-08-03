@@ -50,6 +50,12 @@ and here is how it looks on Github -- note that we're looking at the 'working' b
 
 *(there's a little pull/drop-down thingie to pick which branch to look at)*
 
+note that pushing to a you-created `branch` is just like regular pushing to the `master`:
+```
+
+```
+I'd wondered, so what exactly do you type in different?  <a href="https://help.github.com/en/articles/pushing-commits-to-a-remote-repository" target="_blank">This</a> page told me.  I mean, I got the concept, but wanted to make sure I knew what I was typing in.   [=
+
 ---
 ---
 So it appears to be working up to here!  woo-hoo!
@@ -252,6 +258,20 @@ btw, here is what "footle" means:
 sorry about the... elongated "Step 0"..... but this is how my brain works to figure this crap out.  If I'd just read about this, and not tested it out and played with everyting, I wouldn't remember stuff, and wouldn't get it as well..... and then when I started doing the *real* stuff for this assignment, I'd like freak out and stuff.
 
 Better to freak out with an experimental repo & branch, that matters not to anything nor anyone.   [=
+
+---
+These are the primary helpful pages:
+<a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging" target="_blank">Official Git Book Chapter/section 3.2: Basic Branching & Merging</a>
+
+<a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">Atlassian: Using Branches: git branch</a>
+
+<a href="https://www.atlassian.com/git/tutorials/using-branches/git-checkout" target="_blank">Atlassian: Using Branches: git checkout</a>
+
+<a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge" target="_blank">Atlassian: Using Branches: git merge</a>
+
+<a href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts" target="_blank">Atlassian: Using Branches: merge conflicts</a>
+
+Plus the random questions I googled specifically for quick confirmation of stuff, that's up there.
 
 ---
 ---
