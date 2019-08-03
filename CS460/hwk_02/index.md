@@ -275,6 +275,94 @@ Plus the random questions I googled specifically for quick confirmation of stuff
 
 ---
 ---
+### Step 1 [setup]:
+So.  After a-a-a-a-all of that up there, I *still* screwed this up.  
+
+Well, not really "screwed up" -- it's fine -- now -- but I didn't initially get my branch set up correctly.
+
+First, I tried making my `working` branch from the folder within my repo that will actually hold the finished website (called `g_oz`)...
+
+It didn't show up on my Github page.
+
+
+So, I deleted that `branch`, and tried making it from my overall `hwk_02` folder of my repo...
+
+It didn't show up on my Github page.
+
+
+So, I deleted that `branch`, and tried making it from my root repo, aka `Stormy9.github.io`...
+
+It didn't show up on my Github page.
+
+
+THEN... it dawned on me that maybe the reason it hadn't been showing up on my Github page, is because I'd made a branch, but not `commit`ted nor `push`ed anything to it.  (duh)
+
+So, I deleted that `branch` and made one with an apter name aka `hwk02_working`... and made a quick `readme.md` to go in it, did `add/commit/push-to-branch`, and voila!  It all showed up on my Github page, just as you would expect.
+
+So maybe that's all I needed to do, for those first attempts?  Does it matter from whence you make your branch via the Git Bash?
+
+
+Here's some of the stuff I did (including the end part that worked):
+![screenshot of step 49](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_49.PNG)
+![screenshot of step 50](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_50.PNG)
+
+*(i shoulda gotten *some* clue from the `error: remote-tracking branch 'origin/working' not found.` thing, right?  haha!  eventually I did)*
+
+I did all this for each "So..." above.   [=
+
+Then the light-bulb came on and I did this:
+![screenshot of step 51](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_51.PNG)
+![screenshot of step 52](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_52.PNG)
+
+
+And finally my Github page looks like this:
+![screenshot of step 53](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_53.PNG)
+
+Note you can *only* see the `branch` from the main/front repo page, *not* from any of the folder pages:
+![screenshot of step 54](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_54.PNG)  
+
+*(gotta remember this stuff, get comfy with how it all works & looks & stuff like that)*
+
+*(i learn & retain best by playing with stuff & then seeing visuals of it, rather than reading)*
+
+
+Oh, and here's my `index.html` and `styles.css` files, not *directly* in the `Hwk_02` folder, since that's where this goes, but in it's own folder, like how I have `games` for `Hwk_01`.  And I like having `.css` files in their own directory, as I was taught long ago.   [=
+
+
+Thank GOD I remembered to `cd` to the correct directory, in my Git Bash, first.  Sheesh.  Holy Bejeezus, if I had not!!  Yeesh.
+
+Note that I also reassured myself I was in the `hwk02_working` branch.
+(but note my "oops!" in there -- haha!)
+
+I did:
+![screenshot of step 55](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_55.PNG) 
+
+
+note how it shows all the new image files for this blog page, and that they are untracked and not being dealt with in this `commit/push`... isn't that cool?
+
+
+And here's my Github page:
+
+
+
+Woo-hoo!   [=
+Ready to start on the actual, you know, *stuff*.  
+
+---
+---
+### Step 2 [planning & design]:  
+So, what I want to do, is to make a grams-to-ounces & ounces-to-grams converter.
+
+This is something I do pretty much every day (except for I have a few commonly-used (by me) conversions memorized), and constantly typing "28.34" into the calculator to do the calculattions/conversions, is kind of a pain-in-the-ass.  
+
+I mean, I suppose I could just type in "28", but, I am precise.   [=
+
+And I'd rather just type in my number, and click "convert", and get my answer.  Quicker & easier!  Plus I'll make it look cuter than just a calculator.
+
+
+
+---
+---
 btw, doing cd in my Git Bash looks like this:
 ![screenshot of step 0](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG)
 *(don't worry, i'll memorize it or better yet figure out how to get it to start there in the first place!)*
