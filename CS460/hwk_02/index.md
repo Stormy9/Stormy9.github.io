@@ -379,6 +379,45 @@ I mean, I suppose I could just type in "28", but, I am precise.   [=
 And I'd rather just type in my number, and click "convert", and get my answer.  Quicker & easier!  Plus I'll make it look cuter than just a calculator.
 
 
+How I'll make this meet the basic requirements:
+* multiple form elements:  
+it will have an input box to enter your number,
+a check-box to indicate if you entered grams or ounces,
+and,
+a button to click to do the calculation.
+
+* a list or table element:
+it will return the results in a little table.  or list.  one of those.
+
+* of course i'll use JavaScript to calculate... and jQuery to retrieve the user input & to return the result by changing an element on the page (which will be in the form of a list or table element)
+
+* it's fun (to me, anyway)... not too complicated... and interesting (to me, anyway -- and it can't be *less* interesting than a F-to-C temperatuure converter!)  
+    * and, it will fill an actual, almost-everyday-purpose -- at least for me!
+
+---
+---
+### Step 3 [*(more)* planning & design]:
+
+
+---
+---
+### Step 4 [content & coding]:
+
+
+---
+---
+### Step 5 [testing]:
+
+
+---
+---
+### Step 6 [turn it in]:
+
+
+---
+---
+### Step 7 [portfolio content]:
+
 
 ---
 ---
