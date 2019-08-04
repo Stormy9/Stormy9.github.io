@@ -225,7 +225,7 @@ Why?!
 I mean, I *created* the `working` branch from the command line on my Git Bash, and it showed up on my Github webpage..... so why can't I delete it from the command line on my Git Bash and have it disappear on my Github webpage? 
 
 hmmmmm.
-as of this time (08/02/19) i emailed Github help to ask them.  May as well find out from the horse's mouth.  They were helpful when I emailed them before -- and this specific question/problem didn't come up when I googled.
+(08/02/19) i emailed Github help to ask them.  May as well find out from the horse's mouth.  They were very helpful when I emailed them before, and I wasn't quite sure what to Google.
 
 --- 
 Then, I realized that I had apparently gone and learned a lot more than I actually needed, for this particular assignment.  As in, the whole thing with a file in `master` and in `working` with the same name, when you merge.
@@ -258,6 +258,25 @@ But, extra learning.   [=
 
 btw, here is what "footle" means:
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_47.PNG">![screenshot of step 47](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_47.PNG)</a>
+
+
+---
+---
+#### Post-Script:
+I heard back from Matt with Github within hours, and he said, 
+>"It looks like you're not pushing any of your changes up to GitHub, so GitHub is showing you the repository as it was at the last push."
+
+Again with the forgetting to `push`!  although the instructions had never said to, but, I should be getting by now that you gotta push **everything**!    [=
+
+Matt also sent a link to <a href="https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely" target="_blank">this helpful StackOverflow discussion</a>.
+
+I did this:  
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42-a.PNG">![screenshot of step 42-a](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42-a.PNG)</a>
+
+and now I have this on my Github page!  
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42-b.PNG">![screenshot of step 42-b](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_42-b.PNG)</a>
+
+Resolved!
 
 ---
 ---
@@ -432,6 +451,10 @@ Do this by the `merge` and `push`.
 btw, doing cd in my Git Bash looks like this:
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG">![screenshot of step 0](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG)</a>
 *(don't worry, i'll memorize it or better yet figure out how to get it to start there in the first place!)*
+
+aha! <a href="https://stackoverflow.com/questions/7671461/how-do-i-change-the-default-location-for-git-bash-on-windows" target="_blank">here's</a> how to change the default start location for your Git Bash... this was easier than I thought, although there is also the stuff about changing your `.bashrc` file, too.  I just did the "properties" thing, and it worked fine.  It was more convenient once I got the correct shortcut on the taskbar.
+
+You can also go in and set your default opening window size!
 
 
 ---
