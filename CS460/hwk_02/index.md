@@ -2,11 +2,11 @@
 
 the assignment instructions are <a href="http://www.wou.edu/~morses/classes/cs46x/assignments/HW2.html" target="_blank">here</a>...   
 
-the finished site is <a href="https://Stormy9.github.io/CS460/Hwk_02/g_oz">here</a>.
+the finished site is <a href="https://Stormy9.github.io/CS460/hwk_02/g_oz">here</a>.
 
 ---
 ### Step 0  
-If you care to look at all my practice with branching, checking out, merging, and deleting branches you don't need anymore, look <a href="https://Stormy9.github.io/CS460/Hwk_02/step_zero.md">here</a>.
+If you care to look at all my practice with branching, checking out, merging, and deleting branches you don't need anymore, look <a href="https://Stormy9.github.io/CS460/hwk_02/step_zero.md">here</a>.
 
 ---
 ### Step 1 [setup - finally!]:
