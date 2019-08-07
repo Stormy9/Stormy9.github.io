@@ -108,8 +108,8 @@ And I'd rather just type in my number, and click "convert", and get my answer.  
 How I'll make this meet the basic requirements:
 * multiple form elements:  
 it will have an input box to enter your number,
-a check-box to indicate if you entered grams or ounces,
-and,
+radio buttons to indicate if you entered grams or ounces 
+*(radio since you can only do either/or)*, and,
 a button to click to do the calculation.
 
 * a list or table element:
