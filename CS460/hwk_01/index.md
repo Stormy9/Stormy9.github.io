@@ -20,7 +20,7 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
     * with sub-directory/repos for each homework to come   
 
        **it looks like this on Github:**   
-       ![screenshot of CS460 repo online](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_01_a.PNG)   
+       ![screenshot of CS460 repo online](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_01_a.PNG)   
        
        **and here's locally via Git Bash:**   
        ![screenshot of CS460 repo in Git Bash](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_01_e.PNG)   
@@ -395,11 +395,11 @@ So I haven't started actually putting all of the above in there... BUT... I *do*
 
 
 **github repo structure:**   
-![screenshot of relevant github repo](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_08.PNG)   
+![screenshot of relevant github repo](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_08.PNG)   
 
 
 **screenshot of my page:**   
-![screenshot of my page w/links to the good stuff](https://stormy9.github.io/CS460/hwk_01/CS460-Hwk_01-Step_08_b.PNG)   
+![screenshot of my page w/links to the good stuff](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_08_b.PNG)   
 *(from github, so you can see where it starts/ends and not get all befuddled about where to click...)*
 
 ---
