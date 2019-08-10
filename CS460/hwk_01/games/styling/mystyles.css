@@ -22,6 +22,9 @@
 /* so it forced me to break the rule about id's, dammit!            */
 #noline {
     text-decoration: none;
+    text-indent: 9px;   /* so neither of these to work, to not have */
+    padding-left: 9px; /* the active drop-down RIGHT up on left edge */
+                      /* text-indent worked on the dd element      */
 }
 /*-------------------------------------------------------------------*/
 
@@ -106,4 +109,12 @@ li {
 
 dd {
     text-indent: 9px;
+}
+
+.credit {
+    color: indigo;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 75%;
+    margin-top: 45px;
 }
