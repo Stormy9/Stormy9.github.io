@@ -395,6 +395,8 @@ __check!__
 
    I think, anyway.  I mean, isn't my repo essentially alread `clone`d?  I can just go into my local version on Windows Explorer, and open any of the `.html`, `.css`, or `.md` files in whatever I want, and it all works correctly.....
 
+<br>
+
 ---
 ---
 ### Step 5 [even more setup]:
@@ -414,21 +416,28 @@ I set up my GitHub Portfolio loosely following the examples, borrowing a little 
 
 [Here's some sources I used to learn/refresh/practice markdown-ing](https://stormy9.github.io/CS460/references/markdown/ "my markdown notes page")   
 
+<br>
+
 ---
 ---
 ### Step 6 [portfolio content]:
 As you can see, I've been doing this one all along here.  (:   
+
+<br>
 
 ---
 ---
 ### Step 7 [turn it in]:
 I will.  (:   
 
+<br>
+
 ---
 ---
 ### Step 8 [collection of notes/references + cheat-sheets + code snippets + etc]:
 So I haven't started actually putting all of the above in there... BUT... I *do* have everything in place to do so... see?
 
+<br>  
 
 **github repo structure:**   
 ![screenshot of relevant github repo](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_08.PNG)   
@@ -436,8 +445,11 @@ So I haven't started actually putting all of the above in there... BUT... I *do*
 
 **screenshot of my page:**   
 ![screenshot of my page w/links to the good stuff](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_08_b.PNG)   
+
 <br>
 *(from github, so you can see where it starts/ends and not get all befuddled about where to click...)*
+
+<br>
 
 ---
 ---
