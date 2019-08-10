@@ -11,6 +11,7 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
 ---
 ### Step 1 [setup]: 
 * I'd already installed Git, for Fall '18 / CS407MA  -- an very fun class, by the way -- so just updated my version of Git Bash *(I also have their desktop app from that class)*  
+<br>   
    * In that class, I also learned how to *use* Git -- in connection with Github -- and about 99% of that use, was from the command line (on a Linux AWS system)   
    
    * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway, like:  
