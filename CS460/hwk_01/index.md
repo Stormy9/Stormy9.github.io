@@ -364,6 +364,24 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
 
 * I wrote every single character of code myself -- no WYSIWYG.  what fun would *that* be?  as mentioned before, i used  Visual Studio Code for my editor, which I really like.  (previously I'd used both Brackets & Notepad++)
 
+<br>
+
+plus -- from front page of lab instructions:
+* `git` from the command line only
+   * i did try using my desktop app for a couple things, too, to see how it worked from there -- but it's most fun to do it all from command line   [= 
+
+* write HTML5  
+
+* all files under source control & synched with remote `Git` public repo  
+
+* multiple commits on most files  
+
+* static web page works locally, when loaded in a browser from your file system -- just opened directly  
+
+* working GitHub pages repo & website meeting requirements  
+
+* HTML & CSS & Bootstrap notes, cheat-sheets, docs organized into your portfolio -- this is for your (my!) own future reference!
+
 ---
 #### snags & whatnot:  [Step 3 con't]  
 There weren't really that many!  
