@@ -5,7 +5,7 @@ the repository to the main part of the assignment, found in Step 3, is <a href="
 
 and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here</a> is the multi-page/hyperlinked site i made to practice HTML/CSS & Bootstrap (see Step 3).   
 
-<br><br>
+<br>
 
 ---
 ---
@@ -25,7 +25,7 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
       (the latter is `git push origin master`, by the way)
 
       <br>
-      I gathered all the stuff I liked best, <a href="https://stormy9.github.io/CS460/references/git/" target="_blank">here</a>.
+      I gathered all the stuff I liked best, <a href="https://stormy9.github.io/CS460/references/git/" target="_blank">here</a>.  
 
       <br><br>
 
@@ -42,7 +42,7 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
 
    However, while working on homeworks 1 & 2, I realized that it makes the most sense -- is most practical -- to have everything in my `Stormy9.gitbuh.io` repo, organized in the same fashion -- a directory for each homework; and in those, directories for the actual project.
     
-<br><br>
+<br>
 
 ---
 ---
@@ -57,7 +57,7 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
 
 Later, somehow BitBucket wiped out my repos and won't let me log in any more -- apparently some merging with Atlassian -- so I am in contact with them to rectify this situation.  (you might know, the only thing I didn't get a screenshot of..... ha!)
 
-<br><br>
+<br>
 
 ---
 ---
@@ -150,7 +150,7 @@ and this near the bottom -- right before your closing `</body>` tag:
 </html>
 ```
 
-<br>
+<br><br>
 Then you're free to go ahead and start implementing the grid & container system, along with the special CSS classes or anything else in Bootstrap, that you want!  
 
 <br><br>
@@ -173,6 +173,7 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
 ---
 #### Meeting the Requirements:  [Step 3 con't]
 * i used Bootstrap, of course, for all my (lab) pages  
+<br>
    * i used both single & multi-column formatting -- including on the same page, which i presume was the point   [=
 
    here's the multi-column set-up i did:  
@@ -192,6 +193,7 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
 
    </div><!-- this is end of row one -->
    ```
+   <br>
 
    all that -- and it's content -- is inside a container like this:  
    ```html
@@ -206,6 +208,7 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
 
 
 * i made a separate `.css` file, of course -- this is just as I was taught at Chemeketa -- it's also in it's own sub-directory as taught  
+<br>
    * i wrote some of my own classes -- and used them somewhere(s)!  
 
    here's the links styling section (there's <a href="https://github.com/Stormy9/Stormy9.github.io/blob/master/CS460/hwk_01/games/styling/mystyles.css" target="_blank">more</a>):  
@@ -350,10 +353,12 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
    <br><br>
 
 * consistent styling -- well, __duh__!  not only is that logical and sensible and aesthetically appealing... but was drilled into us at Chemeketa.   [=  
+<br>
    * i used both bootstrap styling, and my own, as noted above  
    * i don't *think* my colors are obnoxious.  i wanted something fun and colorful, *without* being obnoxious  
-   * of __course__ I didn't use templates or theme packs!  my little gaming site is all my own  
-   <br><br>
+   * of __course__ I didn't use templates or theme packs!  sheesh.  my little gaming site is all my own.  
+
+   <br>
 
 * I wrote every single character of code myself -- no WYSIWYG.  what fun would *that* be?  as mentioned before, i used  Visual Studio Code for my editor, which I really like.  (previously I'd used both Brackets & Notepad++)
 
@@ -363,10 +368,12 @@ There weren't really that many!
 * a small one with my own `CSS` -- that I never did resolve, but is documented in code comments <a href="https://github.com/Stormy9/Stormy9.github.io/blob/master/CS460/hwk_01/games/styling/mystyles.css" target="_blank">here</a>.  
 
    I wanted to remove the underlines on the links in the drop-down portion of my nav bar... alas, I could not.  So they remain.
-   <br><br>
+
+   <br>
 
 * a small one with the `HTML/Bootstrap`, on each of the individual game pages, that I just worked around and got things looking good anyway... documented in the code comments <a href="https://github.com/Stormy9/Stormy9.github.io/blob/master/CS460/hwk_01/games/smartass.html" target="_blank">here</a> (for example).
-<br><br>
+
+<br>
 
 * not really a "snag", per se, but it took a little playing around with it, to understand how the `responsive-lg` vs. `responsive-md` or `responsive-sm` worked.  Which was kinda backwards from my initial thought for some reason.  A lot of times I don't *totally* get something til I can play with it and see what it does in response to various things.   [=
 
@@ -378,12 +385,14 @@ I will test all that when I finish Step 3.  (:
 
 __The lab instructions say:__
 
-* "make sure all changes are committed and pushed to your remote repository"   __check!__
-<br><br>
+* "make sure all changes are committed and pushed to your remote repository"   __check!__  
+
+<br>
 
 * "you should be able to `clone` your repo to anywhere, and then open the main `.html` file, and view your pages correctly"  -- in other words, it's gotta render stuff correctly.  
 __check!__  
-I think, anyway.  I mean, isn't my repo essentially alread `clone`d?  I can just go into my local version on Windows Explorer, and open any of the `.html`, `.css`, or `.md` files in whatever I want, and it all works correctly.....
+
+   I think, anyway.  I mean, isn't my repo essentially alread `clone`d?  I can just go into my local version on Windows Explorer, and open any of the `.html`, `.css`, or `.md` files in whatever I want, and it all works correctly.....
 
 ---
 ---
