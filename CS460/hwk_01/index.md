@@ -23,7 +23,8 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
 
       I didn't have to do any `config`ing, because it was already done from before... so all I had to do was the `git init` and `git remote add origin` thing, plus some `status` checks, `add`s, `commit -m`s, and `push`es throughout the process.
 
-      (the latter is `git push origin master`, by the way)
+      (`commit -m` lets you put in a commit message)  
+      (and `push` is `git push origin master`, by the way)
 
       <br>
       I gathered all the stuff I liked best, <a href="https://stormy9.github.io/CS460/references/git/" target="_blank">here</a>.  
@@ -377,6 +378,8 @@ There weren't really that many!
 <br>
 
 * not really a "snag", per se, but it took a little playing around with it, to understand how the `responsive-lg` vs. `responsive-md` or `responsive-sm` worked.  Which was kinda backwards from my initial thought for some reason.  A lot of times I don't *totally* get something til I can play with it and see what it does in response to various things.   [=
+
+<br>
 
 ---
 ---
