@@ -10,14 +10,27 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
 ---
 ---
 ### Step 1 [setup]: 
-* I'd already installed Git, for Fall '18 / CS407MA  -- an very fun class, by the way -- so just updated my version   
-   * In that class, I also learned how to *use* Git -- in connection with Github -- and about 99% of that use was from the command line (on a Linux system)   
+* I'd already installed Git, for Fall '18 / CS407MA  -- an very fun class, by the way -- so just updated my version of Git Bash *(I also have their desktop app from that class)*  
+   * In that class, I also learned how to *use* Git -- in connection with Github -- and about 99% of that use, was from the command line (on a Linux AWS system)   
    
-   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway... but I did refresh myself on it with the tutorials I found <a href="http://www.wou.edu/~morses/classes/cs46x/resources/resources.html" target="_blank">on Dr. Morse's site</a> and by just googling some additional thoughts and questions I came up with.  
-   I gathered all the stuff I liked best, <a href="https://stormy9.github.io/CS460/references/git/" target="_blank">here</a>.
+   * I got *lots* of practice using Git & Github from the command line in that class!  I got pretty comfortable with it -- for the basic common stuff, anyway, like:  
 
-* I got a github repo set up for CS460 -- and synched locally, so I'll be all ready to develop
-    * with sub-directory/repos for each homework to come   
+      `init, status, add, commit, log, push, pull, fetch`
+      and `clone`ing / synching local with remote repos  
+   
+      but did refresh myself on it with the tutorials I found <a href="http://www.wou.edu/~morses/classes/cs46x/resources/resources.html" target="_blank">on Dr. Morse's site</a> and by just googling some additional thoughts and questions I came up with.  
+
+      I didn't have to do any `config`ing, because it was already done from before... so all I had to do was the `git init` and `git remote add origin` thing, plus some `status` checks, `add`s, `commit -m`s, and `push`es throughout the process.
+
+      (the latter is `git push origin master`, by the way)
+
+      <br>
+      I gathered all the stuff I liked best, <a href="https://stormy9.github.io/CS460/references/git/" target="_blank">here</a>.
+
+      <br><br>
+
+* I got a github repo set up for CS460 -- and synched locally, so I'll be all ready to develop  
+    * with sub-directory/repos for each homework to come    
 
        **it looks like this on Github:**   
        ![screenshot of CS460 repo online](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_01_a.PNG)   
@@ -25,9 +38,9 @@ and <a href="https://Stormy9.github.io/CS460/hwk_01/games/" target="_blank">here
        **and here's locally via Git Bash:**   
        ![screenshot of CS460 repo in Git Bash](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_01_e.PNG)   
        
-      Initially, I'd made a repo that was just called `CS460`, with a directory for each homework in it.
+   Initially, I'd made a repo that was just called `CS460`, with a directory for each homework in it.
 
-      However, while working on homeworks 1 & 2, I realized that it makes the most sense -- is most practical -- to have everything in my `Stormy9.gitbuh.io` repo, organized in the same fashion -- a directory for each homework; and in those, directories for the actual project.
+   However, while working on homeworks 1 & 2, I realized that it makes the most sense -- is most practical -- to have everything in my `Stormy9.gitbuh.io` repo, organized in the same fashion -- a directory for each homework; and in those, directories for the actual project.
     
 <br><br>
 
@@ -53,7 +66,7 @@ Our family has long loved to play games -- like board & card games -- in other w
 
 So, that's what I'm doing my multi-page, hyperlinked website on:  games our family has fun playing!  Like a game-review site.   
 
-<br>
+<br><br>
 BUT... I had to learn Bootstrap first -- plus refresh myself on HTML & CSS.   
 
 I'd learned -- and got *lots* of practice with -- HTML & CSS while completing my CIS degree at Chemeketa... but have barely used it since graduatuing Summer of 2017.  I've been too busy with Java, Data Structures, Python, Algorithms, Git, databases, and lots of other stuff my first two years at WOU.
@@ -67,7 +80,7 @@ The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
 For CSS, <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a> is also a very good resource...  
 and for HTML, <a href="https://html.spec.whatwg.org/dev/" target="_blank">HTML: The Living Standard</a> is pretty cool, too.  
 
-<br>
+<br><br>
 At Chemeketa, W3Schools had been heartily recommended to us to augment our class learning, as a reference, and to try some hands-on practice for HTML, CSS, JavaScript, Ajax, php, etc.
 
 I really like their format, which includes REPLs on every page -- you can test everything quick & easy, making edits to see what happens... and their organization, and style of straight-forward, concise *("clear; brief but comprehensive")* explanations.  Besides the tutorial sections, they have a fully linked quick-reference section for each subject.  
@@ -76,7 +89,7 @@ I really like their format, which includes REPLs on every page -- you can test e
 
 They are also easier (to me) to use as a quick reference if you already know what you're doing.   [=  
 
-<br>
+<br><br>
 This part was actually fun.  That's not to say that Steps 1 - 2 plus 4-8 *weren't* fun... but this was, I think, the *most* fun.  [=    
 
 ---
@@ -189,6 +202,7 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
    </div><!-- end of container-fluid / main div -->
    ```
    and yes, I always comment what closing tags go with -- it saves time following the tracer lines!   [=  
+   <br><br>
 
 
 * i made a separate `.css` file, of course -- this is just as I was taught at Chemeketa -- it's also in it's own sub-directory as taught  
@@ -217,6 +231,7 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
       text-decoration: none;
       font-weight: bold;
    ```
+   <br><br>
 
 * i made a nav bar/menu, that includes links to all pages on the site, and includes a drop-down portion  
 
@@ -266,6 +281,7 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
    </nav>
    <!-- end nav part -->
    ```
+   <br><br>
 
 * i have a small table on each of the game description pages, giving the basics of each game   
 
@@ -299,6 +315,7 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
       </table>
    </div><!-- end of table-responsive-lg div -->
    ``` 
+   <br><br>
 
 * i used two of the three types of lists -- a `ul` on each game description page, and a `dl` on the main/front page  
 
@@ -330,11 +347,13 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
       </ul>
    </ul>
    ```
+   <br><br>
 
 * consistent styling -- well, __duh__!  not only is that logical and sensible and aesthetically appealing... but was drilled into us at Chemeketa.   [=  
    * i used both bootstrap styling, and my own, as noted above  
    * i don't *think* my colors are obnoxious.  i wanted something fun and colorful, *without* being obnoxious  
    * of __course__ I didn't use templates or theme packs!  my little gaming site is all my own  
+   <br><br>
 
 * I wrote every single character of code myself -- no WYSIWYG.  what fun would *that* be?  as mentioned before, i used  Visual Studio Code for my editor, which I really like.  (previously I'd used both Brackets & Notepad++)
 
@@ -344,8 +363,10 @@ There weren't really that many!
 * a small one with my own `CSS` -- that I never did resolve, but is documented in code comments <a href="https://github.com/Stormy9/Stormy9.github.io/blob/master/CS460/hwk_01/games/styling/mystyles.css" target="_blank">here</a>.  
 
    I wanted to remove the underlines on the links in the drop-down portion of my nav bar... alas, I could not.  So they remain.
+   <br><br>
 
 * a small one with the `HTML/Bootstrap`, on each of the individual game pages, that I just worked around and got things looking good anyway... documented in the code comments <a href="https://github.com/Stormy9/Stormy9.github.io/blob/master/CS460/hwk_01/games/smartass.html" target="_blank">here</a> (for example).
+<br><br>
 
 * not really a "snag", per se, but it took a little playing around with it, to understand how the `responsive-lg` vs. `responsive-md` or `responsive-sm` worked.  Which was kinda backwards from my initial thought for some reason.  A lot of times I don't *totally* get something til I can play with it and see what it does in response to various things.   [=
 
@@ -358,8 +379,11 @@ I will test all that when I finish Step 3.  (:
 __The lab instructions say:__
 
 * "make sure all changes are committed and pushed to your remote repository"   __check!__
+<br><br>
 
-* "you should be able to `clone` your repo to anywhere, and then open the main `.html` file, and view your pages correctly"  -- in other words, it's gotta render stuff correctly.
+* "you should be able to `clone` your repo to anywhere, and then open the main `.html` file, and view your pages correctly"  -- in other words, it's gotta render stuff correctly.  
+__check!__  
+I think, anyway.  I mean, isn't my repo essentially alread `clone`d?  I can just go into my local version on Windows Explorer, and open any of the `.html`, `.css`, or `.md` files in whatever I want, and it all works correctly.....
 
 ---
 ---
@@ -367,12 +391,14 @@ __The lab instructions say:__
 This is the part about making a repo on GitHub + enabling your GitHub Pages.   
 
 After some googling around, I found that since I have an existing GitHub account, all I had to do, in order to enable my GitHub pages, was to create a specially-named new repo in it like so: `username.github.io`   
+<br><br>
 
 At first I tested it out with an `.html` page, and that worked just fine and all..... but after investigating the sample pages referenced in the assignment instructions, I opted to go with `.md` pages, using one of the GitHub/Jekyll themes.   
 
 For one thing, it was easier & faster to make them... for another thing, the practice making pages with markdown was cool -- I had very minimal practice with it til now.  And, hey -- even Dr. Morse made his example GitHub Page with Markdown.   [=   
-
+<br><br>
 I set up my GitHub Portfolio loosely following the examples, borrowing a little from here and a little from there for inspiration -- and also following the instructions, of course, and putting my own twist on it.  
+<br><br>
 
 [Here's a link to the front page](https://stormy9.github.io/ "my github pages front page")   
 
@@ -400,6 +426,7 @@ So I haven't started actually putting all of the above in there... BUT... I *do*
 
 **screenshot of my page:**   
 ![screenshot of my page w/links to the good stuff](https://stormy9.github.io/CS460/hwk_01/images/CS460-Hwk_01-Step_08_b.PNG)   
+<br>
 *(from github, so you can see where it starts/ends and not get all befuddled about where to click...)*
 
 ---
