@@ -276,11 +276,13 @@ Resolved!
 
 ---
 ---
-sorry about the... elongated "Step 0"..... but this is how my brain works to figure this crap out.  If I'd just read about this, and not tested it out and played with everything, I wouldn't remember stuff, and wouldn't get it as well..... and then when I started doing the *real* stuff for this assignment, I'd like freak out and stuff.
+sorry about the... elongated "Step 0"..... but this is how my brain works to figure this crap out.  If I'd just read about this, and not tested it a-a-a-a-all out and played with *e-v-e-r-y-t-h-i-n-g*, I wouldn't totally get, or remember stuff -- and I certainly wouldn't get it as well..... and then when I started doing the *real* stuff for this assignment, I'd like freak out and stuff.   [=
 
 Plus, I need the visuals (screenshots) to lock it in.
 
 Better to freak out with an experimental repo & branch, that matters not to anything nor anyone.   [=
+
+But I did decide it was better to move it to it's own "extra" page.  
 
 ---
 These are the primary helpful pages:  
@@ -294,4 +296,13 @@ These are the primary helpful pages:
 
 <a href="https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts" target="_blank">Atlassian: Using Branches: merge conflicts</a>
 
-Plus the random questions I googled specifically for quick confirmation of stuff, that's up there.
+Plus the random questions I googled specifically for quick confirmation of stuff, that's up there.  
+
+And the GitHub help desk people are super-helpful, patient, and friendly!  
+
+<br>
+
+---
+---
+---
+[back to Homework_02 page](https://Stormy9.github.io/CS460/Hwk_02/ "Homework_02 page")

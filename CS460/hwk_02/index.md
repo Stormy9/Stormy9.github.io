@@ -6,7 +6,7 @@ the finished site is <a href="https://Stormy9.github.io/CS460/hwk_02/g_oz">here<
 
 ---
 ### Step 0  
-If you care to look at all my practice with branching, checking out, merging, and deleting branches you don't need anymore, look <a href="https://Stormy9.github.io/CS460/hwk_02/step_zero.md">here</a>.
+If you care to look at all my practice with `branch`ing, `checkout`ing, `merge`ing, and `delete`ing branches, look <a href="https://Stormy9.github.io/CS460/hwk_02/step_zero.html">here</a>.
 
 <br>
 
@@ -14,7 +14,11 @@ If you care to look at all my practice with branching, checking out, merging, an
 ### Step 1 [setup - finally!]:
 So.  After a-a-a-a-all of that up there, I *still* screwed this up.  
 
-Well, not really "screwed up" -- it's fine -- now -- but I didn't initially get my branch set up correctly.
+Well, not really "screwed up" -- it's fine -- now -- but I didn't initially or immediately get my branch set up correctly.
+
+Apparently, something still hadn't fully clicked in, so far as making branches!   [=
+
+<br>
 
 First, I tried making my `working` branch from the folder within my repo that will actually hold the finished website (called `g_oz`)...
 
@@ -30,23 +34,21 @@ So, I deleted that `branch`, and tried making it from my root repo, aka `Stormy9
 
 It didn't show up on my Github page.
 
+<br>
 
-THEN... it dawned on me that maybe the reason it hadn't been showing up on my Github page, is because I'd made a branch, but not `commit`ted nor `push`ed anything to it.  (duh)
+THEN... it dawned on me that the reason my new `branch` hadn't been showing up on my Github page, is because I'd made it, but not `commit`ted nor `push`ed anything to it.  
 
-So, I deleted that `branch` and made one with an apter name aka `hwk02_working`... and made a quick `readme.md` to go in it, did `add/commit/push-to-branch`, and voila!  It all showed up on my Github page, just as you would expect.
+<br>
 
-So maybe that's all I needed to do, for those first attempts?  Does it matter from whence you make your branch via the Git Bash?
+So, I deleted that `branch` and made one with an apter name -- aka `hwk02_working`... and made a quick `readme.md` to go in it, did `add/commit/push-to-branch`, and voila!  It all showed up on my Github page, just as you would expect.
 
+So maybe that's all I needed to do, for those first attempts?  Does it matter from whence you make your branch via the Git Bash?  
 
-Here's some of the stuff I did (including the end part that worked):
-<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_49.PNG">![screenshot of step 49](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_49.PNG)</a>
-<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_50.PNG">![screenshot of step 50](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_50.PNG)</a>
+At first I was just happy I finally got what I wanted... but later got to thinking about things and wanting to get a better feel for how it all works... see (if you want) <a href="https://Stormy9.github.io/CS460/hwk_02/more_fun_git_branching.html">more fun with git branching</a>.
 
-*(i shoulda gotten *some* clue from the `error: remote-tracking branch 'origin/working' not found.` thing, right?  haha!  eventually I did)*
+<br>  
 
-I did all this for each "So..." above.   [=
-
-Then the light-bulb came on and I did this:
+Once the light-bulb came on, I did this:
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_51.PNG">![screenshot of step 51](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_51.PNG)</a>
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_52.PNG">![screenshot of step 52](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_52.PNG)</a>
 
@@ -61,19 +63,20 @@ Note you can *only* see the `branch` from the main/front repo page, *not* from a
 
 *(i learn & retain best by playing with stuff & then seeing visuals of it, rather than reading)*
 
+<br>
 
-Oh, and here's my `index.html` and `styles.css` files, not *directly* in the `Hwk_02` folder, since that's where this goes, but in it's own folder, like how I have `games` for `Hwk_01`.  And I like having `.css` files in their own directory, as I was taught long ago.   [=
+And here's my `index.html` and `styles.css` files, not *directly* in the `Hwk_02` folder, since that's where this goes, but in it's own folder, like how I have `games` for `Hwk_01`.  And I like having `.css` files in their own directory, as I was taught long ago.   [=
 
+Thank GOD I remembered to `cd` to the correct directory, in my Git Bash, first.  Yeesh -- I may have overwritten stuff!
 
-Thank GOD I remembered to `cd` to the correct directory, in my Git Bash, first.  Sheesh.  Holy Bejeezus, if I had not!!  Yeesh.
-
-Note that I also reassured myself I was in the `hwk02_working` branch.
+I also assured myself I was in the `hwk02_working` branch.
 (but note my "oops!" in there -- haha!)
 
 I did:
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_55.PNG">![screenshot of step 55](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_55.PNG)</a> 
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_56.PNG">![screenshot of step 56](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_56.PNG)</a> 
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_57.PNG">![screenshot of step 57](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_57.PNG)</a> 
+
 note how it shows all the new image files for this blog page, and that they are untracked and not being dealt with in this `commit/push`... isn't that cool?
 
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_58.PNG">![screenshot of step 58](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_58.PNG)</a> 
@@ -84,15 +87,13 @@ And here's how things look on my Github page (note the branches):
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_60.PNG">![screenshot of step 60](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_60.PNG)</a> 
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_61.PNG">![screenshot of step 61](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_61.PNG)</a> 
 
-at first I was alarmed that my `index.html` and `styling/mystyles.css` files were not showing up in my `g_oz` directory -- or anywhere -- but only momentarily, until I remembered to switch to the `hwk02_working` view.  duh.  
+<br>
 
-Everything is now as it should be.
+Everything is now as it should be.   
+Woo-hoo!   
+Ready to start on the actual, you know, *stuff*.   [=
 
-(at first, stuff didn't show up there... then I realized that when I `push`ed, the `commit` had not taken, since I forgot to type in `-m` like a dork.  fixed that, and all's good.....)
-
-
-Woo-hoo!   [=
-Ready to start on the actual, you know, *stuff*.  
+<br>
 
 ---
 ---
