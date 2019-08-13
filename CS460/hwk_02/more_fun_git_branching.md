@@ -1,5 +1,5 @@
 ### more fun with git branching  
-##### my files kept getting deleted!  
+#### my files kept getting deleted!  
 After I got my `hwk02_working` branch set up, with my  `index.html` and `mystyles.css` files living there... at some point while working on them -- while in the `hwk02_working` branch, of course -- I noticed that some of my other files were being deleted from my machine!  Specifically, my blog pages for `Hwk_02`.
 
 Of course, they weren't, really... but initially, I was somewhat alarmed.  Only "somewhat", because at least the content of said files was still displayed in their VSCode tabs... just with "(deleted)" appended to the files' tabs -- and the files no longer showed up in Windows Explorer.   
@@ -40,7 +40,7 @@ It was so cool to know I'd finally gotten it all figured out though -- to know m
 <br>
 
 ---
-##### making branches show up on your GitHub site  
+#### making branches show up on your GitHub site  
 Then later, I got to thinking more about making a new `branch` and getting it to your GitHub site -- could you `push` a new, empty branch?  Did you *have* to have a file to `add`, `commit`, and then `push`?  Just to make a `branch` show up on GitHub?  
 
 It seemed to me that you shouldn't *have* to have an actual file in your new `branch`, just in order to make the `branch`... yet in the tutorials I'd read (<a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">the official Git one</a>, and <a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">the Atlassian one</a>) the examples of making a new `branch` always included having a file of some kind, to `add`, `commit`, and `push`.  
@@ -53,18 +53,37 @@ SO I googled, and found what I needed <a href="https://www.jquery-az.com/git-pus
 
 So went back to my `exp` repo -- my repo just for practicing `git` with -- and made some more branches to see what all would happen.   [=  
 
-Here's how it looked:
-<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_62.PNG">![screenshot of step 62](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_62.PNG)</a>
+Here's how it looked:  
+making the branch from command line...  
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_62.PNG">![screenshot of step 62](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_62.PNG)</a>  
+(notice I `push`ed from the `fun` branch itself)
+
+... and here it shows a new `branch` on my GitHub site... 
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_63.PNG">![screenshot of step 63](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_63.PNG)</a>
+
+<br>
+
+trying another new `branch`...
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_64.PNG">![screenshot of step 64](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_64.PNG)</a>
+(notice I made the new `more_fun` branch from the `fun` branch... then flipped to `master` to `push` it)
+
+... and here's both new `branch`es on my GitHub site...  
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_65.PNG">![screenshot of step 65](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_65.PNG)</a>
 
+<br>
 
-<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_66.PNG">![screenshot of step 66](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_66.PNG)</a>
+This screenshot shows the *wrong* way to push a new `branch`, followed by the *right* way... 
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_66.PNG">![screenshot of step 66](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_66.PNG)</a>  
+
+And here they all are on my GitHub site...  
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_67.PNG">![screenshot of step 67](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_67.PNG)</a>
 
+<br>
 
-<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_68.PNG">![screenshot of step 68](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_68.PNG)</a>
+This screenshot, I just did, to show that simply making a new `branch`, doesn't change your git `status`...  
+<a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_68.PNG">![screenshot of step 68](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_68.PNG)</a>  
+... but as illustrated above, you can `push` it anyway!  
+(I'd found this out in playing around... but when I decided to document what I'd learned, I forgot to illustrate that in the earlier screenshots!  But wanted to show it, so I don't forget.)  
 
 <br>
 
