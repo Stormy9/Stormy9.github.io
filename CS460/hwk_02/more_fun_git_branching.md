@@ -1,5 +1,5 @@
-### more fun with git branching  
-#### my files kept getting deleted!  
+## more fun with git branching  
+### my files kept getting deleted!  
 After I got my `hwk02_working` branch set up, with my  `index.html` and `mystyles.css` files living there... at some point while working on them -- while in the `hwk02_working` branch, of course -- I noticed that some of my other files were being deleted from my machine!  Specifically, my blog pages for `Hwk_02`.
 
 Of course, they weren't, really... but initially, I was somewhat alarmed.  Only "somewhat", because at least the content of said files was still displayed in their VSCode tabs... just with "(deleted)" appended to the files' tabs -- and the files no longer showed up in Windows Explorer.   
@@ -40,7 +40,7 @@ It was so cool to know I'd finally gotten it all figured out though -- to know m
 <br>
 
 ---
-#### making branches show up on your GitHub site  
+### making branches show up on your GitHub site  
 Then later, I got to thinking more about making a new `branch` and getting it to your GitHub site -- could you `push` a new, empty branch?  Did you *have* to have a file to `add`, `commit`, and then `push`?  Just to make a `branch` show up on GitHub?  
 
 It seemed to me that you shouldn't *have* to have an actual file in your new `branch`, just in order to make the `branch`... yet in the tutorials I'd read (<a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">the official Git one</a>, and <a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">the Atlassian one</a>) the examples of making a new `branch` always included having a file of some kind, to `add`, `commit`, and `push`.  
