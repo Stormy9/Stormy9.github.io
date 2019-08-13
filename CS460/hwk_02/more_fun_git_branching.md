@@ -1,3 +1,5 @@
+# homework two  
+
 ## more fun with git branching  
 ### my files kept getting deleted!  
 After I got my `hwk02_working` branch set up, with my  `index.html` and `mystyles.css` files living there... at some point while working on them -- while in the `hwk02_working` branch, of course -- I noticed that some of my other files were being deleted from my machine!  Specifically, my blog pages for `Hwk_02`.
@@ -40,20 +42,23 @@ It was so cool to know I'd finally gotten it all figured out though -- to know m
 <br>
 
 ---
+---
 ### making branches show up on your GitHub site  
-Then later, I got to thinking more about making a new `branch` and getting it to your GitHub site -- could you `push` a new, empty branch?  Did you *have* to have a file to `add`, `commit`, and then `push`?  Just to make a `branch` show up on GitHub?  
+Then later, I got to thinking more about making a new `branch` locally, and getting it to your GitHub site -- could you `push` a new, **empty** branch?  Did you **have** to have a file of some kind to `add` and `commit`, living in your new `branch`, in order to `push` and have it all show up on your GitHub page?    
 
-It seemed to me that you shouldn't *have* to have an actual file in your new `branch`, just in order to make the `branch`... yet in the tutorials I'd read (<a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">the official Git one</a>, and <a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">the Atlassian one</a>) the examples of making a new `branch` always included having a file of some kind, to `add`, `commit`, and `push`.  
+It seemed to me that you shouldn't *have* to have an actual file in your new `branch`, just in order to make the `branch` and `push` it and get it on your GitHub site...  
 
-I admit I hadn't read every single word of either of those tutorials -- more like "perused" for what I needed most at the time, and then read *that* part in closer detail...  
+Yet in the tutorials I'd read (<a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">the official Git one</a>, and <a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">the Atlassian one</a>) the examples of making a new `branch` always included having a file of some kind, to `add`, `commit`, and `push`.  
 
-But when I went back and read even closer, I *did* find something close to what I was thinking, in the Atlassian tutorial <a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">here</a> (scroll to "Creating remote branches") -- but the example it gave wasn't very clear.  Dealing with noobs, they should have been a bit more explicit in the example!  (well, at least *this* noob!)   [=  
+I admit I hadn't read every single word of either of those tutorials -- more like "perused" for what I needed most at any given time, and then read *that* section in closer detail...  
 
-SO I googled, and found what I needed <a href="https://www.jquery-az.com/git-push-command/" target="_blank">here</a>.  
+But when I went back and read the pertinent sections even closer, I *did* find something close to what I was thinking, in the Atlassian tutorial <a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank">here</a> (scroll to "Creating remote branches") -- but the example it gave wasn't very clear.  Dealing with noobs, they should have been a bit more explicit in the example!  (well, at least *this* noob!)   [=  
 
-So went back to my `exp` repo -- my repo just for practicing `git` with -- and made some more branches to see what all would happen.   [=  
+SO... I googled, and found what I needed& wanted <a href="https://www.jquery-az.com/git-push-command/" target="_blank">here</a>.  
 
-Here's how it looked:  
+Then went back to my `exp` repo -- my repo just for practicing `git` stuff with -- and made some more `branch`es to see what all would happen.   [=  
+
+__Here's how it looked:__  
 making the branch from command line...  
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_62.PNG">![screenshot of step 62](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_62.PNG)</a>  
 (notice I `push`ed from the `fun` branch itself)
@@ -83,7 +88,9 @@ And here they all are on my GitHub site...
 This screenshot, I just did, to show that simply making a new `branch`, doesn't change your git `status`...  
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_68.PNG">![screenshot of step 68](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_68.PNG)</a>  
 ... but as illustrated above, you can `push` it anyway!  
-(I'd found this out in playing around... but when I decided to document what I'd learned, I forgot to illustrate that in the earlier screenshots!  But wanted to show it, so I don't forget.)  
+*(I'd found this out in playing around... but when I decided to document what I'd learned, I forgot to illustrate that in the earlier screenshots!  But wanted to show it, so I don't forget.)*
+
+I left in my "errors" of not being (possibly) in the "right" `branch` when doing various things -- like making or `push`ing a `branch` -- to show that it really doesn't (seem to) matter.   [=
 
 <br>
 
