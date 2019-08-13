@@ -10,13 +10,11 @@ But I figured no prob, just re-save these tabs -- everything is still there.  I 
 
 <br>
 
-Except when I did that... I ended up with those blog page files in my `hwk02_working` branch, which I didn't want.  *(Because, neatness, and things being a pain in the ass later.)*  I thought, "Wait a minute... I just saved those blog page on my own machine, right?"  
+Except when I did that... I ended up with those blog page files in my `hwk02_working` branch, which I didn't want.  *(Because, neatness, and things being a pain in the ass at `merge` time.)*  I thought, "Wait a minute... I just saved those blog pages on my own machine, right?"  
 
-BUT... when I'd done a `commit` and `push` on my `index.html` and `mystyles.css`... I'd first done an `add *`.   So that added the blog page files to the `commit\push` to my `hwk02_working` branch.  
+BUT... when I'd done a `commit` and `push` on my `index.html` and `mystyles.css`... I'd first done an `add *` -- as I recall, from a higher-up directory (but still in `hwk02_working` branch).  Anyway, __somehow__, the blog page files got added to the `commit\push` to my `hwk02_working` branch.  
 
-And __that__ is when the light bulb started coming on -- my dimmer switch was being turned up.   [=
-
-Figuring this out locked in more in my brain, about how git branching works, and I was able to visualize the layout of it all.  
+Thinking about things as I drifted to sleep that night, __that__ is when the light bulb started coming on -- my dimmer switch was being turned up.   [=  
 
 <br>
 
@@ -26,18 +24,21 @@ Anyway, I hadn't realized or thought about, that while working on  the `index.ht
 
 <br>
 
-I was so excited when it all became clear..... when I view my git-tracked files __on my own machine__, in Windows Explorer... I'm looking at and opening those files from the local version of my Git repo --  for whatever `branch` I'm in at the time.  
+I was so excited when it all became clear:  when I view my git-tracked files __on my own machine__, in Windows Explorer... I'm looking at and opening those files from the local version of my Git repo --  for whatever `branch` I'm in at the time.  
 
 So when I `checkout` my `hwk02_working` branch, only those files will be what I see, and can open, on my machine.  When I `checkout` my `master` branch again, only those files will be what I see, and can open.  
 
 And, on both my own machine __and__ my GitHub page, when in my `hwk02_working` branch, all the higher-up directories show, of course... but while in the `hwk_02` directory, __only__ the `g_oz` directory with my `index.html` and `mystyles.css` files show... and in while in my `master`branch, the `g_oz` directory still shows -- but not the `index.html` and `mystyles.css` files, only it's `readme.md` file.  Cool, huh?  
 
-Once I got that all clicked into my brain, I was no longer worried in the slightest about my VSCode tabs saying "(deleted)" on certain files when I flipped between branches.   [=  
+<br>
+
+Once I got that stuff about `branch`ing all clicked into my brain, I was no longer worried in the slightest about my VSCode tabs saying "(deleted)" on certain files when I flipped between branches.   [=  
 
 I just had to delete a bunch of stuff out of my `hwk02_working` branch, since I'd not only inadvertently put my blog pages, but several blog images, in it!  
 
 It was so cool to know I'd finally gotten it all figured out though -- to know my light bulb was now glowing that much brighter.   [=  
 
+And now I am able to visualize the layout of it all.  
 
 <br>
 
