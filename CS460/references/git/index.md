@@ -252,7 +252,7 @@ for instance.
 *(i didn't really want to change anything!)*
 
 And here is my actual C:/users/tricia/.gitconfig file!  
-<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_33.PNG">![screenshot of step 33](https://stormy9.github.io/CS460/references/git/images/git_ref_33.PNG)</a>
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_33.PNG">![screenshot of step 33](https://stormy9.github.io/CS460/references/git/images/git_ref_33.PNG)</a>  
 you can edit it directly, if you like, too.  
 
 <br>
