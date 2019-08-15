@@ -221,7 +221,7 @@ git fetch
 git log
 ```
 ---
-### `git log`  
+### git log  
 here's an example of what `git log` returns:  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_31.PNG">![screenshot of step 31](https://stormy9.github.io/CS460/references/git/images/git_ref_31.PNG)</a>  
 
@@ -230,13 +230,13 @@ do this from the `master` branch, btw.
 <br>
 
 ---
-### `git init`  
+### git init  
 `git init` is only used the one time, when setting up your local repo, as described up-top.  
 
 <br>
 
 ---
-### `git config`  
+### git config  
 `git config` is used to set your user name and email for your account, and is typically only done once, although if you need to change it, you can, of course...  
 
 you can see what you've got `config`'d like this:  
@@ -263,7 +263,7 @@ Although <a href="https://www.atlassian.com/git/tutorials/setting-up-a-repositor
 <br>
 
 ---
-### `git pull`  
+### git pull  
 `git pull` is just like `git push` -- except it goes the opposite direction... 
 
 so, say you change something, for some reason, remotely -- like, from your GitHub page... you can do this, of course -- any file that is text-based (as opposed to an image -- so like `.txt`, `.md`, `.html`, `.css`, `.js`, `.java` files -- but not `.jpg` or `.png` or `.gif` files)  
@@ -296,7 +296,7 @@ the new stuff i `cat appended` to it, is now all there from the `add/commit/push
 <br>
 
 ---
-### `git fetch`
+### git fetch
 now, `git fetch`, I need to look up a little more, and play with a little, to fully understand how to use it..... 
 
 specifically, the distinction between `fetch` and `pull`!
@@ -332,6 +332,8 @@ and:
 > -- @Mouna Cheikhna 
 
 both quotes from the linked StackOverflow page.  
+
+(and this type of explanation should've been easier to find!)  
 
 <br>
 
@@ -417,6 +419,8 @@ and <a href="https://www.reddit.com/r/git/comments/3z43fa/in_the_command_git_pus
 Seriously -- I like quick, concise, clear-for-noobs answers... as Reddit user corzia noted, the man/help/documentation pages can be "monstrous" to hunt through, when all you want & need is a quick explanation!  
 
 But sometimes those are difficult to find.   [=  
+*(this one was the **most** difficult!)*
+*(so far -- haha!)*
 
 <br>
 
@@ -498,6 +502,8 @@ And I found this nifty online book:  <a href="https://anotheruiguy.gitbooks.io/g
 <br>
 
 Plus, both GitHub & BitBucket help desk people are friendly and quickly responsive, and patient & kind!   [=  
+
+<br>
 
 And of course just googling a question, or an error message, or whatever -- StackOverflow is virtually assured to have something directly helpful.   [=  
 
