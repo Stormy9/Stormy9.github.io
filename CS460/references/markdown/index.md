@@ -262,6 +262,8 @@ I guess it's not **super**-important, but I should be able to figure it out at s
 ### linking to your .md pages on your github.io site  
 in order for your page to render correctly in the browser, you would link to the `html` version of your `md` page.  
 
+*(otherwise, it will just render as plain text -- markup and all!)*
+
 yes, that is a thing and it will do what it's supposed to!   [=   
 
 for instance, this page is technically:
