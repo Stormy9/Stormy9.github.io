@@ -420,6 +420,11 @@ But sometimes those are difficult to find.   [=
 
 <br>
 
+A big take-away is the thing about `origin master` only being needed the once, too, in a given `branch` -- and being able to just do `git push` after that!   [=  
+(that makes it sound like that's true, so long as you remembered to do the `-u` flag!)
+
+<br>
+
 ---
 ---
 ## Making a Git**Hub** Repo from the Command Line:  
