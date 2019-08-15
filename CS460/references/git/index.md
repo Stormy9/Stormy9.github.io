@@ -282,7 +282,10 @@ and the next time you change something locally, and want to `push`, it will say 
 so you do this:
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_38.PNG">![screenshot of step 38](https://stormy9.github.io/CS460/references/git/images/git_ref_38.PNG)</a>
 see how it's just like the `push`?   [=  
-(except i forgot that it will open an editor for a "merge message", which is like a "commit message" -- but no biggie)
+except i forgot that it will open a text editor for you to type a `merge message` -- which is like a `commit message` -- but no biggie... see, it just looks like all the other `-m` messages:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_38-a.PNG">![screenshot of step 38-a](https://stormy9.github.io/CS460/references/git/images/git_ref_38-a.PNG)</a>  
+(it's the one that says `pointy_ears updated remotely -- tippy_ears updated locally`)
+
 
 and now you can do your `push`:  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_39.PNG">![screenshot of step 39](https://stormy9.github.io/CS460/references/git/images/git_ref_39.PNG)</a>
