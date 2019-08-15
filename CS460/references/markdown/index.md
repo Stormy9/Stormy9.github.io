@@ -11,6 +11,12 @@ But Markdown is faster & easier than `html` -- although it also has many limitat
 
 There's several different "flavors" of Markdown, that add in some different features/functionality... we're just gonna talk about the basic "vanilla" + GitHub-specific stuff here.  
 
+Note that if you're using Markdown for your Jekyll pages on your `github.io site`, the way certain things show up will look different -- this includes: 
+* lists (the bullet markers)
+* headings (exact size and weight -- and adding a line under various levels, just the top, or sometimes the top two)
+* inline code (horizontal spacing, color, size)
+* quote blocks (colors/styling)
+
 <br>
 
 ---
@@ -89,7 +95,6 @@ so I have to put two spaces at the end of each line.
 
 <br>
 
----
 If you want a blank line between your lines, just hit enter twice -- and no need for two spaces at the end of any lines.
 ```
 this line, then a blank one, [enter]
@@ -102,7 +107,7 @@ then this line
 
 <br>
 
----
+
 if you're like me and sometimes like to introduce extra vertical white space for easier readability, you have to use `html` to achieve that.
 ```
 i like extra vertical spacing between some paragraphs, to break up sections... it helps with readability and knowing where you're at and stuff.
@@ -471,9 +476,11 @@ I haven't played with this much yet, but it looks cool...
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
-maybe.  I mean, it's just a regular unordered list into which you type your own "[x]" or "[ ]".....  hmmm.  
+maybe.  I mean, it's just a regular unordered list into which you type your own "[x]" or "[ ]" -- and that's how it shows up in my VSCode Preview Pane.  hmmm.  
 
 the online example shows it rendering as actual full-out checkboxes -- now *that* would be cool.  I'll see what this does when I `push` it and can actually see it online instead of just in VSCode Preview.  
+
+Hey!  when rendered in the browser (with my Jekyll theme) it **does** put in real checkboxes!   [=  
 
 <br>
 
@@ -498,7 +505,7 @@ The Best Zoey that Ever Zoey'd..... <3
 <img src="https://stormy9.github.io/CS460/references/markdown/Princess_Possum_cr.PNG" title="My Princess Possum" alt="Princess Possum">
 ```
 this way you can add attributes, like text that shows up in the little box thing when you hover over the image...  
-<img src="https://stormy9.github.io/CS460/references/markdown/Princess_Possum_cr.PNG" title="My Princess Possum" alt="Princess Possum">
+<img src="https://stormy9.github.io/CS460/references/markdown/Princess_Possum_cr.jpg" title="My Princess Possum" alt="Princess Possum">
 <br>
 
 ---
@@ -506,13 +513,13 @@ this way you can add attributes, like text that shows up in the little box thing
 ### and even link images  
 like to a larger version of the same image -- good for screenshots sometimes
 ```html
-<a href="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.PNG">
-<img src="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.PNG" title="My Baby-Jack (like the cheese) as a puppy" alt="Baby-Jack Like the Cheese">
+<a href="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.jpg">
+<img src="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.jpg" title="My Baby-Jack (like the cheese) as a puppy" alt="Baby-Jack Like the Cheese">
 </a>
 ```
 just wrap the whole image tag in `<a></a>` tags!
-<a href="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.PNG">
-<img src="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.PNG" title="My Baby-Jack (like the cheese) as a puppy" alt="Baby-Jack Like the Cheese">
+<a href="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.jpg">
+<img src="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.jpg" title="My Baby-Jack (like the cheese) as a puppy" alt="Baby-Jack Like the Cheese">
 </a>  
 which of course you can add the `target` attribute to make it open in a new tab if you like.  usually for my own images, I leave it opening in the same tab.  
 
