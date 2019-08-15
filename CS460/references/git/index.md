@@ -108,30 +108,230 @@ I wanted to show, that doing `git add *` will **only** add the files for the rep
 ### Doing a Git Branch:  
 So yeah, I pretty thoroughly covered this along with homework_02... however, I wanted a **Quick** reference here!  hahaha!   [=  
 
+Making the new branch locally... 
+... and pushing it to my GitHub:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_15.PNG">![screenshot of step 15](https://stormy9.github.io/CS460/references/git/images/git_ref_15.PNG)</a>  
+note i don't have to have a file in it... 
+... and that i did the `push` from the `master` branch -- 
+you can also do it from the new `branch`, if you like, though.
+
+<br>
+
+and how it looks on my GitHub page:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_16.PNG">![screenshot of step 16](https://stormy9.github.io/CS460/references/git/images/git_ref_16.PNG)</a>  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_17.PNG">![screenshot of step 17](https://stormy9.github.io/CS460/references/git/images/git_ref_17.PNG)</a>  
+
+<br>
+
+---
+remember to work in your new branch, you have to do a `checkout` on it first:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_18.PNG">![screenshot of step 18](https://stormy9.github.io/CS460/references/git/images/git_ref_18.PNG)</a> 
+note how the `push` command is different for the `branch`...  
+... also note how the `status`, `commit`, and `push` all state we're working in the `shelties` branch.
 
 
+and looking in our new `shelties` branch on my GitHub page:
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_19.PNG">![screenshot of step 19](https://stormy9.github.io/CS460/references/git/images/git_ref_19.PNG)</a> 
+
+vs. the `master` branch:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_20.PNG">![screenshot of step 20](https://stormy9.github.io/CS460/references/git/images/git_ref_20.PNG)</a>  
+
+<br>
+
+it would be the same if you made a new directory in your `branch` -- it would only show when you're viewing that `branch`:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_21.PNG">![screenshot of step 21](https://stormy9.github.io/CS460/references/git/images/git_ref_21.PNG)</a>   
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_22.PNG">![screenshot of step 22](https://stormy9.github.io/CS460/references/git/images/git_ref_22.PNG)</a>  
+note how git didn't reflect any changes in `status`, just from adding new directories -- it only picked up changes, when I put files into the directories!
 
 
+and the views from my GitHub page:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_23.PNG">![screenshot of step 23](https://stormy9.github.io/CS460/references/git/images/git_ref_23.PNG)</a>   
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_24.PNG">![screenshot of step 24](https://stormy9.github.io/CS460/references/git/images/git_ref_24.PNG)</a>  
 
-
-
+isn't that cool so far?  
 
 <br>
 
 ---
 ---
-some frequently-used git commands are:
+### Merging your Git Branch to Master:
+This is super-simple, actually, so long as two things:  
+* you don't have files in the two different branches, with identical names  
+    * if you do, when you do your `merge`, Git will not complete the merge, and return a file showing where the differences between the two versions are -- it is then up to you to finalize the file... see my <a href="http://Stormy9.github.io/CS460/hwk_02/step_zero.html">hwk_02-Step_Zero page</a>.   [=  
+
+* you remember to `push` your merge... 
+    * yes, new files are not the only thing you need to `push`, in order to have it show up on your GitHub page.   [=  
+
+But in our case here, we don't have identically-named files... and of course will remember to `push`... 
+
+So all you gotta do, is this:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_25.PNG">![screenshot of step 25](https://stormy9.github.io/CS460/references/git/images/git_ref_25.PNG)</a>  
+note how we have to flip to the `master` branch, before we do the `merge` -- always be **IN** the `master` branch when you `merge`!
+
+<br>
+
+and now my GitHub page looks like:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_26.PNG">![screenshot of step 26](https://stormy9.github.io/CS460/references/git/images/git_ref_26.PNG)</a>
+
+cool, huh?   [=  
+
+<br>
+
+---
+---
+### Deleting your Branch when you're done with it:  
+So after that `merge`... look, the `shelties` branch is still showing on my GitHub page:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_27.PNG">![screenshot of step 27](https://stormy9.github.io/CS460/references/git/images/git_ref_27.PNG)</a>
+and it now includes everything from `master`.
+
+in some cases, of course, you want to leave the `branch` you're working on there, for a while -- you may have more work and want to do more than one `merge` to `master` with it, before you're done.  
+
+However, when you're all done with the work on said `branch`, you should delete it... here's how!  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_28.PNG">![screenshot of step 28](https://stormy9.github.io/CS460/references/git/images/git_ref_28.PNG)</a>  
+oops!  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_29.PNG">![screenshot of step 29](https://stormy9.github.io/CS460/references/git/images/git_ref_29.PNG)</a>  
+
+(or whatever it's **upstream** `branch` is, per <a href="https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely" target="_blank">this StackOverflow discussion</a> that Matt from GitHub's help desk sent me... so you can merge one `branch` into another `branch` that is not `master`?  cool!)
+
+<br>
+
+note that the `-d` tag will **not** delete a `branch` that is not fully `merge`d.
+in other words, it will **only** delete a `branch` **iff** it has been fully `merge`d with `master`.  
+if the `branch` you're trying to delete isn't fully merged, your git bash will return something like this:  
+```
+error: The branch 'testing' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D testing'.
+```
+
+<br>
+
+And now see how my GitHub page looks:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_30.PNG">![screenshot of step 30](https://stormy9.github.io/CS460/references/git/images/git_ref_30.PNG)</a>  
+note how there is no `shelties` branch to flip to, anymore.  
+
+<br>
+
+---
+---
+### some frequently-used git commands are:  
 ```
 git init
+git remote
 git status
 git add
 git commit
 git push
 git pull
 git fetch
-git remote
 git log
 ```
+---
+and here is an example of what `git log` returns:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_31.PNG">![screenshot of step 31](https://stormy9.github.io/CS460/references/git/images/git_ref_31.PNG)</a>  
+
+do this from the `master` branch, btw.  
+
+<br>
+
+---
+and `git init` is only used the one time, when setting up your local repo, as described up-top.  
+
+<br>
+
+---
+the `git config` is used to set your user name and email for your account, and is typically only done once, although if you need to change it, you can, of course...  
+
+you can see what you've got `config`'d like this:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_32.PNG">![screenshot of step 32](https://stormy9.github.io/CS460/references/git/images/git_ref_32.PNG)</a>  
+note how you can check just a single setting... 
+... and also check where/how/why a setting came from!
+
+And if you want to change a setting, you go:  
+```
+$ git config --global user.name "Stormy"
+```
+for instance.  
+*(i didn't really want to change anything!)*
+
+And here is my actual C:/users/tricia/.gitconfig file!  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_33.PNG">![screenshot of step 33](https://stormy9.github.io/CS460/references/git/images/git_ref_33.PNG)</a>
+you can edit it directly, if you like, too.  
+
+<br>
+
+<a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank">here's</a> more about it, from the official Git Book.  
+Although <a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config" target="_blank">this Atlassian tutorial page</a> explains the `config` levels more clearly, to me.
+
+<br>
+
+---
+and `git pull` is just like `git push` -- except it goes the opposite direction... 
+
+so, say you change something, for some reason, remotely -- like, from your GitHub page... you can do this, of course -- any file that is text-based (as opposed to an image -- so like `.txt`, `.md`, `.html`, `.css`, `.js`, `.java` files -- but not `.jpg` or `.png` or `.gif` files)  
+
+Just click on the little pencil in the upper-right area, and it will open up and look like this:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_34.PNG">![screenshot of step 34](https://stormy9.github.io/CS460/references/git/images/git_ref_34.PNG)</a>
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_35.PNG">![screenshot of step 35](https://stormy9.github.io/CS460/references/git/images/git_ref_35.PNG)</a>  
+
+<br>
+
+note just doing `status` won't reveal anything has changed, remotely: <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_36.PNG">![screenshot of step 36](https://stormy9.github.io/CS460/references/git/images/git_ref_36.PNG)</a>
+
+and the next time you change something locally, and want to `push`, it will say this:   
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_37.PNG">![screenshot of step 37](https://stormy9.github.io/CS460/references/git/images/git_ref_37.PNG)</a>  
+
+so you do this:
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_38.PNG">![screenshot of step 38](https://stormy9.github.io/CS460/references/git/images/git_ref_38.PNG)</a>
+see how it's just like the `push`?   [=  
+(except i forgot that it will open an editor for a "merge message", which is like a "commit message" -- but no biggie)
+
+and now you can do your `push`:  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_39.PNG">![screenshot of step 39](https://stormy9.github.io/CS460/references/git/images/git_ref_39.PNG)</a>
+
+<br>
+
+and now see `tippy_ears.md` on the GitHub page?  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_40.PNG">![screenshot of step 40](https://stormy9.github.io/CS460/references/git/images/git_ref_40.PNG)</a>
+the new stuff i `cat appended` to it, is now all there from the `add/commit/push`
+
+<br>
+
+---
+now, `git fetch`, I need to look up a little more, and play with a little, to fully understand how to use it..... 
+
+specifically, the distinction between `fetch` and `pull`!
+
+<a href="https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_fetching_and_pulling" target="_blank">The Official Git Book -- Fetching & Pulling</a>  
+
+<a href="https://www.atlassian.com/git/tutorials/syncing/git-fetch" target="_blank">The Atlassian Tutorial - Git Fetch</a>
+
+<a href="https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch" target="_blank">StackOverflow -- What is the difference between `git pull` and `git fetch`?</a>  
+
+the StackOverflow conversation recommends <a href="https://longair.net/blog/2009/04/16/git-fetch-and-merge/" target="_blank">this article at Mark's Blog</a>.
+
+and there's <a href="https://stackabuse.com/git-difference-between-git-fetch-and-git-pull/" target="_blank">this at StackAbuse</a>.
+
+<br>
+
+But this is the upshot:
+> In the simplest terms, git pull does a git fetch followed by a git merge.
+>
+>You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/< remote >/.
+>
+>This operation never changes any of your own local branches under refs/heads, and is safe to do without changing your working copy. I have even heard of people running git fetch periodically in a cron job in the background (although I wouldn't recommend doing this).
+>
+>A git pull is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
+> 
+> -- @Greg Hewgill
+
+and:
+> When you use pull, Git tries to automatically do your work for you. It is context sensitive, so Git will merge any pulled commits into the branch you are currently working in.  pull automatically merges the commits without letting you review them first. If you don’t closely manage your branches, you may run into frequent conflicts.
+>
+>When you fetch, Git gathers any commits from the target branch that do not exist in your current branch and stores them in your local repository. However, it does not merge them with your current branch. This is particularly useful if you need to keep your repository up to date, but are working on something that might break if you update your files. To integrate the commits into your master branch, you use merge. 
+>
+> -- @Mouna Cheikhna 
+
+both quotes from the linked StackOverflow page.  
 
 <br>
 
@@ -184,6 +384,28 @@ There's also a way via editing your `.bashrc` file.
 But being in Windows, the "properties" thing was quicker & super-easy.  Note I had to get the correct shortcut pinned to my taskbar!  And I've changed a `.bashrc` file before, but it's been a while.  
 
 You can also go in and set your default opening window size via "properties!!
+
+<br>
+
+---
+---
+### my favorite overall Git pages:  
+<a href="https://git-scm.com/book/en/v2" target="_blank">The Official Git Book</a> (all online!  and git host-agnostic)  
+note you can search the full site, and it will return stuff that may not be in the official book "chapters"!
+
+<a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank">The Atlassian Git Tutorial</a> (affiliated w/BitBucket -- they have one section specifically about BitBucket as opposed to GitHub)  
+
+<a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank">And this one at HubSpot</a>  
+*(for a **very** quick run-through of getting set up and stuff -- GitHub-based)*  
+
+The <a href="http://gitimmersion.com/index.html" target="_blank">Git Immersion page</a> is pretty good, too... easy-to-get and follow, straight-forward & concies -- even though it does Ruby stuff   [=  
+*(which you have to install an interpeter for, kinda like Python or Haskell)*
+
+<br>
+
+Plus, both GitHub & BitBucket help desk people are friendly and quickly responsive, and patient & kind!   [=  
+
+And of course just googling a question, or an error message, or whatever -- StackOverflow is virtually assured to have something directly helpful.   [=  
 
 <br>
 
