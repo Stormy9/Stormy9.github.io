@@ -91,12 +91,7 @@ i just like using the `*` since that means "all" in so many other applications.
 and my GitHub page now:  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_13.PNG">![screenshot of step 13](https://stormy9.github.io/CS460/references/git/images/git_ref_13.PNG)</a>  
 
-note I'm still working on fully understanding the `-u` flag... I think I get it, but often forget to stick it in there.  
-
-will not sticking it in there sometimes, hurt anything important in the long run?  i guess i'll find out.....  
-
-<br>
-
+---
 **Addendum/PS:**  
 I wanted to show, that doing `git add *` will **only** add the files for the repo/directory you're currently in -- and it's sub-directories -- and **not** "cousin" files... see?
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_14.PNG">![screenshot of step 14](https://stormy9.github.io/CS460/references/git/images/git_ref_14.PNG)</a>  
@@ -336,6 +331,91 @@ both quotes from the linked StackOverflow page.
 <br>
 
 ---
+### the `-u` flag for `push`:  
+**note:**  I'm still working on fully understanding the `-u` flag... I think I get it, but usually forget to type it in there.  
+
+I mean, I know it's about "upstream tracking reference"... but I don't entirely get what that is, and it's importance, and what happens if you leave `-u` off... 
+
+will not sticking it in there sometimes, hurt anything important in the long run?  do you *have* to put it in there every time?  or just when setting things up?  i guess i'll find out.....  
+
+<br>
+
+<a href="https://stackoverflow.com/questions/18867824/what-does-the-u-flag-mean-in-git-push-u-origin-master" target="_blank">screw the StackOverflow users who voted to close this question...</a>
+
+do you know how long & deeply I had to search to find an answer to this simple question that should just be clearly explained somewhere from the get-go?
+
+That page linked to <a href="https://git-scm.com/docs/git-push#Documentation/git-push.txt--u" target="_blank">this</a>, in the Official Git Book (note it's not in one of the actual chapters, but part of the official documentation -- scroll down to `-u`)  
+
+it said this:  
+> For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull[1] and other commands. For more information, see branch.< name >.merge in git-config[1].
+
+the <a href="https://git-scm.com/docs/git-config#Documentation/git-config.txt-branchltnamegtmerge" target="_blank">more info</a> said this:  
+> `branch.< name >.merge`  
+> Defines, together with `branch.< name >.remote`, the upstream `branch` for the given `branch`. 
+>
+> It tells `git fetch/git pull/git rebase` which branch to `merge` and can also affect `git push` (see push.default). 
+>
+> When in `branch < name >`, it tells `git fetch` the default `refspec` to be marked for merging in `FETCH_HEAD`. The value is handled like the remote part of a `refspec`, and must match a ref which is fetched from the remote given by `branch.< name >.remote`. 
+>
+> The `merge` information is used by `git pull` (which at first calls `git fetch`) to lookup the default branch for merging. 
+>
+> Without this option, `git pull` defaults to `merge` the first `refspec` fetched. Specify multiple values to get an octopus `merge`. 
+>
+> If you wish to setup `git pull` so that it `merge`s into `< name >` from another `branch` in the local repository, you can point `branch.< name >.merge` to the desired `branch`, and use the relative path setting `.` (a period) for `branch.< name >.remote`.
+
+<br>
+
+StackOverflow summed it up thusly:  
+> ...after pushing your local branch with -u option, this local branch will be automatically linked with remote branch, and you can use git pull without any arguments. 
+>
+> --@Shunya
+
+and:
+> It's the same as `--set-upstream`  
+> It's used to set origin as the upstream remote in your git config.  
+> It may help if you don't want to manually specify the remote every time you run git push.
+> 
+> --@Ahmed Siouani
+
+<br>
+
+Ooo!  you can also do:  
+```
+$ git push --help
+```
+and some cool stuff comes up.  
+
+<br>
+
+<a href="https://www.jquery-az.com/git-push-command/" target="_blank">There's also this blog...</a>  
+the part that caught my eye was this:  
+> The -u flag is used to set origin as the upstream remote in your git config.
+
+<br>
+
+and <a href="https://www.reddit.com/r/git/comments/3z43fa/in_the_command_git_push_u_origin_master_what_does/" target="_blank">this Reddit page</a> answered the question about needing to do it all the time or not -- and the question is phrased almost exactly as I had it in my own brain.   [=  
+
+> "Upstream" is a reference that specifies which `branch` on which remote repository a local branch tracks. In effect, it represents a 'link' between the local and remote branches.
+>
+> The command `git push -u origin master` sets the upstream of the current local `branch`, so that it tracks the `master` branch of the remote repository `origin`.
+>
+> Typically, you only need to set the upstream once. Once it has been set, the `-u` is superfluous. 
+>
+> Indeed, so is `origin master`; once you've set the upstream on the local branch, you can simply use `git push`. The default target for `push` (and `pull`) is the upstream `branch` (unless you change the default settings).
+>
+> Personally, whenever I create a new `branch` that I also want on a remote, the first command I run after checking out that new branch is `git push -u [remote name] [branch name]`. Not only does that set the upstream for the `branch`, but if that `branch` name doesn't exist on the remote, Git creates it.
+> 
+> --@pi3832v2
+
+<br>
+
+Seriously -- I like quick, concise, clear-for-noobs answers... as Reddit user corzia noted, the man/help/documentation pages can be "monstrous" to hunt through, when all you want & need is a quick explanation!  
+
+But sometimes those are difficult to find.   [=  
+
+<br>
+
+---
 ---
 ### Making a Git**Hub** Repo from the Command Line:  
 
@@ -395,11 +475,15 @@ note you can search the full site, and it will return stuff that may not be in t
 
 <a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank">The Atlassian Git Tutorial</a> (affiliated w/BitBucket -- they have one section specifically about BitBucket as opposed to GitHub)  
 
+<a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html" target="_blank">Atlassian also has a handy cheat-sheet</a>
+
 <a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank">And this one at HubSpot</a>  
 *(for a **very** quick run-through of getting set up and stuff -- GitHub-based)*  
 
 The <a href="http://gitimmersion.com/index.html" target="_blank">Git Immersion page</a> is pretty good, too... easy-to-get and follow, straight-forward & concies -- even though it does Ruby stuff   [=  
-*(which you have to install an interpeter for, kinda like Python or Haskell)*
+*(which you have to install an interpeter for, kinda like Python or Haskell)*  
+
+And I found this nifty online book:  <a href="https://anotheruiguy.gitbooks.io/gitforeveryone/index.html" target="_blank">Git For Everyone</a>
 
 <br>
 
