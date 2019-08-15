@@ -1,11 +1,13 @@
 # git notes  
 how to do the basic stuff in Git...  
-and maybe later some not-as-basic stuff.   [=   
+... and GitHub, and later BitBucket... 
+
+... and maybe later some not-as-basic stuff.   [=   
 
 ---
 ---
 ### Start a Git Repo Locally:  
-[image 01]
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_01.PNG">![screenshot of step 1](https://stormy9.github.io/CS460/references/git/images/git_ref_01.PNG)</a>
 make a directory in your local repo spot (note path)...  
 -- this directory will become your local repo --
 then flip over to that directory aka repo...  
@@ -15,14 +17,16 @@ then initialize your repo locally.
 
 then go to GitHub, and from your account, create a new repo -- naming it the same thing you named your local directory  
 (not sure you **have** to, but doesn't it make sense you would?)  
-[image 02]
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_02.PNG">![screenshot of step 2](https://stormy9.github.io/CS460/references/git/images/git_ref_02.PNG)</a>
 
 then you get this:  
-[image 03]
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_03.PNG">![screenshot of step 3](https://stormy9.github.io/CS460/references/git/images/git_ref_03.PNG)</a>
 
 obviously, we will follow the "…or push an existing repository from the command line" instructions.
-**[image 4]**
-at first I thought it was just an issue of not doing a `commit`, so as you can see, I tried that too... *but*... 
+
+like so:
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_04.PNG">![screenshot of step 4](https://stormy9.github.io/CS460/references/git/images/git_ref_04.PNG)</a>
+at first I thought the problem here, was just an issue of not doing a `commit`, so as you can see, I tried that too... *but*... 
 
 (<a href="https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git" target="_blank">lookie this StackOverflow discussion)</a>  
 (<a href="https://georgik.rocks/common-mistake-when-creating-new-git-repo/" target="_blank">and this article</a>)
@@ -37,10 +41,10 @@ I guess that makes sense -- I just wanted to know for sure what it would do... s
 
 ---
 
-**[image 5]**  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_05.PNG">![screenshot of step 5](https://stormy9.github.io/CS460/references/git/images/git_ref_05.PNG)</a>  
 so I fixed the "nothing in my local repo" issue.....  
 
-**[image 6]**  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_06.PNG">![screenshot of step 6](https://stormy9.github.io/CS460/references/git/images/git_ref_06.PNG)</a>  
 and then did `status`... `add`... `commit`... and `push`!
 (you don't **have** to do `status`, I just wanted to show it)  
 
@@ -50,28 +54,32 @@ To https://github.com/Stormy9/footle.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
+<br>
 
 and lookie now, how my GitHub page looks!  
-**[image 7]**  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_07.PNG">![screenshot of step 7](https://stormy9.github.io/CS460/references/git/images/git_ref_07.PNG)</a>  
 
 <br>
 
-**[image 8]**  
-**[image 9]**  
+we continue...
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_08.PNG">![screenshot of step 8](https://stormy9.github.io/CS460/references/git/images/git_ref_08.PNG)</a>  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_09.PNG">![screenshot of step 9](https://stormy9.github.io/CS460/references/git/images/git_ref_09.PNG)</a>  
 note I only added **one** of the files, at first...
-this is so I could show `status` and `add`ing one file vs. multiple files (note just a single space between file names).  
+this is so I could show `status` and `add`ing one file vs. multiple files (note there's just a single space between file names).  
 plus to show how `status` looks at various steps.  
 
 note I also edited the `woof.md` file, so you can see how that looks when `status` returns, and that you have to `add` that in order to get it to your GitHub (remote) repo.  
 
-**[image 10]**
+<br>
+
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_10.PNG">![screenshot of step 10](https://stormy9.github.io/CS460/references/git/images/git_ref_10.PNG)</a>
 my GitHub page now...  
 
 <br>
 
 now watch this:  
-**[image 11]**  
-**[image 12]**  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_11.PNG">![screenshot of step 11](https://stormy9.github.io/CS460/references/git/images/git_ref_11.PNG)</a>  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_12.PNG">![screenshot of step 12](https://stormy9.github.io/CS460/references/git/images/git_ref_12.PNG)</a>  
 this shows `add` for all files that need adding -- note it catches both edited files, and new files.  
 
 you can also do `git add -A` or `git add .`
@@ -81,13 +89,25 @@ i just like using the `*` since that means "all" in so many other applications.
 <br>
 
 and my GitHub page now:  
-**[image 13]**  
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_13.PNG">![screenshot of step 13](https://stormy9.github.io/CS460/references/git/images/git_ref_13.PNG)</a>  
+
+note I'm still working on fully understanding the `-u` flag... I think I get it, but often forget to stick it in there.  
+
+will not sticking it in there sometimes, hurt anything important in the long run?  i guess i'll find out.....  
+
+<br>
+
+**Addendum/PS:**  
+I wanted to show, that doing `git add *` will **only** add the files for the repo/directory you're currently in -- and it's sub-directories -- and **not** "cousin" files... see?
+<a href="https://stormy9.github.io/CS460/references/git/images/git_ref_14.PNG">![screenshot of step 14](https://stormy9.github.io/CS460/references/git/images/git_ref_14.PNG)</a>  
 
 <br>
 
 ---
 ---
 ### Doing a Git Branch:  
+So yeah, I pretty thoroughly covered this along with homework_02... however, I wanted a **Quick** reference here!  hahaha!   [=  
+
 
 
 
