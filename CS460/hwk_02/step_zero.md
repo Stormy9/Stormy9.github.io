@@ -5,7 +5,9 @@ So before I did anything else, I wanted to play around with `branch`ing - making
 
 To do this, I made a repo called `exp` and a branch in there called `working`.
 
-First, I had to be reminded that you can NOT create/start a repo on your Github directly from the command line -- you have to go into Github and make it via their GUI, and __then__ you can do what you want with it from the command line.   [=
+First, I had to be reminded that you can NOT create/start a repo on your Github directly from the command line -- a __Git__ repo, yes, of course... but not a Git**Hub** repo -- you have to go into Github and make it via their website, and __then__ you can do what you want with it from the command line (or Git Bash).   [=  
+
+(Note:  <a href="https://Stormy9.github.io/CS460/hwk_02/references/git/">I found out this is not entirely true!)</a>
 
 So once i did that, it was easier.  (ha!)  I just had to review some of the basic `git` commands, since it had been a couple/few weeks since I'd last used any.  
 

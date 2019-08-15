@@ -1,4 +1,4 @@
-### this is where notes about bootstrap will go.....
+# bootstrap notes  
 
 bootstrap example (borrowed from W3Schools)
 ```html

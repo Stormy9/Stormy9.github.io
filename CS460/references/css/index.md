@@ -1,4 +1,4 @@
-### this is where notes about css will go.....
+# css notes  
 
 here's some example CSS (borrowed from W3Schools)
 ```css

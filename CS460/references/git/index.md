@@ -98,6 +98,14 @@ I wanted to show, that doing `git add *` will **only** add the files for the rep
 
 <br>
 
+**Note:**  it's best/most convenient, to `cd` to the directory/repo you're working with, before doing `git status` and especially `git add`, to `add` in new/edited/deleted files for a `commit`.  
+
+You can do it otherwise, but it's just easiest!   [=  
+
+(because from another directory/repo, you have to type in the full path if you want to `add` a file!)
+
+<br>
+
 ---
 ---
 ## Doing a Git Branch:  

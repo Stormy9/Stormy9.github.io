@@ -1,4 +1,4 @@
-### this is where notes about html will go.....
+# html notes  
 
 here's some example HTML:
 ```html
