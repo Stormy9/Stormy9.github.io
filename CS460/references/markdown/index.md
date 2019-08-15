@@ -76,7 +76,7 @@ It also looks different in the preview mode of VSCode as it will in your `push`e
 typically, all you have to do is hit enter once, 
 for a new line to start.
 
-not so in Markdown!  That sentence you see up there, I typed like this:
+not so in Markdown!  That sentence you see up there, I actually typed like this:
 ```
 typically, all you have to do is hit enter once, 
 for a new line to start.
@@ -92,6 +92,10 @@ so I have to put two spaces at the end of each line.
 i want this stuff on separate lines,  
 but not *separated* by a blank line,  
 so I have to put two spaces at the end of each line.  
+
+Sometimes, it gets me, because even without the two spaces, it shows up correctly on my VSCode Preview Pane -- but not in the browser after I `push`!  
+
+*(specially around things like images, tables, lists)*
 
 <br>
 
@@ -538,7 +542,7 @@ stuff in 1st column | stuff in 2nd column | stuff in 3rd column
 stuff in cell 4 |     | stuff in cell 6
 stuff in cell 7 | stuff in cell 8 | stuff in cell 9
 ```
-and it looks like this:
+and it looks like this:  
 First Header | Second Header | Third Header
 ------------ | ------------- | ------------
 stuff in cell 1 | stuff in cell 2 | stuff in cell 3
