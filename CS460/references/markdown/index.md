@@ -535,24 +535,27 @@ which of course you can add the `target` attribute to make it open in a new tab 
 ### (GitHub-specific)
 you can make the number of colums/rows you want... 
 ```
-First Header | Second Header | Third Header
+First Header | Second Header | Third Header  
 ------------ | ------------- | ------------
-stuff in cell 1 | stuff in cell 2 | stuff in cell 3
-stuff in 1st column | stuff in 2nd column | stuff in 3rd column
-stuff in cell 4 |     | stuff in cell 6
-stuff in cell 7 | stuff in cell 8 | stuff in cell 9
+stuff in cell 1 | stuff in cell 2 | stuff in cell 3  
+stuff in 1st column | stuff in 2nd column | stuff in 3rd column  
+stuff in cell 4 |     | stuff in cell 6  
+stuff in cell 7 | stuff in cell 8 | stuff in cell 9  
 ```
 and it looks like this:  
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-stuff in cell 1 | stuff in cell 2 | stuff in cell 3
-stuff in 1st column | stuff in 2nd column | stuff in 3rd column
-stuff in cell 4 |     | stuff in cell 6
-stuff in cell 7 | stuff in cell 8 | stuff in cell 9
+First Header | Second Header | Third Header  
+------------ | ------------- | ------------  
+stuff in cell 1 | stuff in cell 2 | stuff in cell 3  
+stuff in 1st column | stuff in 2nd column | stuff in 3rd column  
+stuff in cell 4 |     | stuff in cell 6  
+stuff in cell 7 | stuff in cell 8 | stuff in cell 9  
 
 note the blank cell!   [=  
 
 and note you don't have to align the stuff as you type it -- but it will render aligned.  I mean, you *can*, if you can't stand seeing sloppy-looking stuff, but you don't have to and it saves time & picky-ness.   [=  
+
+__BUT__ -- you *do* have to put the two blank spaces at the end of each line, in order for it to render correctly in the browser after you `push`  
+*(it looked fine without them in VSCode Preview!)*  
 
 <br>
 
