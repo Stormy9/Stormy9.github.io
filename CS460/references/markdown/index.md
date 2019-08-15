@@ -542,7 +542,8 @@ stuff in 1st column | stuff in 2nd column | stuff in 3rd column
 stuff in cell 4 |     | stuff in cell 6  
 stuff in cell 7 | stuff in cell 8 | stuff in cell 9  
 ```
-and it looks like this:  
+and it looks like this:   
+
 First Header | Second Header | Third Header  
 ------------ | ------------- | ------------  
 stuff in cell 1 | stuff in cell 2 | stuff in cell 3  
@@ -554,8 +555,12 @@ note the blank cell!   [=
 
 and note you don't have to align the stuff as you type it -- but it will render aligned.  I mean, you *can*, if you can't stand seeing sloppy-looking stuff, but you don't have to and it saves time & picky-ness.   [=  
 
-__BUT__ -- you *do* have to put the two blank spaces at the end of each line, in order for it to render correctly in the browser after you `push`  
+__BUT__ -- you *do* have to put the two blank spaces at the end of each line, in order for it to render correctly in the browser after you `push`...
+
+__AND__ -- you *do* have to have a blank line immediately before your table, or it will not render correclty in the browser, either!
 *(it looked fine without them in VSCode Preview!)*  
+
+(<a href="https://help.github.com/en/articles/organizing-information-with-tables" target="_blank">more fine-tuning of tables -- GitHub-specific</a>)
 
 <br>
 
