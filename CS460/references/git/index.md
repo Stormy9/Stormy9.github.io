@@ -6,7 +6,7 @@ how to do the basic stuff in Git...
 
 ---
 ---
-### Start a Git Repo Locally:  
+## Start a Git Repo Locally:  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_01.PNG">![screenshot of step 1](https://stormy9.github.io/CS460/references/git/images/git_ref_01.PNG)</a>
 make a directory in your local repo spot (note path)...  
 -- this directory will become your local repo --
@@ -100,7 +100,7 @@ I wanted to show, that doing `git add *` will **only** add the files for the rep
 
 ---
 ---
-### Doing a Git Branch:  
+## Doing a Git Branch:  
 So yeah, I pretty thoroughly covered this along with homework_02... however, I wanted a **Quick** reference here!  hahaha!   [=  
 
 Making the new branch locally... 
@@ -149,7 +149,7 @@ isn't that cool so far?
 
 ---
 ---
-### Merging your Git Branch to Master:
+## Merging your Git Branch to Master:
 This is super-simple, actually, so long as two things:  
 * you don't have files in the two different branches, with identical names  
     * if you do, when you do your `merge`, Git will not complete the merge, and return a file showing where the differences between the two versions are -- it is then up to you to finalize the file... see my <a href="http://Stormy9.github.io/CS460/hwk_02/step_zero.html">hwk_02-Step_Zero page</a>.   [=  
@@ -174,7 +174,7 @@ cool, huh?   [=
 
 ---
 ---
-### Deleting your Branch when you're done with it:  
+## Deleting your Branch when you're done with it:  
 So after that `merge`... look, the `shelties` branch is still showing on my GitHub page:  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_27.PNG">![screenshot of step 27](https://stormy9.github.io/CS460/references/git/images/git_ref_27.PNG)</a>
 and it now includes everything from `master`.
@@ -208,7 +208,7 @@ note how there is no `shelties` branch to flip to, anymore.
 
 ---
 ---
-### some frequently-used git commands are:  
+## some frequently-used git commands are:  
 ```
 git init
 git remote
@@ -221,7 +221,8 @@ git fetch
 git log
 ```
 ---
-and here is an example of what `git log` returns:  
+### `git log`  
+here's an example of what `git log` returns:  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_31.PNG">![screenshot of step 31](https://stormy9.github.io/CS460/references/git/images/git_ref_31.PNG)</a>  
 
 do this from the `master` branch, btw.  
@@ -229,12 +230,14 @@ do this from the `master` branch, btw.
 <br>
 
 ---
-and `git init` is only used the one time, when setting up your local repo, as described up-top.  
+### `git init`  
+`git init` is only used the one time, when setting up your local repo, as described up-top.  
 
 <br>
 
 ---
-the `git config` is used to set your user name and email for your account, and is typically only done once, although if you need to change it, you can, of course...  
+### `git config`  
+`git config` is used to set your user name and email for your account, and is typically only done once, although if you need to change it, you can, of course...  
 
 you can see what you've got `config`'d like this:  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_32.PNG">![screenshot of step 32](https://stormy9.github.io/CS460/references/git/images/git_ref_32.PNG)</a>  
@@ -260,7 +263,8 @@ Although <a href="https://www.atlassian.com/git/tutorials/setting-up-a-repositor
 <br>
 
 ---
-and `git pull` is just like `git push` -- except it goes the opposite direction... 
+### `git pull`  
+`git pull` is just like `git push` -- except it goes the opposite direction... 
 
 so, say you change something, for some reason, remotely -- like, from your GitHub page... you can do this, of course -- any file that is text-based (as opposed to an image -- so like `.txt`, `.md`, `.html`, `.css`, `.js`, `.java` files -- but not `.jpg` or `.png` or `.gif` files)  
 
@@ -292,6 +296,7 @@ the new stuff i `cat appended` to it, is now all there from the `add/commit/push
 <br>
 
 ---
+### `git fetch`
 now, `git fetch`, I need to look up a little more, and play with a little, to fully understand how to use it..... 
 
 specifically, the distinction between `fetch` and `pull`!
@@ -417,7 +422,7 @@ But sometimes those are difficult to find.   [=
 
 ---
 ---
-### Making a Git**Hub** Repo from the Command Line:  
+## Making a Git**Hub** Repo from the Command Line:  
 
 Turns out you **can** start not just a **Git** repo, but a Git**Hub** repo, from your command line or Git Bash!  
 
@@ -448,7 +453,7 @@ Another way, that many say is better -- and it seems like it would be -- is to d
 
 ---
 ---
-### Customizing Your Git Bash:  
+## Customizing Your Git Bash:  
 doing cd in my Git Bash looks like this:
 <a href="https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG">![screenshot of step 0](https://stormy9.github.io/CS460/hwk_02/images/hwk_02-Step_00.PNG)</a>  
 
@@ -469,7 +474,7 @@ You can also go in and set your default opening window size via "properties!!
 
 ---
 ---
-### my favorite overall Git pages:  
+## my favorite overall Git pages:  
 <a href="https://git-scm.com/book/en/v2" target="_blank">The Official Git Book</a> (all online!  and git host-agnostic)  
 note you can search the full site, and it will return stuff that may not be in the official book "chapters"!
 
