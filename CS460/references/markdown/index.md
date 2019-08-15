@@ -517,7 +517,7 @@ like to a larger version of the same image -- good for screenshots sometimes
 <img src="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.jpg" title="My Baby-Jack (like the cheese) as a puppy" alt="Baby-Jack Like the Cheese">
 </a>
 ```
-just wrap the whole image tag in `<a></a>` tags!
+just wrap the whole image tag in `<a></a>` tags!  
 <a href="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.jpg">
 <img src="https://stormy9.github.io/CS460/references/markdown/Baby_Jack_Like_the_Cheese_cr.jpg" title="My Baby-Jack (like the cheese) as a puppy" alt="Baby-Jack Like the Cheese">
 </a>  
@@ -587,8 +587,8 @@ see how it doesn't do italics there?   [=
 
 <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Adam Pritchard's Markdown Cheat-Sheet</a>
 
-<a href="https://help.github.com/en/categories/writing-on-github" target="_blank">GitHub Help -- Writing on GitHub</a>
-
+<a href="https://help.github.com/en/categories/writing-on-github" target="_blank">GitHub Help -- Writing on GitHub</a>  
+(a couple sections especially)
 
 
 <br>
