@@ -11,11 +11,12 @@ But Markdown is faster & easier than `html` -- although it also has many limitat
 
 There's several different "flavors" of Markdown, that add in some different features/functionality... we're just gonna talk about the basic "vanilla" + GitHub-specific stuff here.  
 
-Note that if you're using Markdown for your Jekyll pages on your `github.io site`, the way certain things show up will look different -- this includes: 
-* lists (the bullet markers)
-* headings (exact size and weight -- and adding a line under various levels, just the top, or sometimes the top two)
-* inline code (horizontal spacing, color, size)
-* quote blocks (colors/styling)
+Note that if you're using Markdown for your Jekyll pages on your `github.io site`, the way certain things show up will look different -- this includes:  
+* lists (the bullet markers)  
+* headings (exact size and weight -- and adding a line under various levels, just the top, or sometimes the top two)  
+* inline code (horizontal spacing, color, size)  
+* quote blocks (colors/styling)  
+* tables (line/column/heading dividers, alternate row shading)  
 
 <br>
 
