@@ -61,12 +61,12 @@ There isn't anything for underlining -- underlining on web pages is typically re
 ##### and this is an <h5>  
 ###### and finally an <h6>  
 ```
-# equivalent to < h1 > tag  
-## here's an < h2 > tag  
-### and an < h3 > tag  
-#### here you see an < h4 >  
-##### and this is an < h5 >  
-###### and finally an < h6 >  
+# equivalent to \<h1> tag  
+## here's an \<h2> tag  
+### and an \<h3> tag  
+#### here you see an \<h4>  
+##### and this is an \<h5>  
+###### and finally an \<h6>  
 
 I've noted that if you're using markdown for Jekyll -- the GitHub page template thing -- the way the headers look varies by theme.  Which only makes sense.   
 
@@ -127,7 +127,7 @@ i like extra vertical spacing between some paragraphs, to break up sections... i
 
 <br>
 
-so you have to use the html \<br>\ tag!
+so you have to use the html \<br> tag!
 
 note the blank line on either side -- without that, it won't render correctly.
 
