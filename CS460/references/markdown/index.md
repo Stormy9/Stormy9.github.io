@@ -127,7 +127,7 @@ i like extra vertical spacing between some paragraphs, to break up sections... i
 
 <br>
 
-so you have to use the html <br> tag!
+so you have to use the html \<br>\ tag!
 
 note the blank line on either side -- without that, it won't render correctly.
 
