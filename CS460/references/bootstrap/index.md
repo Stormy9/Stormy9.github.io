@@ -243,64 +243,68 @@ You can see examples of applying various `class` attributes throughout this refe
 But here's something I did in one of W3School's `repl`s:
 ```html
 <body>
-	<div class="container-fluid">
+    <div class="container-fluid">
 		<!-- row one -->
     	<div class="row">
-    		<div class="col" style="background-color: purple; color: white">
-        		<h3>this row is a single column spanning the page</h3>
-            	<p>note default text alignment is left for everything</p>
-    			<p class="text-center">this is center alignment</p>
-            	<p class="text-right">this is right-aligned text</p>
-        	</div><!-- end of column div -->
+            <div class="col" style="background-color: purple; color: white">
+                <h3>this row is a single column spanning the page</h3>
+                <p>note default text alignment is left for everything</p>
+                <p class="text-center">this is center alignment</p>
+                <p class="text-right">this is right-aligned text</p>
+            </div><!-- end of column div -->
     	</div><!-- end of first row div -->
     
     	<!-- row two -->
-  		<div class="row">    
-   			<div class="col-md-4" style="background-color: #ff8080; color: white">
-      			<h3>column one</h3>
-      			<p>a bunch of stuff in the first column</p>
-      			<p>here's another paragraph of stuff</p>
-    		</div><!-- end of column one div -->
+        <div class="row">    
+            <div class="col-md-4" style="background-color: #ff8080; color: white">
+                <h3>column one</h3>
+                <p>a bunch of stuff in the first column</p>
+                <p>here's another paragraph of stuff</p>
+            </div><!-- end of column one div -->
         
-    		<div class="col-md-4" style="background-color: #ffffb3; color: purple">
-      			<h3>column two</h3>
-      			<p>here's some crap in the second column</p>
-      			<p>and here's another paragraph of crap</p>
-    		</div><!-- end of column two div -->
+            <div class="col-md-4" style="background-color: #ffffb3; color: purple">
+                <h3>column two</h3>
+                <p>here's some crap in the second column</p>
+                <p>and here's another paragraph of crap</p>
+            </div><!-- end of column two div -->
     
-    		<div class="col-md-4" style="background-color: #ff944d; color: blue">
-      			<h3>column three</h3>        
-      			<p>let's put some stuff in column three too</p>
-      			<p>and balance it out with another paragraph, too</p>
-    		</div><!-- end of column three div -->       
-  		</div><!-- end of second row div -->
+            <div class="col-md-4" style="background-color: #ff944d; color: blue">
+                <h3>column three</h3>        
+                <p>let's put some stuff in column three too</p>
+                <p>and balance it out with another paragraph, too</p>
+            </div><!-- end of column three div -->       
+        </div><!-- end of second row div -->
     
     	<!-- row three -->
     	<div class="row">
-    		<div class="col-md-5" style="background-color: #ff944d; color: blue">
-        		<h3>column four</h3>
-        		<p>this column is five wide</p>
-            	<p> here is some more stuff to go in it:</p>
-            	<p>things doggies say:</p>
-            		<ul>
-            			<li>woof</li>
-                		<li>bark</li>
-                		<li>arf</li>
-     				</ul>
-     		</div><!-- end of column four div -->
+            <div class="col-md-5" style="background-color: #ff944d; color: blue">
+                <h3>column four</h3>
+                <p>this column is five wide</p>
+                <p> here is some more stuff to go in it:</p>
+                <p>things doggies say:</p>
+                    <ul>
+                        <li>woof</li>
+                        <li>bark</li>
+                        <li>arf</li>
+                    </ul>
+            </div><!-- end of column four div -->
         
-        	<div class="col-md-6" style="background-color: #ff8080; color: white">
-        		<h3>column five</h3>
-            	<p>this column is six wide</p>
-            	<p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
-       		</div><!-- end of column five div -->
+            <div class="col-md-6" style="background-color: #ff8080; color: white">
+                <h3>column five</h3>
+                <p>this column is six wide</p>
+                <p>blah blah blah blah blah blah blah blah blah blah blah 
+                    blah blah blah blah blah blah blah blah blah blah blah 
+                    blah blah blah blah blah blah blah blah blah blah blah 
+                    blah blah blah blah blah blah blah blah blah blah blah 
+                    blah </p>
+            </div><!-- end of column five div -->
         
-        	<div class="col-md-1" style="background-color: #ffffb3; color: purple">
-        		<h3>column six</h3>
-            	<p>here is a teeny column over on the right</p>
-    		</div><!-- end of column six div -->
-  		</div><!-- end of third row div -->
-	</div><!-- end of container div -->
+            <div class="col-md-1" style="background-color: #ffffb3; color: purple">
+                <h3>column six</h3>
+                <p>here is a teeny column over on the right</p>
+            </div><!-- end of column six div -->
+        </div><!-- end of third row div -->
+    </div><!-- end of container div -->
 </body>
 ```
 It also shows more about the grid & `rows/column`s!  
