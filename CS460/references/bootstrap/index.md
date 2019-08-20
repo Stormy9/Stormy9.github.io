@@ -1,6 +1,6 @@
 # bootstrap notes  
 
-Bootstrap is a front-end framework for web design that works with/in `html`.
+Bootstrap is a front-end framework for web design that works with/in `html`... well, `html5`, that is!  
 
 It's free to use -- either download it yourself, which means hosting it on your own server... or simply do an `include` and pull it in from a **C**ontent **D**elivery **N**etwork (CDN).  
 
@@ -8,7 +8,7 @@ Bootstrap is essentially a collection, kinda like library, of templates that inc
 
 It **is** kinda awesome to learn how to do those things yourself from scratch, too, though.  Preferably first.   [=  
 
-Much like `HTML` & `CSS`, Bootstrap is reasonably easy to learn.  So long as you're comfortably familiar with the other two going into it.  
+Much like `html` & `css`, Bootstrap is reasonably easy to learn.  So long as you're comfortably familiar with the other two going into it.  
 
 <br>
 
@@ -17,6 +17,14 @@ Much like `HTML` & `CSS`, Bootstrap is reasonably easy to learn.  So long as you
 * responsive controls  
 * the grid system  
 * implementing classes to pull in special `css`  
+
+<br>
+
+**It's usually divided into:**
+* layout  
+* content  
+* components  
+* utilities  
 
 <br>
 
@@ -122,10 +130,10 @@ Or you can use `<div class="container-fluid">`.  Those are the only two types of
 
 The difference between the two:  
 **`<div class="container">`**  
-content within here will not span the full width of the viewport -- there will be some padding on either side.  
+**Fixed Width:**  content within here will **not** span the full width of the viewport -- there will be some padding on either side.  
 
 **`<div class="container-fluid">`**  
-content in here **will** span the full width of the viewport... if you want any padding to the right or left anywhere, use the `row/column` feature of the Grid System.  
+**Flexible Width:**  content in here **will** span the full width of the viewport... if you want any padding to the right or left anywhere, use the `row/column` feature of the Grid System.  
 
 <br>
 
@@ -138,16 +146,28 @@ Once you have your main `container`, you can make use of Bootsrap's Grid System 
 ---
 ---
 ## Bootstrap Responsive Controls  
+The Bootstrap Grid System has five classes:
+* [blank] (x-small: screen width < 576px)  
+* `sm` (small: screen width >= 576px)  
+* `md` (medium: screen width >= 768px)  
+* `lg` (large: screen width >= 992px)  
+* `xl` (x-large devices: screen width >= 1200px)  
 
+Note that `x-small` is only used with `column`s.  
 
-The Bootstrap 4 grid system has five classes:
+The other four classes are also used for responsiveness of <a href="https://www.w3schools.com/bootstrap4/bootstrap_tables.asp" target="_blank">tables</a> (scroll to "responsive") & <a href="https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp" target="_blank">navbars</a> (right at the top)  
 
-.col- (extra small devices - screen width less than 576px)  
-.col-sm- (small devices - screen width equal to or greater than 576px)  
-.col-md- (medium devices - screen width equal to or greater than 768px)  
-.col-lg- (large devices - screen width equal to or greater than 992px)  
-.col-xl- (xlarge devices - screen width equal to or greater than 1200px)  
+..... and possibly/probably some other stuff.   [=  
 
+Essentially, this tells the browser when to start stacking columns, instead of adding a horizontal scroll bar, when the content width exceeds the viewport.  
+
+Note that each class scales up... for instance, if you want to cover `sm` and `md`, you need to do `sm`.  
+
+I'm not sure how to explain this -- but I noticed that it kinda works backwards from what I initially thought, when I was playing with what it would do.   [=  
+
+Use any of the `repl`s at W3Schools to play with how it responds to re-sizing the viewport!  
+
+The Official Bootstrap site explains it in detail <a href="https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints" target="_blank">here</a>.
 
 <br>
 
@@ -197,7 +217,9 @@ The code is just like above, except the other way around.
 
 <br>
 
-Play with the Bootstrap Grid System <a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp">at W3Schools</a>.  
+Play with the Bootstrap Grid System <a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp">at W3Schools</a>  
+
+**Also check out <a href="https://www.w3schools.com/bootstrap4/bootstrap_flex.asp" target="_blank">Bootstrap Flex Classes</a>!**
 
 <br>
 
@@ -286,7 +308,14 @@ Here is a screenshot of that that code up there returns:
 
 <br>
 
-A quick reference of **ALL** Bootstrap `class`es -- with `repl`s to try stuff out -- you can change the examples up however you want to see what happens -- is at <a href="https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp">W3Schools</a>!
+A quick reference of **ALL** Bootstrap `class`es -- with `repl`s to try stuff out -- you can change the examples up however you want to see what happens -- is at <a href="https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp">W3Schools</a>!  
+
+<br>
+
+***Note***: remember classes are indicated by a `.` in front..... so the class `.text-center` is implemented by doing a `type attribute` in your `html tag`..... like:  
+```html
+<p class="text-center">
+```
 
 <br>
 
@@ -389,29 +418,95 @@ Yes, even if you're doing a **`navbar`** fixed to the *bottom* of your site.
 
 <br>
 
-Play with Bootstrap <a href="https://www.w3schools.com/bootstrap4/bootstrap_navs.asp">basic `nav`</a> and <a href="https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp">the **`navbar`**</a> at W3Schools.  
+More about<a href="https://getbootstrap.com/docs/4.3/components/navs/" target="_blank">basic `nav`s</a> and <a href="https://getbootstrap.com/docs/4.3/components/navbar/" target="_blank"> the **`navbar`**</a> at the Official Bootstrap Site
+
+Play with Bootstrap <a href="https://www.w3schools.com/bootstrap4/bootstrap_navs.asp">basic `nav`</a> and <a href="https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp">the **`navbar`**</a> at W3Schools  
 
 <br>
 
 ---
 ---
 ## Bootstrap Forms  
-stuff  
+Another key part of many websites.....    
+
+Forms can be either:  
+* stacked (full-width) -- this is default  
+* inline  
 
 <br>
 
-Play with <a href="https://www.w3schools.com/bootstrap4/bootstrap_forms.asp">Bootstrap `form`s</a> at W3Schools.  
+There's lots of Bootstrap classes to style your form elements:  
+* input boxes (including `<textarea>`) 
+* selection elements:  
+    * checkboxes
+    * radio buttons
+    * drop-downs   
+* submit (function) buttons  
+
+<br>
+
+If you want a stacked form, but for it **not** to span the width of the entire viewport, then wrap it in a `column` div!  
+
+Like this:
+```html
+<div class="container">
+  	<h2>Stacked form</h2>
+  
+  	<div class="row ">
+  		<div class="col-md-2" style="background-color: purple">
+        </div><!-- end of first column div -->
+        
+        <div class="col-md-8 py-3" style="background-color: #ffffb3; color: purple">  
+  			<form action="/action_page.php">
+    			<div class="form-group">
+      				<label for="email"> Email: </label>
+      				<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    			</div>
+                
+    			<div class="form-group">
+      				<label for="pwd"> Password: </label>
+      				<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+   				</div>
+                
+    			<div class="form-group form-check">
+      				<label class="form-check-label">
+        			<input class="form-check-input" type="checkbox" name="remember"> Remember me </label>
+    			</div>
+                
+    			<button type="submit" class="btn btn-primary">Submit</button>
+  			</form>
+		</div><!-- end of second/middle column div -->
+        
+        <div class="col-md-2" style="background-color: purple">
+        </div><!--- end of third column div -->
+        
+</div><!-- end of container div -->
+```
+that code returns:  
+<a href="https://Stormy9.github.io/CS460/references/bootstrap/images/my_other_example.PNG"><img src="https://Stormy9.github.io/CS460/references/bootstrap/images/my_other_example.PNG"></a>  
+
+note this uses `container` as opposed to `container-fluid`.  
+
+<br>
+
+There's also Bootstrap form validation -- but only whether or not the user put something in the form... not if they entered a number where they should've entered a letter.   [=  
+
+<br>
+
+More about <a href="https://getbootstrap.com/docs/4.3/components/forms/" target="_blank">forms at the Official Bootstrap site</a>
+
+Play with <a href="https://www.w3schools.com/bootstrap4/bootstrap_forms.asp">Bootstrap `form`s</a> at W3Schools  
 
 <br>
 
 ---
 ---
 ## Knowing What You Can Do With Bootstrap  
-Much like `CSS`, you don't actually ever really **know** all the Bootstrap classes and stuff, like by memory.....  
+There are **so-o-o-o-o-o-o-o-o-o** many `class`es in Bootstrap, that -- much like `css` is -- you won't actually ever really **know** all the Bootstrap classes and stuff, as in all from  memory.....  
 
-That is most likely humanly impossible.  
+That is most likely humanly impossible.  Unless you're some people, or have been Bootstrapping every day for like 10 years straight or something.  
 
-What you **do** have to do, is know what it is you **can** do with it... what's available, some idea what it's called... then just look it up at your favorite reference site.  
+What you **do** have to do, what is far, far easier to do..... is to know what it is you **can** do with Bootstrap... what's available, some idea what it's called... then just look it up -- what to actually type in for sure -- at your favorite reference site.  
 
 <br>
 
