@@ -1,6 +1,10 @@
-# markdown notes
+# markdown notes  
 
-What is Markdown?
+| <a href="" target="_blank">git</a> | <a href="" target="_blank">md</a> | <a href="" target="_blank">html</a> | <a href="" target="_blank">css</a> | <a href="" target="_blank">bs</a> | <a href="" target="_blank">js+jQ</a> | <a href="" target="_blank">C#</a> |  
+| --- | --- | --- | --- | --- | --- | --- |  
+
+---
+**What is Markdown?**  
 A simple easy way to format simple pages -- like on GitHub or BitBucket.  
 
 You can also use it within, say, GitHub -- like in the GitHub forum we used for CS407-MA.  
@@ -564,6 +568,8 @@ __BUT__ -- you *do* have to put the two blank spaces at the end of each line, in
 
 __AND__ -- you *do* have to have a blank line immediately before your table, or it will not render correclty in the browser, either!
 *(it looked fine without them in VSCode Preview!)*  
+
+__AND__ you have to have at least 3 dashes between the header row and the content rows.  
 
 (<a href="https://help.github.com/en/articles/organizing-information-with-tables" target="_blank">more fine-tuning of tables -- GitHub-specific</a>)
 

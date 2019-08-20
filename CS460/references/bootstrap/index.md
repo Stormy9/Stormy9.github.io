@@ -1,5 +1,9 @@
 # bootstrap notes  
 
+| <a href="" target="_blank">git</a> | <a href="" target="_blank">md</a> | <a href="" target="_blank">html</a> | <a href="" target="_blank">css</a> | <a href="" target="_blank">bs</a> | <a href="" target="_blank">js+jQ</a> | <a href="" target="_blank">C#</a> |  
+| --- | --- | --- | --- | --- | --- | --- |  
+
+---
 Bootstrap is a front-end framework for web design that works with/in `html`... well, `html5`, that is!  
 
 It's free to use -- either download it yourself, which means hosting it on your own server... or simply do an `include` and pull it in from a **C**ontent **D**elivery **N**etwork (CDN).  
@@ -28,7 +32,7 @@ Much like `html` & `css`, Bootstrap is reasonably easy to learn.  So long as you
 
 <br>
 
-**Note:**  
+**Fun Note:**  
 Even though Bootstrap requires the use of `html5`...  
 all of their examples still use the `<div>` element.   [=  
 
@@ -145,7 +149,11 @@ The difference between the two:
 
 While you *can* nest `container`s if you want -- but it's usually overkill, and there's really no reason to.  
 
-Once you have your main `container`, you can make use of Bootsrap's Grid System -- which makes content layout a lot easier than the "old days" of doing `<div>` and `float`s.  Although that was fun and a little challenging at first, this is quicker/easier.   [=   
+Once you have your main `container`, you can make use of Bootsrap's Grid System -- which makes content layout a lot easier/quicker than the "old days" of floating divs.....  
+
+Okay, so I don't think we actually floated divs, but isn't floating divs fun to think about?   [=  
+
+We did use `<div>` and `float`, plus setting `width`, `margin`, `padding` and things like that.  Although that was fun (tho a little challenging at first) this is quicker/easier.   [=   
 
 <br>
 

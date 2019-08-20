@@ -1,4 +1,9 @@
 # git notes  
+
+| <a href="" target="_blank">git</a> | <a href="" target="_blank">md</a> | <a href="" target="_blank">html</a> | <a href="" target="_blank">css</a> | <a href="" target="_blank">bs</a> | <a href="" target="_blank">js+jQ</a> | <a href="" target="_blank">C#</a> |  
+| --- | --- | --- | --- | --- | --- | --- |  
+
+---
 how to do the basic stuff in Git...  
 ... and GitHub, and later BitBucket... 
 

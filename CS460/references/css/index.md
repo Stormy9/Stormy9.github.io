@@ -1,11 +1,53 @@
-# css notes    
+# css notes  
+
+| <a href="" target="_blank">git</a> | <a href="" target="_blank">md</a> | <a href="" target="_blank">html</a> | <a href="" target="_blank">css</a> | <a href="" target="_blank">bs</a> | <a href="" target="_blank">js+jQ</a> | <a href="" target="_blank">C#</a> |  
+| --- | --- | --- | --- | --- | --- | --- |  
+
+---
 intro
 
 <br>
 
 ---
 ---
-here's some example CSS (borrowed from W3Schools)  
+## where you can put it  
+### **inline** -- right in the html tag
+```css
+
+```
+you can do this in `markdown` pages... for instance, that up there gives you:  
+
+
+<br>
+
+---
+### in your **\<head>**  
+```css
+
+```
+
+<br>
+
+---
+### in **it's own sheet**!  
+```css
+
+```
+
+
+<br>
+
+---
+---
+## the **cascading** part  
+
+
+<br>
+
+---
+---
+## how to style stuff  
+### by **html** tag  
 ```css
 body {
   background-color: yellow;
@@ -21,53 +63,57 @@ p {
   font-size: 18px;
 }
 ```
+
+<br>
+
+---
+### by **class**  
+```css
+
+```
+stuff
+
+<br>
+
+---
+### by **id**  
+```css
+
+```
+stuff
+
+<br>
+
+---
+---
+## more.....  
+### 'stacking' **selectors**  
+```css
+
+```
 stuff  
 
 <br>
 
 ---
 ---
-## by `html` tag  
+### pseudo elements & classes  
 ```css
 
 ```
-stuff
+stuff  
 
 <br>
 
 ---
 ---
-## by class  
-```css
-
-```
-stuff
-
-<br>
+### css **box model**  
+<a href="https://Stormy9.github.io/CS460/references/css/images/css_box_model.PNG"><img src="https://Stormy9.github.io/CS460/references/css/images/css_box_model.PNG"></a>  
+(from <a href="https://www.topalovich.com/2017/09/css-primer-for-lightning-developers-css-box-model-with-padding-margin-and-border-properties/" target="_blank">this cool page</a>... it had the prettiest colors)
 
 ---
 ---
-## by id  
-```css
-
-```
-stuff
-
-<br>
-
----
----
-## 'nested' `html` tags  
-```css
-
-```
-find out what this is really called!
-
-<br>
-
----
----
-## ordering in `css`  
+## ordering in **css**  
 like for links!  
 ```css
 
@@ -79,7 +125,13 @@ stuff
 ---
 ---
 ## some good css sites  
+<a href="" target="_blank">Mozilla</a>  
 
+<a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">W3Schools</a>  
+
+<a href="https://www.w3schools.com/cssref/default.asp" target="_blank">W3Schools -- Reference: Properties</a>  
+
+<a href="" target="_blank">CSSTricks</a>  
 
 <br>
 
