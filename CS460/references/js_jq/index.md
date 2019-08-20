@@ -1,9 +1,22 @@
 # JavaScript & jQuery   
+<style> 
+ul {
+  list-style-type: none; margin: 0; padding: 0;
+}
+li {
+  display: inline; text-decoration: none; font-weight: bold; padding-left: 9px; padding-right: 9px;
+}
+</style>
 
-| <a href="" target="_blank">git</a> | <a href="" target="_blank">md</a> | <a href="" target="_blank">html</a> | <a href="" target="_blank">css</a> | <a href="" target="_blank">bs</a> | <a href="" target="_blank">js+jQ</a> | <a href="" target="_blank">C#</a> |  
-| --- | --- | --- | --- | --- | --- | --- |  
-|     |     |     |     |     |    
- |     |  
+<ul>
+  <a href="https:/Stormy9.github.io/CS460/references/git/"><li>git</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/markdown/"><li>md</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/html/"><li>html</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/css/"><li>css</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/bootstrap/"><li>bs</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/js_jq/"><li>js+jQ</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/c_sharp/"><li>C#</li></a>
+</ul>
 
 ---
 intro
