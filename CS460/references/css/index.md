@@ -1,12 +1,5 @@
-<style> 
-ul {
-  list-style-type: none; margin: 0; padding: 0;
-}
-li {
-  display: inline; text-decoration: none; font-weight: bold; padding-left: 9px; padding-right: 9px;
-}
-</style>
-<link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles.css">
+<link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_a.css">
+<link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
 <ul>
   <a href="https:/Stormy9.github.io/CS460/references/git/"><li>git</li></a>
@@ -51,8 +44,7 @@ That's how I did the little mini-menu across the top!
 
 ```
 So I bet this would work in `markdown`, too.  
-I'll worry about that later.  
-That it works in `html` is good enough for now.  
+It does!  woo-hoo.   [=    
 
 <br>
 
@@ -116,7 +108,7 @@ stuff
 
 ---
 ---
-### pseudo elements & classes  
+### **pseudo** elements & classes  
 ```css
 
 ```
