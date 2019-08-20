@@ -1,14 +1,21 @@
-<link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_a.css">
+<style> 
+ul.nav {
+  list-style-type: none; margin: 0; padding: 0;
+}
+li.nav {
+  display: inline; text-decoration: none; font-weight: bold; padding-left: 9px; padding-right: 9px;
+}
+</style>
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
-<ul>
-  <a href="https:/Stormy9.github.io/CS460/references/git/"><li>git</li></a>
-  <a href="https:/Stormy9.github.io/CS460/references/markdown/"><li>md</li></a>
-  <a href="https:/Stormy9.github.io/CS460/references/html/"><li>html</li></a>
-  <a href="https:/Stormy9.github.io/CS460/references/css/"><li>css</li></a>
-  <a href="https:/Stormy9.github.io/CS460/references/bootstrap/"><li>bs</li></a>
-  <a href="https:/Stormy9.github.io/CS460/references/js_jq/"><li>js+jQ</li></a>
-  <a href="https:/Stormy9.github.io/CS460/references/c_sharp/"><li>C#</li></a>
+<ul class="nav">
+  <a href="https:/Stormy9.github.io/CS460/references/git/"><li class="nav">git</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/markdown/"><li class="nav">md</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/html/"><li class="nav">html</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/css/"><li class="nav">css</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/bootstrap/"><li class="nav">bs</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/js_jq/"><li class="nav">js+jQ</li></a>
+  <a href="https:/Stormy9.github.io/CS460/references/c_sharp/"><li class="nav">C#</li></a>
 </ul>
 
 ---
