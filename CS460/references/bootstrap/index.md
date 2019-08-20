@@ -244,7 +244,7 @@ But here's something I did in one of W3School's `repl`s:
 ```html
 <body>
     <div class="container-fluid">
-		<!-- row one -->
+        <!-- row one -->
     	<div class="row">
             <div class="col" style="background-color: purple; color: white">
                 <h3>this row is a single column spanning the page</h3>
