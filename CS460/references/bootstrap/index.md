@@ -28,6 +28,12 @@ Much like `html` & `css`, Bootstrap is reasonably easy to learn.  So long as you
 
 <br>
 
+**Note:**  
+Even though Bootstrap requires the use of `html5`...  
+all of their examples still use the `<div>` element.   [=  
+
+<br>
+
 ---
 ---
 ## Bootstrap Setup  

@@ -1,13 +1,17 @@
-# html notes  
-
+# html5 notes  
 ## difference(s) between `html` and `html5`  
+
+
+<br>
+
+checkout <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">this</a> W3Schools page.
 
 <br>
 
 ---
 ---
-## basic template for an `html` page  
-### with explanations in `html` comments  
+## basic template for an `html5` page  
+### with explanations in the comments  
 ```html
 <!doctype html>
 <html lang="eng">
@@ -50,42 +54,68 @@ __note:__ `<head>` and `<header>` are **NOT** the same tag!
 
 ---
 ---
-## x
+## html5 block vs. inline elements  
 
 
 <br>
 
 ---
 ---
-## x
+## html5 links  
 
 
 <br>
 
 ---
 ---
-## x
+## html5 images  
+
+<br>
+
+---
+---
+## html5 lists  
 
 
 <br>
 
 ---
 ---
-## x
+## html5 tables    
 
 
 <br>
 
 ---
 ---
-here's some example HTML:
-```html
-<p> here is some html </p>
-```
+## html5 forms  
+
+
+<br>
 
 ---
-***
-___
+---
+## html5 includes  
+
+
+<br>
+
+---
+---
+## some good html5 sites    
+<a href="" target="_blank"></a>  
+
+<a href="" target="_blank"></a>  
+
+<a href="https://www.w3schools.com/tags/default.asp" target="_blank">Full List of HTML Tags</a>
+
+<a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">Full List of HTML Attributes</a>
+
+<br>
+
+---
+---
+---
 [back to CS460 page](https://Stormy9.github.io/CS460#html/ "CS460 main page")   
 
 [back to main page](https://Stormy9.github.io/ "main page")   
