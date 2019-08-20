@@ -1,4 +1,3 @@
-# bootstrap notes  
 <style> 
 ul {
   list-style-type: none; margin: 0; padding: 0;
@@ -18,7 +17,8 @@ li {
   <a href="https:/Stormy9.github.io/CS460/references/c_sharp/"><li>C#</li></a>
 </ul>
 
----
+---  
+# bootstrap notes  
 Bootstrap is a front-end framework for web design that works with/in `html`... well, `html5`, that is!  
 
 It's free to use -- either download it yourself, which means hosting it on your own server... or simply do an `include` and pull it in from a **C**ontent **D**elivery **N**etwork (CDN).  

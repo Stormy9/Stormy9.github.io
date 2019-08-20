@@ -1,4 +1,3 @@
-# markdown notes  
 <style> 
 ul {
   list-style-type: none; margin: 0; padding: 0;
@@ -19,6 +18,7 @@ li {
 </ul>
 
 ---
+# markdown notes  
 **What is Markdown?**  
 A simple easy way to format simple pages -- like on GitHub or BitBucket.  
 

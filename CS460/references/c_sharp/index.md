@@ -1,4 +1,3 @@
-# C# notes  
 <style> 
 ul {
   list-style-type: none; margin: 0; padding: 0;
@@ -19,6 +18,7 @@ li {
 </ul>
 
 ---
+# C# notes  
 intro
 
 <br>

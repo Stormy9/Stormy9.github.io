@@ -1,4 +1,3 @@
-# git notes  
 <style> 
 ul {
   list-style-type: none; margin: 0; padding: 0;
@@ -19,6 +18,7 @@ li {
 </ul>
 
 ---
+# git notes  
 how to do the basic stuff in Git...  
 ... and GitHub, and later BitBucket... 
 

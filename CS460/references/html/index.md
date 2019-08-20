@@ -1,4 +1,3 @@
-# html5 notes  
 <style> 
 ul {
   list-style-type: none; margin: 0; padding: 0;
@@ -19,6 +18,7 @@ li {
 </ul>
 
 ---
+# html5 notes  
 ## difference(s) between `html` and `html5`  
 
 
