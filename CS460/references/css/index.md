@@ -21,6 +21,9 @@ li.nav {
 ---
 # css notes  
 intro
+cool stuff:  
+* stuff
+
 
 <br>
 

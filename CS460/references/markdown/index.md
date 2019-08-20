@@ -249,7 +249,7 @@ and this response from @longkai
 > * punctuation marks will be dropped
 > * leading white spaces will be dropped
 > * upper case will be converted to lower
-> * spaces between letters will be converted to `-`'
+> * spaces between letters will be converted to `-`
 > 
 > For example, if your section is named this:  
 > `## 1.1 Hello World`  
