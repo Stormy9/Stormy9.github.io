@@ -19,7 +19,7 @@ li {
 
 ---
 # html5 notes  
-## difference(s) between `html` and `html5`  
+## difference(s) between **html** and **html5**  
 
 
 <br>
@@ -30,7 +30,7 @@ checkout <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank
 
 ---
 ---
-## basic template for an `html5` page  
+## basic template for an **html5** page  
 ### with explanations in the comments  
 ```html
 <!doctype html>
