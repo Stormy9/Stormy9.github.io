@@ -286,7 +286,7 @@ Here is a screenshot of that that code up there returns:
 
 <br>
 
-A quick reference -- with `repl`s to try stuff out -- you can change the examples up however you want to see what happens -- of **ALL** Bootstrap `class`es is at <a href="https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp">W3Schools</a>!
+A quick reference of **ALL** Bootstrap `class`es -- with `repl`s to try stuff out -- you can change the examples up however you want to see what happens -- is at <a href="https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp">W3Schools</a>!
 
 <br>
 
@@ -407,16 +407,28 @@ Play with <a href="https://www.w3schools.com/bootstrap4/bootstrap_forms.asp">Boo
 ---
 ---
 ## Knowing What You Can Do With Bootstrap  
-Much like `CSS`, you don't actually ever really **know** all the Bootstrap classes and stuff, like by memory..... 
+Much like `CSS`, you don't actually ever really **know** all the Bootstrap classes and stuff, like by memory.....  
 
-All you have to do, is just know what you **can** do with it... what is available, and have some idea what it's called... then just look it up at your favorite reference site.  
+That is most likely humanly impossible.  
+
+What you **do** have to do, is know what it is you **can** do with it... what's available, some idea what it's called... then just look it up at your favorite reference site.  
 
 <br>
 
 ---
 ---
 ## Some Good Bootstrap Sites  
+<a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="_blank">The Official Bootstrap Page</a>  
 
+<a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp" target="_blank">W3Schools Bootstrap Tutorial -- with `repl`s!</a>  
+
+<a href="https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp" target="_blank">W3Schools Bootstrap -- Comprehensive List of all Classes!</a>
+
+<a href="https://medium.com/quick-code/top-tutorials-to-develop-responsive-websites-using-bootstrap-4-c934172f3ebd" target="_blank">This article on Medium.com rates good places to learn & practice Bootstrap!</a>  
+
+<br>
+
+Plus there is always just googling a question.   [=  
 
 <br>
 
