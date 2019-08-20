@@ -63,12 +63,12 @@ There isn't anything for underlining -- underlining on web pages is typically re
 ##### and this is an <h5>  
 ###### and finally an <h6>  
 ```
-# equivalent to < h1 > tag  
-## here's an < h2 > tag  
-### and an < h3 > tag  
-#### here you see an < h4 >  
-##### and this is an < h5 >  
-###### and finally an < h6 >  
+# equivalent to \<h1> tag  
+## here's an \<h2> tag  
+### and an \<h3> tag  
+#### here you see an \<h4>  
+##### and this is an \<h5>  
+###### and finally an \<h6>  
 
 I've noted that if you're using markdown for Jekyll -- the GitHub page template thing -- the way the headers look varies by theme.  Which only makes sense.   
 
@@ -129,7 +129,7 @@ i like extra vertical spacing between some paragraphs, to break up sections... i
 
 <br>
 
-so you have to use the html <br> tag!
+so you have to use the html \<br> tag!
 
 note the blank line on either side -- without that, it won't render correctly.
 
@@ -263,6 +263,8 @@ I guess it's not **super**-important, but I should be able to figure it out at s
 ---
 ### linking to your .md pages on your github.io site  
 in order for your page to render correctly in the browser, you would link to the `html` version of your `md` page.  
+
+*(otherwise, it will just render as plain text -- markup and all!)*
 
 yes, that is a thing and it will do what it's supposed to!   [=   
 
