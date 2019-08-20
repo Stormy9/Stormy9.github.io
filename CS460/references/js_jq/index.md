@@ -1,26 +1,72 @@
-### this is where notes about JavaScript & jQuery will go.....
+#JavaScript & jQuery   
+intro
 
-here's some example JavaScript (borrowed from W3Schools):
+<br>
+
+---
+---
+## JavaScript example (borrowed from W3Schools):  
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 ```
+stuff
+
+<br>
 
 ---
-
-here's some example jQuery (borrowed from W3Schools):
-```jquery
+---
+# jQuery example (borrowed from W3Schools):  
+```javascript
 $(document).ready(function(){
 
   // jQuery methods go here...
 
 });
 ```
+stuff
+
+<br>
 
 ---
+---
+## sub-head  
+stuff  
 
+<br>
+
+---
+---
+## sub-head  
+stuff
+
+<br>
+
+---
+---
+## sub-head  
+stuff
+
+<br>
+
+---
+---
+## sub-head
+stuff
+
+<br>
+
+---
+---
+## sub-head
+stuff
+
+<br>
+
+---
+---
 ---
 [back to CS460 page](https://Stormy9.github.io/CS460#js_jq/ "CS460 main page")   
 

@@ -9,7 +9,7 @@ You can also put standard `html` tags in your markdown if you want.
 
 But Markdown is faster & easier than `html` -- although it also has many limitations.  But is perfect for quick sites like this one!  
 
-There's several different "flavors" of Markdown, that add in some different features/functionality... we're just gonna talk about the basic "vanilla" + GitHub-specific stuff here.  
+There's several different "flavors" of Markdown, that add in some different features/functionality... we're just gonna talk about the basic "vanilla" + the main GitHub-specific stuff here.  
 
 Note that if you're using Markdown for your Jekyll pages on your `github.io site`, the way certain things show up will look different -- this includes:  
 * lists (the bullet markers)  
@@ -17,6 +17,8 @@ Note that if you're using Markdown for your Jekyll pages on your `github.io site
 * inline code (horizontal spacing, color, size)  
 * quote blocks (colors/styling)  
 * tables (line/column/heading dividers, alternate row shading)  
+
+This is a quick overview of pretty much the entirety of Markdown, since it's so brief anyway.....  
 
 <br>
 

@@ -69,15 +69,15 @@ Our family has long loved to play games -- like board & card games -- in other w
 So, that's what I'm doing my multi-page, hyperlinked website on:  games our family has fun playing!  Like a game-review site.   
 
 <br><br>
-BUT... I had to learn Bootstrap first -- plus refresh myself on HTML & CSS.   
+BUT... I had to learn Bootstrap first -- plus refresh myself on `HTML` & `CSS`.   
 
-I'd learned -- and got *lots* of practice with -- HTML & CSS while completing my CIS degree at Chemeketa... but have barely used it since graduatuing Summer of 2017.  I've been too busy with Java, Data Structures, Python, Algorithms, Git, databases, and lots of other stuff my first two years at WOU.
+I'd learned -- and got *lots* of practice with both while completing my CIS degree at Chemeketa... but have barely used it since graduatuing Summer of 2017.  I've been too busy with Java, Data Structures, Python, Algorithms, Git, databases, and lots of other stuff my first two years at WOU.
 
-However, I recalled that neither HTML nor CSS are very difficult or confounding or anything -- sometimes CSS was perhaps a bit annoying, to get it to do just want you wanted, but not *that* bad..... and, I distinctly remember having fun with both!  [=  
+However, I recalled that neither are very difficult or confounding or anything -- sometimes `CSS` was perhaps a bit annoying, to get it to do *exactly* want you wanted, but not *that* bad..... and, I distinctly remember having fun with both!  [=  
 
 So, for a refresher and to play around with things to get acclimated again, I went to W3Schools for <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a> and <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a>.
 
-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Mozilla Developer Network - HTML</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla Developer Network - CSS</a> sites, as recommended by Dr. Morse, are also awesome -- comprehensive and full of essential well-presented information.  However, they don't have "try it!" REPL's in each section like W3Schools, and feel a little more difficult to navigate.
+The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Mozilla Developer Network - HTML</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla Developer Network - CSS</a> sites, as recommended by Dr. Morse, are also awesome -- comprehensive and full of essential well-presented information.  However, they don't have "try it!" REPL's in each section like W3Schools, and feel a little more difficult to navigate (at least to me).
 
 For CSS, <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a> is also a very good resource...  
 and for HTML, <a href="https://html.spec.whatwg.org/dev/" target="_blank">HTML: The Living Standard</a> is pretty cool, too.  
@@ -102,13 +102,14 @@ I primarily relied on <a href="https://getbootstrap.com/docs/4.3/getting-started
 
 <a href="https://medium.com/quick-code/top-tutorials-to-develop-responsive-websites-using-bootstrap-4-c934172f3ebd" target="_blank">This article on Medium.com</a> has some good recommmendations for learning and practicing Bootstrap, too.   Plus Googling stuff if need be.  
 
-Much like HMTML & CSS themselves, learning Bootstrap wasn't really all *that* difficult.   [=  
+Much like `HTML` & `CSS` themselves, learning Bootstrap wasn't really all *that* difficult.   [=  
 
 <br><br>
-Getting the grid & container system down is the main thing -- and, of course, familiarizing yourself with all of the special pre-made classes for incorporating the Bootstrap CSS into your HMTL.  
+Getting the grid & container system down is the main thing -- and, of course, familiarizing yourself with all of the special pre-made classes for incorporating the Bootstrap `CSS` into your `HMTL`.  
 <a href="https://getbootstrap.com/docs/4.3/layout/overview/" target="_blank">Official Bootstrap - Overview, Containers, Responsiveness</a>  
 <a href="https://getbootstrap.com/docs/4.3/layout/grid/" target="_blank">Official Bootstrap - Grid System</a>  
-<a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp" target="_blank">W3Schools - Grid System</a>  (they cover containers on their '<a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp" target="_blank">Getting Started</a>' page)
+<a href="https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp" target="_blank">W3Schools - Grid System</a>   
+--> (they cover containers on their '<a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp" target="_blank">Getting Started</a>' page)
 
 <br><br>
 This is the key part for getting started:  
@@ -153,29 +154,28 @@ and this near the bottom -- right before your closing `</body>` tag:
 ```
 
 <br><br>
-Then you're free to go ahead and start implementing the grid & container system, along with the special CSS classes or anything else in Bootstrap, that you want!  
+Then you're free to go ahead and start implementing the grid & container system, along with the special `CSS` classes or anything else in Bootstrap, that you want!  
 
 <br><br>
-There are different sources from whence you can pull in Bootstrap... the official Bootstrap page uses `StackPath`, while W3Schools uses `MaxCDN`, for CSS & JS... W3Schools gets the jQuery from `googleapis`, while the official Bootstrap page gets it straight from `jQuery` -- and uses the 'slim build', while noting the full version is also supported... both get `popper.js` from `CloudFare`.  
+There are different sources from whence you can pull in Bootstrap... the official Bootstrap page uses `StackPath`, while W3Schools uses `MaxCDN`, for `CSS` & `JS`... W3Schools gets the `jQuery` from `googleapis`, while the official Bootstrap page gets it straight from `jQuery` -- and uses the 'slim build', while noting the full version is also supported... both get `popper.js` from `CloudFare`.  
 
-Also, I noted W3Schools puts the jQuery/popper/JavaScript `<script>` tags up in the head with the CSS tag -- but the official Bootstrap page says to put them at the bottom.  The latter matches with what I was taught about where to put your JavaScript etc. tags, so that's what I did.
+Also, I noted W3Schools puts the jQuery/popper/JavaScript `<script>` tags up in the head with the `CSS` tag -- but the official Bootstrap page says to put them at the bottom.  The latter matches with what I was taught about where to put your JavaScript etc. tags, so that's what I did.
 
 For the <a href="https://www.w3schools.com/js/js_whereto.asp" target="_blank">W3Schools JavaScript section</a>, it does say:  
-*"Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display"*  
+*"Placing scripts at the bottom of the \<body> element improves the display speed, because script interpretation slows down the display"*  
 which yeah, I remember that's the reasoning now.   [=  
 
 <br><br>
 The official Bootstrap page example links also include `integerity` and `crossorigin` attributes, while W3Schools does not.  These are explained <a href="https://stackoverflow.com/questions/32039568/what-are-the-integrity-and-crossorigin-attributes" target="_blank">here</a>.
 
-Note Bootstrap *requires* using HTML5... although, why wouldn't you, anwyay??   [=
+Note Bootstrap *requires* using `HTML5`... although, why wouldn't you, anwyay??   [=
 
 <br><br>
-Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can see exactltly how your page will look, immediately upon creation/edit.  Well, most of the time.  Sometimes there's a bit of lag, or you have to refresh the preview.  But still.
+Using VisualStudio Code, with it's auto/instant preview, was awesome -- you can see exactltly how your page will look, immediately upon creation/edit.  Well, most of the time.  Sometimes there's a bit of lag, or you have to refresh the preview.  But still.
 
 ---
 #### Meeting the Requirements:  [Step 3 con't]
-* i used Bootstrap, of course, for all my (lab) pages  
-<br>
+* i used Bootstrap, of course, for all my (lab) pages   
    * i used both single & multi-column formatting -- including on the same page, which i presume was the point   [=
 
    here's the multi-column set-up i did:  
@@ -197,19 +197,22 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
    ```
    <br>
 
-   all that -- and it's content -- is inside a container like this:  
+   all that -- and it's content -- goes inside a container like this:  
    ```html
    <div class="container-fluid mt-5 pt-4 pb-4">
 
-      <!-- bunch of stuff
+      <!-- bunch of stuff -->
       
-   </div><!-- end of container-fluid / main div -->
+   </div><!-- end of container-fluid / main content div -->
    ```
-   and yes, I always comment what closing tags go with -- it saves time following the tracer lines!   [=  
+   and yes, I often comment what closing tags go with -- it saves time following the tracer lines if there's lots of levels!   [=   
+
+   in Bootstrap, all your content is supposed to be in a `container` element -- so pretty much everything in the `<body>` section of your pages.  
+
    <br><br>
 
 
-* i made a separate `.css` file, of course -- this is just as I was taught at Chemeketa -- it's also in it's own sub-directory as taught  
+* i made a separate `.css` file, of course -- as I was taught at Chemeketa -- it's also in it's own sub-directory as taught  
 <br>
    * i wrote some of my own classes -- and used them somewhere(s)!  
 
@@ -236,9 +239,10 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
       text-decoration: none;
       font-weight: bold;
    ```
+
    <br><br>
 
-* i made a nav bar/menu, that includes links to all pages on the site, and includes a drop-down portion  
+* i made a nav bar/menu, that includes links to all pages on the site, and includes a drop-down portion -- which fits nicely with my site layout  
 
    it looks like this:  
    ```html
@@ -285,7 +289,11 @@ Using Visual Studio Code, with it's auto/instant preview, was awesome -- you can
       </div> 
    </nav>
    <!-- end nav part -->
-   ```
+   ```  
+   So... you know how in Bootstrap, all your content is supposed to be wrapped in a `container` element?  
+
+   This is not necessarily so for a **`navbar`**... see <a href="https://Stormy9.github.io/CS460/references/bootstrap/">Bootstrap Notes</a>.  
+
    <br><br>
 
 * i have a small table on each of the game description pages, giving the basics of each game   

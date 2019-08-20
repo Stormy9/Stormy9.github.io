@@ -1,0 +1,120 @@
+/* okay -- so FINALLY the class & ID's i made */
+/* finally DID start over-riding!  yay!!!    */
+
+/*-------------------------------------------------------------------*/
+.noline{
+    text-decoration: none;
+}
+/* okay... so why the *hell* is the ID working, but not the class??? */
+/* and it's not just b/c of the weird-ass preview stuff VSCode does */
+/* -- i get the same even when uploaded to github!                 */
+/* my other classes work -- why not this one? i mean, the freak?? */
+/*                                                               */
+/* i'd changed it from id to class when i decided to use it in one   */
+/* more place - for the 'The Oatmeal' link on the Exploding Kittens */
+/* page... b/c it's not an "official" link, either!                */
+/*                                                                */
+/* what -- can you not add your own class to the bootstrap ones?     */
+/* i mean, other than this attempt, all my own classes 'stand alone'*/
+/* -- in other words, any bootstrap styling that is defined by     */
+/* classes, i hadn't tried adding in my own class...              */
+/*                                                               */
+/* so it forced me to break the rule about id's, dammit!            */
+#noline {
+    text-decoration: none;
+    text-indent: 9px;   /* so neither of these to work, to not have */
+    padding-left: 9px; /* the active drop-down RIGHT up on left edge */
+                      /* text-indent worked on the dd element      */
+}
+/*-------------------------------------------------------------------*/
+
+
+.main {
+    background-color: lemonchiffon;
+}
+
+
+.headline {
+    color: indigo;
+}
+
+
+/*-------------------------------------------------------------------*/
+a.official:link {
+    color: slateblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.official:visited {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.official:hover, a.official:active {
+    color: springgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* When setting the style for several link states, */
+/* there are some order rules:                    */
+/* a:hover MUST come after a:link and a:visited  */
+/* a:active MUST come after a:hover             */
+a.contact:link {
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.contact:visited {
+    color: indianred;
+    text-decoration: none;
+    font-weight: bold;
+}  
+
+a.contact:hover, a.contact:active {
+    color: rgb(252, 108, 133); /* watermelon! */
+    text-decoration: none;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------*/
+
+
+#desc {
+    background-color:tomato;
+}
+
+#photos {
+    background-color: orange;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+
+.last {
+    border-bottom-style: double;
+    border-color: gainsboro;
+}
+
+
+.fun {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 9px;
+}
+
+dd {
+    text-indent: 9px;
+}
+
+.credit {
+    color: indigo;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 75%;
+    margin-top: 45px;
+}

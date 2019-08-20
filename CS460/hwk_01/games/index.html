@@ -18,7 +18,9 @@
     <!-- this is what pulls in the pre-made Bootstrap CSS... 
          you can keep Bootstrap locally, or fetch it from the BootstrapCDN hosted by StackPath...
             the latter seems to make the most sense to me at this point    -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
 
     <!-- my CSS file -->
     <link rel="stylesheet" type="text/css" href="styling/mystyles.css">
@@ -32,7 +34,11 @@
         and are required when using our default grid system."   -->
 
 <!-- so should the nav bar stuff be in a container, also?? 
-        it's not in many examples.....                          -->
+        it's not in most of the examples.....                       
+    the 'non-bar' navs are in containers -- but not the bars
+        with the bar examples, the container div comes after   
+            W3 says 'nav bar.....is at the top of the page'     -->
+    
 
     <body class="main">
         
@@ -116,9 +122,15 @@
 <!-------------------------------------------------------------------------------------->
     <!-- optional Bootstrap-related JavaScript -->
     <!-- REQUIRED ORDER:  jQuery first, then Popper.js, then Bootstrap JS plugins-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+            crossorigin="anonymous"></script>
     <!-- many of our components require the use of JavaScript to function... 
             specifically, jQuery, Popper.js, and our own JavaScript plugins. 
          put these <script>s near the end of your pages, right before the closing </body> tag. 

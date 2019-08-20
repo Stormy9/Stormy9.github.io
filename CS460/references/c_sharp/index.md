@@ -1,5 +1,12 @@
-### this is where notes about C# will go.....
+# C# notes  
 
+intro
+
+<br>
+
+---
+---
+## sub-head  
 here is some example C#:
 ```csharp
 function fancyAlert(arg) {
@@ -7,7 +14,54 @@ function fancyAlert(arg) {
     $.facebox({div:'#foo'})
   }
 ```
+stuff
 
+<br>
+
+---
+---
+# sub-head 
+stuff
+
+<br>
+
+---
+---
+## sub-head  
+stuff  
+
+<br>
+
+---
+---
+## sub-head  
+stuff
+
+<br>
+
+---
+---
+## sub-head  
+stuff
+
+<br>
+
+---
+---
+## sub-head
+stuff
+
+<br>
+
+---
+---
+## sub-head
+stuff
+
+<br>
+
+---
+---
 ---
 [back to CS460 page](https://Stormy9.github.io/CS460#c_sharp/ "CS460 main page")   
 
