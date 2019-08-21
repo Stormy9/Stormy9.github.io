@@ -5,7 +5,14 @@ ul.nav {
 li.nav {
   display: inline; text-decoration: none; font-weight: bold; padding-left: 9px; padding-right: 9px;
 }
+/* gotta do Link-Visited-Hover-Active */
+  a.nav:link { /* just plain link in it's start state */
+    text-decoration: none;                      }
+  a.nav:visited {    text-decoration: none;  }
+  a.nav:hover { text-decoration: none;    color: #9900ff;  }
+  a.nav:active {     text-decoration: none;  }
 </style>
+
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
 <ul class="nav">
