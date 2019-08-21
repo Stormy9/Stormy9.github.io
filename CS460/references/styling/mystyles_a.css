@@ -8,8 +8,8 @@ li.nav_li {
     display: inline; 
     text-decoration: none; 
     font-weight: bold; 
-    padding-left: 9px; 
-    padding-right: 9px;
+    padding-left: 18px; 
+    padding-right: 18px;
   }
 
   /* gotta do Link-Visited-Hover-Active */
