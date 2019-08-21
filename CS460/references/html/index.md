@@ -1,6 +1,8 @@
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_a.css">
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
+<script src="https:/Stormy9.github.io/CS460/references/scripting/ref_nav.js"></script>
+
 <ul class="nav">
   <a href="https:/Stormy9.github.io/CS460/references/git/"><li class="nav">git</li></a>
   <a href="https:/Stormy9.github.io/CS460/references/markdown/"><li class="nav">md</li></a>
