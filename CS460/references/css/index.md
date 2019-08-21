@@ -3,14 +3,14 @@ ul.nav_ul {
   list-style-type: none; margin: 0; padding: 0;
 }
 li.nav_li {
-  display: inline; text-decoration: none; font-weight: bold; padding-left: 9px; padding-right: 9px;
+  display: inline; text-decoration: none; font-weight: bold; padding-left: 18px; padding-right: 18px;
 }
 /* gotta do Link-Visited-Hover-Active */
-  a.nav_a:link { /* just plain link in it's start state */
+  a.nav:link { /* just plain link in it's start state */
     text-decoration: none;                      }
-  a.nav_a:visited {    text-decoration: none;  }
-  a.nav_a:hover { text-decoration: none;    color: #9900ff;  }
-  a.nav_a:active {     text-decoration: none;  }
+  a.nav:visited {    text-decoration: none;  }
+  a.nav:hover { text-decoration: none;    color: #9900ff;  }
+  a.nav:active {     text-decoration: none;  }
 </style>
 
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
@@ -32,7 +32,9 @@ li.nav_li {
 
 css is really damned tricky, picky, and at times annoying!  
 
-and other times, amazing.   [=  
+and other times, amazing.     
+
+even when annoying, it's fun to figure out.   [=  
 
 
 <br>

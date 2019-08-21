@@ -2,7 +2,7 @@
     color: #bb1133;
 }*/
 
-a.nav_a:link { 
+a.nav:link { 
     /* just plain link in it's start state */
     text-decoration: none;
     color: #bb1133;                      
