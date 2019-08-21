@@ -102,7 +102,18 @@ __note:__ `<head>` and `<header>` are **NOT** the same tag!
 ---
 ---
 ## html5 includes  
+Holy freaking shite!  
+One would think this would be something relatively easy and straight-forward, like including `css` and `js` files in your `html`... especially with `HTML5`... but ***no***.  
 
+Several ways I discovered via Googling require using various libraries, which I didn't think would work in this scenario -- using markdown pages and GitHub sites.  
+
+A few ways I found, though, were more straight-forward... involving `JavaScript` &/or `jQuery`.  
+
+Of course, the **easiest**, and **most** straight-forward way -- that I learned at Chemeketa -- involves `php`, which does not work with GitHub sites.  
+
+The one I used was simply the `JavaScript document.write()` way... 
+
+<br>
 
 <br>
 
