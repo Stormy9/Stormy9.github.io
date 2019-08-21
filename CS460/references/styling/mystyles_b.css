@@ -18,7 +18,6 @@ okay..... so *this* is NOT working, to set the color
 */
 a.nav_a:link { 
     /* just plain link in it's start state */
-    text-decoration: none;
     color: #bb1133;                      
 }
 /*
@@ -60,6 +59,14 @@ Okay... so css can be really f'ing weird...
              the purple-on-hover was working in VSCode Preview)
                     (at least just-plain-links are crimson
                      in VSCode Preview... *sigh*)
+*/
+/*
+OBVIOUSLY... the styling from mystyles_a.css for
+    ul.nav_ul and li.nav_li is working -- both when pushed online, 
+    and in VSCode Preview... 
+        So why so much damned trouble with the linkage styling??
+            the text_decoration: none styling from mystyles_a.css
+            is working in both places... 
 */
 /*
 so what is the take-away from this?

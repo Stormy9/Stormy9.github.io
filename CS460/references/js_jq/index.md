@@ -7,7 +7,8 @@
 # JavaScript & jQuery   
 intro
 
-woof! woof! woof!
+woof! woof! woof! woof! woof!  
+
 <br>
 
 ---
