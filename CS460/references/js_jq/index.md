@@ -7,7 +7,7 @@
 # JavaScript & jQuery   
 intro
 
-footle
+footle-dootle
 <br>
 
 ---

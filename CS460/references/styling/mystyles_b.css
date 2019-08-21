@@ -1,4 +1,12 @@
 /*
+this css file is just to test/play with the cascading
+feature -- if it's linked in the html pages 
+AFTER mystyles_a.css... 
+whatever is in here, should over-ride what is in there!
+*/
+
+/*=============================================*/
+/*
 so doing li.nav_li works, to make the color crimson..... 
 b   ut then the hover color change to purple doesn't work!
 */
@@ -7,9 +15,10 @@ b   ut then the hover color change to purple doesn't work!
     color: #bb1133;
 }*/
 
+/*=============================================*/
 
 /* 
-okay..... so *this* is not working, to set the color
+okay..... so *this* is NOT working, to set the color
     of just-plain-links to crimson!!!
 */
 a.nav_a:link { 
@@ -22,11 +31,8 @@ a.nav_a:link {
 NOTE:
 it does not work when i set color to crimson
     in mystyles_a.css, either!
-*/
-
-/*
-so... wtf??
-    why does css have to be so f'ing weird??
+        so... wtf??
+            why does css have to be so f'ing weird??
 */
 
 /*
@@ -36,3 +42,7 @@ it *DOES* render correctly in VSCode Preview!!
         the hover-purple works online -- 
          but the just-plain-link is default orange!
 */
+
+a.nav_a:hover {
+    font-size: 24px;
+  }
