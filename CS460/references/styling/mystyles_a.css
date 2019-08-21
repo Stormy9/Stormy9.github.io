@@ -16,6 +16,7 @@ li.nav_li {
   a.nav_a:link {
     /* just plain link in it's start state */
     text-decoration: none; 
+    color: #bb1133;
   }
 
   a.nav_a:visited {
