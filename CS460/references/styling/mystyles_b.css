@@ -1,3 +1,8 @@
 li.nav_li {
     color: #bb1133;
 }
+
+a.nav_a:link { 
+    /* just plain link in it's start state */
+    color: #bb1133;                      
+}
