@@ -7,7 +7,7 @@
 # JavaScript & jQuery   
 intro
 
-footle-dootle
+woof!
 <br>
 
 ---

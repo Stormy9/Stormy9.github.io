@@ -8,15 +8,12 @@ whatever is in here, should over-ride what is in there!
 /*=============================================*/
 /*
 so doing li.nav_li works, to make the color crimson..... 
-b   ut then the hover color change to purple doesn't work!
+BUT -- then the hover color change-to-purple doesn't work!
 */
-
 /*li.nav_li {
     color: #bb1133;
 }*/
-
 /*=============================================*/
-
 /* 
 okay..... so *this* is NOT working, to set the color
     of just-plain-links to crimson!!!
@@ -34,7 +31,6 @@ it does not work when i set color to crimson
         so... wtf??
             why does css have to be so f'ing weird??
 */
-
 /*
 NOTE:  
 it *DOES* render correctly in VSCode Preview!!
@@ -42,7 +38,17 @@ it *DOES* render correctly in VSCode Preview!!
         the hover-purple works online -- 
          but the just-plain-link is default orange!
 */
-
+/*=============================================*/
 a.nav_a:hover {
-    font-size: 24px;
+    font-size: 18px;
   }
+  
+/*
+HEY!!  *this* here, *DOES* work!!  it over-rides
+    mystyles_a.css -- or at least augments it, 
+        as it's intended to do!
+*/
+/*
+so what is the take-away from this?
+    i'm not sure.....   [=
+*/
