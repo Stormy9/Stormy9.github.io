@@ -30,7 +30,7 @@ li.nav_li {
 **cool stuff:**  
 * stuff
 
-foople
+foop-de-do
 
 
 <br>
