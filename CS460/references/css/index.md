@@ -107,14 +107,18 @@ stuff
 
 ---
 ---
-## more.....  
-### 'stacking' **selectors**  
+## 'stacking' **selectors**  
+### **tag** + **class** or **id**  
 ```css
 
 ```
 stuff  
 
 <br>
+
+---
+### css **combinators**  
+
 
 ---
 ---

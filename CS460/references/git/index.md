@@ -10,6 +10,15 @@ how to do the basic stuff in Git...
 
 ... and maybe later some not-as-basic stuff.   [=   
 
+<br>
+
+---
+---
+## Quickie-Ref:  
+Since grokking all this took some effort, a quick guide up-top.   [=  
+
+
+
 ---
 ---
 ## Start a Git Repo Locally:  
