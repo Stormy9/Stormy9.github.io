@@ -16,8 +16,10 @@ li.nav_li {
   a.nav_a:link {
     /* just plain link in it's start state */
     text-decoration: none; 
-    color: #bb1133;
   }
+  /*
+  see note(s) in mystyles_b.css comments
+  */
 
   a.nav_a:visited {
     text-decoration: none;

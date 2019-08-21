@@ -1,14 +1,38 @@
+/*
+so doing li.nav_li works, to make the color crimson..... 
+b   ut then the hover color change to purple doesn't work!
+*/
+
 /*li.nav_li {
     color: #bb1133;
 }*/
 
+
+/* 
+okay..... so *this* is not working, to set the color
+    of just-plain-links to crimson!!!
+*/
 a.nav_a:link { 
     /* just plain link in it's start state */
     text-decoration: none;
     color: #bb1133;                      
 }
 
-a.nav_a:hover {
-    text-decoration: none;
-    color: #9900ff;
-  }
+/*
+NOTE:
+it does not work when i set color to crimson
+    in mystyles_a.css, either!
+*/
+
+/*
+so... wtf??
+    why does css have to be so f'ing weird??
+*/
+
+/*
+NOTE:  
+it *DOES* render correctly in VSCode Preview!!
+    just not when you push & view online for reals
+        the hover-purple works online -- 
+         but the just-plain-link is default orange!
+*/
