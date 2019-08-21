@@ -1,10 +1,10 @@
-ul.nav {
+ul.nav_ul {
     list-style-type: none; 
     margin: 0; 
     padding: 0;
   }
 
-li.nav {
+li.nav_li {
     display: inline; 
     text-decoration: none; 
     font-weight: bold; 
@@ -13,20 +13,20 @@ li.nav {
   }
 
   /* gotta do Link-Visited-Hover-Active */
-  a.nav:link {
+  a.nav_a:link {
     /* just plain link in it's start state */
     text-decoration: none; 
   }
 
-  a.nav:visited {
+  a.nav_a:visited {
     text-decoration: none;
   }
 
-  a.nav:hover {
+  a.nav_a:hover {
     text-decoration: none;
     color: #9900ff;
   }
 
-  a.nav:active {
+  a.nav_a:active {
     text-decoration: none;
   }

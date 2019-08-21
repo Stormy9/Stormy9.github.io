@@ -8,9 +8,9 @@ li.nav_li {
 /* gotta do Link-Visited-Hover-Active */
   a.nav_a:link { /* just plain link in it's start state */
     text-decoration: none;                      }
-  a.nav_a:visited {    text-decoration: none;  }
-  a.nav_a:hover { text-decoration: none;    color: #9900ff;  }
-  a.nav_a:active {     text-decoration: none;  }
+  a.nav_a:visited { text-decoration: none; }
+  a.nav_a:hover { text-decoration: none;   color: #9900ff; }
+  a.nav_a:active { text-decoration: none; }
 </style>
 
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
