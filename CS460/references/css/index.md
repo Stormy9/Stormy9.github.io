@@ -30,7 +30,9 @@ li.nav_li {
 **cool stuff:**  
 * stuff
 
-fooples
+css is really damned tricky, picky, and at times annoying!  
+
+and other times, amazing.   [=  
 
 
 <br>

@@ -1,8 +1,14 @@
-li.nav_li {
-    /*color: #bb1133;*/
-}
+/*li.nav_li {
+    color: #bb1133;
+}*/
 
 a.nav_a:link { 
     /* just plain link in it's start state */
+    text-decoration: none;
     color: #bb1133;                      
 }
+
+a.nav:hover {
+    text-decoration: none;
+    color: #9900ff;
+  }
