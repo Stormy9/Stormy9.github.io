@@ -2,13 +2,13 @@
     color: #bb1133;
 }*/
 
-a.nav:link { 
+a.nav_a:link { 
     /* just plain link in it's start state */
     text-decoration: none;
     color: #bb1133;                      
 }
 
-a.nav:hover {
+a.nav_a:hover {
     text-decoration: none;
     color: #9900ff;
   }
