@@ -3,7 +3,7 @@ ul.nav_ul {
   list-style-type: none; margin: 0; padding: 0;
 }
 li.nav_li {
-  display: inline; text-decoration: none; font-weight: bold; padding-left: 18px; padding-right: 18px;
+  display: inline; text-decoration: none; font-weight: bold; padding-left: 9px; padding-right: 9px;
 }
 /* gotta do Link-Visited-Hover-Active */
   a.nav_a:link { /* just plain link in it's start state */
@@ -28,13 +28,6 @@ li.nav_li {
 ---
 # css notes  
 **cool stuff:**  
-* stuff-a-roo
-
-css is really damned tricky, picky, and at times annoying!  
-
-and other times, amazing.     
-
-even when annoying, it's fun to figure out.   [=  
 
 
 <br>
@@ -158,6 +151,27 @@ like for links!
 stuff
 
 <br>
+
+---
+---
+## warning!  
+css is really damned tricky, picky, and at times annoying!  
+but most often, it's really cool.  
+even when annoying, it's fun to figure out.    
+well, kinda... sometimes it makes you what's known officially, as "bat-crap insane".  
+
+stuff that **should** work, doesn't...  
+and often it is inconsistent in how it works -- how things render (or if they do at all!)  
+
+for instance, see my comments in <a href="https://stormy9.github.io/Stormy9.github.io/CS460/references/styling/mystyles_b.css">references/styling/mystyles_b.css</a>.  
+
+I spent wa-a-ay too much time on that.  
+And shouldn't have had to!  
+And it still doesn't render correctly -- or consistently.  
+So, screw it.   [=  
+
+<br>
+
 
 ---
 ---

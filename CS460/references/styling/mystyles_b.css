@@ -1,13 +1,11 @@
 /*
-this css file is just to test/play with the cascading
-feature -- if it's linked in the html pages 
-AFTER mystyles_a.css... 
-whatever is in here, should over-ride what is in there!
+this css file is to test/play with the cascading feature -- 
+    if it's linked in the html pages AFTER mystyles_a.css... 
+    whatever is in here, should over-ride what is in there!
 */
-
 /*=============================================*/
 /*
-so doing li.nav_li works, to make the color crimson..... 
+so setting li.nav_li works, to make the color crimson..... 
 BUT -- then the hover color change-to-purple doesn't work!
 */
 /*li.nav_li {
@@ -23,43 +21,47 @@ a.nav_a:link {
     text-decoration: none;
     color: #bb1133;                      
 }
-
 /*
 NOTE:
-it does not work when i set color to crimson
-    in mystyles_a.css, either!
-        so... wtf??
+it does not work when i set color for a.nav_a:link 
+    to crimson in mystyles_a.css file, either!
+        (just when i set the li.nav_li color to crimson... 
+         but then hover-to-purple doesn't work, as noted above)
+            so... wtf??
             why does css have to be so f'ing weird??
 */
 /*
 NOTE:  
 it *DOES* render correctly in VSCode Preview!!
+the just-plain-link color is indeed crimson...
     just not when you push & view online for reals
-        the hover-purple works online -- 
-         but the just-plain-link is default orange!
+        the hover-purple (from mystyles_a.css) works online -- 
+         but the just-plain-link color is default orange!
 */
 /*=============================================*/
 a.nav_a:hover {
     font-size: 18px;
   }
-  
 /*
-HEY!!  *this* here, *DOES* work!!  it over-rides
-    mystyles_a.css -- or at least augments it, 
-        as it's intended to do!
+HEY!!  this one *DOES* work!!  it over-rides mystyles_a.css
+    -- or more accurately, augments it -- just as it's intended to!
+*/
+/*
+Okay... so css can be really f'ing weird...
+    for this font-size-increase-on-hover,
+    it *does* work as expected when pushed online...
+    -- aka, links change to purple *AND* get bigger on hover
+        (but just-plain-links are still not crimson online)
+
+    BUT... it does *NOT* render correctly in VSCode Preview!!
+        it changes size on hover, all right... 
+        but no longer turns purple along with that...
+            (before I added the size-increase-on-hover, 
+             the purple-on-hover was working in VSCode Preview)
+                    (at least just-plain-links are crimson
+                     in VSCode Preview... *sigh*)
 */
 /*
 so what is the take-away from this?
-    i'm not sure.....   [=
-*/
-/*
-Okay... so css is really f'ing weird...
-    for this font-size-increase-on-hover...
-    it *does* work as expected when pushed online...
-        BUT... it does *NOT* render correctly in VSCode Preview!!
-            it changes size on hover, all right... 
-            but no longer turns purple along with that...
-                online, it turns purple *AND* get bigger... 
-                    (but the just-plain-link is still not red online
-                     but is on VSCode Preview... *sigh*)
+    i'm not sure..... other than css can be a pain in the ass   [=
 */
