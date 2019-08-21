@@ -1,28 +1,28 @@
 <style> 
-ul.nav {
+ul.nav_ul {
   list-style-type: none; margin: 0; padding: 0;
 }
-li.nav {
+li.nav_li {
   display: inline; text-decoration: none; font-weight: bold; padding-left: 9px; padding-right: 9px;
 }
 /* gotta do Link-Visited-Hover-Active */
-  a.nav:link { /* just plain link in it's start state */
+  a.nav_a:link { /* just plain link in it's start state */
     text-decoration: none;                      }
-  a.nav:visited {    text-decoration: none;  }
-  a.nav:hover { text-decoration: none;    color: #9900ff;  }
-  a.nav:active {     text-decoration: none;  }
+  a.nav_a:visited {    text-decoration: none;  }
+  a.nav_a:hover { text-decoration: none;    color: #9900ff;  }
+  a.nav_a:active {     text-decoration: none;  }
 </style>
 
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
-<ul class="nav">
-  <a class="nav" href="https:/Stormy9.github.io/CS460/references/git/"><li class="nav">git</li></a>
-  <a class="nav" href="https:/Stormy9.github.io/CS460/references/markdown/"><li class="nav">md</li></a>
-  <a class="nav" href="https:/Stormy9.github.io/CS460/references/html/"><li class="nav">html</li></a>
-  <a class="nav" href="https:/Stormy9.github.io/CS460/references/css/"><li class="nav">css</li></a>
-  <a  class="nav" href="https:/Stormy9.github.io/CS460/references/bootstrap/"><li class="nav">bs</li></a>
-  <a  class="nav" href="https:/Stormy9.github.io/CS460/references/js_jq/"><li class="nav">js+jQ</li></a>
-  <a  class="nav" href="https:/Stormy9.github.io/CS460/references/c_sharp/"><li class="nav">C#</li></a>
+<ul class="nav_ul">
+  <a class="nav_a" href="https:/Stormy9.github.io/CS460/references/git/"><li class="nav_li">git</li></a>
+  <a class="nav_a" href="https:/Stormy9.github.io/CS460/references/markdown/"><li class="nav_li">md</li></a>
+  <a class="nav_a" href="https:/Stormy9.github.io/CS460/references/html/"><li class="nav_li">html</li></a>
+  <a class="nav_a" href="https:/Stormy9.github.io/CS460/references/css/"><li class="nav_li">css</li></a>
+  <a  class="nav_a" href="https:/Stormy9.github.io/CS460/references/bootstrap/"><li class="nav_li">bs</li></a>
+  <a  class="nav_a" href="https:/Stormy9.github.io/CS460/references/js_jq/"><li class="nav_li">js+jQ</li></a>
+  <a  class="nav_a" href="https:/Stormy9.github.io/CS460/references/c_sharp/"><li class="nav_li">C#</li></a>
 </ul>
 
 ---
