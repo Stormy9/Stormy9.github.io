@@ -7,6 +7,7 @@
 # html5 notes  
 ## difference(s) between **html** and **html5**  
 
+woot!
 
 <br>
 
@@ -111,7 +112,11 @@ A few ways I found, though, were more straight-forward... involving `JavaScript`
 
 Of course, the **easiest**, and **most** straight-forward way -- that I learned at Chemeketa -- involves `php`, which does not work with GitHub sites.  
 
-The one I used was simply the `JavaScript document.write()` way... 
+The one I used was simply the `JavaScript document.write()` way... which I had to figure out how to adapt somewhat from the examples I found online!  
+
+<a href="https://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file" target="_blank">This</a> on StackOverflow rounds up some of the various ways...  
+* go to @Tafkadasoh's answer -- the 3rd one... I tried various things with all those `\` things, in a repl, but it didn't seem to work..... 
+* so I looked at W3Schools page that shows using `JavaScript document.write()`..... 
 
 <br>
 
