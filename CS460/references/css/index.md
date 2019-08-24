@@ -413,11 +413,50 @@ Cool, huh?   [=
 Let's make one!  
 *(with **internal css**)*  
 ```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                background-color: PaleVioletRed;
+                color: White;
+            }
+            .box {
+                width: 300px;
+                background-color: LemonChiffon;
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 18px;
+                color: DarkSlateBlue;
+                padding: 45px;
+                border: 12px solid MediumPurple;
+                margin: 45px;
+            }
+        </style>
+    </head>
 
+    <body>
+        <p>The `css` box model is a box that wraps around every single HTML element in your page.</p>
+
+        <p>It consists of -- from inside to outside: <br> content (your stuff)... padding... border... and margin.</p>
+
+        <div class="box">
+            <p>Hi! I am the content of the box!  I am in &lt;p&gt; tags inside this &lt;div&gt;.</p>
+    
+            <p>Around me is 36px of padding -- that's the "LemonChiffon" part all around me... then I have a 12px thick border in "MediumPurple"... and then 45px margin to separate me from elements all around me.</p>
+
+            <p>Remember you can style margins one at a time... or top/bottom and/or left/right... or all in one swoop like this!</p>
+
+            <p>My width is set to 300px, but my height is automatic -- determined by my content, padding, and border (but not margin -- think about it!)</p>
+        </div>
+
+        <p>here is another paragraph after our box, to show the bottom margin working.</p>
+    </body>
+</html>
 ```
-<br>
-here's what that looks like: 
-
+here's what that looks like:  
+<a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_02.PNG"><img src="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_02.PNG"></a>  
 
 <br>
 
