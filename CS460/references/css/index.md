@@ -42,7 +42,8 @@ is like this:
 ## where you can put it  
 ### **inline css** -- right in any html tag:
 ```html
-<p style="color: tomato;">I am a cool paragraph -- even though my font color is tomato rather than cucumber!</p>
+<p style="color: tomato;">I am a cool paragraph -- 
+even though my font color is tomato rather than cucumber!</p>
 ```
 you can do this in `markdown` pages, too... for instance, that up there gives you:  
 <p style="color: tomato;">I am a cool paragraph -- even though my font color is tomato rather than cucumber!</p>
@@ -139,7 +140,8 @@ When you want to update styling, it is a lot easier & quicker!
 ```css
 body {
     background: DarkSlateBlue;	color: GhostWhite;
-    font-family: Inconsolata, "Courier New", serif;		font-size: 18px;
+    font-family: Inconsolata, "Courier New", serif;		
+    font-size: 18px;
 }
 
 h2 {
