@@ -375,23 +375,34 @@ in a repl so I can get a screenshot of the result!
         <p>I am in &lt;p&gt; tags... try highlighting me!</p>
         <p>I am using special highlighting.</p>
 
-        <div class="first">I am in &lt;div&gt; tags... try highlighting me, too! </div>
+        <div class="first">I am in &lt;div&gt; tags... try highlighting me, too!             
+        </div>
         <div> I am using the default highlighting.</div>
 
-        <div class="first">We are &lt;divs&gt; &amp; a &lt;span&gt;who will show you how to css up an ID!</div>
-        <div>Fudgy brownies are best, and <span id="mmm">the middle part</span> is better than edges.</div>
+        <div class="first">We are &lt;divs&gt; &amp; a &lt;span&gt; who  
+          will show you how to css up an ID!</div>
+        <div>Fudgy brownies are best, and <span id="mmm">the middle part</span>  
+        is better than edges.</div>
 
-        <div class="first">this is a &lt;div&gt;, <p>this is a &lt;p&gt; inside that &lt;div&gt;...<span id="mmm">this is a span in that &lt;p&gt;...</span>this is the other end of the &lt;p&gt;</p>and this is the rest of that original &lt;div&gt;!</div>
+        <div class="first">this is a &lt;div&gt;, <p>this is a &lt;p&gt; inside  
+          that &lt;div&gt;...<span id="mmm">this is a span in that &lt;p&gt;...  
+          </span>this is the other end of the &lt;p&gt;</p>and this is  
+          the rest of that original &lt;div&gt;!</div>
 
-        <div class="first"><a href="https://Stormy9.github.io/" target="_blank">a link to my front page!</a></div>
-        <p>note you can't apply the class '.first' to &lt;a&gt; tags -- well, you can, but you will only get the font color for '.first', not it's top margin!</p>
-        <p>to get the top margin, you'd have to put the whole &lt;a&gt; tag content inside a &lt;div&gt; tag, to which you can apply the '.first' class.</p>
+        <div class="first"><a href="https://Stormy9.github.io/" target="_blank">  
+        a link to my front page!</a></div>
+        <p>note you can't apply the class '.first' to &lt;a&gt; tags --  
+           well, you can, but you will only get the font color for '.first', not it's top margin!</p>
+        <p>to get the top margin, you'd have to put the whole &lt;a&gt; tag  
+          content inside a &lt;div&gt; tag, to which you can apply the '.first' class.</p>
 
         <p><span class="highlight">hover over me and I will highlight!</span></p>
 
         <footer>now you know your css!  well, at least some of it.   [=<br>
-        i have no idea why you'd ever want to style your &lt;header&gt; &amp; &lt;footer&gt; the same -- in real life you never would.   [=
-        <p>often i style my &lt;a:hover&gt; &amp &lt;a:active&gt; the same, for instance</p></footer>
+        i have no idea why you'd ever want to style your &lt;header&gt; &amp;  
+        &lt;footer&gt; the same -- in real life you never would.   [=
+        <p>often i style my &lt;a:hover&gt; &amp &lt;a:active&gt; the same,  
+          for instance</p></footer>
     </body>
 </html>
 ```
@@ -439,21 +450,29 @@ Let's make one!
     </head>
 
     <body>
-        <p>The `css` box model is a box that wraps around every single HTML element in your page.</p>
+        <p>The `css` box model is a box that wraps around every single HTML  
+          element in your page.</p>
 
-        <p>It consists of -- from inside to outside: <br> content (your stuff)... padding... border... and margin.</p>
+        <p>It consists of -- from inside to outside: <br> content (your stuff)...  
+        padding... border... and margin.</p>
 
         <div class="box">
-            <p>Hi! I am the content of the box!  I am in &lt;p&gt; tags inside this &lt;div&gt;.</p>
+            <p>Hi! I am the content of the box!  I am in &lt;p&gt; tags  
+              inside this &lt;div&gt;.</p>
     
-            <p>Around me is 36px of padding -- that's the "LemonChiffon" part all around me... then I have a 12px thick border in "MediumPurple"... and then 45px margin to separate me from elements all around me.</p>
+            <p>Around me is 36px of padding -- that's the "LemonChiffon" part  
+              all around me... then I have a 12px thick border in "MediumPurple"...  
+              and then 45px margin to separate me from elements all around me.</p>
 
-            <p>Remember you can style margins one at a time... or top/bottom and/or left/right... or all in one swoop like this!</p>
+            <p>Remember you can style margins one at a time... or top/bottom  
+              and/or left/right... or all in one swoop like this!</p>
 
-            <p>My width is set to 300px, but my height is automatic -- determined by my content, padding, and border (but not margin -- think about it!)</p>
+            <p>My width is set to 300px, but my height is automatic -- determined  
+              by my content, padding, and border (but not margin -- think about it!)</p>
         </div>
 
-        <p>here is another paragraph after our box, to show the bottom margin working.</p>
+        <p>here is another paragraph after our box, to show the bottom margin  
+          working.</p>
     </body>
 </html>
 ```
