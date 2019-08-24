@@ -47,6 +47,9 @@ a.nav_a:visited {
 /*=============================================*/
 a.nav_a:hover {
     font-size: 18px;
+    /* repeating the color declaration here, */
+    /* to see if that works? */
+    color: #9900ff;
   }
 /*
 HEY!!  this one *DOES* work!!  it over-rides mystyles_a.css
@@ -66,6 +69,10 @@ Okay... so css can be really f'ing weird...
              the purple-on-hover was working in VSCode Preview)
                     (at least just-plain-links are crimson
                      in VSCode Preview... *sigh*)
+    
+    Then it started not changing-to-purple online either... 
+        hmmmmm.....  I added the color here, as well to see
+        if that makes it do it??
 */
 /*
 OBVIOUSLY... the styling from mystyles_a.css for
