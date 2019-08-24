@@ -16,6 +16,7 @@ li.nav_li {
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
 <ul class="nav_ul">
+  <a class="nav_a" href="https:/Stormy9.github.io/CS460/"><li class="nav_li">hwks</li></a>
   <a class="nav_a" href="https:/Stormy9.github.io/CS460/references/git/"><li class="nav_li">git</li></a>
   <a class="nav_a" href="https:/Stormy9.github.io/CS460/references/markdown/"><li class="nav_li">md</li></a>
   <a class="nav_a" href="https:/Stormy9.github.io/CS460/references/html/"><li class="nav_li">html</li></a>
@@ -32,7 +33,7 @@ li.nav_li {
 
 **basic syntax**
 is like this:  
-<img src="https://Stormy9.github.io/CS460/references/css/images/css_syntax.PNG>  
+<img src="https://Stormy9.github.io/CS460/references/css/images/css_syntax.PNG">  
 *(borrowed from <a href="https://www.w3schools.com/css/css_syntax.asp" target="_blank">W3Schools</a> -- they have the best one!)*  
 
 <br>
