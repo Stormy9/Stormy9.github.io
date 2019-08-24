@@ -409,11 +409,17 @@ in a repl so I can get a screenshot of the result!
 and this is what that puts out:  
 <a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_01.PNG"><img src="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_01.PNG"></a>  
 
-Oh, okay..... I realizse some of that is interactive -- the links & highlighting & hovering and all that...  
+Oh, okay..... I realize some of that is interactive -- the links & highlighting & hovering and all that...  
 
 So I threw together a "quickie demo page" <a href="https://Stormy9.github.io/CS460/references/css/demo.html">here</a>!  
 
 Cool, huh?   [=  
+
+<br>
+
+Notice the escaped version of `<>` and `&` in the `html`.  
+
+And notice how `div.first` overrides just plain `.first` -- since `.first` is never used elsewhere than a `div`.  
 
 <br>
 
@@ -484,13 +490,28 @@ here's what that looks like:
 ---
 ---
 ## ordering in **css**  
-For most things, in `css`, the order does not matter.  
+For most things, in most places, in `css`, the order of stuff does not matter.  
 
 You can style `tags`, then `classes`, then some more `tags`, then an `id`, then some `pseudo classes` or whatever..... and within each `selector`, it doesn't matter what order the `declarations` are in.
 
-*However*..... one of the ways in which `css` is picky, is that for some things, you must follow a specific order... a biggie is linkage styling:  
+*However*..... one of the ways in which `css` is picky, is that for **some** things, you must follow a specific order... a biggie is linkage styling:  
 ```css
-
+a:link {
+    color: OrangeRed;		
+    font-weight: bold;
+}
+a:visited {
+    color: Orange;			
+    font-weight: bold;
+}
+a:hover {
+    color: LightSkyBlue;	
+    font-weight: bold;
+}
+a:active {
+    color: Crimson;
+    font-weight: bold;
+}
 ```
 `<a>` tags **must** be styled in **that** order.  
 
@@ -549,11 +570,14 @@ So, screw it.   [=
 
 * <a href="https://css-tricks.com/" target="_blank">CSSTricks</a>  
 
+**Important!**
+Use a repl and just practice and have fun with it, and see what happens (or not!) when you do stuff!  That is key with `css` at least for me -- I have to see what it's doing to fully get it.   [=  
+
 <br>
 
 ---
 ---
 ---
-[back to CS460 page](https://Stormy9.github.io/CS460#css/ "CS460 main page")   
+[back to CS460 page](https://Stormy9.github.io/CS460/ "CS460 main page")   
 
 [back to main page](https://Stormy9.github.io/ "main page")   
