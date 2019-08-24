@@ -38,6 +38,13 @@ the just-plain-link color is indeed crimson...
          but the just-plain-link color is default orange!
 */
 /*=============================================*/
+a.nav_a:visited {
+    /* a link that's been, well, visited! */
+    color: #bb1133;
+}
+/* this might fix my problem... if so will note */
+/* in comments below..... */
+/*=============================================*/
 a.nav_a:hover {
     font-size: 18px;
   }

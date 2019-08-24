@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: DarkSlateBlue;      color: GhostWhite;
+                font-family: Inconsolata, "Courier New", serif;
+                font-size: 18px;
+            }
+            h2 {
+                text-decoration: underline;
+                font-family: Quicksand, Verdana, sans-serif;
+            }
+            div {
+                font-family: Quicksand, Verdana, sans-serif;
+            }
+            p {
+                color: MediumSpringGreen;
+            }
+            header, footer {
+                color: Crimson;
+            }
+            div p {
+                background: IndianRed;
+            }
+            footer > p {
+                color: PeachPuff;       font-size: 14px;
+                font-family: Quicksand, Verdana, sans-serif;	
+            }
+            .first{
+                color: Plum;
+            }
+            div.first {
+                margin-top: 45px;       color: LemonChiffon;
+            }
+            #mmm {
+                font-weight: bold;      color: GreenYellow;
+            }
+
+            p::selection {
+                color: FireBrick;       background: GhostWhite;
+            }
+            ::-moz-selection { /* Code for Firefox */
+                color: FireBrick;       background: GhostWhite;
+            }
+
+            a:link {
+	            color: OrangeRed;       font-weight: bold;
+            }
+            a:visited {
+            color: Orange;      font-weight: bold;
+            }
+            a:hover {
+                color: LightSkyBlue;        font-weight: bold;
+            }
+            a:active {
+	            color: Crimson;     font-weight: bold;
+            }
+
+            .highlight {
+                color: LightSalmon;
+            }
+            .highlight:hover {
+                background-color: Maroon;	
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>let's have fun with css!</h2>
+        </header>
+
+        <p>I am in &lt;p&gt; tags... try highlighting me!</p>
+        <p>I am using special highlighting.</p>
+
+        <div class="first">I am in &lt;div&gt; tags... 
+            try highlighting me, too! </div>
+        <div> I am using the default highlighting.</div>
+
+        <div class="first">We are &lt;divs&gt; &amp; a &lt;span&gt;who 
+            will show you how to css up an ID!</div>
+        <div>Fudgy brownies are best, and <span id="mmm">the middle 
+            part</span> is better than edges.</div>
+
+        <div class="first">this is a &lt;div&gt;, <p>this is a &lt;p&gt; 
+            inside that &lt;div&gt;...<span id="mmm">this is a span in that &lt;p&gt;...</span>this is the other end of the &lt;p&gt;</p>and this is the rest of that original &lt;div&gt;!</div>
+
+        <div class="first"><a href="https://Stormy9.github.io/" 
+            target="_blank">a link to my front page!</a></div>
+        <p>note you can't apply the class '.first' to &lt;a&gt; tags -- 
+            well, you can, but you will only get the font color for '.first', 
+            not it's top margin!</p>
+        <p>to get the top margin, you'd have to put the whole &lt;a&gt; 
+            tag content inside a &lt;div&gt; tag, to which you can apply the '.first' class.</p>
+
+        <p><span class="highlight">hover over me and I will highlight!</span></p>
+
+        <footer>now you know your css!  well, at least some of it.   [=<br>
+            i have no idea why you'd ever want to style your &lt;header&gt; &amp; &lt;footer&gt; the same -- in real life you never would.   [=
+        <p>often i style my &lt;a:hover&gt; &amp &lt;a:active&gt; the same, 
+            for instance</p></footer>
+    </body>
+</html>
+
+
+
+
