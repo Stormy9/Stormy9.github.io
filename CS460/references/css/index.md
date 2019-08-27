@@ -666,7 +666,7 @@ here's what that looks like:
 <div class="mydiv">this is my own personal div!</div>
 ```
 Gives you:  
-<a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_03.PNG"><img src="https://Stormy9.github.io/references/css/images/ScreenShot_03.PNG"></a>
+<a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_03.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_03.PNG"></a>
 
 Isn't that cool?
 
@@ -728,14 +728,15 @@ Notice the order is: **`width` then `style` then `color`**.
 </style>
 
 <body>
-    <div class="left">The <code>border-left:</code> property is shorthand giving <code>width style 		color</code>.  The rest of the css is just to make things look nice.   [= </div>
+    <div class="left">The <code>border-left:</code> property is shorthand giving 
+    <code>width style color</code>.  The rest of the css is just to make things look nice.   [= </div>
 
     <div class="bottom">The <code>border-bottom:</code> property uses that same shorthand.  
-    <br>I gave the <code>&lt;div&gt;</code>s a <code>margin</code> so it's easier to see what's going 		on.   [= </div>
+    <br>I gave the <code>&lt;div&gt;</code>s a <code>margin</code> so it's easier to see what's going on.   [= </div>
 </body>
 ```
 Gives you:  
-<a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_04.PNG"><img src="https://Stormy9.github.io/references/css/images/ScreenShot_04.PNG"></a>
+<a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_04.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_04.PNG"></a>
 
 <br>
 
@@ -937,30 +938,39 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
 
     <body>
         <main>
-            <p>The stuff in the purple box, is a span <span class="span_test">Hello World!</span> element within a paragraph.</p>
+            <p>The stuff in the purple box, is a span 
+              <span class="span_test">Hello World!</span> element within a paragraph.</p>
 
-            <p> <strong>&lt;span&gt;</strong> elements are inline... that means they won't start on a new line, and they only take up as much width as necessary -- or as you style them to. </p>
+            <p> <strong>&lt;span&gt;</strong> elements are inline... that means they 
+            won't start on a new line, and they only take up as much width as necessary -- or as you style them to. </p>
 
-            <p>See how you <strong>can't</strong> set top/bottom margins on them, but you <strong>can</strong> set left/right ones? 
+            <p>See how you <strong>can't</strong> set top/bottom margins on them, but you 
+            <strong>can</strong> set left/right ones? 
 
             <br>And see how the top padding makes it stick up over the colored-in <strong>&lt;main&gt;</strong> section?
             
             <br>And see how you can put a border around the <strong>&lt;span&gt;</strong>? </p>
 
-            <p class="button_demo">See how <strong>&lt;p&gt;</strong> tags can be styled with a top margin, padding, &amp; border via a class?  
+            <p class="button_demo">See how <strong>&lt;p&gt;</strong> tags can be styled with 
+            a top margin, padding, &amp; border via a class?  
             But the margin wouldn't work -- even through a class -- if <strong>&lt;p&gt;</strong> tags were not block elements!</p>
 
-            <p>Let's put a link in this paragraph: <a href="https://Stormy9.github.io/" target="_blank">I'm a link styled like a button!</a> isn't that cool?  It has <strong>{display: inline-block;}</strong> styling. Because of that, I was able to style it with top/bottom margins!  Along with all the other stuff.</p>
+            <p>Let's put a link in this paragraph: <a href="https://Stormy9.github.io/" target="_blank">I'm a link styled like a button!</a> 
+            isn't that cool?  It has <strong>{display: inline-block;}</strong> styling.  
+            Because of that, I was able to style it with top/bottom margins!  Along with all the other stuff.</p>
 
-            <p>Notice this faux-button was made simply by styling the <strong>&lt;a&gt;</strong> tag... when you click it, it doesn't change in any way, at any stage.</p>
+            <p>Notice this faux-button was made simply by styling the <strong>&lt;a&gt;</strong> tag... 
+            when you click it, it doesn't change in any way, at any stage.</p>
 
-            <p>If I want it to have hover effects, then I *have* to style <strong>&lt;a:link&gt; </strong> and <strong>&lt;a:visited&gt;</strong>... and *then* <strong>&lt;a:hover&gt;</strong>.  </p>
+            <p>If I want it to have hover effects, then I *have* to style <strong>&lt;a:link&gt;</strong> and 
+            <strong>&lt;a:visited&gt;</strong>... and *then* <strong>&lt;a:hover&gt;</strong>.  </p>
 
             <p>Let's do that with a new faux button:</p>
             <p>Here's another link: <a class="second_button" href="https://stormy9.github.io/" target="_blank">hover me!</a> try it!
             </p>
 
-            <p>Notice how the styling for the <strong>&lt;a&gt;</strong> tag is still in effect: inline-block, margins &amp; padding, font family &amp; size, lack of an underline, and border-style, border-width, &amp; border-radius!
+            <p>Notice how the styling for the <strong>&lt;a&gt;</strong> tag is still in effect:  
+            inline-block, margins &amp; padding, font family &amp; size, lack of an underline, and border-style, border-width, &amp; border-radius!
             </p>
 
             <p>All I had to style for this 2nd faux button is background-color, color, and border-color.</p>
@@ -980,7 +990,7 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
 </html>
 ```
 This gives you:  
-<a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"><img src="https://Stormy9.github.io/references/css/images/ScreenShot_05.PNG"></a>  
+<a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"></a>  
 
 Here's the <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">demo page I made</a> of that.
 
