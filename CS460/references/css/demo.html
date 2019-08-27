@@ -20,6 +20,13 @@
             header, footer {
                 color: Crimson;
             }
+            footer {
+            	border-top: 3px solid crimson;
+            }
+            h3 {
+            	font-family: Inconsolata, "Courier New", serif;
+                font-size: 21px;    font-weight: bold;      color: Crimson;
+            }
             div p {
                 background: IndianRed;
             }
@@ -31,32 +38,32 @@
                 color: Plum;
             }
             div.first {
-                margin-top: 45px;       color: LemonChiffon;
+                margin-top: 18px;           color: LemonChiffon;
             }
             #mmm {
-                font-weight: bold;      color: GreenYellow;
+                font-weight: bold;          color: GreenYellow;
             }
-
+            code {
+            	color: silver;              font-weight: bold;
+            }
             p::selection {
                 color: FireBrick;       background: GhostWhite;
             }
             ::-moz-selection { /* Code for Firefox */
                 color: FireBrick;       background: GhostWhite;
             }
-
             a:link {
-	            color: OrangeRed;       font-weight: bold;
+                color: OrangeRed;       font-weight: bold;
             }
             a:visited {
-            color: Orange;      font-weight: bold;
+                color: Orange;          font-weight: bold;
             }
             a:hover {
                 color: LightSkyBlue;        font-weight: bold;
             }
             a:active {
-	            color: Crimson;     font-weight: bold;
+                color: Crimson;             font-weight: bold;
             }
-
             .highlight {
                 color: LightSalmon;
             }
@@ -70,38 +77,53 @@
             <h2>let's have fun with css!</h2>
         </header>
 
-        <p>I am in &lt;p&gt; tags... try highlighting me!</p>
+        <p>I am in <code>&lt;p&gt;</code> tags... try highlighting me!</p>
         <p>I am using special highlighting.</p>
-
-        <div class="first">I am in &lt;div&gt; tags... 
-            try highlighting me, too! </div>
+        
+		<hr>
+        
+        <div class="first">I am in <code>&lt;div&gt;</code> tags... 
+        try highlighting me, too!             
+        </div>
         <div> I am using the default highlighting.</div>
+        <div> Also note <code>&lt;div&gt;</code>'s don't leave vertical spacing as 
+        <code>&lt;p&gt;</code>'s do!</div>
 
-        <div class="first">We are &lt;divs&gt; &amp; a &lt;span&gt;who 
-            will show you how to css up an ID!</div>
-        <div>Fudgy brownies are best, and <span id="mmm">the middle 
-            part</span> is better than edges.</div>
+        <div class="first">We are <code>&lt;divs&gt;</code> &amp; 
+        a <code>&lt;span&gt;</code> who will show you how to css up an ID!</div>
+        <div>Fudgy brownies are best, and <span id="mmm">the middle part</span>  
+        is better than edges.</div>
 
-        <div class="first">this is a &lt;div&gt;, <p>this is a &lt;p&gt; 
-            inside that &lt;div&gt;...<span id="mmm">this is a span in that &lt;p&gt;...</span>this is the other end of the &lt;p&gt;</p>and this is the rest of that original &lt;div&gt;!</div>
+        <div class="first">this is a <code>&lt;div&gt;</code>, 
+        <p>this is a <code>&lt;p&gt;</code> inside that <code>&lt;div&gt;</code>
+        ...<span id="mmm">this is a span in that <code>&lt;p&gt;</code>...  
+          </span>this is the other end of the <code>&lt;p&gt;</code></p>and this is  
+          the rest of that original <code>&lt;div&gt;</code>!</div>
+          
+		<hr>
+        
+        <div class="first"><a href="https://Stormy9.github.io/" target="_blank">  
+        a link to my front page!</a></div>
+        
+        <p>note you can't apply the class <code>.first</code> to <code>&lt;a&gt;
+        </code> tags -- well, you can, but you will only get the font color for
+        <code>.first</code>, not it's top margin!</p>
+        <p>To get the top margin, too, you'd have to add: 
+        <br><code>{display: inline-block;}</code> to your css!</p>
 
-        <div class="first"><a href="https://Stormy9.github.io/" 
-            target="_blank">a link to my front page!</a></div>
-        <p>note you can't apply the class '.first' to &lt;a&gt; tags -- 
-            well, you can, but you will only get the font color for '.first', 
-            not it's top margin!</p>
-        <p>to get the top margin, you'd have to put the whole &lt;a&gt; 
-            tag content inside a &lt;div&gt; tag, to which you can apply the '.first' class.</p>
+        <p>I'm another <code>&lt;span&gt;</code> in a <code>&lt;p&gt;</code>: 
+        <span class="highlight">Hover over me and I will highlight!</span></p>
 
-        <p><span class="highlight">hover over me and I will highlight!</span></p>
-
-        <footer>now you know your css!  well, at least some of it.   [=<br>
-            i have no idea why you'd ever want to style your &lt;header&gt; &amp; &lt;footer&gt; the same -- in real life you never would.   [=
-        <p>often i style my &lt;a:hover&gt; &amp &lt;a:active&gt; the same, 
-            for instance</p></footer>
+        <footer>
+        	<h3>I am a footer!</h3>
+        	now you know your css!  well, some of it, anyway.   [=
+            <br>i have no idea why you'd ever want to style your 
+            <code>&lt;header&gt;</code> &amp; <code>&lt;footer&gt;</code>
+            the same -- in real life you never would.  Except maybe for color
+            like I did here.   [=
+        
+        	<p>often i style my <code>&lt;a:hover&gt;</code> &amp;
+            <code>&lt;a:active&gt;</code> the same, though.</p>
+        </footer>
     </body>
 </html>
-
-
-
-

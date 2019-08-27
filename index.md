@@ -35,7 +35,8 @@ I don't own a smart phone, and the stupid one I *do* own, doesn't get reception 
 ---
 
 ### CS460 --> Software Engineering I
-[all my stuff for CS460](https://stormy9.github.io/CS460/ "my CS460 stuff")
+[all my stuff for CS460](https://stormy9.github.io/CS460/ "my CS460 stuff")  
+[all my refs/notes for CS460](https://stormy9.github.io/CS460/references/ "all my notes and stuff")
 
 ---
 
