@@ -334,7 +334,7 @@ difference between `descendant` and `child`:
 
 <br>
 
-Check out <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">this</a> quick reference sheet out for different ordering of selectors -- descendant, children, siblings; plus tag+attribute.
+* Check out <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">this</a> quick reference sheet out for different ordering of selectors -- descendant, children, siblings; plus tag+attribute.
 
 <br>
 
@@ -397,11 +397,9 @@ Some things need special code for different browsers -- Firefox, IE, etc.  Usual
 <br>
 
 ---
-<a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">More about Selectors, Classes, and IDs in `css`</a>
-
-<a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">More about Pseudo Classes in `css`</a>  
-
-<a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">More about Pseudo Elements in `css`</a>
+* <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">More about Selectors, Classes, and IDs in `css`</a>
+* <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">More about Pseudo Classes in `css`</a>  
+* <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">More about Pseudo Elements in `css`</a>
 
 <br>
 
@@ -559,7 +557,7 @@ and this is what that puts out:
 
 Oh, okay..... I realize some of that is interactive -- the links & highlighting & hovering and all that...  
 
-So I threw together a "quickie demo page" <a href="https://Stormy9.github.io/CS460/references/css/demo.html">here</a>!  
+* So I threw together a "quickie demo page" <a href="https://Stormy9.github.io/CS460/references/css/demo.html">here</a>!  
 
 Cool, huh?   [=  
 
@@ -630,7 +628,7 @@ Let's make one!
     </body>
 </html>
 ```
-here's what that looks like:  
+**Here's what that looks like:**  
 <a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_02.PNG"><img src="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_02.PNG"></a>  
 
 <br>
@@ -665,7 +663,7 @@ here's what that looks like:
 
 <div class="mydiv">this is my own personal div!</div>
 ```
-Gives you:  
+**Gives you:**  
 <a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_03.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_03.PNG"></a>
 
 Isn't that cool?
@@ -735,12 +733,12 @@ Notice the order is: **`width` then `style` then `color`**.
     <br>I gave the <code>&lt;div&gt;</code>s a <code>margin</code> so it's easier to see what's going on.   [= </div>
 </body>
 ```
-Gives you:  
+**Gives you:**  
 <a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_04.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_04.PNG"></a>
 
 <br>
 
-<a href="https://www.w3schools.com/css/css_border.asp" target="_blank">More about borders in `css` here</a>
+* <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">More about borders in `css` here</a>
 
 <br>
 
@@ -783,7 +781,7 @@ Plus, if you want to use/style `a:hover`, then you have to do **both** `a:link` 
 
 And to use `a:active` you have to have the others first. 
 
-<a href="https://www.codecademy.com/forum_questions/53da988252f86308fd0000a4" target="_blank">This page</a> explains it very well.  
+* <a href="https://www.codecademy.com/forum_questions/53da988252f86308fd0000a4" target="_blank">This page</a> explains it very well.  
 It also explains the "just plain `<a>` styling, and `a:focus` -- the first I hadn't thought of, the second I didn't know about!  
 
 <br>
@@ -863,9 +861,9 @@ The `<a> tag` is an `inline html` element..... therefore, there's some things yo
 If you want to add top/bottom margins to your `<a>` tags, you have to add a `css declaration` like this:   
 ```display: inline-block;```  
 
-<a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">Listing of `block vs. inline html` elements</a>  
-<a href="https://www.w3schools.com/css/css_inline-block.asp" target="_blank">More about `{display: inline-block;}` in `css`</a>  
-<a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">And more about `display` in `css` in general</a>
+* <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">Listing of `block vs. inline html` elements</a>  
+* <a href="https://www.w3schools.com/css/css_inline-block.asp" target="_blank">More about `{display: inline-block;}` in `css`</a>  
+* <a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">And more about `display` in `css` in general</a>
 
 Neither can you add effects like bolding to the pseudo-element `::selection` aka user highlighting -- only color, background, cursor, and outline.   [=  
 
@@ -990,10 +988,10 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
     </body>
 </html>
 ```
-This gives you:  
+**This gives you:**  
 <a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"></a>  
 
-Here's the <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">demo page I made</a> of that.
+* Here's the <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">demo page I made</a> of that.
 
 ---
 ---
