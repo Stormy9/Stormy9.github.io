@@ -15,9 +15,11 @@ how to do the basic stuff in Git...
 ---
 ---
 ## Quickie-Ref:  
-Since grokking all this took some effort, a quick guide up-top.   [=  
+Since grokking all this took some effort, and I illustrated things in detail below... I'll put a quick guide up-top.   [=  
+```
+```
 
-
+<br>
 
 ---
 ---
