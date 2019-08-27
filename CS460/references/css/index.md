@@ -970,7 +970,8 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
             </p>
 
             <p>Notice how the styling for the <strong>&lt;a&gt;</strong> tag is still in effect:  
-            inline-block, margins &amp; padding, font family &amp; size, lack of an underline, and border-style, border-width, &amp; border-radius!
+            inline-block, margins &amp; padding, font family &amp; size, 
+            lack of an underline, and border-style, border-width, &amp; border-radius!
             </p>
 
             <p>All I had to style for this 2nd faux button is background-color, color, and border-color.</p>
