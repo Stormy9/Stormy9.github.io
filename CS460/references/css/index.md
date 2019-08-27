@@ -843,9 +843,9 @@ div {
 ## warning!  
 As noted, `css` can be really damned tricky, picky, and at times annoying!  
 But most often, it's really cool and a lot of fun.  
-Even when it's being annoying, it's still fun to figure out.  Like a puzzle.    
+Even when it's being annoying, it's still fun to figure out.  Like a puzzle.    A **lot** of fun to fiddle around with.  
 
-Well, kinda... sometimes it makes you what's known officially, as "bat-crap crazy".  But it's generally a good crazy -- because you learn from it.   [=  
+Well, kinda... sometimes it makes you what's known officially, as "bat-crap crazy".  But it's generally a good crazy -- because you learn from it, and more light bulbs keep coming on.   [=  
 
 <br>
 
@@ -1009,7 +1009,7 @@ Here's the <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">
 
 * <a href="https://css-tricks.com/" target="_blank">CSSTricks</a>  
 
-**Important!**
+**Important!**  
 Use a repl and just practice and have fun with it, and see what happens (or not!) when you do stuff!  That is key with `css` at least for me -- I have to see what it's doing to fully get it.   [=  
 
 And there's always Google & StackOverflow.   [=  
