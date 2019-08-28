@@ -207,10 +207,10 @@ we continue...
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_08.PNG">![screenshot of step 8](https://stormy9.github.io/CS460/references/git/images/git_ref_08.PNG)</a>  
 <a href="https://stormy9.github.io/CS460/references/git/images/git_ref_09.PNG">![screenshot of step 9](https://stormy9.github.io/CS460/references/git/images/git_ref_09.PNG)</a>  
 note I only added **one** of the files, at first...
-this is so I could show `status` and `add`ing one file vs. multiple files (note there's just a single space between file names).  
-plus to show how `status` looks at various steps.  
+this is so I could show `add` for one file vs. multiple files (note there's just a single space between file names)...  
+Plus to show how `status` looks at various steps.  
 
-note I also edited the `woof.md` file, so you can see how that looks when `status` returns, and that you have to `add` that in order to get it to your GitHub (remote) repo.  
+Note I also edited the `woof.md` file, so you can see how that looks when `status` returns, and that you have to `add` that in order to get it to your GitHub (remote) repo.  
 
 <br>
 
