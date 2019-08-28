@@ -1009,6 +1009,12 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
 
 * <a href="https://css-tricks.com/" target="_blank">CSSTricks</a>  
 
+
+* <a href="http://htmlandcssbook.com/" target="_blank">HTML & CSS -- the book by John Duckett</a>
+    * i have this in print and a pdf version -- i like having both!   [=  
+
+    * and here's <a href="http://www.htmlandcssbook.com/code-samples/" target="_blank">the code samples that go with the book</a>
+
 <br>
 
 **Important!**  

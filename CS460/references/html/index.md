@@ -31,14 +31,17 @@ Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blan
 
         <meta charset="utf-8">  <!-- define char set -->
 
-        <!-- except this: it'll show in the browser tab -->
-        <title>my first page!</title>
-        
+        <!-- set responsive meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
         <!-- links to css, fonts, bootstrap, etc. -->
         <link rel="stylesheet" type="text/css" href="my_styles.css">
         
+        <!-- any internal/embedded css goes in here -->
         <style>
-            <!-- any internal/embedded css goes here -->
+            body {
+                background-color: lemonchiffon;
+            }
         </style>
         
         <!-- link to js scripts with <script> tags -->
@@ -46,18 +49,23 @@ Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blan
 
         <script>
             <!-- or put your js script right here -->
-            <!-- between <script> tags -->
+            <!-- between these <script> tags -->
         </script>
+
+        <!-- except this: it'll show in the browser tab -->
+        <title>my first page!</title>
         
     </head>
 <!----------------------------------------->
 
-    <body>  <!-- all the stuff that's actually seen -->
+    <body>  <!-- all the stuff that's actually seen! -->
 
         <!-- there's h1 to h6 -->
-        <h1>header goes here</h1>
+        <header>
+            <h1> this is our header </h1>
+        </header>
         
-        <nav class="nav">navigation</nav>
+        <nav class="nav"> navigation area </nav>
         
         <main>main
             <p id="demo">the id=demo paragraph
@@ -67,16 +75,20 @@ Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blan
                 about a sweet Sheltie..... 
             </div>
         </main>
+
+        <aside>
+            minor/bonus content goes here
+        </aside>
         
-        <footer>footer</footer>
+        <footer> footer </footer>
     
     </body>    
     
-    <!-- notice the semantic html tags -->
+    <!-- notice the semantic html tags! -->
 
 </html>     <!-- closing <html> tag-->
 ```
-__note:__ `<head>` and `<header>` are **NOT** the same tag!  
+__note:__ `<head>` and `<header>` are **NOT** the same thing nor interchangeable!  
 
 <br>
 
