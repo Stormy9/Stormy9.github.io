@@ -382,7 +382,7 @@ do this from the `master` branch, btw.
 
 ---
 ### git init  
-`git init` is only used the one time, when setting up your local repo, as described up-top.  
+`git init` is only used the one time, when setting up your local repo, as described up-top.  So one time per repo, when it's new.   [=  
 
 <br>
 
