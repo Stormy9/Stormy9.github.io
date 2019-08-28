@@ -557,7 +557,7 @@ and this is what that puts out:
 
 Oh, okay..... I realize some of that is interactive -- the links & highlighting & hovering and all that...  
 
-* So I threw together a "quickie demo page" <a href="https://Stormy9.github.io/CS460/references/css/demo.html">here</a>!  
+* <a href="https://Stormy9.github.io/CS460/references/css/demo.html">So I threw together a quickie demo page here</a>!  
 
 Cool, huh?   [=  
 
@@ -781,7 +781,7 @@ Plus, if you want to use/style `a:hover`, then you have to do **both** `a:link` 
 
 And to use `a:active` you have to have the others first. 
 
-* <a href="https://www.codecademy.com/forum_questions/53da988252f86308fd0000a4" target="_blank">This page</a> explains it very well.  
+* <a href="https://www.codecademy.com/forum_questions/53da988252f86308fd0000a4" target="_blank">This page explains it very well</a>.  
 It also explains the "just plain `<a>` styling, and `a:focus` -- the first I hadn't thought of, the second I didn't know about!  
 
 <br>
@@ -991,7 +991,7 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
 **This gives you:**  
 <a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"></a>  
 
-* Here's the <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">demo page I made</a> of that.
+* <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">Here's the demo page I made of that</a>.
 
 ---
 ---
