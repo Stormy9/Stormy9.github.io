@@ -118,7 +118,7 @@ Since grokking all this took some effort -- and I illustrated every little step 
 
     <br>
 
-<p style="color: crimson; font-weight: bold;">Remember:  `push` <i>everything</i>!</p>  
+    <p style="color: crimson; font-weight: bold;">Remember:  `push` <i>everything</i>!</p>  
 
 <br>
 
