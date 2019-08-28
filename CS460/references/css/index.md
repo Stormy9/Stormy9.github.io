@@ -1000,12 +1000,16 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
   * as featured on Dr. Morse's site   [=
 
 * <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">W3Schools</a>  
+  * <a href="https://www.w3schools.com/css/css_examples.asp" target="_blank">W3Schools - css Examples!</a>  
+  for everything -- and editable!
 
   * <a href="https://www.w3schools.com/cssref/default.asp" target="_blank">W3Schools -- Reference: css properties</a>  
 
   * <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">W3Schools -- Reference: css selectors</a>
 
 * <a href="https://css-tricks.com/" target="_blank">CSSTricks</a>  
+
+<br>
 
 **Important!**  
 Use a repl and just practice and have fun with it, and see what happens (or not!) when you do stuff!  That is key with `css` at least for me -- I have to see what it's doing to fully get it.   [=  

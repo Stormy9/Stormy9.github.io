@@ -11,7 +11,7 @@ woo-hoo!
 
 <br>
 
-checkout <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">this</a> W3Schools page.
+Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">this</a> W3Schools page.
 
 <br>
 
@@ -20,40 +20,61 @@ checkout <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank
 ## basic template for an **html5** page  
 ### with explanations in the comments  
 ```html
-<!doctype html>
-<html lang="eng">
+<!doctype html>     <!-- MUST BE AT VERY TOP! -->
+                    <!-- before any html -- this sets html5 -->
+                    <!-- this is the opening <html> tag -->
+                    <!-- the root element of every html page -->
+<html lang="eng">   <!-- sets spoken language for your page -->
+                    <!-- both these go before <head> tag -->
 
-    <head>
-        <title>template</title>
+    <head>  <!-- head = all the things not seen -->
+
+        <meta charset="utf-8">  <!-- define char set -->
+
+        <!-- except this: it'll show in the browser tab -->
+        <title>my first page!</title>
         
-        <link href="template.html">
-        
-        <meta charset="utf-8">
+        <!-- links to css, fonts, bootstrap, etc. -->
+        <link rel="stylesheet" type="text/css" href="my_styles.css">
         
         <style>
+            <!-- any internal/embedded css goes here -->
         </style>
         
+        <!-- link to js scripts with <script> tags -->
+        <script src="my_script.js"></script>
+
         <script>
+            <!-- or put your js script right here -->
+            <!-- between <script> tags -->
         </script>
         
     </head>
 <!----------------------------------------->
-    <body>
 
-        <header>header goes here</header>
+    <body>  <!-- all the stuff that's actually seen -->
+
+        <!-- there's h1 to h6 -->
+        <h1>header goes here</h1>
         
-        <nav>navigation</nav>
+        <nav class="nav">navigation</nav>
         
         <main>main
             <p id="demo">the id=demo paragraph
             </p>
+
+            <div class="story">pretend this is a cute story 
+                about a sweet Sheltie..... 
+            </div>
         </main>
         
         <footer>footer</footer>
     
     </body>    
     
-</html>
+    <!-- notice the semantic html tags -->
+
+</html>     <!-- closing <html> tag-->
 ```
 __note:__ `<head>` and `<header>` are **NOT** the same tag!  
 
@@ -61,48 +82,54 @@ __note:__ `<head>` and `<header>` are **NOT** the same tag!
 
 ---
 ---
-## html5 block vs. inline elements  
+## html5 **block vs. inline** elements  
 
 
 <br>
 
 ---
 ---
-## html5 links  
+## html5 **links**  
 
 
 <br>
 
 ---
 ---
-## html5 images  
+## html5 **images**  
 
 <br>
 
 ---
 ---
-## html5 lists  
-
-
-<br>
-
----
----
-## html5 tables    
+## html5 **lists**  
 
 
 <br>
 
 ---
 ---
-## html5 forms  
+## html5 **tables**    
 
 
 <br>
 
 ---
 ---
-## html5 includes  
+## html5 **forms**  
+
+
+<br>
+
+---
+---
+## html5 **code snips**
+
+<br>
+
+---
+---
+## html5 **includes**  
 Holy freaking shite!  
 One would think this would be something relatively easy and straight-forward -- like including `css` and `js` files in your `html` files is... especially with `HTML5`... but ***no***.  
 
@@ -208,17 +235,16 @@ I already spent too much time on this!!   [=
 ---
 ---
 ## some good html5 sites    
-* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">**M**ozilla **D**eveloper **N**etwork -- CSS</a>  
+* <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">**M**ozilla **D**eveloper **N**etwork -- CSS</a>  
 
-* <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">W3Schools -- Practice CSS</a>  
+* <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools -- Practice HTML5</a>  
+    * <a href="https://www.w3schools.com/html/html_examples.asp" target="_blank">W3Schools -- HTML Examples</a>  
+    for everything -- all editable!  
 
     * <a href="https://www.w3schools.com/tags/default.asp" target="_blank">W3Schools -- Full Glossary of HTML Tags</a>
 
     * <a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">W3Schools -- Full Glossary of HTML Attributes</a>
 
-* <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a>
-
-<br>
 
 * <a href="http://htmlandcssbook.com/" target="_blank">HTML & CSS -- the book by John Duckett</a>
     * i have this in print and a pdf version -- i like having both!   [=  
