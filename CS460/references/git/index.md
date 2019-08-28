@@ -54,7 +54,7 @@ Since grokking all this took some effort -- and I illustrated every little step 
     git commit -m "some good commit message"
     git push origin master
     ```
-    You can do a:  
+    You can do a:
     ```
     git status
     ``` 
@@ -70,7 +70,7 @@ Since grokking all this took some effort -- and I illustrated every little step 
     ```
     note you have to `push` your new branch -- otherwise it will only be local.  
 
-    you can do:  
+    you can do:
     ```
     git branch -a
     ```
@@ -87,7 +87,7 @@ Since grokking all this took some effort -- and I illustrated every little step 
     <br>
 
 6. **Merging your branch into master:**  
-    a. flip to your `master` branch:  
+    a. flip to your `master` branch:
     ```
     git checkout master
     ```
@@ -95,7 +95,7 @@ Since grokking all this took some effort -- and I illustrated every little step 
     ```
     git merge working
     ```
-    c. and `push`!
+    c. and `push`!  
     ```
     git push origin master
     ```
@@ -120,7 +120,7 @@ Since grokking all this took some effort -- and I illustrated every little step 
 
     <p style="color: crimson; font-weight: bold;">Remember:  `push` <i>everything</i>!</p>  
 
-<br>
+    <br>
 
 8. **Sometimes you have to pull:**  
     When something changed remotely and you need to synch up your local repo:
