@@ -5,19 +5,144 @@
 
 ---
 # git notes  
-how to do the basic stuff in Git...  
+How to do the basic stuff in Git...  
 ... and GitHub, and later BitBucket... 
 
 ... and maybe later some not-as-basic stuff.   [=   
 
 <br>
 
+First, you have to get Git installed on your machine..... this is easy in Linux (and Macs I hear) but not much more difficult on Windows.  
+
+Then use your Git Bash to enter stuff.  
+
+<br>
+
 ---
 ---
-## Quickie-Ref:  
-Since grokking all this took some effort, and I illustrated things in detail below... I'll put a quick guide up-top.   [=  
-```
-```
+## Quickie-Ref --> for GitHub:  
+Since grokking all this took some effort -- and I illustrated every little step of things later... so I'll put this quick guide up-top!    
+
+1. **Make your *local Git repo* -- with something in it:**     
+   ```
+   mkdir my_repo
+   cd my_repo
+   echo "# my_repo" > readme.md
+   git init
+   git add readme.md
+   git commit -m "initial commit"
+   ```
+   <br>
+
+2. **Make your *GitHub repo*:**  
+    a. go to your GitHub account page online  
+    b. make a new repo with the same name as your local one  
+
+    <br>
+
+3. **Connect your *local* repo to your *remote* GitHub one:**  
+    ```
+    git remote add origin https://github.com/yourGitHubName/my_repo.git
+    git push -u origin master
+    ```
+
+    <br>
+
+4. **Then you just go ahead and do whatever with your files locally..... and when you (and they!) are ready, just:**
+    ```
+    git add *
+    git commit -m "some good commit message"
+    git push origin master
+    ```
+    You can do a:  
+    ```
+    git status
+    ``` 
+    whenever you like to check on stuff.  
+
+    <br> 
+
+5. **To make a working branch:**  
+    ``` 
+    git branch working
+    git push -u origin working
+    git checkout working
+    ```
+    note you have to `push` your new branch -- otherwise it will only be local.  
+
+    you can do:  
+    ```
+    git branch -a
+    ```
+    whenever you want, to see what your branches are, both locally & remotely... it will also indicate which branch you're currently on -- but then so does your command prompt line in your Git Bash  
+    *(a good reason to use it vs. just plain command prompt)*  
+
+    Note that `master` is itself a `branch` -- just the master one.   [= 
+
+    Work on your files... make files &/or directories... do all your things... you do `status`, `add`, and `commit -m` the same way as before..... when it comes time to `push` to your `branch`, it's almost the same:
+    ```
+    git push -u origin working
+    ```
+    
+    <br>
+
+6. **Merging your branch into master:**  
+    a. flip to your `master` branch:  
+    ```
+    git checkout master
+    ```
+    b. do the merge -- from `master`:
+    ```
+    git merge working
+    ```
+    c. and `push`!
+    ```
+    git push origin master
+    ```
+
+    <br>
+
+7. **Delete your branch when you're all done with it:**  
+    a. from `master` branch:  
+    ```
+    git branch -d working
+    git branch -rd working
+    ```
+    delete both the local & remote working `branch`...  
+
+    b. and `push`!  
+    ```
+    git push --delete origin working
+    ```
+    ... just a little differently for deletes.
+
+    <br>
+
+**Remember:  `push` *everything*!**  
+
+<br>
+
+8. **Sometimes you have to pull:**  
+    When something changed remotely and you need to synch up your local repo:
+    ```
+    git pull origin master
+    ```
+    *(or whatever branch)*
+
+    <br>
+
+9. **And if you ever need it, there's fetch:**
+    ```
+    git fetch
+    ```
+    ... this brings in new &/or updated remote files, locally... **but**... doesn't change any of your local files.  
+
+    Essentially, a `git pull` is a `git fetch` followed by a `git merge`.  
+
+<br>
+
+That pesky `-u` flag:
+You only need to do that once, with your first `push`, for whatever `branch` -- it only needs to be set the once..... after that, it's superfluous.  You don't even need to have the `origin master` part after the first `push`, techincally, but I'm used to doing it from **CS407MA**.   [=  
 
 <br>
 
@@ -115,11 +240,12 @@ I wanted to show, that doing `git add *` will **only** add the files for the rep
 
 <br>
 
-**Note:**  it's best/most convenient, to `cd` to the directory/repo you're working with, before doing `git status` and especially `git add`, to `add` in new/edited/deleted files for a `commit`.  
+**Note:**  
+It's most convenient, to `cd` to the directory/repo you're working with, before doing `git status` and especially `git add`, to `add` in new/edited/deleted files for a `commit`.  
 
 You can do it otherwise, but it's just easiest!   [=  
 
-(because from another directory/repo, you have to type in the full path if you want to `add` a file!)
+From another directory/repo, you have to type in the full path if you want to `add` a file -- unless you're doing so from up the line somewhere... then it catches everything downstream, and an `git add *` will stuff from all downstream directories (which you may not want).  
 
 <br>
 
