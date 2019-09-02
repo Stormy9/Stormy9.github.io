@@ -22,6 +22,8 @@
 
 * A much more concise `<!DOCTYPE html>` declaration up-top!  
 
+* You don't even have to close out tags -- aka use closing tags -- anymore... although it's still generally considered good practice.  
+
 * Plus some other stuff.....  
     * Unsurprisingly, IE still has some blurps with `html5` -- <a href="https://www.w3schools.com/html/html5_browsers.asp" target="_blank">use the `html5 shiv`</a>    
 
@@ -203,6 +205,7 @@ Hover over it.....
 
 <br>
 
+---
 **Notes:**
 * You really don't need the full path for pages on/within your own site... but obviously you do for outside pages.  
 
@@ -245,6 +248,7 @@ The `<title>` attribue makes it so when you hover the image, a little caption po
 
 <br>
 
+---
 **Images have lots of slick options.** 
 
 * You can set the image's height & width with attriubutes in the `<img>` tag... but best practice is to use `css` to set these specs.  
@@ -269,6 +273,7 @@ The `<title>` attribue makes it so when you hover the image, a little caption po
 
 <br>
 
+---
 Here's an example of floating images, along with setting height/width and some other stuff:  
 ```html
 <!DOCTYPE html>
@@ -299,6 +304,8 @@ Here's an example of floating images, along with setting height/width and some o
 Which gives you this:  
 <a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_03.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_03.PNG"></a>
 
+Also check out <a href="https://Stormy9.github.io/CS460/references/css/">my own css ref/notes page</a> for more examples of floating stuff.
+
 <br>
 
 W3's <a href="https://www.w3schools.com/html/html_images.asp" target="_blank"> reference page for `html` images</a>
@@ -310,19 +317,264 @@ W3's <a href="https://www.w3schools.com/html/html_images.asp" target="_blank"> r
 ## html5 **lists**  
 There's three types of lists:  
 * ordered lists -- enumerated lists   
-    * you can set how the list is enumerated with the `type` attribute  
+    * you can set how the list is enumerated with the `type` attribute
+    * default is just simple 1, 2, 3, etc.    
+
 * unordered lists -- bulleted lists  
-    * you can set the bullet type via `css` (including no bullet at all!)
-* description lists -- lists that, well, describe things  
+    * you can set the bullet type via `css` (including no bullet at all!)  
+
+* description lists -- lists that, well, describe things... a list of things, with a description of each thing   
     * all styling done with `css`  
 
 They're really easy!  And have similarities enough they're easy to remember once you're used to them.  
 
-
+You can put anything you want into the list items -- including links, images, other `html` elements, even another list!  
 
 <br>
 
+---
+### **Ordered Lists:**  
+**This:**  
+```html
+<ol>
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ol>
+```
+Note you close out each `<li>` and the whole `<ol>` itself.  
+Although with `html5` you don't **really** have to.  But still.  
+
+
+Anyway, **that gives you:**  
+<ol>
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ol>
+
+<br>
+
+**And this:**  
+```html
+<ol type="A">
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ol>
+```
+
+**Gives you this:**  
+<ol type="A">
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ol>
+
+<br>
+
+---
+### **Unordered Lists:**  
+**This:**  
+```html
+<ul>
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ul>
+```
+
+**Gives you this:**  
+<ul>
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ul>  
+
+Note the bullets here are the Jekyll theme default ones, which is a little double >> thing.  
+
+<br>
+
+**And this:**  
+```html
+<ul style="list-style-type: circle;">
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ul>
+```
+Note the style is applied at the `<ul>` level.
+
+Anyway, **that gives you:**  
+<ul style="list-style-type: circle;">
+    <li> first thing </li>
+    <li> second thing </li>
+    <li> third thing </li>
+</ul>
+
+This should over-ride the Jekyll theme default.
+
+I know there's some way to put in your own characters for bullets -- or even images, I think? -- but I forget what that is right now, it's not on W3Schools, and it's not a big enough thing to look it up right now.   [=  It might be with `css`.  
+
+<br>
+
+---
+### **Description Lists:**  
+**This:**  
+```html
+<dl>
+    <dt>Chocolate-Chip Waffles</dt>
+    <dd>with mini-chocolate chips -- good with raspberry or strawberry syrup!
+    </dd>
+    <dt>Blueberry Waffles</dt>
+    <dd>with fresh blueberries -- try with blueberry syrup, or another berry syrup, or traditional maple!
+    </dd>
+    <dt>Peanut-Butter-Banana Waffles</dt>
+    <dd>peanut-butter in the waffle batter, with banana slices on top -- yummy with good ol' maple syrup!
+    </dd>  
+</dl>  
+```
+Think "description term" and "description detail" to remember the `<dt>` and `<dd>` tags!  
+
+**Gives you this:**  
+<dl>
+    <dt>Chocolate-Chip Waffles</dt>
+    <dd>-- with mini-chocolate chips -- good with raspberry or strawberry syrup!
+    </dd>
+    <dt>Blueberry Waffles</dt>
+    <dd>-- with fresh blueberries -- try with blueberry syrup, or another berry syrup, or traditional maple!
+    </dd>
+    <dt>Peanut-Butter-Banana Waffles</dt>
+    <dd>-- peanut-butter in the waffle batter, with banana slices on top -- yummy with good ol' maple syrup!
+    </dd>  
+</dl>  
+
+<br>
+
+**Or style it some, like this:**  
+```html
+<dl>
+    <dt style="font-weight: bold;">Chocolate-Chip Waffles</dt>
+    <dd style="margin-left: 15px;">with mini-chocolate chips -- good with raspberry or strawberry syrup!
+    </dd>
+    <dt style="font-weight: bold;">Blueberry Waffles</dt>
+    <dd style="margin-left: 15px;">with fresh blueberries -- try with blueberry syrup, or another berry syrup, or traditional maple!
+    </dd>
+    <dt style="font-weight: bold;">Peanut-Butter-Banana Waffles</dt>
+    <dd style="margin-left: 15px;">peanut-butter in the waffle batter, with banana slices on top -- yummy with good ol' maple syrup!
+    </dd>  
+</dl>  
+```
+Obviously this styling is best done with an external or embedded style sheet, rather than inline!  
+
+**And you get:**  
+<dl>
+    <dt style="font-weight: bold;">Chocolate-Chip Waffles</dt>
+    <dd style="margin-left: 20px;">-- with mini-chocolate chips -- good with raspberry or strawberry syrup!
+    </dd>
+    <dt style="font-weight: bold;">Blueberry Waffles</dt>
+    <dd style="margin-left: 20px;">-- with fresh blueberries -- try with blueberry syrup, or another berry syrup, or traditional maple!
+    </dd>
+    <dt style="font-weight: bold;">Peanut-Butter-Banana Waffles</dt>
+    <dd style="margin-left: 20px;">-- peanut-butter in the waffle batter, with banana slices on top -- yummy with good ol' maple syrup!
+    </dd>  
+</dl> 
+
+To me, the left margins are unnecessarily wide and look funny.   [=  
+
+<br>
+
+---
+### **Nested Lists (any of them!)**  
+You can even combine list types...  
+**This:**  
+```html
+<ol>
+    <li>Shelties</li>
+    <li>Collies
+        <ul style="list-style-type: circle;">
+            <li>Rough-coats</li>
+            <li>Smooth-coats</li>
+        </ul>
+    </li>
+    <li>Other doggies</li>
+</ol>
+```
+Note how you close out the inner `<ul>`... and then close out the `<ol>` `<li>`.
+
+**That gives you:**  
+<ol>
+    <li>Shelties</li>
+    <li>Collies
+        <ul style="list-style-type: circle;">
+            <li>Rough-coats</li>
+            <li>Smooth-coats</li>
+        </ul>
+    </li>
+    <li>Other doggies</li>
+</ol>
+
+<br>
+
+And yes, you can mix, say, an `<ul>` with a '<dl>`, even!  
+**Like this:**  
+```html
+<dl>
+    <dt style="font-weight: bold;">Apples</dt>
+    <dd>crunchy goodness!
+        <ul style="list-style-type: circle; margin-top: 3px;">
+            <li>green ones</li>
+            <li>red ones</li>
+            <li>in-between ones</li>
+        </ul>
+    </dd>
+    <dt style="font-weight: bold;">Bananas</dt>
+    <dd>they come in their own handsome carrying case!</dd>
+    <dt style="font-weight: bold; margin-top: 15px">Grapes</dt>
+    <dd>crisp and juicy!
+        <ol type="a" style="margin-top: 3px">
+            <li>green ones</li>
+            <li>red ones</li>
+            <li>black ones</li>
+        </ol>
+    </dd>
+</dl>
+```
+
+**And you get:**  
+<dl>
+    <dt style="font-weight: bold;">Apples</dt>
+    <dd>crunchy goodness!
+        <ul style="list-style-type: circle; margin-top: 3px;">
+            <li>green ones</li>
+            <li>red ones</li>
+            <li>in-between ones</li>
+        </ul>
+    </dd>
+    <dt style="font-weight: bold;">Bananas</dt>
+    <dd>they come in their own handsome carrying case!</dd>
+    <dt style="font-weight: bold; margin-top: 15px">Grapes</dt>
+    <dd>crisp and juicy!
+        <ol type="a" style="margin-top: 3px">
+            <li>green ones</li>
+            <li>red ones</li>
+            <li>black ones</li>
+        </ol>
+    </dd>
+</dl>
+
+<br>
+
+---
 The unordered lists -- with the `<ul>` tags -- is what you use to make nav sections & bars and stuff.  
+
+You just make the list horizontal, styling the display to `inline-block`, and using `float`, and `list-decoration: none`, and margins and padding and colors and all that good stuff.  
+* as an alternate to floating your `<li>` tags, you can also set their display to `inline`.
+* don't forget you have to style both the `<li>` and `<a>` tags for nav bars!
+
+<br>
+
+W3Schools <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">html lists page</a> 
 
 <br>
 
