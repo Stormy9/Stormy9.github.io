@@ -235,7 +235,7 @@ Also pretty easy, at it's core:
 <img src="https://Stormy9.github.io/references/html/images/WeinerMobile.jpg" alt="Oscar-Meyer Weinermobile" title="I got to go on the Weiner-Mobile!">
 ```
 gives you:  
-<img src="https://Stormy9.github.io/references/html/images/WeinerMobile.jpg" alt="Oscar-Meyer Weinermobile" title="I got to go on the Weiner-Mobile!">  
+<img src="https://Stormy9.github.io/CS460/references/html/images/WeinerMobile.jpg" alt="Oscar-Meyer Weinermobile" title="I got to go on the Weiner-Mobile!">  
 hover your mouse over that!
 
 The `<alt>` attribute on `<img>` tags is required, mind you, for a "real" website/page -- they won't validate without the `<alt>` attribute!  
