@@ -265,8 +265,42 @@ The `<title>` attribue makes it so when you hover the image, a little caption po
     * Go here: <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">W3Schools -- floating images</a> -- scroll to "Image Floating"  
         * Go here, too:  <a href="https://www.w3schools.com/css/css_float.asp" target="_blank">W3Schools -- css floats</a>
         * You **have** to play with the repls on these!  
+    * Even with Bootstrap making lots of things easier... it will still greatly behoove one to understand how floating elements works.   [=  
 
-* The new `html5` element:  `<picture>`
+* The new `html5` element `<picture>` allows for flexibility of what image is displayed based on the browser viewport size, with a fall-back image.  
+    * Check out the example at <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">W3Schools -- picture element</a> scroll to "HTML `<picture>` Element. 
+
+<br>
+
+Here's an example of floating images, along with setting height/width and some other stuff:  
+```html
+<!DOCTYPE html>
+<html>
+    <body style="font-family: sans-serif; background-color: #ccb3e6;">
+
+        <h3 style="display: inline-block; margin-top: 0; margin-bottom: 0">Float an image to the right:</h3>
+        <p style="margin-top: 3px;">Demo'ing a float-right image. Image courtesy <a href="https://teddythedog.com/" target="_blank">Teddy the Dog</a>! Check them out -- they're awesome. I have lots of Teddy's stuff: T-shirts, night-shirts, book-bags, fridge magnets, car magnets, throw pillows, blanket, beach towels, sticky notes, reusable shopping bags, insulated water bottles, calendar, and probably other stuff I've forgotten by now.
+        </p>
+
+        <img src="https://Stormy9.github.io/CS460/references/html/images/Teddy_Eat_Stink_BeMerry.jpg" alt="Teddy-the-Dog: Eat, Drink, & Be Merry!" title="Image Courtesy of Teddy-the-Dog!" style="float: right; width: 336px; height: 225px; margin-left: 9px; margin-bottom: 3px; border: 1px solid black">
+
+        <p>I put the image tag between the 1st and 2nd paragraph tags. So the top of the image will line up with the top of the 2nd paragraph. With image set to float-right... the text of the 2nd paragraph will wrap itself around the image, with the text situated to the left of the image. You can control how close the text gets to the image by setting margin-left and margin-bottom (the latter if your paragraph is really long, like I'm going to try to make this one be, just for the purposes of trying stuff out). You can float more than just images, you can float &lt;div&gt; and &lt;p&gt; and even &lt;li&gt; tags in order to make nav bar menus. Or whatever other elements you want to float. If you use Bootstrap, or the css grid system without Bootstrap, you will probably use float a lot less... regardless it behooves one to understand how floats work! Note how you can give your image a border, too, if you like.
+        </p>
+
+        <h3 style="display: inline-block; margin-top: 18px; margin-bottom: 0">Float an image to the left:</h3>
+        <p style="margin-top: 3px;">Demo'ing a float-left image. Image courtesy <a href="https://teddythedog.com/" target="_blank">Teddy the Dog</a>! Check them out -- they're awesome. Teddy will even personalize some items for you. Teddy's customer service is fantastic! About the only thing I don't have from Teddy so far, is glassware.  Or his book. I wish they'd make a plush version of Teddy!
+        </p>
+
+        <img src="https://Stormy9.github.io/CS460/references/html/images/Teddy_Eat_Stink_BeMerry.jpg" alt="Teddy-the-Dog: Eat, Drink, & Be Merry!" title="Image Courtesy of Teddy-the-Dog!" style="float: left; width: 336px; height: 225x; margin-right: 9px; margin-bottom: 3px; border: 1px solid black;">
+
+        <p>Again, I put the image tag between the 1st and 2nd paragraph tags.  Note how the top of the image is lined up with the top of the 2nd paragraph.  With the image set to float-left... the text of the 2nd paragraph will wrap itself around the image, with the text situated to the right of the image. This time you would control how close the text is to the image using margin-right and margin-bottom (if your paragraph blathers on for that long, which I'm going to try to do, again, just for demonstration purposes, of course). Floating your html with css styling is fun. You can also use it to float several images next to each other. Or several &lt;div&gt; elements with textual content floating next to each other, too -- with borders, spacing between, all that good stuff. Sometimes you have to adjust the width/height of your image just a tad, in order for the text spacing around it to look good and work right with the margins you put on the image.
+        </p>
+    </body>
+</html>
+```
+
+Which gives you this:  
+<a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_03.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_03.PNG"></a>
 
 <br>
 
