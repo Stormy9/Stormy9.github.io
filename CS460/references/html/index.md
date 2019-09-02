@@ -1,12 +1,9 @@
-<head>
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_a.css">
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
 <script src="https:/Stormy9.github.io/CS460/references/scripting/ref_nav.js"></script>
-</head>
----
-<body>
 
+---
 # html5 notes  
 ## difference(s) between **html** and **html5**  
 
@@ -311,7 +308,21 @@ W3's <a href="https://www.w3schools.com/html/html_images.asp" target="_blank"> r
 ---
 ---
 ## html5 **lists**  
+There's three types of lists:  
+* ordered lists -- enumerated lists   
+    * you can set how the list is enumerated with the `type` attribute  
+* unordered lists -- bulleted lists  
+    * you can set the bullet type via `css` (including no bullet at all!)
+* description lists -- lists that, well, describe things  
+    * all styling done with `css`  
 
+They're really easy!  And have similarities enough they're easy to remember once you're used to them.  
+
+
+
+<br>
+
+The unordered lists -- with the `<ul>` tags -- is what you use to make nav sections & bars and stuff.  
 
 <br>
 
@@ -467,5 +478,3 @@ I already spent too much time on this!!   [=
 [back to CS460 page](https://Stormy9.github.io/CS460#html/ "CS460 main page")   
 
 [back to main page](https://Stormy9.github.io/ "main page")   
-
-</body>
