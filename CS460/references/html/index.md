@@ -1,17 +1,40 @@
+<head>
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_a.css">
 <link rel="stylesheet" type="text/css" href="https:/Stormy9.github.io/CS460/references/styling/mystyles_b.css">
 
 <script src="https:/Stormy9.github.io/CS460/references/scripting/ref_nav.js"></script>
-
+</head>
 ---
+<body>
+
 # html5 notes  
 ## difference(s) between **html** and **html5**  
 
-woo-hoo!
+* `html5` is semantic -- tag names have some meaning, like `<header>` & `<footer>`, `<main>` & `<aside>`, `<nav>`, `<article>`, `<section>`, `<figure>`, `<picture>`, `<output>`, `<mark>`, and some others.  
+
+    * You can still use a plain ol' `<div>` if you need to, giving it a `class` or `id`.  But the semantic tags give better structure & definition to your pages, so use that when/where you can.  
+
+* Several new attributes to go with certain tags  
+    * plus support for custom attributes!  
+
+* Including video/audio media in your pages is a lot more straight-forward, with the new `<audio>` & `<video>` tags -- no more flash players or anything!  
+    * easily set attributes to put user contols on the players!  
+
+* Several new & improved form features -- including `Regular Expressions` & input validation   
+    * many of the new (cool!) attributes are for handling forms!
+
+* A much more concise `<!DOCTYPE html>` declaration up-top!  
+
+* Plus some other stuff.....  
+    * Unsurprisingly, IE still has some blurps with `html5` -- <a href="https://www.w3schools.com/html/html5_browsers.asp" target="_blank">use the `html5 shiv`</a>    
 
 <br>
 
-Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">this</a> W3Schools page.
+Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">this W3Schools page</a> (and it's sub-sections),  
+and <a href="https://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520" target="_blank">this cool article</a> from Envato Code Tutorials,  
+and <a href="https://www.codecademy.com/articles/html5-features" target="_blank">this post from Codecademy</a>.  
+
+Most of it is super-easy, so long as you get the whole `tags` & `attributes` thing..... just do a quick reference-check if you need to be sure of how to use something!  
 
 <br>
 
@@ -20,7 +43,7 @@ Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blan
 ## basic template for an **html5** page  
 ### with explanations in the comments  
 ```html
-<!doctype html>     <!-- MUST BE AT VERY TOP! -->
+<!doctype html>     <!-- THIS MUST BE AT VERY TOP! -->
                     <!-- before any html -- this sets html5 -->
                     <!-- this is the opening <html> tag -->
                     <!-- the root element of every html page -->
@@ -88,27 +111,166 @@ Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blan
 
 </html>     <!-- closing <html> tag-->
 ```
-__note:__ `<head>` and `<header>` are **NOT** the same thing nor interchangeable!  
+__note:__ `<head>` and `<header>` are **NOT** the same thing!  
 
 <br>
 
 ---
 ---
 ## html5 **block vs. inline** elements  
+The big difference:  
+* `block` elements always start on their own new line, and take up the full available width -- unless you set a width with `css`   
+    * some `block` elements -- notably `<p>` -- include automatic vertical spacing above/below them (aka, a `margin-top` & a `margin-bottom`) 
+        * `div` does not though!  Unless you style it to, with `margin-top`/`margin-bottom` & `padding`.  
 
+* `inline` elements, well, stay "in the line" they're in!  
+    * some `css` styling is not available with `inline` elements -- like `margin-top` &/or `margin-bottom`...  
+        * unless you style them as `inline-block`!  
+            * `inline-block` is cool -- and often used in styling nav bars... unless you use Bootstrap, then it's built in!  
+
+W3Schools: <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">block vs. inline elements</a>  
+Go & play in the repls!  It's fun.   [=  
+
+For instance, this:  
+```html
+<!DOCTYPE html>
+<html>
+    <body style="background-color: lemonchiffon;">
+
+        <div style="margin-top: 18px; width: 360px; margin-left: auto; margin-right: auto; border: 3px solid red; border-radius: 36px; padding: 9px; background-color: pink; color: indigo; font-family: sans-serif; font-weight: bold; text-align: center;">Hello World!
+            <p style="margin-top: 0; margin-bottom: 0;">I'm a div with the width set!</p>
+            <p style="margin-top: 0; margin-bottom: 0;">and my p's have vertical spacing removed!</p>
+        </div>
+
+        <div style="font-family: sans-serif; margin-top: 45px;">this is my first div
+        </div>
+
+        <div style="font-family: sans-serif; margin-top: 9px; margin-bottom: 9px; padding: 9px; border: 3px solid indigo;"> this is my second div -- my border shows how I take up the full available page width!
+        </div>
+
+        <div style="font-family: sans-serif;"> this is my third div</div>
+
+        <p style="font-family: sans-serif; color: green;"> This is a regular ol' paragraph..... blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+        </p>
+        <p style="font-family: sans-serif; color: green;"> And here is another.  See the automatically-included vertical spacing, aka top &amp; bottom margins? Isn't that cool?  This is one reason you'd opt for doing a p-tag instead of a div-tag. 
+        </p>
+        <p style="font-family: sans-serif; color: green;">One more paragraph just for good meausre   [= 
+        </p>
+    </body>
+</html>
+```
+gives you this:  
+<a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_01.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_01.PNG"></a>
+
+<br>
+
+and this:  
+```html
+<!DOCTYPE html>
+<html>
+    <body style="font-family: sans-serif; background-color: lemonchiffon; color: teal;">
+
+        <p>I am an inline span <span style="border: 1px solid indigo; border-radius: 9px; padding: 3px;">Hello World!</span> element inside a paragraph.</p>
+
+        <p>The span element is one of the inline elements  -- they don't start on a new line, and they only take up as much width as necessary... or as you style them to. </p>
+
+    <br>
+
+    <p> Look at this span: <span style="margin-left: 9px; margin-right: 9px; border: 1px solid indigo; border-radius: 9px; padding: 5px; background-color: mintcream;">I am a span!</span> &lt;&lt;&lt; see how you can style it -- even left/right margins? </p>
+
+    <p> Look at this one: <span style="display: inline-block; margin-top: 18px; margin-bottom: 18px; border: 1px solid indigo; border-radius: 9px; padding: 5px; font-weight: bold; background-color: lightskyblue;">I am a span!</span> This one is set to display inline-block -- so it can have top/bottom margins. </p>
+
+    <p> One more paragraph to show the bottom margin on the above paragraph's span..... </p>
+
+    </body>
+</html>
+```
+
+gives you this:  
+<a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_02.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_02.PNG"></a>
 
 <br>
 
 ---
 ---
 ## html5 **links**  
+Links are easy enough...  
+A basic link:  
+```html
+<a href="https://Stormy9.github.io/" target="_blank" title="Stormy's Front Page">Stormy's Front Page!</a>
+```
 
+Gives you:  
+<a href="https://Stormy9.github.io/" target="_blank" title="Stormy's Front Page">Stormy's Front Page!</a>  
+Hover over it..... 
+
+<br>
+
+**Notes:**
+* You really don't need the full path for pages on/within your own site... but obviously you do for outside pages.  
+
+* You can wrap an image in `<a>` tags, to make the whole image a link -- useful when, say, linking to a larger version of said image.  
+Or just for the fun of it.  
+
+* You can create a bookmark on your page with the `id` attribute:  
+    ```html
+    <h2 id="Ch5">Chapter 5</h2>
+
+    <!-- now to link to that -->
+    <!-- from somewhere in the same page -->
+    <a href="#C4">Jump to Chapter 4</a>
+
+    <!-- from another page on your site -->
+    <a href="bookmar_demo.html#C5">Jump to Chapter 5</a>
+    ```
+* and then of course there's the whole `css` thing to color your textual links all pretty -- see <a href="https://Stormy9.github.io/CS460/references/css">my css page</a> for details!
+<br>
+
+Here's <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">W3's reference for `html` linking</a>.
 
 <br>
 
 ---
 ---
 ## html5 **images**  
+Also pretty easy, at it's core:  
+```html
+<img src="https://Stormy9.github.io/references/html/images/WeinerMobile.jpg" alt="Oscar-Meyer Weinermobile" title="I got to go on the Weiner-Mobile!">
+```
+gives you:  
+<img src="https://Stormy9.github.io/references/html/images/WeinerMobile.jpg" alt="Oscar-Meyer Weinermobile" title="I got to go on the Weiner-Mobile!">  
+hover your mouse over that!
+
+The `<alt>` attribute on `<img>` tags is required, mind you, for a "real" website/page -- they won't validate without the `<alt>` attribute!  
+* whatever is in the `<alt>` attribute is what will show up for users with screen readers, or if for some reason the image can't load.  
+
+The `<title>` attribue makes it so when you hover the image, a little caption pops up.  
+
+<br>
+
+**Images have lots of slick options.** 
+
+* You can set the image's height & width with attriubutes in the `<img>` tag... but best practice is to use `css` to set these specs.  
+    * Always set the height & width on your images, for smoother page loading.  
+        * Using `css` keeps browser stylesheets from changing these attributes.
+
+* Of course, as mentioned in the "links" section, you can make your image a `link` -- or, make it a multi-linked `image map`!  
+    * see this:  <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">W3Schools -- doing an image map</a> -- scroll to "Image Maps"  
+        * fiddle with the repl -- have fun!  
+
+* You can make an image the background for an element, or a whole page  
+    * This takes `css`... it's the `background-image:url('my_image.jpg');` declaration  
+
+* Floating images is awesome -- we practiced this a lot at Chemeketa, where we never learned Bootstrap so we had to do stuff for own damned selves   [=  
+    * Go here: <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">W3Schools -- floating images</a> -- scroll to "Image Floating"  
+        * Go here, too:  <a href="https://www.w3schools.com/css/css_float.asp" target="_blank">W3Schools -- css floats</a>
+        * You **have** to play with the repls on these!  
+
+* The new `html5` element:  `<picture>`
+
+<br>
+
+W3's <a href="https://www.w3schools.com/html/html_images.asp" target="_blank"> reference page for `html` images</a>
 
 <br>
 
@@ -135,7 +297,7 @@ __note:__ `<head>` and `<header>` are **NOT** the same thing nor interchangeable
 
 ---
 ---
-## html5 **code snips**
+## html5 **misc code snips**
 
 <br>
 
@@ -271,3 +433,5 @@ I already spent too much time on this!!   [=
 [back to CS460 page](https://Stormy9.github.io/CS460#html/ "CS460 main page")   
 
 [back to main page](https://Stormy9.github.io/ "main page")   
+
+</body>
