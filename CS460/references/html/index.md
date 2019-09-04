@@ -31,7 +31,7 @@
 <br>
 
 Check out <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">this W3Schools page</a> (and it's sub-sections),  
-and <a href="https://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520" target="_blank">this cool article</a> from Envato Code Tutorials,  
+and <a href="https://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520" target="_blank">this cool article</a> from Envato Web Design Tutorials,  
 and <a href="https://www.codecademy.com/articles/html5-features" target="_blank">this post from Codecademy</a>.  
 
 Most of it is super-easy, so long as you get the whole `tags` & `attributes` thing..... just do a quick reference-check if you need to be sure of how to use something!  
@@ -700,34 +700,34 @@ This one gets a little bit more complicated..... there's a whole four-part secti
 <head>
 	<style>
     	* {
-        	box-sizing: border-box;
+            box-sizing: border-box;
         }
     	body {
-        	background-color: lemonchiffon;
+            background-color: lemonchiffon;
             font-family: verdana, arial, sans-serif;
             color: black;
         }
         form {
-        	width: 90%;		margin: auto;
+            width: 90%;		margin: auto;
         }
         fieldset {
-        	margin-top: 18px;
-        	/* can you change color of line? */
+            margin-top: 18px;
+            /* can you change color of line? */
         }
         legend {
-        	font-size: 27px;	color: indigo;
+            font-size: 27px;	color: indigo;
         }
         /*=====================================*/
         label {
-        	/*display: block;*/
+            /*display: block;*/
         }
         .captions {
-        	margin-bottom: 3px;		font-weight: bold;
+            margin-bottom: 3px;		font-weight: bold;
             display: block;
         }
         /*=====================================*/
         input, select{
-        	margin-bottom: 18px;
+            margin-bottom: 18px;
             display: block;
         }
         /*=====================================*/
@@ -739,73 +739,73 @@ This one gets a little bit more complicated..... there's a whole four-part secti
             outline: none;
         }
         input[type="text"]:focus {
-        	/* did not work -- despite being on W3Schools */
-  			background-color: #fde8ec;
+            /* did not work -- despite being on W3Schools */
+            background-color: #fde8ec;
             /* until i added the '[type="text"]' part */
 		}
         /*=====================================*/
         .clearfix {
-        	/*border: 1px solid black;*/
+            /*border: 1px solid black;*/
             width: 90%;
         }
         .clearfix:after {
-        	content: "";
+            content: "";
             clear: both;
             display: table;
         }
-		.boy_girl, .fixed {
-        	float: left;
+        .boy_girl, .fixed {
+            float: left;
             width: 50%;
             /*padding: 5px;*/
             /*border: 3px solid red;*/
         }
         @media screen and (max-width: 465px) {
-        	.boy_girl, .fixed {
-            	width: 100%
+            .boy_girl, .fixed {
+                width: 100%
             }
         }
         @media screen and (min-width: 620px) {
-        	.boy_girl {
-            	width: 45%;
+            .boy_girl {
+                width: 45%;
             }
         }
         @media screen and (min-width: 680px) {
-        	.boy_girl {
-            	width: 40%;
+            .boy_girl {
+                width: 40%;
             }
         }
         @media screen and (min-width: 750px) {
-        	.boy_girl {
-            	width: 35%;
+            .boy_girl {
+                width: 35%;
             }
         }
         @media screen and (min-width: 870px) {
-        	.boy_girl {
-            	width: 30%;
+            .boy_girl {
+                width: 30%;
             }
         }
       	@media screen and (min-width: 1030px) {
-        	.boy_girl {
-            	width: 25%;
+            .boy_girl {
+                width: 25%;
             }
         }
         @media screen and (min-width: 1225px) {
-        	.boy_girl {
-            	width: 20%;
+            .boy_girl {
+                width: 20%;
             }
         }
         /*=====================================*/
         input[type="radio"] {
-        	display: inline;
+            display: inline;
         }
         input[type="radio"]:focus {
-        	/* can't do 'focus' on radio buttons */
-        	border: 5px solid green;
+            /* can't do 'focus' on radio buttons */
+            border: 5px solid green;
             /* oh wait - this does! */
             outline-color: crimson;
         }
         .radio {
-        	display: inline;	margin-right: 27px;
+            display: inline;	margin-right: 27px;
         }
         /*=====================================*/
         select {	/* drop-down */
@@ -815,53 +815,53 @@ This one gets a little bit more complicated..... there's a whole four-part secti
             border-radius: 9px;
         }
         select:focus {
-        	background-color: #fde8ec;
+            background-color: #fde8ec;
             outline: none;
         }
         select[value=""][disabled] {
-        	/* does not work to not drop this down */
-        	display: none;
+            /* does not work to not drop this down */
+            display: none;
             /* even though it was part of other working answers */
             /* using 'hidden' attribute in the tag worked tho! */
         }
         #placeholder {
-        	/* does not work to make 'placeholder' gray */
-        	color: lightgray;
+            /* does not work to make 'placeholder' gray */
+            color: lightgray;
         }
         select:required:invalid {
-        	/* does work! but makes *all* options gray */
-        	color: gray;
+            /* does work! but makes *all* options gray */
+            color: gray;
         }
         select:valid {
-        	/* does not work to make valid options black */
-        	color: black;
+            /* does not work to make valid options black */
+            color: black;
         }
         option {
-        	/* this worked to make valid options black again! */
-        	color: black;
+            /* this worked to make valid options black again! */
+            color: black;
         }
         /* seems it's not possible to change the hover/highlight color */
-		option:focus, option:hover, option:active {
-        	/* does not work -- to change highlight color */
-        	/* background: linear-gradient(#000000, #000000); */ 
-        	background-color: crimson;	color: white;
+        option:focus, option:hover, option:active {
+            /* does not work -- to change highlight color */
+            /* background: linear-gradient(#000000, #000000); */ 
+            background-color: crimson;	color: white;
             /* does not work either */
             background: crimson;	color: white;
             /* select: makes *entire* background crimson, not just selection */
         }
         /*=====================================*/
         input[type="checkbox"] {
-        	display: inline-block;
+            display: inline-block;
             margin-bottom: 5px;
         }
         .check {
-        	display: inline-block;
+            display: inline-block;
             margin-bottom: 5px;
         }
         /*=====================================*/
         input[type="submit"] {
-        	height: 45px;	width: 90px;
-        	background-color: crimson;
+            height: 45px;	width: 90px;
+            background-color: crimson;
             color: whitesmoke;           
             font-size: 18px;	font-weight: bold;
             border: 3px ridge indigo;
@@ -869,7 +869,7 @@ This one gets a little bit more complicated..... there's a whole four-part secti
             margin-top: 18px;
         }
         input[type="submit"]:hover {
-        	background-color: #f2738c;
+            background-color: #f2738c;
             border-color: #bf66ff;
         }
         /*=====================================*/
@@ -959,7 +959,7 @@ The `html5` form input validation can validate pretty much everything..... see m
 * <a href="https://www.w3schools.com/html/html_form_attributes.asp" target="_blank">W3Schools - scroll to 'The Pattern Attribute'</a>  
     * Also important: <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">W3Schools - Form Input Types</a>  
 
-* <a href="https://webdesign.tutsplus.com/tutorials/html5-form-validation-with-the-pattern-attribute--cms-25145" target="_blank">This page at Envato Web Design Tutorials</a> explains more about patterns.  
+* <a href="https://webdesign.tutsplus.com/tutorials/html5-form-validation-with-the-pattern-attribute--cms-25145" target="_blank">This page at Envato Web Design Tutorials</a> explains more about patterns; specifically, how to do them for `html5` input validation.  
     * It does help to refresh oneself on `regular expressions`!  
 
 <br>
@@ -967,7 +967,7 @@ The `html5` form input validation can validate pretty much everything..... see m
 ---
 Check out <a href="https://Stormy9.github.io/CS460/references/css/">my own css ref/notes page</a> for more examples of floating stuff, box-sizing, clearfix, responsive styling, and some other cool stuff!  
 
-And don't forget to go to <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">W3Schools' Forms Tutorials</a> and have fun with the repls!  
+And don't forget to go to <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">W3Schools' Forms Tutorials</a> and have fun trying all of this in the repls!  Do something and see what happens, without setting up a full file.
 
 <br>
 
@@ -1005,6 +1005,8 @@ Which, as 2nd-tier easy & straight-forward as it ***ended up*** being... it took
     * so I went to <a href="" target="_blank">the W3Schools page about JS output</a>...  
 
     * and tested stuff out in the repl... but it didn't work!
+
+<br>
 
 So then I tried:
 * still in the W3 repl... tried putting each line of `html` in it's own `document.write()` statement -- leaving the `\` things off entirely... 
