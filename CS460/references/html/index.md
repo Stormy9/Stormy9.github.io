@@ -690,7 +690,11 @@ Check out W3School's <a href="https://www.w3schools.com/html/html_tables.asp" ta
 ---
 ---
 ## html5 **forms**  
-This one gets a little bit more complicated..... there's a whole four-part section at W3Schools for <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">HTML Forms</a>!  
+This one gets a little bit more complicated.....  
+
+* There's a whole four-part section at W3Schools for <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">HTML Forms</a>!  
+* Plus this is cool:  
+<a href="https://www.html5rocks.com/en/tutorials/forms/html5forms/" target="_blank">HTML5Rocks -- Making Forms Fabulous</a>
 
 **Here's a form that uses everthing but a textbox input:**  
 ```html

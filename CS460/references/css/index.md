@@ -807,9 +807,18 @@ general info
 
 <br>
 
+<a href="https://www.w3schools.com/css/css_float.asp" target="_blank">W3Schools - float & clear</a>
+
+<br>
+
 ---
 ### box-sizing  
 blah
+
+<br>
+
+More on box-sizing:
+* <a href="https://www.w3schools.com/css/css3_box-sizing.asp" target="_blank">W3Schools - css Box-sizing</a>
 
 <br>
 
@@ -817,11 +826,23 @@ blah
 ### clear & clearfix  
 blah
 
+
+
+<br>
+
+Stuff about clear & clearfix is on the main W3Schools float page!
+
 <br>
 
 ---
 ### flexbox
 blah
+
+
+<br>
+
+More about flexbox:
+* <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">W3Schools - css Flexbox</a>
 
 <br>
 
@@ -851,7 +872,17 @@ There's a lot that goes into `floating` stuff, depending on what exactly you wou
 ---
 ---
 ## css **responsive design**  
-tie this in w/floating
+tie this in w/floating  
+
+
+
+<br>
+
+* <a href="https://www.w3schools.com/css/css3_mediaqueries.asp" target="_blank">W3Schools - Media Queries</a>
+* <a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target="_blank">W3Schools - Media Query Examples</a>
+* <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">W3Schools - css @media rule</a> (includes examples)
+    * you really have to do the repls and see this to grok it!
+* <a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">W3Schools - Full Responsive Design Tutorial</a>
 
 <br>
 
@@ -860,12 +891,17 @@ tie this in w/floating
 ## css **grid**
 Non-Bootstrap!  
 
+
+<br>
+
+* <a href="https://www.w3schools.com/css/css_grid.asp" target="_blank">W3Schools - `css` Grids</a>
+
 <br>
 
 ---
 ---
 ## css **max/min width/height**  
-so that images or div's or whatever don't get smaller than x nor larger than x regardless of viewport size
+so that images or div's or whatever don't get smaller than **x** nor larger than **x** regardless of viewport size
 
 <br>
 
@@ -896,7 +932,8 @@ If you want to add top/bottom margins to your `<a>` tags, you have to add a `css
 
 * <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">Listing of `block vs. inline html` elements</a>  
 * <a href="https://www.w3schools.com/css/css_inline-block.asp" target="_blank">More about `{display: inline-block;}` in `css`</a>  
-* <a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">And more about `display` in `css` in general</a>  
+* <a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">And more about `display` in `css` in general</a> 
+    * <a href="https://www.w3schools.com/css/css_display_visibility.asp" target="_blank">and this too</a>
 
 And, of course:  
 * <a href="https://Stormy9.github.io/CS460/references/html/">My own `html` reference/note page where I play with `block/inline` & `inline-block`</a>!
