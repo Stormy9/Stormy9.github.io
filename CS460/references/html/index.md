@@ -9,16 +9,17 @@
 
 * `html5` is semantic -- tag names have some meaning, like `<header>` & `<footer>`, `<main>` & `<aside>`, `<nav>`, `<article>`, `<section>`, `<figure>`, `<picture>`, `<output>`, `<mark>`, and some others.  
 
-    * You can still use a plain ol' `<div>` if you need to, giving it a `class` or `id`.  But the semantic tags give better structure & definition to your pages, so use that when/where you can.  
+    * You can still use a plain ol' `<div>` if you need to, giving it a `class` or `id`.  But the semantic tags give better structure & definition to your pages, so use those when/where you can, and `<div>` when you need to.  
 
-* Several new attributes to go with certain tags  
+* Several new, cool attributes to go with certain tags  
     * plus support for custom attributes!  
 
 * Including video/audio media in your pages is a lot more straight-forward, with the new `<audio>` & `<video>` tags -- no more flash players or anything!  
     * easily set attributes to put user contols on the players!  
 
-* Several new & improved form features -- including `Regular Expressions` & input validation   
-    * many of the new (cool!) attributes are for handling forms!
+* Several new & improved form features -- including `regular expressions` & input validation   
+    * many of the new (cool!) attributes are for handling forms!  
+    * even though we did `html5` at Chemeketa... we learned to do input validation for forms with JavaScript.  Which continues to have it's use -- and can augment what `html5` does... but `html5` makes it more straight-forward.
 
 * A much more concise `<!DOCTYPE html>` declaration up-top!  
 
@@ -306,9 +307,7 @@ Which gives you this:
 
 Also check out <a href="https://Stormy9.github.io/CS460/references/css/">my own css ref/notes page</a> for more examples of floating stuff.
 
-<br>
-
-W3's <a href="https://www.w3schools.com/html/html_images.asp" target="_blank"> reference page for `html` images</a>
+And W3's <a href="https://www.w3schools.com/html/html_images.asp" target="_blank"> reference page for `html` images</a>.
 
 <br>
 
@@ -413,7 +412,7 @@ Anyway, **that gives you:**
 </ul>
 
 This should over-ride the Jekyll theme default.  
-Maybe not.  hmmmmm.
+hmmmmm.  Maybe not.  
 
 I know there's some way to put in your own characters for bullets -- or even images, I think? -- but I forget what that is right now, it's not on W3Schools, and it's not a big enough thing to look it up right now.   [=  It might be with `css`.  
 
@@ -517,7 +516,7 @@ Note how you close out the inner `<ul>`... and then close out the `<ol>` `<li>`.
 
 <br>
 
-And yes, you can mix, say, an `<ul>` with a '<dl>`, even!  
+And yes, you can mix, say, an `<ul>` with a `<dl>`, even!  
 **Like this:**  
 ```html
 <dl>
@@ -952,9 +951,23 @@ This one gets a little bit more complicated..... there's a whole four-part secti
 
 *if I was doing full-on `html/css`, I would've applied the `.clearfix:after` styling... since this is `md` I added `margin-bottom` to the outside `<div>`*  
 
-Plus I made <a href="https://Stormy9.github.io/CS460/references/html/form_demo.html">this demo page</a> so that you can see what happens when you re-size the page!  
+Plus I made <a href="https://Stormy9.github.io/CS460/references/html/form_demo.html">this demo page</a> so that you can see what happens when you re-size the page -- and check out the `html5` input validation!  
 
-And check out <a href="https://Stormy9.github.io/CS460/references/css/">my own css ref/notes page</a> for more examples of floating stuff, box-sizing, clearfix, responsive styling, and some other cool stuff!  
+---
+The `html5` form input validation can validate pretty much everything..... see more about it:  
+
+* <a href="https://www.w3schools.com/html/html_form_attributes.asp" target="_blank">W3Schools - scroll to 'The Pattern Attribute'</a>  
+    * Also important: <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">W3Schools - Form Input Types</a>  
+
+* <a href="https://webdesign.tutsplus.com/tutorials/html5-form-validation-with-the-pattern-attribute--cms-25145" target="_blank">This page at Envato Web Design Tutorials</a> explains more about patterns.  
+    * It does help to refresh oneself on `regular expressions`!  
+
+<br>
+
+---
+Check out <a href="https://Stormy9.github.io/CS460/references/css/">my own css ref/notes page</a> for more examples of floating stuff, box-sizing, clearfix, responsive styling, and some other cool stuff!  
+
+And don't forget to go to <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">W3Schools' Forms Tutorials</a> and have fun with the repls!  
 
 <br>
 

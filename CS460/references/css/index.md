@@ -301,7 +301,7 @@ Note the `#` in front -- that indicates you're styling an `id`!
 
 ---
 ---
-## 'stacking' **selectors**  -- aka **css** combinators
+## 'stacking' **selectors**  -- aka **css combinators**
 ### **tag** + **class**  
 ```css
 div.first {
@@ -859,11 +859,12 @@ For instance:
 The `<a> tag` is an `inline html` element..... therefore, there's some things you can't style with `css` on it -- like `top &/or bottom margins`.  You can style padding -- all the way around -- and borders, too.  And of course give it a `background-color` and `color`.  You can even give it `left &/or right margins`!  But not `top/bottom margins`.  
 
 If you want to add top/bottom margins to your `<a>` tags, you have to add a `css declaration` like this:   
-```display: inline-block;```  
+```{display: inline-block;}```  
 
 * <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">Listing of `block vs. inline html` elements</a>  
 * <a href="https://www.w3schools.com/css/css_inline-block.asp" target="_blank">More about `{display: inline-block;}` in `css`</a>  
 * <a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">And more about `display` in `css` in general</a>
+* <a href="https://Stormy9.github.io/CS460/references/html/">My own `html` reference/note page where I play with `block/inline` & `inline-block`</a>!
 
 Neither can you add effects like bolding to the pseudo-element `::selection` aka user highlighting -- only color, background, cursor, and outline.   [=  
 
