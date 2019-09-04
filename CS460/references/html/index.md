@@ -412,7 +412,8 @@ Anyway, **that gives you:**
     <li> third thing </li>
 </ul>
 
-This should over-ride the Jekyll theme default.
+This should over-ride the Jekyll theme default.  
+Maybe not.  hmmmmm.
 
 I know there's some way to put in your own characters for bullets -- or even images, I think? -- but I forget what that is right now, it's not on W3Schools, and it's not a big enough thing to look it up right now.   [=  It might be with `css`.  
 
@@ -581,20 +582,379 @@ W3Schools <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank
 ---
 ---
 ## html5 **tables**    
+Fairly easy once you get it..... but can be a pain to keep track of which cell you're in, at times -- so watch it, and use white space + indentation of course to help.  
 
+### **Your basic table:**  
+With a few acoutrements.....  
+**Do this:**
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: lemonchiffon;
+                font-family: arial, sans-serif;
+            }
+            table {
+                border-collapse: collapse;
+                width: 90%;
+                margin: auto;
+            }
+            caption {
+                font-size: 27px;
+                font-weight: bold;
+                margin-bottom: 3px;
+            }
+            table, td, th {
+                border: 3px solid #592d86;
+                text-align: left;
+            }
+            tr:nth-child(even) {
+                background-color: #e6d9f2;
+            }
+            tr:nth-child(odd) {
+                background-color: #f2f2f2;
+            }
+            th, td {
+                padding: 9px;
+            }
+            th {
+                background-color: #592d86;
+                color: ghostwhite;
+                font-size: 18px;
+            }
+            .first {
+                width: 25%
+            }
+            .second {
+                width: 35%
+            }
+            .third {
+                width: 40%
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <table>
+            <caption>My Shelties</caption>
+            <tr>
+                <th class="first">Sheltie</th>
+                <th class="second">Color</th>
+                <th class="third">Nickname</th>
+            </tr>
+            <tr>
+                <td>Possum</td>
+                <td>silvery bi-blue</td>
+                <td>The Princess</td>
+            </tr>
+            <tr>
+                <td>Sawyer</td>
+                <td>tricolor</td>
+                <td>Big Handsome</td>
+            </tr>
+            <tr>
+                <td>Zoey</td>
+                <td>steely blue</td>
+                <td>Zoey Zoo-Zoo</td>
+            </tr>
+            <tr>
+                <td>Lacey</td>
+                <td>tricolor</td>
+                <td>Lacey-Doodle</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>silvery-blue</td>
+                <td>Baby-Jack <i>(Like the Cheese)</i></td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+
+```
+Notice how, to set column-width, you only have to apply the class to the `<th>` tags.  Which makes sense.   [=  
+
+There's various stuff you can do with the borders and whatnot, too.  
+
+**And you get this:**  
+<a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_04.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_04.PNG"></a>
+
+<br>
+
+Check out W3School's <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">HTML Tables</a> page.
 
 <br>
 
 ---
 ---
 ## html5 **forms**  
+This one gets a little bit more complicated..... there's a whole four-part section at W3Schools for <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">HTML Forms</a>!  
 
+**Here's a form that uses everthing but a textbox input:**  
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+    	* {
+        	box-sizing: border-box;
+        }
+    	body {
+        	background-color: lemonchiffon;
+            font-family: verdana, arial, sans-serif;
+            color: black;
+        }
+        form {
+        	width: 90%;		margin: auto;
+        }
+        fieldset {
+        	margin-top: 18px;
+        	/* can you change color of line? */
+        }
+        legend {
+        	font-size: 27px;	color: indigo;
+        }
+        /*=====================================*/
+        label {
+        	/*display: block;*/
+        }
+        .captions {
+        	margin-bottom: 3px;		font-weight: bold;
+            display: block;
+        }
+        /*=====================================*/
+        input, select{
+        	margin-bottom: 18px;
+            display: block;
+        }
+        /*=====================================*/
+        input[type="text"] {
+            font-size: 18px;	padding: 5px;
+            border: 3px solid crimson;
+            border-radius: 9px;
+            background-color: whitesmoke;
+            outline: none;
+        }
+        input[type="text"]:focus {
+        	/* did not work -- despite being on W3Schools */
+  			background-color: #fde8ec;
+            /* until i added the '[type="text"]' part */
+		}
+        /*=====================================*/
+        .clearfix {
+        	/*border: 1px solid black;*/
+            width: 90%;
+        }
+        .clearfix:after {
+        	content: "";
+            clear: both;
+            display: table;
+        }
+		.boy_girl, .fixed {
+        	float: left;
+            width: 50%;
+            /*padding: 5px;*/
+            /*border: 3px solid red;*/
+        }
+        @media screen and (max-width: 465px) {
+        	.boy_girl, .fixed {
+            	width: 100%
+            }
+        }
+        @media screen and (min-width: 620px) {
+        	.boy_girl {
+            	width: 45%;
+            }
+        }
+        @media screen and (min-width: 680px) {
+        	.boy_girl {
+            	width: 40%;
+            }
+        }
+        @media screen and (min-width: 750px) {
+        	.boy_girl {
+            	width: 35%;
+            }
+        }
+        @media screen and (min-width: 870px) {
+        	.boy_girl {
+            	width: 30%;
+            }
+        }
+      	@media screen and (min-width: 1030px) {
+        	.boy_girl {
+            	width: 25%;
+            }
+        }
+        @media screen and (min-width: 1225px) {
+        	.boy_girl {
+            	width: 20%;
+            }
+        }
+        /*=====================================*/
+        input[type="radio"] {
+        	display: inline;
+        }
+        input[type="radio"]:focus {
+        	/* can't do 'focus' on radio buttons */
+        	border: 5px solid green;
+            /* oh wait - this does! */
+            outline-color: crimson;
+        }
+        .radio {
+        	display: inline;	margin-right: 27px;
+        }
+        /*=====================================*/
+        select {	/* drop-down */
+            font-size: 18px;	padding: 5px;
+            background-color: whitesmoke;
+            border: 3px solid crimson;
+            border-radius: 9px;
+        }
+        select:focus {
+        	background-color: #fde8ec;
+            outline: none;
+        }
+        select[value=""][disabled] {
+        	/* does not work to not drop this down */
+        	display: none;
+            /* even though it was part of other working answers */
+            /* using 'hidden' attribute in the tag worked tho! */
+        }
+        #placeholder {
+        	/* does not work to make 'placeholder' gray */
+        	color: lightgray;
+        }
+        select:required:invalid {
+        	/* does work! but makes *all* options gray */
+        	color: gray;
+        }
+        select:valid {
+        	/* does not work to make valid options black */
+        	color: black;
+        }
+        option {
+        	/* this worked to make valid options black again! */
+        	color: black;
+        }
+        /* seems it's not possible to change the hover/highlight color */
+		option:focus, option:hover, option:active {
+        	/* does not work -- to change highlight color */
+        	/* background: linear-gradient(#000000, #000000); */ 
+        	background-color: crimson;	color: white;
+            /* does not work either */
+            background: crimson;	color: white;
+            /* select: makes *entire* background crimson, not just selection */
+        }
+        /*=====================================*/
+        input[type="checkbox"] {
+        	display: inline-block;
+            margin-bottom: 5px;
+        }
+        .check {
+        	display: inline-block;
+            margin-bottom: 5px;
+        }
+        /*=====================================*/
+        input[type="submit"] {
+        	height: 45px;	width: 90px;
+        	background-color: crimson;
+            color: whitesmoke;           
+            font-size: 18px;	font-weight: bold;
+            border: 3px ridge indigo;
+            border-radius: 9px;
+            margin-top: 18px;
+        }
+        input[type="submit"]:hover {
+        	background-color: #f2738c;
+            border-color: #bf66ff;
+        }
+        /*=====================================*/
+    </style>
+</head>
+
+<body>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>My Doggie's Info:</legend>
+    
+    <!-- text box inputs -->
+    <label for="name" class="captions">name:</label>
+    <input type="text" id="name" name="name" placeholder="my doggie's name" pattern="[A-Za-z]{1,18}" title="type in your doggie's name, up to 18 letters" required autofocus>
+    
+    <label for="breed" class="captions">breed:</label>
+    <input type="text" id="breed" name="breed" placeholder="my doggie's breed" pattern="[A-Z a-z]{3,36}" title="type in your doggie's breed(s), 3 to 36 letters" required>
+
+	<label for="color" class="captions">color:</label>
+    <input type="text" id="color" name="color" placeholder="my doggie's color(s)" pattern="[A-Z a-z]{3,27}" title="type in your doggie's color(s), 3 to 27 letters" required>
+    
+    <!-- div to hold questions about doggie's gender/status -->
+    <div class="clearfix">
+   		<!-- radio button inputs -->
+    	<div class="boy_girl">
+    		<label class="captions">my doggie is a:</label>
+    		<input type="radio" id="boy" name="gender" value="boy" required>
+    			<label for="boy" class="radio">boy</label>
+    		<input type="radio"id="girl"  name="gender" value="girl">
+    			<label for="girl" class="radio">girl</label>
+    	</div>
+    
+    	<!-- drop-down input -->
+    	<div class="fixed">
+    		<label class="captions">my doggie is:</label>
+    		<select id="fixed" name="fixed" size="1" required>
+    			<option value="" id="placeholder" disabled hidden selected>fixed or no?
+            	</option>
+        		<!-- 'disabled selected' doesn't work to make text gray -->
+    			<option value="spayed">spayed</option>
+        		<option value="neutered">neutered</option>
+        		<option value="neither">not fixed</option>
+    		</select>
+    	</div>
+    </div>
+    
+    <!-- checkbox inputs -->
+    <label class="captions">i would like info on:</label>
+    	<input type="checkbox" id="food">
+        	<label for="food" class="check">what to feed my doggie</label><br>
+        <input type="checkbox" id="groom">
+        	<label for="groom" class="check">how to groom my doggie</label><br>
+        <input type="checkbox" id="teach">
+        	<label for="teach" class="check">teaching my doggie things</label><br>
+        <input type="checkbox" id="play">
+        	<label for="play" class="check">how my doggie has fun</label><br>
+        <input type="checkbox" id="snooze">
+        	<label for="snooze" class="check">where my doggie sleeps</label><br>
+    
+    <!-- submit-button input -->
+    <input type="submit" value="Woof!">
+  </fieldset>
+</form>
+
+</body>
+</html>
+
+```
+**And, that gives you this:**  
+<div >
+<div style="float: left; width: 45%; padding: 5px;">
+<a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG"></a></div>
+<div style="float: left; width: 45%; padding: 5px;">
+<a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG"></a></div>
+</div>
 
 <br>
 
----
----
-## html5 **misc code snips**
+*if I was doing full-on `html/css`, I would've applied the `.clearfix:after` styling... since this is `md` I just used extra `<br>` tags!*  
+
+Plus I made <a href="https://Stormy9.github.io/CS460/references/html/form_demo.html">this demo page</a> so that you can see what happens when you re-size the page!  
+
+And check out <a href="https://Stormy9.github.io/CS460/references/css/">my own css ref/notes page</a> for more examples of floating stuff, box-sizing, clearfix, responsive styling, and some other cool stuff!  
 
 <br>
 
@@ -690,12 +1050,12 @@ Anyway, it says:
 
  And I'm not sure what they are referring to, here...  **What** `/_includes`/` folder?  Do we **make** it in our GitHub?  Or does it exist somewhere in Jekyll, and if so, how do we find it?  
     
-It links to <a href="" target="_blank">this Jekyll page</a>, which explains some more... 
+It links to <a href="https://jekyllrb.com/docs/includes/" target="_blank">this Jekyll page</a>, which explains some more... 
 
 About this `_includes` folder spoken of, it says:  
 > Jekyll will look for the referenced file (in this case, `footer.html`) in the `_includes` directory at the root of your source directory and insert its contents.  
 
--- and you don't **have** to put it there, after all.  
+-- and you don't **have** to put it there, after all -- you can do `include_relative`.  
 
 Oh well.  *sigh*.  Geezus.  
 I already spent too much time on this!!   [=  
