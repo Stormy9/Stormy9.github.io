@@ -941,14 +941,14 @@ This one gets a little bit more complicated..... there's a whole four-part secti
 
 ```
 **And, that gives you this:**  
-<div >
+<div style="margin-bottom: 270px;">
 <div style="float: left; width: 45%; padding: 5px;">
 <a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG"></a></div>
 <div style="float: left; width: 45%; padding: 5px;">
 <a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_06.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_06.PNG"></a></div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
 
 *if I was doing full-on `html/css`, I would've applied the `.clearfix:after` styling... since this is `md` I just used extra `<br>` tags!*  
 
