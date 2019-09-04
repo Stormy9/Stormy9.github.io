@@ -597,12 +597,10 @@ With a few acoutrements.....
             }
             table {
                 border-collapse: collapse;
-                width: 90%;
-                margin: auto;
+                width: 90%;     margin: auto;
             }
             caption {
-                font-size: 27px;
-                font-weight: bold;
+                font-size: 27px;    font-weight: bold;
                 margin-bottom: 3px;
             }
             table, td, th {
@@ -620,8 +618,7 @@ With a few acoutrements.....
             }
             th {
                 background-color: #592d86;
-                color: ghostwhite;
-                font-size: 18px;
+                color: ghostwhite;      font-size: 18px;
             }
             .first {
                 width: 25%
