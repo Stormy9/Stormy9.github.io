@@ -704,8 +704,7 @@ This one gets a little bit more complicated..... there's a whole four-part secti
         }
     	body {
             background-color: lemonchiffon;
-            font-family: verdana, arial, sans-serif;
-            color: black;
+            font-family: verdana, arial, sans-serif;    color: black;
         }
         form {
             width: 90%;		margin: auto;
@@ -713,9 +712,10 @@ This one gets a little bit more complicated..... there's a whole four-part secti
         fieldset {
             margin-top: 18px;
             /* can you change color of line? */
+            /* apparently, no */
         }
         legend {
-            font-size: 27px;	color: indigo;
+            font-size: 27px;	    color: indigo;
         }
         /*=====================================*/
         label {
@@ -727,16 +727,13 @@ This one gets a little bit more complicated..... there's a whole four-part secti
         }
         /*=====================================*/
         input, select{
-            margin-bottom: 18px;
-            display: block;
+            margin-bottom: 18px;    display: block;
         }
         /*=====================================*/
         input[type="text"] {
-            font-size: 18px;	padding: 5px;
-            border: 3px solid crimson;
-            border-radius: 9px;
-            background-color: whitesmoke;
-            outline: none;
+            font-size: 18px;	            padding: 5px;
+            border: 3px solid crimson;      border-radius: 9px;
+            background-color: whitesmoke;   outline: none;
         }
         input[type="text"]:focus {
             /* did not work -- despite being on W3Schools */
@@ -749,13 +746,10 @@ This one gets a little bit more complicated..... there's a whole four-part secti
             width: 90%;
         }
         .clearfix:after {
-            content: "";
-            clear: both;
-            display: table;
+            content: "";    clear: both;    display: table;
         }
         .boy_girl, .fixed {
-            float: left;
-            width: 50%;
+            float: left;    width: 50%;
             /*padding: 5px;*/
             /*border: 3px solid red;*/
         }
@@ -809,14 +803,12 @@ This one gets a little bit more complicated..... there's a whole four-part secti
         }
         /*=====================================*/
         select {	/* drop-down */
-            font-size: 18px;	padding: 5px;
+            font-size: 18px;	            padding: 5px;
             background-color: whitesmoke;
-            border: 3px solid crimson;
-            border-radius: 9px;
+            border: 3px solid crimson;      border-radius: 9px;
         }
         select:focus {
-            background-color: #fde8ec;
-            outline: none;
+            background-color: #fde8ec;      outline: none;
         }
         select[value=""][disabled] {
             /* does not work to not drop this down */
@@ -851,26 +843,21 @@ This one gets a little bit more complicated..... there's a whole four-part secti
         }
         /*=====================================*/
         input[type="checkbox"] {
-            display: inline-block;
-            margin-bottom: 5px;
+            display: inline-block;      margin-bottom: 5px;
         }
         .check {
-            display: inline-block;
-            margin-bottom: 5px;
+            display: inline-block;      margin-bottom: 5px;
         }
         /*=====================================*/
         input[type="submit"] {
             height: 45px;	width: 90px;
-            background-color: crimson;
-            color: whitesmoke;           
+            background-color: crimson;      color: whitesmoke; 
             font-size: 18px;	font-weight: bold;
-            border: 3px ridge indigo;
-            border-radius: 9px;
+            border: 3px ridge indigo;   border-radius: 9px;
             margin-top: 18px;
         }
         input[type="submit"]:hover {
-            background-color: #f2738c;
-            border-color: #bf66ff;
+            background-color: #f2738c;      border-color: #bf66ff;
         }
         /*=====================================*/
     </style>
