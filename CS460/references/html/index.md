@@ -948,7 +948,7 @@ This one gets a little bit more complicated..... there's a whole four-part secti
 <a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_06.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_06.PNG"></a></div>
 </div>
 
-<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 *if I was doing full-on `html/css`, I would've applied the `.clearfix:after` styling... since this is `md` I just used extra `<br>` tags!*  
 
