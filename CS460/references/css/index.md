@@ -187,8 +187,7 @@ Look at this:
             body {
                 background-color: papayawhip;
                 font-family: arial, sans-serif;
-                font-size: 18px;
-                color: mediumslateblue;
+                font-size: 18px;    color: mediumslateblue;
             }
             h1 {
                 color: teal;
@@ -252,7 +251,7 @@ This gives you:
 ### by **html** tag  
 ```css
 body {
-    background: DarkSlateBlue;	color: GhostWhite;
+    background: DarkSlateBlue;	    color: GhostWhite;
     font-family: Inconsolata, "Courier New", serif;		
     font-size: 18px;
 }
@@ -291,8 +290,7 @@ Note the dot in front -- that indicates you're styling a `class`!
 In `css`, styling for `id` targets one, single, unique element; by putting `id="my_id"` in an `html` tag.  
 ```css
 #mmm {
-    font-weight: bold;	
-    color: GreenYellow;
+    font-weight: bold;      color: GreenYellow;
 }
 ```
 Note the `#` in front -- that indicates you're styling an `id`!
@@ -305,8 +303,7 @@ Note the `#` in front -- that indicates you're styling an `id`!
 ### **tag** + **class**  
 ```css
 div.first {
-    margin-top: 45px;	
-    color: LemonChiffon;
+    margin-top: 45px;       color: LemonChiffon;
 }
 ```
 You don't really need `tag` plus `id` -- since an `id` is only for single use on a given page in the first place.  But, I tried it, and it works... it's just unecessary.   [=    
@@ -318,11 +315,11 @@ You don't really need `tag` plus `id` -- since an `id` is only for single use on
 In some way or other -- another way "cascade" is apt in the name!
 ```css
 div p {
-	background: IndianRed;
+    background: IndianRed;
 }
 
 footer > p {
-	color: Crimson;			font-size: 14px;
+    color: Crimson;			font-size: 14px;
     font-family: Quicksand, Verdana, sans-serif;	
 }
 ```
@@ -334,7 +331,7 @@ difference between `descendant` and `child`:
 
 <br>
 
-* Check out <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">this</a> quick reference sheet out for different ordering of selectors -- descendant, children, siblings; plus tag+attribute.
+* Check out <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">this quick reference sheet</a> out for different ordering of selectors -- descendant, children, siblings; plus tag+attribute.
 
 <br>
 
@@ -348,7 +345,7 @@ a:link {
 }
 
 a:visited {
-    color: Orange;    font-weight: bold;
+    color: Orange;  font-weight: bold;
 }
 
 a:hover {
@@ -383,13 +380,11 @@ You don't have to have the class itself styled separately, first, though, like I
 Pseudo **elements** are designated with a `::` separator:
 ```css
 p::selection {
-    color: FireBrick;
-    background: GhostWhite;
+    color: FireBrick;   background: GhostWhite;
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: FireBrick;
-    background: GhostWhite;
+    color: FireBrick;   background: GhostWhite;
 }
 ```
 Some things need special code for different browsers -- Firefox, IE, etc.  Usually Chrome needs nothing special.   [=  
@@ -414,8 +409,7 @@ in a repl so I can get a screenshot of the result!
     <head>
         <style>
             body {
-                background: DarkSlateBlue;	
-                color: GhostWhite;
+                background: DarkSlateBlue;   color: GhostWhite;
                 font-family: Inconsolata, "Courier New", serif;
                 font-size: 18px;
             }
@@ -437,56 +431,44 @@ in a repl so I can get a screenshot of the result!
             }
             h3 {
             	font-family: Inconsolata, "Courier New", serif;
-                font-size: 21px;
-                font-weight: bold;
-                color: Crimson;
+                font-size: 21px;    font-weight: bold;    color: Crimson;
             }
             div p {
                 background: IndianRed;
             }
             footer > p {
-                color: PeachPuff;
-                font-size: 14px;
+                color: PeachPuff;           font-size: 14px;
                 font-family: Quicksand, Verdana, sans-serif;	
             }
             .first{
                 color: Plum;
             }
             div.first {
-                margin-top: 18px;	
-                color: LemonChiffon;
+                margin-top: 18px;       color: LemonChiffon;
             }
             #mmm {
-                font-weight: bold;	
-                color: GreenYellow;
+                font-weight: bold;      color: GreenYellow;
             }
             code {
-            	color: silver;
-                font-weight: bold;
+            	color: silver;          font-weight: bold;
             }
             p::selection {
-                color: FireBrick;	
-                background: GhostWhite;
+                color: FireBrick;       background: GhostWhite;
             }
             ::-moz-selection { /* Code for Firefox */
-                color: FireBrick;
-                background: GhostWhite;
+                color: FireBrick;       background: GhostWhite;
             }
             a:link {
-                color: OrangeRed;		
-                font-weight: bold;
+                color: OrangeRed;       font-weight: bold;
             }
             a:visited {
-                color: Orange;			
-                font-weight: bold;
+                color: Orange;          font-weight: bold;
             }
             a:hover {
-                color: LightSkyBlue;	
-                font-weight: bold;
+                color: LightSkyBlue;    font-weight: bold;
             }
             a:active {
-                color: Crimson;
-                font-weight: bold;
+                color: Crimson;         font-weight: bold;
             }
             .highlight {
                 color: LightSalmon;
@@ -504,7 +486,7 @@ in a repl so I can get a screenshot of the result!
         <p>I am in <code>&lt;p&gt;</code> tags... try highlighting me!</p>
         <p>I am using special highlighting.</p>
         
-		<hr>
+        <hr>
         
         <div class="first">I am in <code>&lt;div&gt;</code> tags... 
         try highlighting me, too!             
@@ -524,29 +506,23 @@ in a repl so I can get a screenshot of the result!
           </span>this is the other end of the <code>&lt;p&gt;</code></p>and this is  
           the rest of that original <code>&lt;div&gt;</code>!</div>
           
-		<hr>
+        <hr>
         
-        <div class="first"><a href="https://Stormy9.github.io/" target="_blank">  
-        a link to my front page!</a></div>
+        <div class="first"><a href="https://Stormy9.github.io/" target="_blank">a link to my front page!</a></div>
         
-        <p>note you can't apply the class <code>.first</code> to <code>&lt;a&gt;
-        </code> tags -- well, you can, but you will only get the font color for
-        <code>.first</code>, not it's top margin!</p>
+        <p>note you can't apply the class <code>.first</code> to <code>&lt;a&gt;</code> tags -- well, you can, but you will only get the font color for <code>.first</code>, not it's top margin!</p>
         <p>To get the top margin, too, you'd have to add: 
         <br><code>{display: inline-block;}</code> to your css!</p>
 
-        <p>I'm another <code>&lt;span&gt;</code> in a <code>&lt;p&gt;</code>: 
-        <span class="highlight">Hover over me and I will highlight!</span></p>
+        <p>I'm another <code>&lt;span&gt;</code> in a <code>&lt;p&gt;</code>: <span class="highlight">Hover over me and I will highlight!</span></p>
 
         <footer>
-        	<h3>I am a footer!</h3>
+            <h3>I am a footer!</h3>
         	now you know your css!  well, some of it, anyway.   [=
             <br>i have no idea why you'd ever want to style your 
-            <code>&lt;header&gt;</code> &amp; <code>&lt;footer&gt;</code>
-            the same -- in real life you never would.  Except maybe for color
-            like I did here.   [=
+            <code>&lt;header&gt;</code> &amp; <code>&lt;footer&gt;</code> the same -- in real life you never would.  Except maybe for color like I did here.   [=
         
-        	<p>often i style my <code>&lt;a:hover&gt;</code> &amp;
+            <p>often i style my <code>&lt;a:hover&gt;</code> &amp;
             <code>&lt;a:active&gt;</code> the same, though.</p>
         </footer>
     </body>
@@ -583,48 +559,41 @@ Let's make one!
     <head>
         <style>
             body {
-                font-family: Helvetica, Arial, sans-serif;
-                font-size: 18px;
-                background-color: PaleVioletRed;
-                color: White;
+                font-family: Helvetica, Arial, sans-serif;  font-size: 18px;
+                background-color: PaleVioletRed;    color: White;
             }
             .box {
                 width: 300px;
-                background-color: LemonChiffon;
-                font-family: Helvetica, Arial, sans-serif;
-                font-size: 18px;
-                color: DarkSlateBlue;
-                padding: 45px;
+                background-color: LemonChiffon;     color: DarkSlateBlue;
+                font-family: Helvetica, Arial, sans-serif;  font-size: 18px;
                 border: 12px solid MediumPurple;
-                margin: 45px;
+                padding: 45px;      margin: 45px;
             }
         </style>
     </head>
 
     <body>
-        <p>The `css` box model is a box that wraps around every single HTML  
-          element in your page.</p>
+        <p>The `css` box model is a box that wraps around every single HTML element in your page.
+        </p>
 
-        <p>It consists of -- from inside to outside: <br> content (your stuff)...  
-        padding... border... and margin.</p>
+        <p>It consists of -- from inside to outside: <br> content (your stuff)... padding... border... and margin.
+        </p>
 
         <div class="box">
-            <p>Hi! I am the content of the box!  I am in &lt;p&gt; tags  
-              inside this &lt;div&gt;.</p>
+            <p>Hi! I am the content of the box!  I am in &lt;p&gt; tags inside this &lt;div&gt;.
+            </p>
     
-            <p>Around me is 36px of padding -- that's the "LemonChiffon" part  
-              all around me... then I have a 12px thick border in "MediumPurple"...  
-              and then 45px margin to separate me from elements all around me.</p>
+            <p>Around me is 36px of padding -- that's the "LemonChiffon" part all around me... then I have a 12px thick border in "MediumPurple"... and then 45px margin to separate me from elements all around me.
+            </p>
 
-            <p>Remember you can style margins one at a time... or top/bottom  
-              and/or left/right... or all in one swoop like this!</p>
+            <p>Remember you can style margins one at a time... or top/bottom and/or left/right... or all in one swoop like this!
+            </p>
 
-            <p>My width is set to 300px, but my height is automatic -- determined  
-              by my content, padding, and border (but not margin -- think about it!)</p>
+            <p>My width is set to 300px, but my height is automatic -- determined by my content, padding, and border (but not margin -- think about it!)
+            </p>
         </div>
 
-        <p>here is another paragraph after our box, to show the bottom margin  
-          working.</p>
+        <p>here is another paragraph after our box, to show the bottom margin working.</p>
     </body>
 </html>
 ```
@@ -755,24 +724,19 @@ a {
     text-decoration: none;
 }
 a:link {
-    color: OrangeRed;		
-    font-weight: bold;
+    color: OrangeRed;       font-weight: bold;
 }
 a:visited {
-    color: Orange;			
-    font-weight: bold;
+    color: Orange;          font-weight: bold;
 }
 a:hover {
-    color: LightSkyBlue;	
-    font-weight: bold;
+    color: LightSkyBlue;    font-weight: bold;
 }
 a:focus {
-    color: LightSkyBlue;
-    outline: DarkBlue;
+    color: LightSkyBlue;    outline: DarkBlue;
 }
 a:active {
-    color: Crimson;
-    font-weight: bold;
+    color: Crimson;         font-weight: bold;
 }
 ```
 `<a>` tags **must** be styled in **that** order.  
@@ -838,6 +802,75 @@ div {
 
 ---
 ---
+## css **floats**  
+general info
+
+<br>
+
+---
+### box-sizing  
+blah
+
+<br>
+
+---
+### clear & clearfix  
+blah
+
+<br>
+
+---
+### flexbox
+blah
+
+<br>
+
+---
+### floating lists
+blah
+
+<br>
+
+---
+### floating images  
+blah
+
+<br>
+
+---
+### floating `<div>s` w/text
+blah
+
+<br>
+
+---
+There's a lot that goes into `floating` stuff, depending on what exactly you would like to do with it!
+
+<br>
+
+---
+---
+## css **responsive design**  
+tie this in w/floating
+
+<br>
+
+---
+---
+## css **grid**
+Non-Bootstrap!  
+
+<br>
+
+---
+---
+## css **max/min width/height**  
+so that images or div's or whatever don't get smaller than x nor larger than x regardless of viewport size
+
+<br>
+
+---
+---
 ## warning!  
 As noted, `css` can be really damned tricky, picky, and at times annoying!  
 But most often, it's really cool and a lot of fun.  
@@ -880,59 +913,43 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
 <!DOCTYPE html>
 <html>
     <head>
-
         <style>
             main {
                 font-family: helvetica, arial, sans-serif;
                 background-color: palevioletred;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-bottom: 15px;
+                padding-left: 15px; padding-right: 15px; padding-bottom: 15px;
             }
             span {
                 border: 3px dotted; 
-                padding: 9px; 
-                margin: 18px;
-                background-color: indigo;
-                color: crimson;
-                font-family: tahoma, sans-serif;
-                font-size: 18px;
+                padding: 9px;       margin: 18px;
+                background-color: indigo;   color: crimson;
+                font-family: tahoma, sans-serif;    font-size: 18px;
             }
             a {
-                display: inline-block;
-                text-decoration: none;
-                padding: 9px;
-                border: 3px solid midnightblue;
-                border-radius: 9px;
-                font-family: verdana, sans-serif;
-                font-size: 21px;
-                background-color: cornflowerblue;
-                color: midnightblue;
-                margin: 9px 5px;
+                display: inline-block;      text-decoration: none;
+                padding: 9px;           margin: 9px 5px;
+                border: 3px solid midnightblue; border-radius: 9px;
+                font-family: verdana, sans-serif;   font-size: 21px;
+                background-color: cornflowerblue;   color: midnightblue;
             }
             .span_test {
                 margin-top: 36px;
             }
             .button_demo {
-                margin-top: 18px;
-                border-top: 1px solid;
-                padding-top: 9px;
+                margin-top: 18px;   border-top: 1px solid;  padding-top: 9px;
             }
             .second_button:link, .second_button:visited {
                 border-color: mediumpurple;
-                background-color: rosybrown;
-                color: rebeccapurple;
+                background-color: rosybrown;    color: rebeccapurple;
             }
             .second_button:hover {
                 background-color: plum;
             }
             footer {
-                border-top: 3px solid maroon;
-                padding: 15px;
+                border-top: 3px solid maroon;   padding: 15px;
                 background-color: lemonchiffon;
                 font-family: helvetica, arial, sans-serif;
-                font-size: 14px;
-                text-align: right;
+                font-size: 14px;        text-align: right;
             }
         </style>
     </head>
@@ -942,37 +959,31 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
             <p>The stuff in the purple box, is a span 
               <span class="span_test">Hello World!</span> element within a paragraph.</p>
 
-            <p> <strong>&lt;span&gt;</strong> elements are inline... that means they 
-            won't start on a new line, and they only take up as much width as necessary -- or as you style them to. </p>
+            <p> <strong>&lt;span&gt;</strong> elements are inline... that means they won't start on a new line, and they only take up as much width as necessary -- or as you style them to. 
+            </p>
 
-            <p>See how you <strong>can't</strong> set top/bottom margins on them, but you 
-            <strong>can</strong> set left/right ones? 
+            <p>See how you <strong>can't</strong> set top/bottom margins on them, but you <strong>can</strong> set left/right ones? 
 
             <br>And see how the top padding makes it stick up over the colored-in <strong>&lt;main&gt;</strong> section?
             
-            <br>And see how you can put a border around the <strong>&lt;span&gt;</strong>? </p>
+            <br>And see how you can put a border around the <strong>&lt;span&gt;</strong>? 
+            </p>
 
-            <p class="button_demo">See how <strong>&lt;p&gt;</strong> tags can be styled with 
-            a top margin, padding, &amp; border via a class?  
-            But the margin wouldn't work -- even through a class -- if <strong>&lt;p&gt;</strong> tags were not block elements!</p>
+            <p class="button_demo">See how <strong>&lt;p&gt;</strong> tags can be styled with a top margin, padding, &amp; border via a class?  But the margin wouldn't work -- even through a class -- if <strong>&lt;p&gt;</strong> tags were not block elements!
+            </p>
 
-            <p>Let's put a link in this paragraph: <a href="https://Stormy9.github.io/" target="_blank">I'm a link styled like a button!</a> 
-            isn't that cool?  It has <strong>{display: inline-block;}</strong> styling.  
-            Because of that, I was able to style it with top/bottom margins!  Along with all the other stuff.</p>
+            <p>Let's put a link in this paragraph: <a href="https://Stormy9.github.io/" target="_blank">I'm a link styled like a button!</a> isn't that cool?  It has <strong>{display: inline-block;}</strong> styling.  Because of that, I was able to style it with top/bottom margins!  Along with all the other stuff.
+            </p>
 
-            <p>Notice this faux-button was made simply by styling the <strong>&lt;a&gt;</strong> tag... 
-            when you click it, it doesn't change in any way, at any stage.</p>
+            <p>Notice this faux-button was made simply by styling the <strong>&lt;a&gt;</strong> tag... when you click it, it doesn't change in any way, at any stage.</p>
 
-            <p>If I want it to have hover effects, then I *have* to style <strong>&lt;a:link&gt;</strong> and 
-            <strong>&lt;a:visited&gt;</strong>... and *then* <strong>&lt;a:hover&gt;</strong>.  </p>
+            <p>If I want it to have hover effects, then I *have* to style <strong>&lt;a:link&gt;</strong> and <strong>&lt;a:visited&gt;</strong>... and *then* <strong>&lt;a:hover&gt;</strong>.  </p>
 
             <p>Let's do that with a new faux button:</p>
             <p>Here's another link: <a class="second_button" href="https://stormy9.github.io/" target="_blank">hover me!</a> try it!
             </p>
 
-            <p>Notice how the styling for the <strong>&lt;a&gt;</strong> tag is still in effect:  
-            inline-block, margins &amp; padding, font family &amp; size, 
-            lack of an underline, and border-style, border-width, &amp; border-radius!
+            <p>Notice how the styling for the <strong>&lt;a&gt;</strong> tag is still in effect:  inline-block, margins &amp; padding, font family &amp; size, lack of an underline, and border-style, border-width, &amp; border-radius!
             </p>
 
             <p>All I had to style for this 2nd faux button is background-color, color, and border-color.</p>
@@ -994,8 +1005,11 @@ Here's some fiddling with `block vs. inline` + `inline-block` + semantic `html` 
 **This gives you:**  
 <a href="https://Stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"><img src="https://stormy9.github.io/CS460/references/css/images/ScreenShot_05.PNG"></a>  
 
-* <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">Here's the demo page I made of that</a>.
+* <a href="https://Stormy9.github.io/CS460/references/css/demo_b.html">Here's the demo page I made of that</a>.  
 
+<br>
+
+---
 ---
 ---
 ## my favorite css sites  
