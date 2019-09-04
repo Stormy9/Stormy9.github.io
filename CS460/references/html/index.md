@@ -941,7 +941,7 @@ This one gets a little bit more complicated..... there's a whole four-part secti
 
 ```
 **And, that gives you this:**  
-<div style="margin-bottom: 360px;">
+<div style="margin-bottom: 450px;">
 <div style="float: left; width: 45%; padding: 5px;">
 <a href="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG" target="_blank"><img src="https://Stormy9.github.io/CS460/references/html/images/ScreenShot_05.PNG"></a></div>
 <div style="float: left; width: 45%; padding: 5px;">
@@ -950,7 +950,7 @@ This one gets a little bit more complicated..... there's a whole four-part secti
 
 <br>
 
-*if I was doing full-on `html/css`, I would've applied the `.clearfix:after` styling... since this is `md` I just used extra `<br>` tags!*  
+*if I was doing full-on `html/css`, I would've applied the `.clearfix:after` styling... since this is `md` I added `margin-bottom` to the outside `<div>`*  
 
 Plus I made <a href="https://Stormy9.github.io/CS460/references/html/form_demo.html">this demo page</a> so that you can see what happens when you re-size the page!  
 
