@@ -141,7 +141,7 @@ form {
         font-size: 15px;   
     }
     .radios {                    /* obviously for testing! */
-        width: 300px;           border: 1px solid red;
+        width: 300px;           border: 2px dashed red;
         /* px works best for this part */   /* %'s screw it up */
     }
 }
@@ -165,7 +165,7 @@ form {
         font-size: 15px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 1px solid orange;
+        /*width: 300px;*/           border: 2px dashed orange;
     } 
 }
 /*-------------------------------------------------------------------*/
@@ -210,7 +210,7 @@ form {
     }
     .radios {                    /* obviously for testing! */
         width: 45%;             border: 2px dashed green;
-        /* but % *does* work better, here! */
+        /* but % *does* work better, here, for some reason! */
     } 
 }
 /*-------------------------------------------------------------------*/
@@ -246,5 +246,21 @@ form {
     "They are all optional. However, if you use not or only, 
     you must also specify a media type."
     */
+/*  This is what W3Schools says is 'Typical Device Breakpoints':
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}
+*/
 /*-------------------------------------------------------------------*/
   
