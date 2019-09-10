@@ -170,7 +170,7 @@ form {
 }
 /*-------------------------------------------------------------------*/
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
     .headline {
         font-size: 30px;
     }
@@ -187,12 +187,12 @@ form {
         font-size: 18px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 1px solid yellow;
+        /*width: 300px;*/           border: 2px solid yellow;
     } 
 }
 /*-------------------------------------------------------------------*/
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 870px) {
+@media only screen and (min-width: 860px) {
     .headline {
         font-size: 33px;
     }
@@ -209,7 +209,7 @@ form {
         font-size: 18px;  
     }
     .radios {                    /* obviously for testing! */
-        width: 45%;             border: 2px solid green;
+        width: 45%;             border: 2px dashed green;
         /* but % *does* work better, here! */
     } 
 }
