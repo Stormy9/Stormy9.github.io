@@ -32,7 +32,7 @@ form {
 }
 .radios {
     margin-top: 0;    /*margin-bottom: 18px;*/
-    /*margin-right: 18px;         /*border: 1px solid yellow;*/
+    /*margin-right: 18px;*/
 }
 #conversion {
     color: green;   font-size: 18px;  font-weight: bold;
@@ -99,7 +99,7 @@ form {
 /* i wanted to make '.headline' smaller px so it stayed on one line */
 /* but it does not work!  wonder why not?  hmmmmm.....    */
 /* setting it to 'min-width' does not do anything, either */
-@media only screen and (min-width: 570px) {
+@media only screen and (max-width: 570px) {
     .headline {
         font-size: 21px;
         /* the width of 565px is where this breaks to 2 lines */
@@ -170,7 +170,7 @@ form {
 }
 /*-------------------------------------------------------------------*/
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 720px) {
     .headline {
         font-size: 30px;
     }
@@ -187,7 +187,7 @@ form {
         font-size: 18px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 2px solid yellow;
+        /*width: 300px;*/           border: 2px dashed yellow;
     } 
 }
 /*-------------------------------------------------------------------*/
@@ -217,7 +217,7 @@ form {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1230px) {
     .radios {                    /* obviously for testing! */
-        width: 180px;           border: 2px dotted blue;
+        width: 180px;           border: 2px dashed blue;
         /* at first i thought % was better here..... */
         /* but NO!  this is.   [=   */
     } 
@@ -227,7 +227,7 @@ form {
 /*      well, *be* where i want them to! */
 @media only screen and (min-width: 1340px) {
     .radios {                    /* obviously for testing! */
-        width: 225px;           border: 1px solid white;
+        width: 225px;           border: 2px dashed white;
     } 
 }
 /*-------------------------------------------------------------------*/
