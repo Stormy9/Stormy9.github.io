@@ -246,6 +246,7 @@ form {
     "They are all optional. However, if you use not or only, 
     you must also specify a media type."
     */
+/*-------------------------------------------------------------------*/
 /*  This is what W3Schools says is 'Typical Device Breakpoints':
 /* Extra small devices (phones, 600px and down) */
 /*@media only screen and (max-width: 600px) {...}
