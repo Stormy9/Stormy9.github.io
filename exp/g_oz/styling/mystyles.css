@@ -141,7 +141,7 @@ form {
         font-size: 15px;   
     }
     .radios {                    /* obviously for testing! */
-        width: 300px;           /*border: 1px solid red;*/
+        width: 300px;           border: 1px solid red;
         /* px works best for this part */   /* %'s screw it up */
     }
 }
@@ -165,7 +165,7 @@ form {
         font-size: 15px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           /*border: 1px solid orange;*/
+        /*width: 300px;*/           border: 1px solid orange;
     } 
 }
 /*-------------------------------------------------------------------*/
@@ -187,7 +187,7 @@ form {
         font-size: 18px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           /*border: 1px solid yellow;*/
+        /*width: 300px;*/           border: 1px solid yellow;
     } 
 }
 /*-------------------------------------------------------------------*/
@@ -209,7 +209,7 @@ form {
         font-size: 18px;  
     }
     .radios {                    /* obviously for testing! */
-        width: 45%;             /*border: 2px solid green;*/
+        width: 45%;             border: 2px solid green;
         /* but % *does* work better, here! */
     } 
 }
@@ -217,7 +217,7 @@ form {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1230px) {
     .radios {                    /* obviously for testing! */
-        width: 160px;           /*border: 1px solid blue;*/
+        width: 160px;           border: 1px solid blue;
         /* at first i thought % was better here..... */
         /* but NO!  this does.   [=   */
     } 
@@ -227,7 +227,7 @@ form {
 /*      well, *be* where i want them to! */
 @media only screen and (min-width: 1340px) {
     .radios {                    /* obviously for testing! */
-        width: 225px;           /*border: 1px solid white;*/
+        width: 225px;           border: 1px solid white;
         /* % works better, here, too! */
     } 
 }
