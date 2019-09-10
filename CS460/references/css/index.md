@@ -875,6 +875,8 @@ There's a lot that goes into `floating` stuff, depending on what exactly you wou
 tie this in w/floating 
 
 /*-------------------------------------------------------------------*/
+FROM `https://www.w3schools.com/cssref/css3_pr_mediaquery.asp`
+        css @media Rule
 /*  note: the 'only' keyword means:
     "The only keyword prevents older browsers that do not support 
     media queries with media features from applying the specified 
@@ -890,6 +892,8 @@ tie this in w/floating
     you must also specify a media type."
     */
 /*-------------------------------------------------------------------*/
+FROM `https://www.w3schools.com/css/css_rwd_mediaqueries.asp`
+        RWD - Media Queries
 /*  This is what W3Schools says is 'Typical Device Breakpoints':
 /* Extra small devices (phones, 600px and down) */
 /*@media only screen and (max-width: 600px) {...}
@@ -907,15 +911,13 @@ tie this in w/floating
 /*@media only screen and (min-width: 1200px) {...}
 */
 /*-------------------------------------------------------------------*/
-  
-
-
 
 <br>
 
 * <a href="https://www.w3schools.com/css/css3_mediaqueries.asp" target="_blank">W3Schools - Media Queries</a>
 * <a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target="_blank">W3Schools - Media Query Examples</a>
-* <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">W3Schools - css @media rule</a> (includes examples)
+* <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">W3Schools - css @media Rule</a> (includes examples)
+* <a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp" target="_blank">W3Schools - RWD Media Queries</a>
     * you really have to do the repls and see this to grok it!
 * <a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">W3Schools - Full Responsive Design Tutorial</a>
 
