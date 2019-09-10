@@ -192,7 +192,7 @@ form {
 }
 /*-------------------------------------------------------------------*/
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 915px) {
+@media only screen and (min-width: 900px) {
     .headline {
         font-size: 33px;
     }
@@ -209,7 +209,7 @@ form {
         font-size: 18px;  
     }
     .radios {                    /* obviously for testing! */
-        width: 45%;             border: 2px solid green;
+        width: 45%;             border: 2px dashed green;
         /* but % *does* work better, here! */
     } 
 }
