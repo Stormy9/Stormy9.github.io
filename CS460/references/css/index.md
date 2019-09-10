@@ -872,7 +872,42 @@ There's a lot that goes into `floating` stuff, depending on what exactly you wou
 ---
 ---
 ## css **responsive design**  
-tie this in w/floating  
+tie this in w/floating 
+
+/*-------------------------------------------------------------------*/
+/*  note: the 'only' keyword means:
+    "The only keyword prevents older browsers that do not support 
+    media queries with media features from applying the specified 
+    styles. It has no effect on modern browsers. "
+    
+    the 'not' keyword means: 
+    "reverts the meaning of an entire media query."
+
+    the 'and' keyword means:
+    "combines a media feature w/a media type or other media features."
+
+    "They are all optional. However, if you use not or only, 
+    you must also specify a media type."
+    */
+/*-------------------------------------------------------------------*/
+/*  This is what W3Schools says is 'Typical Device Breakpoints':
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}
+*/
+/*-------------------------------------------------------------------*/
+  
 
 
 

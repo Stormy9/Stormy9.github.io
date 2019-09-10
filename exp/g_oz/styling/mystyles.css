@@ -97,7 +97,7 @@ form {
 /*-------------------------------------------------------------------*/
 /* i added this one myself -- just seeing what would happen -- b/c */
 /* i wanted to make '.headline' smaller px so it stayed on one line */
-/* but it does not work!  wonder why not?  hmmmmm.....    */
+/* but it DOES NOT WORK!  wonder why not?  hmmmmm.....    */
 /* setting it to 'min-width' does not do anything, either */
 @media only screen and (max-width: 570px) {
     .headline {
@@ -124,7 +124,7 @@ form {
 /* Extra small devices (phones, 600px and down) */
 /* they had: '(max-width: 600px)' */
 /* i set it like this, to work the way i wanted, w/ my button layout */
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 720px) {
     .headline {
         font-size: 24px;
     }
@@ -141,14 +141,14 @@ form {
         font-size: 15px;   
     }
     .radios {                    /* obviously for testing! */
-        width: 300px;           border: 2px dashed red;
+        width: 300px;           border: 2px solid red;
         /* px works best for this part */   /* %'s screw it up */
     }
 }
 /*-------------------------------------------------------------------*/
 /* i need to figure out exactly how this varies from the above one */
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 630px) {
     .headline {
         font-size: 27px;
     }
@@ -165,7 +165,7 @@ form {
         font-size: 15px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 2px solid darkorange;
+        /*width: 300px;*/           border: 2px dashed darkorange;
     } 
 }
 /*-------------------------------------------------------------------*/
@@ -187,7 +187,7 @@ form {
         font-size: 18px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 2px dashed yellow;
+        /*width: 300px;*/           border: 2px solid yellow;
     } 
 }
 /*-------------------------------------------------------------------*/
@@ -209,7 +209,7 @@ form {
         font-size: 18px;  
     }
     .radios {                    /* obviously for testing! */
-        width: 45%;             border: 2px dashed green;
+        width: 45%;             border: 2px solid green;
         /* but % *does* work better, here, for some reason! */
     } 
 }
@@ -217,7 +217,7 @@ form {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1230px) {
     .radios {                    /* obviously for testing! */
-        width: 180px;           border: 2px dashed blue;
+        width: 180px;           border: 2px solid blue;
         /* at first i thought % was better here..... */
         /* but NO!  this is.   [=   */
     } 
@@ -225,43 +225,9 @@ form {
 /*-------------------------------------------------------------------*/
 /* added this extra one to make the buttons do what i want them to! */
 /*      well, *be* where i want them to! */
-@media only screen and (min-width: 1340px) {
+@media only screen and (min-width: 1350px) {
     .radios {                    /* obviously for testing! */
-        width: 225px;           border: 2px dashed white;
+        width: 225px;           border: 2px solid white;
     } 
 }
 /*-------------------------------------------------------------------*/
-/*-------------------------------------------------------------------*/
-/*  note: the 'only' keyword means:
-    "The only keyword prevents older browsers that do not support 
-    media queries with media features from applying the specified 
-    styles. It has no effect on modern browsers. "
-    
-    the 'not' keyword means: 
-    "reverts the meaning of an entire media query."
-
-    the 'and' keyword means:
-    "combines a media feature w/a media type or other media features."
-
-    "They are all optional. However, if you use not or only, 
-    you must also specify a media type."
-    */
-/*-------------------------------------------------------------------*/
-/*  This is what W3Schools says is 'Typical Device Breakpoints':
-/* Extra small devices (phones, 600px and down) */
-/*@media only screen and (max-width: 600px) {...}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-/*@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/*@media only screen and (min-width: 1200px) {...}
-*/
-/*-------------------------------------------------------------------*/
-  
