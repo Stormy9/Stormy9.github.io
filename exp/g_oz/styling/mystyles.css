@@ -209,7 +209,7 @@ form {
         font-size: 18px;  
     }
     .radios {                    /* obviously for testing! */
-        width: 45%;             border: 2px dotted green;
+        width: 45%;             border: 2px solid green;
         /* but % *does* work better, here! */
     } 
 }
@@ -217,7 +217,7 @@ form {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1230px) {
     .radios {                    /* obviously for testing! */
-        width: 160px;           border: 1px solid blue;
+        width: 180px;           border: 2px dotted blue;
         /* at first i thought % was better here..... */
         /* but NO!  this does.   [=   */
     } 
