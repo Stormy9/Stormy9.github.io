@@ -165,7 +165,7 @@ form {
         font-size: 15px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 2px dashed orange;
+        /*width: 300px;*/           border: 2px solid darkorange;
     } 
 }
 /*-------------------------------------------------------------------*/
