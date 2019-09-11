@@ -141,7 +141,7 @@ form {
         font-size: 15px;   
     }
     .radios {                    /* obviously for testing! */
-        width: 300px;           /*border: 2px solid red;
+        width: 300px;           border: 2px dashed red;
         /* px works best for this part */   /* %'s screw it up */
     }
 }
@@ -165,7 +165,7 @@ form {
         font-size: 15px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           /*border: 2px dashed darkorange;
+        /*width: 300px;*/           border: 2px dashed darkorange;
         /* so this stays at 'width:300px', right?*/
     } 
 }
@@ -188,7 +188,7 @@ form {
         font-size: 18px;  
     }
     .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           /*border: 2px solid yellow;
+        /*width: 300px;*/           border: 2px dashed yellow;
         /* so this stays at 'width:300px', right?*/
         /* it doesn't seem so..... ????? */
     } 
@@ -212,7 +212,7 @@ form {
         font-size: 18px;  
     }
     .radios {                    /* obviously for testing! */
-        width: 45%;             /*border: 2px solid green;
+        width: 45%;             border: 2px dashed green;
         /* but % *does* work better, here, for some reason! */
     } 
 }
@@ -220,7 +220,7 @@ form {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1230px) {
     .radios {                    /* obviously for testing! */
-        width: 180px;           /*border: 2px solid blue;
+        width: 180px;           border: 2px dashed blue;
         /* at first i thought % was better here..... */
         /* but NO!  this is.   [=   */
     } 
@@ -230,7 +230,7 @@ form {
 /*      well, *be* where i want them to! */
 @media only screen and (min-width: 1350px) {
     .radios {                    /* obviously for testing! */
-        width: 225px;           /*border: 2px solid white;
+        width: 225px;           border: 2px solid white;
     } 
 }
 /*-------------------------------------------------------------------*/

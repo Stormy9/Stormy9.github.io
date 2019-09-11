@@ -150,6 +150,9 @@ This will be the hard part.   [=
 
 *(will have to put in screenshots of code, once you merge -- can't access those files and this one, at the same time, when they are in different `branch`es!)*  
 
+omg -- the css media queries!!!  
+how it rendered differently, opening it from Windows Explorer, than it did when I put it in my exp folder and ran it online/live (that I did to show YMS).
+how i mixed up the min/max thing
 
 <br>
 
@@ -173,6 +176,8 @@ Do this by the `merge` and `push`... do we submit our GitHub ULR on moodle, too?
 ---
 ### Step 7 [portfolio content]:
 I especially added to my <a href="https://stormy9.github.io/CS460/references/git/">Git Reference page</a>!  
+
+and updated html & css pages too
 
 And started a <a href="https://stormy9.github.io/CS460/references/js_jq/">JavaScript/jQuery Reference page</a>, too.  
 
