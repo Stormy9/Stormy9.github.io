@@ -5,36 +5,44 @@
     background-color: green;  color: green;
 }
 .middle_part {
-    /*border: 1px solid blue;     /* for testing purposes! */
+    /* only for testing purposes! */
+    border: 1px solid purple;
 }
 .headline {
     /* so like the seeds! */ color: black;
     margin-top: 9px;        margin-bottom: 3px;
-    font-size: 21px;        font-weight: bold;
+    font-size: 27px;        font-weight: bold;
 }
 h3 { 
-    font-size: 18px;    margin-bottom: 3px;
+    font-size: 21px;    margin-bottom: 3px;
 }
 h5 { 
-    font-size: 15px;    margin-bottom: 3px;
+    font-size: 18px;    margin-bottom: 3px;
 }
 p { 
-    font-size: 14px;    margin-bottom: 3px;
+    font-size: 15px;    margin-bottom: 3px;
 }
 /*-------------------------------------------------------------------*/
 form {
     /* border: 1px solid yellow;   /* for testing! */
 }
 #g_oz { /* this is the text input box */
-    /*width: 75%;*/      font-size: 10px;   margin-right: 18px;  
-    border: 3px solid green;          margin-top: 18px;
-    /* wth did i ever have a width on this, ever? */
+    width: 207px;      font-size: 18px;         padding: 9px;
+    margin-top: 18px;       margin-right: 18px;     margin-bottom: 0;
+    border: 3px solid green;
 }
 .radios {
     margin-top: 0;    /*margin-bottom: 18px;*/
-    /*margin-right: 18px;*/
+    /*margin-right: 18px;*/     font-size: 18px;    width: 100px;
+    /* for testing purposes: */
+    border: 1px solid green;
 }
-#conversion {
+.spacer {
+    width: 100%;            border: 1px solid blue; 
+    color: #ff4d4d;         font-size: 9px;
+    padding: 0;                 margin: 0;
+}
+#conversion {   /* where the results pop in + list thing */
     color: green;   font-size: 18px;  font-weight: bold;
     margin-top: 9px;  margin-left: 9px;
 }
@@ -43,7 +51,7 @@ form {
     font-size: 14px;    font-weight: bold;
     margin-top: 9px;    margin-left: 9px;
   }
-  #list_holder {
+#list_holder {
     margin-bottom: 45px;
 }
 #list_spot {
@@ -75,162 +83,46 @@ form {
     background-color: green;    color: white;
     border: 1px solid white;
 }
-/*-------------------------------------------------------------------*/
-/* just trying some stuff out..... */
-#convert_button {
-    display: block;   /* this does not work at ALL */
-    /* but that's okay -- just had a design idea  [=  */
-} 
-/* this will *not* apply itself */
-/* when the id is given to the button itself */
-/* so had to put reset button in a div */
-/* then give the id to the div */
-#reset_button {
-    margin-left: 9px;    /*background-color: blue;*/
-    float: right;               /* for testing purposes! */
-}
 /*===================================================================*/
 /*==================================================================*/
-/* the media queries!  so it doesn't look stupid at certain widths  */
-/* W3Schools has these as 'common device widths' */
+/* the media queries!  so it doesn't look stupid at certain widths */
+/*================================================================*/
+@media only screen and (max-width: 670px) {
+    .middle_part {
+        /* for testing: */
+        border: 3px solid black;
+    }
+    .headline {
+        font-size: 24px;
+    }
+    h3 { 
+        font-size: 18px;    margin-bottom: 3px;
+    }
+    h5 { 
+        font-size: 15px;    margin-bottom: 3px;
+    }
+    p { 
+        font-size: 14px;    margin-bottom: 3px;
+    }  
+    #g_oz {
+        margin-right: 0px;  /*didn't work for removing space beneath */
+        width: 180px;         font-size: 15px;      padding: 6px;
+        /* for testing only! */
+        border: 3px solid red;
+    }
+    .radios {
+        width: 360px;         font-size: 15px;
+    }
+  } 
+  /*-----------------------------------------------------------------*/
+@media only screen and (max-width: 450px) {
+    #g_oz {
+        width: 154px;       font-size: 13px;    padding: 3px;
+        /* for testing only! */
+        border: 3px solid blue;
+    }
+}
+  /*=================================================================*/
 
-/*-------------------------------------------------------------------*/
-/* i added this one myself -- just seeing what would happen -- b/c */
-/* i wanted to make '.headline' smaller px so it stayed on one line */
-/* but it DOES NOT WORK!  wonder why not?  hmmmmm.....    */
-/* setting it to 'min-width' does not do anything, either */
-@media only screen and (max-width: 570px) {
-    .headline {
-        font-size: 21px;
-        /* the width of 565px is where this breaks to 2 lines */
-    }
-    h3 { 
-        font-size: 18px;
-    }
-    h5 { 
-        font-size: 15px;
-    }
-    p { 
-        font-size: 15px;
-    }
-    #g_oz { /* this is the text input box */
-        font-size: 15px;   
-    }
-    .radios {                    /* obviously for testing! */
-        width: 300px;           /*border: 1px solid purple;*/
-    }
-}
-/*-------------------------------------------------------------------*/
-/* Extra small devices (phones, 600px and down) */
-/* they had: '(max-width: 600px)' */
-/* i set it like this, to work the way i wanted, w/ my button layout */
-@media only screen and (max-width: 720px) {
-    .headline {
-        font-size: 24px;
-    }
-    h3 { 
-        font-size: 21px;
-    }
-    h5 { 
-        font-size: 18px;
-    }
-    p { 
-        font-size: 15px;
-    }
-    #g_oz { /* this is the text input box */
-        font-size: 15px;   
-    }
-    .radios {                    /* obviously for testing! */
-        width: 300px;           border: 2px dashed red;
-        /* px works best for this part */   /* %'s screw it up */
-    }
-}
-/*-------------------------------------------------------------------*/
-/* i need to figure out exactly how this varies from the above one */
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 630px) {
-    .headline {
-        font-size: 27px;
-    }
-    h3 { 
-        font-size: 21px;
-    }
-    h5 { 
-        font-size: 18px;
-    }
-    p { 
-        font-size: 15px;
-    }
-    #g_oz { /* this is the text input box */
-        font-size: 15px;  
-    }
-    .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 2px dashed darkorange;
-        /* so this stays at 'width:300px', right?*/
-    } 
-}
-/*-------------------------------------------------------------------*/
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 720px) {
-    .headline {
-        font-size: 30px;
-    }
-    h3 { 
-        font-size: 24px;
-    }
-    h5 { 
-        font-size: 21px;
-    }
-    p { 
-        font-size: 18px;
-    }
-    #g_oz { /* this is the text input box */
-        font-size: 18px;  
-    }
-    .radios {                        /* obviously for testing! */
-        /*width: 300px;*/           border: 2px dashed yellow;
-        /* so this stays at 'width:300px', right?*/
-        /* it doesn't seem so..... ????? */
-    } 
-}
-/*-------------------------------------------------------------------*/
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 860px) {
-    .headline {
-        font-size: 33px;
-    }
-    h3 { 
-        font-size: 27px;
-    }
-    h5 { 
-        font-size: 24px;
-    }
-    p { 
-        font-size: 18px;
-    }
-    #g_oz { /* this is the text input box */
-        font-size: 18px;  
-    }
-    .radios {                    /* obviously for testing! */
-        width: 45%;             border: 2px dashed green;
-        /* but % *does* work better, here, for some reason! */
-    } 
-}
-/*-------------------------------------------------------------------*/
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1230px) {
-    .radios {                    /* obviously for testing! */
-        width: 180px;           border: 2px dashed blue;
-        /* at first i thought % was better here..... */
-        /* but NO!  this is.   [=   */
-    } 
-}
-/*-------------------------------------------------------------------*/
-/* added this extra one to make the buttons do what i want them to! */
-/*      well, *be* where i want them to! */
-@media only screen and (min-width: 1350px) {
-    .radios {                    /* obviously for testing! */
-        width: 225px;           border: 2px solid white;
-    } 
-}
-/*-------------------------------------------------------------------*/
+
+
