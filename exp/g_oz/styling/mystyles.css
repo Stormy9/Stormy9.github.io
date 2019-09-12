@@ -87,10 +87,10 @@ form {
 /*==================================================================*/
 /* the media queries!  so it doesn't look stupid at certain widths */
 /*================================================================*/
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 780px) {
     .middle_part {
         /* for testing: */
-        border: 3px solid black;
+        border: 3px solid blue;
     }
     .headline {
         font-size: 24px;
