@@ -6,7 +6,7 @@
 }
 .middle_part {
     /* only for testing purposes! */
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
 }
 .headline {
     /* so like the seeds! */ color: black;
@@ -35,27 +35,27 @@ form {
     margin-top: 0;    /*margin-bottom: 18px;*/
     /*margin-right: 18px;*/     font-size: 18px;    width: 100px;
     /* for testing purposes: */
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 .spacer {
-    width: 100%;            border: 1px solid blue; 
+    width: 100%;            /*border: 1px solid blue;*/
     color: #ff4d4d;         font-size: 9px;
     padding: 0;                 margin: 0;
 }
+/*-------------------------------------------------------------------*/
 #conversion {   /* where the results pop in + list thing */
     color: green;   font-size: 18px;  font-weight: bold;
     margin-top: 9px;  margin-left: 9px;
 }
-/*-------------------------------------------------------------------*/
 #list_header {
-    font-size: 14px;    font-weight: bold;
+    font-size: 15px;    font-weight: bold;
     margin-top: 9px;    margin-left: 9px;
   }
 #list_holder {
     margin-bottom: 45px;
 }
 #list_spot {
-    margin-top: 1px;      font-size: 12px;
+    margin-top: 1px;      font-size: 15px;
 }
 /*-------------------------------------------------------------------*/
 .myfoot {
@@ -90,7 +90,7 @@ form {
 @media only screen and (max-width: 780px) {
     .middle_part {
         /* for testing: */
-        border: 3px solid blue;
+        /*border: 3px solid black;*/
     }
     .headline {
         font-size: 24px;
@@ -108,10 +108,13 @@ form {
         margin-right: 0px;  /*didn't work for removing space beneath */
         width: 180px;         font-size: 15px;      padding: 6px;
         /* for testing only! */
-        border: 3px solid red;
+        /*border: 3px solid red;*/
     }
     .radios {
         width: 360px;         font-size: 15px;
+    }
+    #list_spot {
+        margin-top: 1px;      font-size: 14px;
     }
   } 
   /*-----------------------------------------------------------------*/
@@ -119,7 +122,10 @@ form {
     #g_oz {
         width: 154px;       font-size: 13px;    padding: 3px;
         /* for testing only! */
-        border: 3px solid blue;
+        /*border: 3px solid blue;*/
+    }
+    #list_spot {
+        margin-top: 1px;      font-size: 13px;
     }
 }
   /*=================================================================*/

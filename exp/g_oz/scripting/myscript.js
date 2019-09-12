@@ -36,7 +36,7 @@ function convert() {
                     $('#conversion, #list_header, #list_spot').show();
                 }
                     else {
-                    $('#conversion').text('no radio clicked');
+                    $('#conversion').text("oops! click 'grams' or 'ounces'");
                     $('#list_header, #list_spot').hide();
                     }
         }
