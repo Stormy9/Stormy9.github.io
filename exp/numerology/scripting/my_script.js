@@ -1,13 +1,12 @@
 // we don't want this showing right away.....
-// and to separately control what it *does* say,
-// when it *does* show!
+// and to separately control what it *does* say, when it *does* show!
 $('#result').hide();
 
 document.getElementById("click_me").addEventListener("click", life_path);
 
 function life_path() {
-    // clear out previous results:
-    // otherwise they just stack up!
+    // clear out previous results -- otherwise they just stack up!
+    // as in, the <ul> just keeps adding <li>'s
     $('#list_header, #list_spot').text('');
     // if you include #list_holder, nothing *ever* shows up!
 
@@ -16,7 +15,6 @@ function life_path() {
 
     if(isNaN(input) || array.length != 8) {
         var oops = 'oops! enter your b-day like this:  01031999';
-        // put this in #result not #life_path_number
         $('#result').show();
         document.getElementById('result').innerHTML = oops;
         $('#result').css({"color": "teal", "font-weight": "bold"});
@@ -48,22 +46,22 @@ function life_path() {
         }
         //------------------------------------------------
         //------------------------------------------------
-        // it's *gotta* be b/c of the <p> & <span> thing...
-        // yeah that actually makes some sense.....
-        // got it to function like i want with 'hide()' and 'show()'
+        // > it's *gotta* be b/c of the <p> & <span> thing...
+        // > yeah that actually makes some sense.....
+        // > got it to function like i want with 'hide()' and 'show()'
         // 
         // um, NO ^^^^^ you DIDN'T.....
         // it worked *ONLY* if everything was input correctly 
-        // EVERY time -- if the input ever generated the oops
+        // EVERY time -- if the input ever generated the 'oops'
         // message, and then you fixed it to be correct input,
-        // IT ALL BROKE!!  Nothing happened and you got that
-        // same error message of:
+        // IT ALL BROKE!!  as in, nothing happened and you got
+        // that same error message of:
         //  'TypeError: Cannot set property 'innerHTML' of null'
         //
         // and of *COURSE* it's the <p> & <span> thing!!!
         // you were WIPING OUT the html for the <span>, by
         // setting the innerHTML for #result here!
-        // and not putting the stupid <span> tags -- with 
+        // and not putting in the stupid <span> tags -- with 
         // the #life_path_number id -- INTO that innerHTML!!!
         //
         // geezus you can be obtuse at times.
