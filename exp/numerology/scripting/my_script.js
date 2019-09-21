@@ -68,7 +68,7 @@ function life_path() {
 
     var li_04 = $('<li></li>').text('really sharp');
 
-    var li_05 = $('<li></li>').text('non-obtuse')
+    var li_05 = $('<li></li>').text('but a little obtuse at times')
 
         $('#list_spot').append(li_01, li_02, li_03, li_04, li_05); 
 }
