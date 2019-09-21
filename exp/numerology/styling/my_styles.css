@@ -20,6 +20,7 @@ p {
     border: 3px solid indianred;
     border-radius: 9px;
     padding: 5px;       font-size: 15px;
+    outline: none;
 }
 #click_me {     /* the button */
     background-color: indianred;
