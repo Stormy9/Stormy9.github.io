@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>your life-path</title>
+
+        <link href="styling/my_styles.css" rel="stylesheet" type="text/css" />
+
+        <!-- bring in jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+    </head>
+    <!------------------------------------------------>
+    <body>
+        <h5>find your life-path number:</h5>
+        <p id="intro">enter your birth date like so: <br>
+                if you were born on May 29, 1989.....
+                type in <i>05291989</i> <br>
+                (no slashes, dashes, or anything like that!)
+        </p>
+        
+        
+        <form>
+            <input type="text" id="enter_bday" 
+                placeholder="enter your b-day" autofocus>
+
+            <button type="button" id="click_me">click me!
+                </button>
+            <button type="reset" id="reset">reset!
+                </button>
+        </form>
+        
+
+        <p id="result">your life-path number is:   
+                <span id="life_path_number"></span>
+        </p>
+
+
+        <div id="list_header"></div>
+    	    <div id="list_holder">
+                <ul id="list_spot"> 
+                </ul>
+            </div>
+
+
+        <!-------------------------------------------->
+        <script src="scripting/my_script.js"></script>
+        <!-------------------------------------------->
+    </body>
+</html>
