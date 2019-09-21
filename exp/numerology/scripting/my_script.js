@@ -90,10 +90,11 @@ function reset() {
     $('#list_header, #list_spot').text('');
     $('#life_path_number, #list_header, #list_spot').hide();
     
-    // trying this from my 'GuessingGame' code:
+    // got this from my 'GuessingGame' code:
     location.reload(true);
     // b/c after clicking 'reset', it worked fine IF
     // you did everything correctly..... 
-    // but it wouldn't do it's validation thing
+    // BUT -- it wouldn't do it's validation thing
+    // if you didn't.....
         // just like g_oz & GuessingGame
 }
