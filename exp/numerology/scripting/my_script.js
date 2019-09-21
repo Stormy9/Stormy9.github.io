@@ -1,16 +1,24 @@
+$('#result').hide();
+
 document.getElementById("click_me").addEventListener("click", life_path);
 
 function life_path() {
     // clear out previous results:
+    // otherwise they just stack up!
     $('#list_header, #list_spot').text('');
     // if you include #list_holder, nothing *ever* shows up!
+
+    // make 'your life path is' show up:
+        $('#result').show();
 
     var input = document.getElementById('enter_bday').value;
     var array = Array.from(input.toString()).map(Number);
 
     if(isNaN(input) || array.length < 8) {
-        var oops = 'oops! enter your b-day like:  01031999';
-        document.getElementById('life_path_number').innerHTML = oops;
+        var oops = 'oops! enter your b-day like this:  01031999';
+
+        // put this in #result not #life_path_number
+        document.getElementById('result').innerHTML = oops;
         // you don't want this popping up on an error!
         $('#list_header, #list_holder, #list_spot').hide();
     }
@@ -48,6 +56,8 @@ function life_path() {
         // doesn't work to put it up-top, either!
         // it's *gotta* be b/c of the <p> & <span> thing...
         // yeah that actually makes some sense.....
+        //
+        // got it to function like i want with 'hide()' and 'show()'
         //-------------------------------------------------
         //-------------------------------------------------
         document.getElementById("life_path_number").innerHTML = sum;
@@ -141,7 +151,7 @@ function add_up(total, value) {
 document.getElementById("reset").addEventListener("click", reset)
 
 function reset() {
-    // in order to clear out previous input from the text-box,
+    // in order to clear out previous input in text-box,
     // the text-box & buttons have to be inside of
     // a <form></form> element
 
