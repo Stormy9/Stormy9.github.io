@@ -90,9 +90,11 @@ function reset() {
 
     // trying this from my 'GuessingGame' code:
     location.reload(true);
-    // b/c after clicking 'reset', it worked fine IF
+    // b/c after clicking 'reset', things worked fine IF
     // you did everything correctly..... 
-    // but it wouldn't do it's validation thing
+    // BUT -- it wouldn't do it's validation thing if
+    // you didn't -- if you screwed up the input.....
         // seems I remember something similar was why
         // i put this in 'GuessingGame' too.
+    // is there some better way than this??
 }
