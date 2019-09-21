@@ -1,3 +1,6 @@
+// we don't want this showing right away.....
+// and to separately control what it *does* say,
+// when it *does* show!
 $('#result').hide();
 
 document.getElementById("click_me").addEventListener("click", life_path);
@@ -8,20 +11,19 @@ function life_path() {
     $('#list_header, #list_spot').text('');
     // if you include #list_holder, nothing *ever* shows up!
 
-    // make 'your life path is' show up:
-        $('#result').show();
-
     var input = document.getElementById('enter_bday').value;
     var array = Array.from(input.toString()).map(Number);
 
     if(isNaN(input) || array.length < 8) {
         var oops = 'oops! enter your b-day like this:  01031999';
-
         // put this in #result not #life_path_number
+        $('#result').show();
         document.getElementById('result').innerHTML = oops;
+        //$('#result').css("color", "orange");
         // you don't want this popping up on an error!
         $('#list_header, #list_holder, #list_spot').hide();
     }
+    //-----------------------------------------------------------
     else {
         var sum = array.reduce(add_up);
         //---first----------------------------------------
@@ -46,25 +48,34 @@ function life_path() {
         }
         //------------------------------------------------
         //------------------------------------------------
-        // why does this part throw this error:
-        // TypeError: Cannot set property 'innerHTML' of null
-        // at HTMLButtonElement.life_path (/my_script.js:53:63)
-        //
-        //var msg = "your life-path number are:  ";
-        //document.getElementById("result").innerHTML = msg;
-        //
-        // doesn't work to put it up-top, either!
         // it's *gotta* be b/c of the <p> & <span> thing...
         // yeah that actually makes some sense.....
-        //
         // got it to function like i want with 'hide()' and 'show()'
-        //-------------------------------------------------
-        //-------------------------------------------------
+        // 
+        // um, NO ^^^^^ you DIDN'T.....
+        // it worked *ONLY* if everything was input correctly 
+        // EVERY time -- if the input ever generated the oops
+        // message, and then you fixed it to be correct input,
+        // IT ALL BROKE!!  Nothing happened and you got that
+        // same error message of:
+        //  'TypeError: Cannot set property 'innerHTML' of null'
+        //
+        // and of *COURSE* it's the <p> & <span> thing!!!
+        // you were WIPING OUT the html for the <span>, by
+        // setting the innerHTML for #result here!
+        // and not putting the stupid <span> tags -- with 
+        // the #life_path_number id -- INTO that innerHTML!!!
+        //
+        // geezus you can be obtuse at times.
+        //
+        // THIS, as you see below, *DOES* work!!
+        // sheesh.  THINK!!!
+        //----------------------------------------------------
+        //----------------------------------------------------
+        $('#result, #life_path_number, #list_header, #list_holder, #list_spot').show();
+        var msg = "your life-path number is:  ";
+        document.getElementById("result").innerHTML = msg + "<span id='life_path_number'></span>";
         document.getElementById("life_path_number").innerHTML = sum;
-        $('#life_path_number, #list_header, #list_holder, #list_spot').show();
-        // doesn't work to put this here, either -- 
-        // no error, but no sum, either!
-        //document.getElementById("result").innerHTML = msg;
     }
 
     // bring in the traits-by-number + build list:
