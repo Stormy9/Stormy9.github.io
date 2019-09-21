@@ -14,13 +14,13 @@ function life_path() {
     var input = document.getElementById('enter_bday').value;
     var array = Array.from(input.toString()).map(Number);
 
-    if(isNaN(input) || array.length < 8) {
+    if(isNaN(input) || array.length != 8) {
         var oops = 'oops! enter your b-day like this:  01031999';
         // put this in #result not #life_path_number
         $('#result').show();
         document.getElementById('result').innerHTML = oops;
-        //$('#result').css("color", "orange");
-        // you don't want this popping up on an error!
+        $('#result').css({"color": "teal", "font-weight": "bold"});
+        // you don't want this popping up on an input error!
         $('#list_header, #list_holder, #list_spot').hide();
     }
     //-----------------------------------------------------------
@@ -73,6 +73,7 @@ function life_path() {
         //----------------------------------------------------
         //----------------------------------------------------
         $('#result, #life_path_number, #list_header, #list_holder, #list_spot').show();
+        $('#result').css("color", "#1c0d72");
         var msg = "your life-path number is:  ";
         document.getElementById("result").innerHTML = msg + "<span id='life_path_number'></span>";
         document.getElementById("life_path_number").innerHTML = sum;
