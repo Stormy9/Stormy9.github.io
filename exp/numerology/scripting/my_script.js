@@ -48,12 +48,14 @@ function life_path() {
         $('#result, #life_path_number, #list_header, #list_holder, #list_spot').show();
         $('#result').css("color", "#1c0d72");
         var msg = "your life-path number is:  ";
-        document.getElementById("result").innerHTML = msg + "<span id='life_path_number'></span>";
+        document.getElementById("result").innerHTML = 
+                    msg + "<span id='life_path_number'></span>";
         document.getElementById("life_path_number").innerHTML = sum;
     }
     //----------------------------------------------------------
     // bring in the traits-by-number + build list:
-    document.getElementById("list_header").innerHTML = "key traits of a '" + sum + "' life path:"
+    document.getElementById("list_header").innerHTML = 
+                    "key traits of a '" + sum + "' life path:"
 
     var li_01, li_02, li_03, li_04, li_05, li_06;
     switch(sum) {
@@ -68,7 +70,7 @@ function life_path() {
             li_01 = $('<li></li>').text('two'); 
             li_02 = $('<li></li>').text('two');
   	        li_03 = $('<li></li>').text('two');
-            li_04 = $('<li></li>').text('two);
+            li_04 = $('<li></li>').text('two');
             li_05 = $('<li></li>').text('two');
             break;
         case 3:
