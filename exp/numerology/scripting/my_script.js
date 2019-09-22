@@ -109,7 +109,7 @@ function life_path() {
             li_01 = $('<li></li>').text('loving & loveable'); 
             li_02 = $('<li></li>').text("a 'rescuer' with a huge heart");
             li_03 = $('<li></li>').text('keen & off-beat sense of humor');
-  	        li_04 = $('<li></li>').text('fun & engaging storyteller');
+  	        li_04 = $('<li></li>').text('fun, funny, and engaging storyteller');
             li_05 = $('<li></li>').text('flourishes in serenity');
             li_06 = $('<li></li>').text('brings sunshine into the lives of everyone lucky enough to be around them');
             break;
