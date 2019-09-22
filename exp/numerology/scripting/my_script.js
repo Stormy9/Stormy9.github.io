@@ -53,8 +53,7 @@ function life_path() {
     }
     //----------------------------------------------------------
     // bring in the traits-by-number + build list:
-    document.getElementById("list_header").innerHTML = 
-                    "key traits of a '" + sum + "' life path:"
+    document.getElementById("list_header").innerHTML = "key traits of a '" + sum + "' life path:"
 
     var li_01, li_02, li_03, li_04, li_05, li_06;
     switch(sum) {
@@ -81,7 +80,7 @@ function life_path() {
             break;
         case 4:
             li_01 = $('<li></li>').text('four'); 
-            li_02 = $('<li></li>').text("four");
+            li_02 = $('<li></li>').text('four');
             li_03 = $('<li></li>').text('four');
   	        li_04 = $('<li></li>').text('four');
             li_05 = $('<li></li>').text('four');
