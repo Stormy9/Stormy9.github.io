@@ -71,7 +71,7 @@ p {
     /* need to get exactly why though */
     position: fixed;
     left: 0;    bottom: 0;
-    width: 100%;    height: 18px;
+    width: 100%;    height: 23px;
     background-color: #1c0d72;
     color: ghostwhite;
     font-size: 15px;
