@@ -6,8 +6,7 @@ $('#result').hide();
 document.getElementById("click_me").addEventListener("click", life_path);
 
 function life_path() {
-    // clear out previous results:
-    // otherwise they just stack up!
+    // clear out previous results -- o/w they just stack up!
     $('#list_header, #list_spot').text('');
     // if you include #list_holder, nothing *ever* shows up!
 
@@ -16,11 +15,10 @@ function life_path() {
 
     if(isNaN(input) || array.length != 8) {
         var oops = 'oops! enter your b-day like this:  01031999';
-        // put this in #result not #life_path_number
         $('#result').show();
         document.getElementById('result').innerHTML = oops;
         $('#result').css({"color": "teal", "font-weight": "bold"});
-        // you don't want this popping up on an input error!
+        // you don't want this popping up on a user-input error!
         $('#list_header, #list_holder, #list_spot').hide();
     }
     //-----------------------------------------------------------
@@ -46,31 +44,6 @@ function life_path() {
             array = Array.from(sum.toString()).map(Number);
             var sum = array.reduce(add_up);
         }
-        //------------------------------------------------
-        //------------------------------------------------
-        // it's *gotta* be b/c of the <p> & <span> thing...
-        // yeah that actually makes some sense.....
-        // got it to function like i want with 'hide()' and 'show()'
-        // 
-        // um, NO ^^^^^ you DIDN'T.....
-        // it worked *ONLY* if everything was input correctly 
-        // EVERY time -- if the input ever generated the oops
-        // message, and then you fixed it to be correct input,
-        // IT ALL BROKE!!  Nothing happened and you got that
-        // same error message of:
-        //  'TypeError: Cannot set property 'innerHTML' of null'
-        //
-        // and of *COURSE* it's the <p> & <span> thing!!!
-        // you were WIPING OUT the html for the <span>, by
-        // setting the innerHTML for #result here!
-        // and not putting the stupid <span> tags -- with 
-        // the #life_path_number id -- INTO that innerHTML!!!
-        //
-        // geezus you can be obtuse at times.
-        //
-        // THIS, as you see below, *DOES* work!!
-        // sheesh.  THINK!!!
-        //----------------------------------------------------
         //----------------------------------------------------
         $('#result, #life_path_number, #list_header, #list_holder, #list_spot').show();
         $('#result').css("color", "#1c0d72");
@@ -78,25 +51,26 @@ function life_path() {
         document.getElementById("result").innerHTML = msg + "<span id='life_path_number'></span>";
         document.getElementById("life_path_number").innerHTML = sum;
     }
-
+    //----------------------------------------------------------
     // bring in the traits-by-number + build list:
-    document.getElementById("list_header").innerHTML = "key traits of a '" + sum + "' life path:"
+    document.getElementById("list_header").innerHTML = 
+                    "key traits of a '" + sum + "' life path:"
 
     var li_01, li_02, li_03, li_04, li_05, li_06;
     switch(sum) {
         case 1:
-            li_01 = $('<li></li>').text('sweet'); 
-            li_02 = $('<li></li>').text('funny + easily amused');
-  	        li_03 = $('<li></li>').text('loving & loveable');
-            li_04 = $('<li></li>').text('super sharp, but...');
-            li_05 = $('<li></li>').text('...occasionally obtuse');
+            li_01 = $('<li></li>').text('one'); 
+            li_02 = $('<li></li>').text('one');
+  	        li_03 = $('<li></li>').text('one');
+            li_04 = $('<li></li>').text('one');
+            li_05 = $('<li></li>').text('one');
             break;
         case 2:
-            li_01 = $('<li></li>').text('a big teddy-bear'); 
-            li_02 = $('<li></li>').text('loving & loveable');
-  	        li_03 = $('<li></li>').text('peaceful soul + a peacemaker');
-            li_04 = $('<li></li>').text('fun, silly sense of humor');
-            li_05 = $('<li></li>').text('dedicated to the happiness of their loved-ones');
+            li_01 = $('<li></li>').text('two'); 
+            li_02 = $('<li></li>').text('two');
+  	        li_03 = $('<li></li>').text('two');
+            li_04 = $('<li></li>').text('two);
+            li_05 = $('<li></li>').text('two');
             break;
         case 3:
             li_01 = $('<li></li>').text('three'); 
@@ -106,12 +80,12 @@ function life_path() {
             li_05 = $('<li></li>').text('three');
             break;
         case 4:
-            li_01 = $('<li></li>').text('loving & loveable'); 
-            li_02 = $('<li></li>').text("a 'rescuer' with a huge heart");
-            li_03 = $('<li></li>').text('keen & off-beat sense of humor');
-  	        li_04 = $('<li></li>').text('fun, funny, and engaging storyteller');
-            li_05 = $('<li></li>').text('flourishes in serenity');
-            li_06 = $('<li></li>').text('brings sunshine into the lives of everyone lucky enough to be around them');
+            li_01 = $('<li></li>').text('four'); 
+            li_02 = $('<li></li>').text("four");
+            li_03 = $('<li></li>').text('four');
+  	        li_04 = $('<li></li>').text('four');
+            li_05 = $('<li></li>').text('four');
+            li_06 = $('<li></li>').text('four');
             break;
         case 5:
             li_01 = $('<li></li>').text('five'); 
