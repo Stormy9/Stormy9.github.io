@@ -45,6 +45,7 @@ function life_path() {
             var sum = array.reduce(add_up);
         }
         //----------------------------------------------------
+        $('#explanation').hide();
         $('#result, #life_path_number, #list_header, #list_holder, #list_spot').show();
         $('#result').css("color", "#1c0d72");
         var msg = "your life-path number is:  ";
