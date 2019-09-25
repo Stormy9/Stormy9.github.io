@@ -54,6 +54,10 @@ p {
 #life_path_number { /* the span */
     color:#1c0d72;      font-weight: bold;
 }
+#explanation {
+    margin-top: 18px;
+    color: #110844;     font-size: 15px;
+}
 #list_header {
     margin-top: 36px;      margin-bottom: 0;
     color: #1c0d72;
