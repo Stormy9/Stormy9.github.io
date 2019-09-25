@@ -2,7 +2,7 @@ body {
     background-color: #c3baf7;
     font-family: verdana, helvetica, arial, sans-serif;
 
-    margin-top: 18px;   margin-left: 18px;
+    margin-top: 36px;   margin-left: 36px;
 }
 h5 {
     margin-bottom: 0;       margin-top: 0;
@@ -17,15 +17,22 @@ p {
     margin-bottom: 18px;
 }
 #enter_bday {   /* the text-box */
-    border: 3px solid crimson;
-    border-radius: 9px;
+    border: 3px solid crimson;      border-radius: 9px;
     padding: 5px;       font-size: 15px;
 }
+#button_spot {
+    display: inline;        
+    width: 180px;
+    /* ooo! cool! 
+        "Property is ignored due to the display. 
+        With 'display: inline', the width, height, 
+        margin-top, margin-bottom, and float properties 
+        have no effect. */
+    /*border: 1px solid crimson;*/
+}
 #click_me {     /* the button */
-    background-color: crimson;
-    color: ghostwhite;
-    border: 3px solid crimson;
-    border-radius: 9px;
+    background-color: crimson;      color: ghostwhite;
+    border: 3px solid crimson;      border-radius: 9px;
     padding: 5px;       font-size: 15px;
     font-weight: bold;
 }
@@ -33,10 +40,8 @@ p {
     border: 3px solid #1c0d72;
 }
 #reset {     /* the button */
-    background-color: crimson;
-    color: ghostwhite;
-    border: 3px solid crimson;
-    border-radius: 9px;
+    background-color: crimson;      color: ghostwhite;
+    border: 3px solid crimson;      border-radius: 9px;
     padding: 5px;       font-size: 15px;
     font-weight: bold;
 }
@@ -47,8 +52,7 @@ p {
     margin-top: 18px;
 }
 #life_path_number { /* the span */
-    color:#1c0d72;
-    font-weight: bold;
+    color:#1c0d72;      font-weight: bold;
 }
 #list_header {
     margin-top: 36px;      margin-bottom: 0;
@@ -72,10 +76,8 @@ p {
     position: fixed;
     left: 0;    bottom: 0;
     width: 100%;    height: 23px;
-    background-color: #1c0d72;
-    color: ghostwhite;
-    font-size: 15px;
-    text-align: right;
+    background-color: #1c0d72;      color: ghostwhite;
+    font-size: 15px;        text-align: right;
     padding-top: 5px;
 
     /* won't set it in slightly from the right... */
@@ -85,3 +87,17 @@ p {
     vertical-align: bottom;
     /* i'm guessing it would have to be applied 
         directly to the text w/ a <div> */
+}
+/*===============================================================*/
+@media only screen and (max-width: 450px) {
+    #button_spot {
+        display: block;
+        width: 180px;
+        margin-top: 13px;
+        /*border: 1px solid crimson;*/
+    }
+    #list_header {
+        font-size: 15px;
+    }
+} 
+/*===============================================================*/
