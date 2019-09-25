@@ -90,6 +90,9 @@ p {
 }
 /*===============================================================*/
 @media only screen and (max-width: 450px) {
+    body {
+        margin-top: 18px;   margin-left: 18px;
+    }
     #button_spot {
         display: block;
         width: 180px;
