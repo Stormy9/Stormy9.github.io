@@ -1,8 +1,10 @@
 # homework two
 
-the assignment instructions are <a href="http://www.wou.edu/~morses/classes/cs46x/assignments/HW2.html" target="_blank">here</a>...   
+the <a href="http://www.wou.edu/~morses/classes/cs46x/assignments/HW2.html" target="_blank">assignment instructions are here</a>...   
 
-the finished site is <a href="https://Stormy9.github.io/CS460/hwk_02/g_oz">here</a>.
+the <a href="https://Stormy9.github.io/CS460/hwk_02/g_oz">finished site is here</a>...  
+
+and <a href="https://github.com/Stormy9/Stormy9.github.io/tree/hwk02_working/CS460/hwk_02/g_oz">the github with all the code for the finished site is here</a>.
 
 ---
 ### Step 0  
