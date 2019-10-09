@@ -98,3 +98,4 @@ function reset() {
         // i put this in 'GuessingGame' too.
     // is there some better way than this??
 }
+// this is fucking stupid..... the file is RIGHT FUCKING HERE, yet it says it's 404..... 
