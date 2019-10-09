@@ -1,0 +1,134 @@
+.main {
+    background-color: #ff4d4d;  /* watermelon insides! */
+  }
+.myhead {                       /* watermelon rind! */
+    background-color: green;  color: green;
+}
+.middle_part {
+    /* only for testing purposes! */
+    /*border: 1px solid purple;*/
+}
+.headline {
+    /* so like the seeds! */ color: black;
+    margin-top: 9px;        margin-bottom: 3px;
+    font-size: 27px;        font-weight: bold;
+}
+h3 { 
+    font-size: 21px;    margin-bottom: 3px;
+}
+h5 { 
+    font-size: 18px;    margin-bottom: 3px;
+}
+p { 
+    font-size: 15px;    margin-bottom: 3px;
+}
+/*-------------------------------------------------------------------*/
+form {
+    /* border: 1px solid yellow;   /* for testing! */
+}
+#g_oz { /* this is the text input box */
+    width: 207px;      font-size: 18px;         padding: 9px;
+    margin-top: 18px;       margin-right: 18px;     margin-bottom: 0;
+    border: 3px solid green;
+}
+.radios {
+    margin-top: 0;    /*margin-bottom: 18px;*/
+    /*margin-right: 18px;*/     font-size: 18px;    width: 100px;
+    /* for testing purposes: */
+    /*border: 1px solid green;*/
+}
+.spacer {
+    width: 100%;            /*border: 1px solid blue;*/
+    color: #ff4d4d;         font-size: 9px;
+    padding: 0;                 margin: 0;
+}
+/*-------------------------------------------------------------------*/
+#conversion {   /* where the results pop in + list thing */
+    color: green;   font-size: 18px;  font-weight: bold;
+    margin-top: 9px;  margin-left: 9px;
+}
+#list_header {
+    font-size: 15px;    font-weight: bold;
+    margin-top: 9px;    margin-left: 9px;
+  }
+#list_holder {
+    margin-bottom: 45px;
+}
+#list_spot {
+    margin-top: 1px;      font-size: 15px;
+}
+/*-------------------------------------------------------------------*/
+.myfoot {
+    background-color: green;  color: white;
+}
+/*-------------------------------------------------------------------*/
+/*----------------LINKS STUFF-----------------------*/
+/* order rules:                                    */
+/* a:hover MUST come AFTER a:link -AND- a:visited */
+/* a:active MUST come AFTER (or with) a:hover    */
+/*----------------------------------------------*/
+.mybutton {
+    background-color: green;    color: white;
+    border-color: green;    border-radius: 18px;
+}
+.mybutton:hover {
+    background-color: green;    color: white;
+    border: 1px solid white;
+}
+.mybutton:focus {
+    background-color: green;    color: white;
+    border: 1px solid white;
+}
+.mybutton:active {
+    background-color: green;    color: white;
+    border: 1px solid white;
+}
+/*===================================================================*/
+/*==================================================================*/
+/* the media queries!  so it doesn't look stupid at certain widths */
+/*================================================================*/
+@media only screen and (max-width: 780px) {
+    .middle_part {
+        /* for testing: */
+        /*border: 3px solid black;*/
+    }
+    .headline {
+        font-size: 24px;
+    }
+    h3 { 
+        font-size: 18px;    margin-bottom: 3px;
+    }
+    h5 { 
+        font-size: 15px;    margin-bottom: 3px;
+    }
+    p { 
+        font-size: 14px;    margin-bottom: 3px;
+    }  
+    #g_oz {
+        margin-right: 0px;  /*didn't work for removing space beneath */
+        width: 180px;         font-size: 15px;      padding: 6px;
+        /* for testing only! */
+        /*border: 3px solid red;*/
+    }
+    .radios {
+        width: 360px;         /*font-size: 15px;*/
+    }                        /* no -- keep font size! */
+    #list_spot {
+        margin-top: 1px;      font-size: 14px;
+    }
+  } 
+  /*-----------------------------------------------------------------*/
+@media only screen and (max-width: 450px) {
+    #g_oz {
+        width: 154px;       font-size: 13px;    padding: 3px;
+        /* for testing only! */
+        /*border: 3px solid blue;*/
+    }
+    #list_spot {
+        margin-top: 1px;      font-size: 13px;
+    }
+}
+  /*=================================================================*/
+
+
+

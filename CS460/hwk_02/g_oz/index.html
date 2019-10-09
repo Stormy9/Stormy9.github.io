@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- required meta tags -->
+        <meta charset="utf-8">
+
+        <!-- responsive meta tag -->
+        <meta name="viewport" 
+                content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!-- to ensure proper rendering and touch zooming for all devices,
+                w/bootstrap, add this meta tag to your <head> -->
+        
+        <!------------------------------------------------------------->
+        <!-- Bootstrap CSS library -- this has to go up-top -->
+        <!-- we're fetching it rather than hosting it locally -->
+        <link rel="stylesheet"
+                href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+                crossorigin="anonymous">
+        
+        <!-- *my* CSS file -- has to go *after* Bootstrap library -->
+        <link type="text/css" rel="stylesheet"  
+                href="styling/mystyles.css" />
+        
+        <!------------------------------------------------------------>
+        <title>grams &lt;===&gt; ounces</title>
+
+    </head>
+    <!---------------------------------------------------------------->
+    <!-------------------- NAVIGATION SECTION ------------------------>
+
+        <!-- don't think we need 'nav' on this one -->
+        <!-- doesn't make sense to have it, anyway! -->
+
+    <!---------------------------------------------------------------->
+    <!----------------- CONTENT SECTION ------------------------------>
+    <body class="main">
+        <!-- header part -->
+        <div class="container-fluid page-header myhead">
+            <!--this does not appear full-width on VSCode preview... 
+                but it *does* appear full-width previewed in chrome -->
+            <!-- dots are to make the green show up -->
+            .....
+        </div>
+
+        <!------------------------------------------------------------>
+        <!-- main part -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- 1st column: empty -->
+                <div class="col-3"> <!-- did have 'col-sm-2' -->
+                </div>
+
+                <!---------------------------------------------------->
+                <!-- 2nd column: where all the things go -->
+                <div class="col-6 middle_part"> <!-- was 'col-sm-8' -->
+                    <h1 class="headline">grams &lt;===&gt; ounces</h1>
+                    <h3>a quick converter</h3>
+                    <h5>to help with your nutrition goals!</h5>
+
+                    <p>put in the amount, click 'ounces' or 
+                      'grams', then click 'convert'!
+                    </p>
+
+                    <!-- form part -->
+                    <form class="form-inline">  
+                        <!-- we don't need 'action' -->
+
+                        <!-- this is the text input box -->
+                        <input class="form-control form-control-lg mb-3 mr-sm-3"
+                                name="g_or_oz"  id="g_oz"
+                                placeholder="enter grams or ounces" 
+                                autofocus>
+
+
+                        <!-- the radio buttons -->
+                        <div class="radios">
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="radio" 
+                                            class="form-check-input" 
+                                            name="g_oz" id="grams" 
+                                            value="grams"
+                                            required>grams
+                                </label>
+                            </div>
+
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="radio" 
+                                            class="form-check-input" 
+                                            name="g_oz" id="ounces" 
+                                            value="ounces"
+                                            required>ounces
+                                </label>
+                            </div>
+                        </div>  <!-- end of radio buttons div -->
+
+                        <div class="spacer">.....</div>
+            
+                        <!-- the 'do something' buttons -->
+                        <div id="convert_button">
+                            <button type="button" id="convert" 
+                                    class="btn mt-1 mybutton">
+                                    convert! </button>
+                        </div>
+            
+                        <div id="reset_button">
+                            <button type="reset" id="reset" 
+                                    value="reset" 
+                                    class="btn mt-1 mybutton">reset
+                            </button>
+                        </div>
+                        
+                    </form><!-- end form part -->
+
+                <!---------------------------------------------------->
+                <!-- THE CONVERSION SPOT! -->
+                <div id="conversion"></div>
+    
+                    <div id="list_header"></div>
+                    <!-- added '#list_holder' to give whole list -->
+                    <!-- a bottom margin -- it would slip behind -->
+                    <!-- footer at small sizes -->
+    	            <div id="list_holder">
+                        <ul id="list_spot"> 
+                        </ul>
+                    </div>
+                <!---------------------------------------------------->
+            </div><!-- end of middle column w/content div -->
+
+            <!-------------------------------------------------------->
+            <!-- 3rd column: empty -->
+            <div class="col-3"></div>   <!-- was 'col-sm-2' -->
+            </div>
+            <!-- end of 3-column row div -->
+            <!-------------------------------------------------------->
+
+        </div><!-- closing div tag for the whole main part -->
+                <!-- header, headline, sub-head, form -->
+                <!-- (the 'container-fluid' part) -->
+
+        <!-- footer part -->
+        <div class="page-footer fixed-bottom myfoot
+                    font-small font-weight-light text-right pr-1">
+                    woof! [=
+        </div>
+    <!----------------------------------------------------------------->
+    <!-- js scripts -->
+    <!-- bootstrap(jQ,pop,BS/JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous">
+    </script>
+
+    <!-- my javascript -->
+    <script src="scripting/myscript.js"></script>
+  </body>
+</html>
