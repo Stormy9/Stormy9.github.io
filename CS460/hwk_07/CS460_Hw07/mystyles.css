@@ -41,12 +41,12 @@ div {
     width: 90%;
     margin: auto;
     padding-top: 9px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #repo_list_spot {
     margin: auto;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     padding-left: 100px;
 }
 
@@ -58,7 +58,6 @@ div {
     border-radius: 18px;
     /*margin: 5px;*/        padding: 9px;
     margin-left: 100px;  /* was 27 -- adjusting for chromebook */
-    /*margin-right: 45px; /* this wasn't here at all before */
 }
 
 .label {
@@ -78,7 +77,7 @@ div[id^='repo_list_commits_button'] {
     border-radius: 9px;
     display: inline-block;
     z-index: 10;
-    margin-left: -150px;    /* adjusting for chromebook -- was -85 */
+    margin-left: -135px;    /* adjusting for chromebook -- was -85 */
     cursor: pointer;
 }
 
