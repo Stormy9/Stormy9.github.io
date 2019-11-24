@@ -1,0 +1,104 @@
+body {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin-bottom: 9px;
+}
+
+#top_card {
+    width: 72%;     height: 120px;
+    background-color: crimson;
+    color: whitesmoke;
+    border: 3px solid #a30f2d;
+    border-radius: 18px;
+    padding: 9px;
+    margin: auto;
+}
+
+#avatar {
+    float: left;
+    width: 108px;    height: 108px;
+    margin-right: 18px;         margin-top: 5px;
+}
+
+#two {
+    font-size: 110%;
+}
+
+#three, #four, #five {
+    font-size: 90%;
+    /*border: 1px solid black;*/
+}
+
+#six {
+    font-size: 90%;
+}
+
+#repos_card {
+    /*margin-left: 15px;      margin-right: 15px;*/
+    width: 90%;
+    margin: auto;
+    padding-top: 9px;
+    /*border: 1px solid black;*/
+}
+
+#repo_list_spot {
+    margin: auto;
+    /*border: 3px solid blue;*/
+}
+
+#repo_box {
+    display: inline-block;
+    width: 30%;
+    background-color: #ff471a;
+    border: 3px solid #cc2900;
+    border-radius: 18px;
+    /*margin: 5px;*/        padding: 9px;
+    margin-left: 27px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.mini_av {
+    float: left;
+    margin-right: 5px;
+}
+
+div[id^='repo_list_commits_button'] {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 9px;
+    display: inline-block;
+    z-index: 10;
+    margin-left: -85px;
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+table, th, td {
+ 	border: 1px solid black;
+}
+
+th {
+    background-color: #333333;
+    color: whitesmoke;
+    padding: 9px;
+}
+
+td {
+    padding: 5px;
+}
+
+table tr:nth-child(odd) {
+ background-color: darkgrey;
+}
