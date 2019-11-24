@@ -52,7 +52,7 @@ div {
 
 #repo_box {
     display: inline-block;
-    width: 42%;     /* adjusting width for chromebook -- was 30 */
+    width: 45%;     /* adjusting width for chromebook -- was 30 */
     background-color: #ff471a;
     border: 3px solid #cc2900;
     border-radius: 18px;
