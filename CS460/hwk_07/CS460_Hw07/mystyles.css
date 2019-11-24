@@ -28,7 +28,7 @@ div {
 }
 
 #three, #four, #five {
-    font-size: 80%; /* was 90 -- chromebook */
+    font-size: 70%; /* was 90 -- chromebook */
     /*border: 1px solid black;*/
 }
 
@@ -51,7 +51,7 @@ div {
 
 #repo_box {
     display: inline-block;
-    width: 45%;     /* adjusting width for chromebook */
+    width: 50%;     /* adjusting width for chromebook */
     background-color: #ff471a;
     border: 3px solid #cc2900;
     border-radius: 18px;
