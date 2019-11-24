@@ -76,7 +76,7 @@ div[id^='repo_list_commits_button'] {
     border-radius: 9px;
     display: inline-block;
     z-index: 10;
-    margin-left: -85px;
+    margin-left: -105px;    /* was -85 */
     cursor: pointer;
 }
 
