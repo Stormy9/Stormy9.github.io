@@ -51,7 +51,7 @@ div {
 
 #repo_box {
     display: inline-block;
-    width: 50%;     /* adjusting width for chromebook */
+    width: 45%;     /* adjusting width for chromebook */
     background-color: #ff471a;
     border: 3px solid #cc2900;
     border-radius: 18px;
@@ -76,7 +76,7 @@ div[id^='repo_list_commits_button'] {
     border-radius: 9px;
     display: inline-block;
     z-index: 10;
-    margin-left: -105px;    /* was -85 */
+    margin-left: -135px;    /* was -85 */
     cursor: pointer;
 }
 
