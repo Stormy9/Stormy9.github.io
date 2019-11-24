@@ -56,7 +56,7 @@ div {
     border: 3px solid #cc2900;
     border-radius: 18px;
     /*margin: 5px;*/        padding: 9px;
-    margin-left: 27px;  /* was 27 -- adjusting for chromebook */
+    margin-left: 35px;  /* was 27 -- adjusting for chromebook */
 }
 
 .label {
