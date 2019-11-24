@@ -29,7 +29,7 @@ div {
 
 #three, #four, #five {
     font-size: 70%; /* was 90 -- chromebook */
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
 }
 
 #six {
@@ -41,12 +41,12 @@ div {
     width: 90%;
     margin: auto;
     padding-top: 9px;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 
 #repo_list_spot {
     margin: auto;
-    /*border: 3px solid blue;*/
+    border: 3px solid blue;
 }
 
 #repo_box {
