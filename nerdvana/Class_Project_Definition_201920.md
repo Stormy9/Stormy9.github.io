@@ -6,13 +6,14 @@
 [What processes are we following?]  
 [What are we choosing to do and at what level of detail or extent?]
 
-<br><hr><hr>
+<br>
 
-
+---
+---
 
 ## Initial Vision Discussion with Stakeholders
 
-Primary Stakeholder -- Katimichael Phelpedecky, swimming legend and hopeful entrepreneur
+**Primary Stakeholder** -- Katimichael Phelpedecky, swimming legend and hopeful entrepreneur
 
 Katimichael's experience being on the US Olympic team led to an appreciation of how advanced tools can help athletes perform at their best.  The problem is those tools are very expensive and require personnel with advanced training, i.e. elite analysts for elite athletes.  They want to create a business to give regular swimming coaches, from high school, club, college, and masters, advanced analytical and predictive tools to help the athletes on their teams.  Katimichael has assembled a team of investors to fund this project and is hiring your team to create the product.
 
@@ -28,13 +29,15 @@ The product is centered around three core features:
 
 3. Create a tool that will optimize a coach's strategy for winning a specific meet.  This feature will automatically assign athletes to specific races based on their predicted race times in order to beat an opponent coach's strategy.  There will be two modes: one in which we have no knowledge of the opponent team's performance, and one where we do have their performance and can predict their times.
 
-<br><br><hr>
+<br><br>
 
-
+---
 
 ### Refined Vision Statement -- Team Nerdvana
 
 For regular or lower-division swim coaches who need the ability to analyze swimmer’s performance, the Elite Aquatics System is an information system that will provide in-depth tracking and analytics so that coaches can guide their athletes to peak performance.  The system will store race results for each athlete, so that coaches can easily access the athletic history of each swimmer; providing an intuitively easy-to-use interface for coaches to conduct complex analysis of performance by athlete and race type over time.  Historical analytics will also allow coaches to predict an athlete’s future performance, given various training scenarios.  The system will also enable coaches to develop optimal strategies to enhance their team’s odds of winning specific meets, whether or not the opposing team’s strategies are known.  This system will empower swim coaches to develop their swimmer’s skills in ways most advantageous to that swimmer, to build better swim teams overall, and to realize improved swim meet results for their team.  Unlike the current systems available to “non-elite” coaches, our product will provide elite-level analysis without the elite expense or user-training that is typical of the currently-available advanced tools of this nature.
+
+<br>
 
 [Formal-Yet-Preliminary Vision Statement Document
 <br> “Team Nerdvana Vision Statement: Elite Aquatics System\Milestone02”](https://stormy9.github.io/nerdvana/TeamNerdvana_VisionStatement_1-0.pdf)
@@ -42,9 +45,10 @@ For regular or lower-division swim coaches who need the ability to analyze swimm
 ![alt text](https://stormy9.github.io/nerdvana/Vision_Statement_Cap.PNG "Vision Statement")
 
 
-<br><br><hr><hr>
+<br><br>
 
-
+---
+---
 
 ## Initial Requirements Elaboration and Elicitation
 
@@ -63,25 +67,27 @@ For regular or lower-division swim coaches who need the ability to analyze swimm
 		* Eventually, but not until the app is up and smoothly running.
 
 5.  Do you want users to be able to search\filter by factors other than athlete?  For instance, event type?
-		* sure, why not?
+	* sure, why not?
 
 6.  Should athletes be able to create and manage their own personal profile pages?
-		* another answer
+	* another answer
 
 7.  Should coaches be able to create and manage their own personal profile pages?
-		* another answer
+	* another answer
 
 8.  Should coaches be able to create and manage profile pages for their school and/or team (like as a unit/group)?
-		* another answer
+	* another answer
 
 9.  Do you want a way for coaches to communicate with their athletes via the app?
-		* another answer
+	* another answer
 
 10. Would you like a way to aggregate/access team/school statistics, so that visitors and coaches can view those as well as individual athletes?
-	* 
+	* another answer
 
 
 <br><br>
+
+---
 
 ### Interviews
 
@@ -89,12 +95,15 @@ For regular or lower-division swim coaches who need the ability to analyze swimm
 
 <br><br>
 
+---
+
 ### Other Elicitation Activities?
 
 
-<br><br><hr>
+<br><br>
 
-
+---
+---
 
 ## List of Primary Needs and Features
 
@@ -132,9 +141,10 @@ For regular or lower-division swim coaches who need the ability to analyze swimm
 
 9. The ternary entity is the team or school.  A coach should be able to set up a profile page for his or her team, in part for recruitment efforts -- and of course for bragging rights if applicable.
 
-<br><br><hr>
+<br><br>
 
-
+---
+---
 
 ## Initial Modeling
 we did:
@@ -146,18 +156,23 @@ we did:
 
 <br>
 
+---
+
 ### Use Case Diagram(s)
 
 ![alt text](https://stormy9.github.io/nerdvana/use_case_diagram.jpg "Use Case Diagram(s)")
 
 <br>
 
+---
+
 ### Other Modeling
 
 
-<br><br><hr><hr>
+<br><br>
 
-
+---
+---
 
 ## Identify Non-Functional Requirements
 
@@ -179,7 +194,7 @@ we did:
 
 5. English will be the default language.
 
-< br>
+<br>
 
 6. Athlete profiles and data should be stored indefinitely for historical purposes, for both individual athletes and team/school records.
 
@@ -192,9 +207,10 @@ we did:
 8. Implement a way for users to recover lost/forgotten usernames/passwords.
 
 
-<br><br><hr><hr>
+<br><br>
 
-
+---
+---
 
 ## Identify Functional Requirements (User Stories)
 
@@ -203,110 +219,127 @@ U: User Story
 T: Task  
 
 1. [U] As a visitor to the site, I would like to see a fantastic and modern homepage that introduces me to the site and the features currently available.
+
    1. [T] Create starter ASP dot NET MVC 5 Web Application with Individual User Accounts and no unit test project
    2. [T] Choose CSS library (Bootstrap 3, 4, or ?) and use it for all pages
    3. [T] Create nice homepage: write initial content, customize navbar, hide links to login/register
    4. [T] Create SQL Server database on Azure and configure web app to use it. Hide credentials.
 
-   <br>
+<br><br>
 
 2. [U] As a visitor to the site, I would like to be able to register an account so I will be able to access athlete statistics
+
    1. [T] Copy SQL schema from an existing ASP.NET Identity database and integrate it into our UP script
    2. [T] Configure web app to use our db with Identity tables in it
    3. [T] Create a user table and customize user pages to display additional data
    4. [T] Re-enable login/register links
    5. [T] Manually test register and login; user should easily be able to see that they are logged in
 
-   <br>
+<br><br>
 
-3. [E] As an administrator of the site/app, I want to be able to upload a spreadsheet of results so that new data can be added to our system
+3. [E] As an administrator of the site/app, I want to be able to upload a spreadsheet of results so that new data can be added to our system.
+
     1. [U] As a coach, I want to be able to get my race results into the app quickly so that I can make use of them right away.
 
     2. [U] As an employee/admin, I want to be able to help coaches upload their swimmer/meet data quickly so that we can provide good customer service.
 
-<br>
+<br><br>
 
-4. [U] As a visitor to the site, I want to be able to search for an athlete and then view their athlete page, so I can find out more information about them
+4. [U] As a visitor to the site, I want to be able to search for an athlete and then view their athlete page, so I can find out more information about them.
+
     1. [T] Create a profile template for athlete pages, so the format/styling is consistent across the app.
     2. [T] Implement a “Search For An Athlete” feature with a prominent link for visitors.
 
-<br>
+<br><br>
 
 5. [U] As a visitor to the site, I want to be able to view all race results for an athlete, so I can see how they have performed.
+
     1. [T] Create a prominent link on each athlete’s profile page that will display all race results for that athlete.
 
-<br>
+<br><br>
 
 6. [U] As a visitor to the site, I want to be able to view PR's (personal records) for an athlete so I can see their best performances.
+
     1. [T] Create a prominent link on each athlete’s profile page that will display that athlete’s Personal Records across race events.
 
-<br>
+<br><br>
 
 7. [U] As a visitor to the site, I want to be able to search for Teams/Schools, and then view their profile page, so I can find out more information about them.
+
     1. [T]    (similar to #4)
 
-<br>
+<br><br>
 
 8. [U] As a visitor to the site, I want to be able to view all race results for a team, so I can see how they have performed as a team.
+
     1. [T]     (similar to #5)
 
-<br>
+<br><br>
 
 9. [E] As a user of the app, I would like to compare the race results of multiple athletes over race types, graphically, so I can see how certain swimmers compare.
+
     1. [U]  As a visitor to the app, I would like to compare race results of my favorite swimmers so I can try to win the office pool.
 
     2. [U]  As a swim coach, I would like to compare race results of the swimmers on my team to other teams, so that I can improve our odds of winning meets.
+    
         1. [T] Implement a graphing API to visually represent race results.
         2. [T] Devise a way for a coach to compare athlete-to-athlete.
         3. [T] Devise a way for a coach to compare team-to-team.
 
-<br>
+<br><br>
 
 10. [U] As a robot, I would like to be prevented from creating an account on your website, so I don't ask millions of my friends to join your website and try to add comments about male enhancement drugs.
+
     1. [T] Incorporate something like the ‘captcha’ feature to the app.
     2. [T] Implement ability for admins to moderate comments.
 
-<br>
+<br><br>
 
 11. [U] As an athlete, i would like to be able to send my statistics to coaches/schools to strengthen my recruitment efforts to get into a good swim program and further my athletic career.
+
     1. [T] Include a link on coach/team/school pages, which athletes can click and it will send their info to the coach/school/team of their choice.
     2. [T] Devise a “form letter email” that would be sent to the coach/team/school that the athlete could personalize.
 
-<br>
+<br><br>
 
 12. [U] As a coach, I would like to be able to reach out to athletes for recruitment purposes, to show them how successful they could be on our team.
+
     1. [T] Include a link from an athlete page, which coaches can click and it will send team/school info to a swimmer they are thinking of recruiting.
     2. [T] Devise a “form letter email” that would be sent to the prospective recruit, that the coach could personalize.
 
-<br>
+<br><br>
 
 13. [E] As a coach I want to have a live webcam feed of the practice facility, and the ability to specify recording windows, so that I can monitor performance and technique in order to send snippets of the recording to athletes to help them improve their form.  Also so I can coach from my La-Z-Boy if I so choose.
+
     1. [T] Choose and implement an API for doing and managing/accessing recordings.
     2. [T] Figure out the best way for coaches to isolate video snippets they want to preserve.
     3. [T] Decide the best way for coaches to yell instructions to their team from their La-Z-Boy.
 
 <br>
 
-<br><br><hr><hr>
+<br><br>
 
-
+---
+---
 
 ## Initial Architecture Envisioning
 
-![alt text](https://stormy9.github.io/nerdvana/architecture_modeling.jpg "ER Diagram")
+![alt text](https://stormy9.github.io/nerdvana/architecture_modeling.jpg "Our Architecture Modeling")
 
-<br><br><hr><hr>
+<br><br>
 
-
+---
+---
 
 ## Agile Data Modeling
 We did an ER Diagram:
 
-![alt text](https://stormy9.github.io/nerdvana/ERD.jpg "ER Diagram")
+![alt text](https://stormy9.github.io/nerdvana/ERD.jpg "Our ER Diagram")
 
-<br><br><hr><hr>
+<br><br>
 
-
+---
+---
 
 ## Timeline and Release Plan
 * Inception Phase (Week 2)
@@ -314,6 +347,9 @@ We did an ER Diagram:
 * Sprint #2 (Week 4)
 * Drop this project
 
-<br><br><hr><hr>
+<br><br>
+
+---
+---
 
 
