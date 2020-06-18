@@ -1,10 +1,16 @@
 body {
-    background-color: purple;
-    color: whitesmoke;
+    background-color: #d9b3ff;
+    color: #26004d;
 }
 /******************************* MY NAVBAR ***************************/
 .my_nav {
-
+    background-color: black; color: white;
+}
+/***************************** MY MAIN CONTAINER-FLUID ***************/
+.my_main {
+    padding: 9px;
+    /* for wireframe\testing */
+    border: 1px solid orangered;
 }
 /******************************** MY ROWS ****************************/
 .my_row_01 {
@@ -34,7 +40,7 @@ body {
 }
 /***************************** MY FOOTER *****************************/
 .my_foot {
-    background-color: green;  color: white;
+    background-color: #26004d;  color: #d9b3ff;
 }
 /*************************** MY BUTTONS ******************************/
 .my_button {
