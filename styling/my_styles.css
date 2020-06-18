@@ -1,0 +1,77 @@
+body {
+    background-color: purple;
+    color: whitesmoke;
+}
+/******************************* MY NAVBAR ***************************/
+.my_nav {
+
+}
+/******************************** MY ROWS ****************************/
+.my_row_01 {
+    /* for wireframe\testing */
+    border: 1px solid black;
+}
+.my_row_02 {
+    /* for wireframe\testing */
+    border: 1px solid black;
+}
+.my_row_03 {
+    /* for wireframe\testing */
+    border: 1px solid black;
+}
+/****************************** MY COLUMNS ***************************/
+.my_col_01 {
+    /* for wireframe\testing */
+    border: 1px solid crimson;
+}
+.my_col_02 {
+    /* for wireframe\testing */
+    border: 1px solid crimson;
+}
+.my_col_03 {
+    /* for wireframe\testing */
+    border: 1px solid crimson;
+}
+/***************************** MY FOOTER *****************************/
+.my_foot {
+    background-color: green;  color: white;
+}
+/*************************** MY BUTTONS ******************************/
+.my_button {
+    background-color: green;    color: white;
+    border-color: green;    border-radius: 18px;
+}
+.my_button:hover {
+    background-color: green;    color: white;
+    border: 1px solid white;
+}
+.my_button:focus {
+    background-color: green;    color: white;
+    border: 1px solid white;
+}
+.my_button:active {
+    background-color: green;    color: white;
+    border: 1px solid white;
+}
+/******************************** MY LINKS ***************************/
+/* When setting styles for several link states, there are order rules:
+            a:hover MUST come after a:link and a:visited
+            a:active MUST come after a:hover
+ */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+/*********************************************************************/

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+    <!--=============================== HEAD STUFF ===================================-->
+    <!---->
     <head>
         <!-- required meta tags -->
         <meta charset="utf-8">
@@ -7,90 +9,94 @@
         <!-- responsive meta tag -->
         <meta name="viewport" 
                 content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <!-- to ensure proper rendering and touch zooming for all devices,
-                w/bootstrap, add this meta tag to your <head> -->
+        <!-- to ensure proper rendering and touch zooming for all devices w/bootstrap,
+                                                    add this meta tag to your <head> -->
+
+        <!------------------------------------------------------------>
         
-        <!------------------------------------------------------------->
-        <!-- Bootstrap CSS library -- this has to go up-top -->
-        <!-- we're fetching it rather than hosting it locally -->
+        <!-- Bootstrap CSS library -- this goes up-top -->
         <link rel="stylesheet"
-                href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-                crossorigin="anonymous">
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
         
         <!-- *my* CSS file -- has to go *after* Bootstrap library -->
-        <link type="text/css" rel="stylesheet"  
-                href="styling/mystyles.css" />
+        <link type="text/css" rel="stylesheet" href="styling/my_styles.css" />
         
         <!------------------------------------------------------------>
+        
         <title>Tricia L. Holman</title>
-
-    </head>
-    <!---------------------------------------------------------------->
-    <!-------------------- NAVIGATION SECTION ------------------------>
-
         
+    </head>
+    <!---->
+    <!--========================================= MAIN/BODY ==========================-->
+    <body class="main container-fluid">
+        <!---->
+        <!--=============================== NAVBAR STUFF =============================-->
+        <!----------------------------------------------------- also 1st row ----------->
+        <!---->
+        <div class="row my_row_01 my_nav">
 
-    <!---------------------------------------------------------------->
-    <!----------------- CONTENT SECTION ------------------------------>
-    <body class="main">
-        <!-- header part -->
-        <div class="container-fluid page-header myhead">
-            <!--this does not appear full-width on VSCode preview... 
-                but it *does* appear full-width previewed in chrome -->
-            <!-- dots are to make the green show up -->
-            .....
-        </div>
+        </div><!-- END 1st ROW -->
+        <!---->
+        <!--============================== PRIMARY CONTENT ===========================-->
+        <!--------------------------------------------------------- also 2nd row ------->
+        <!---->
+        <div class="row my_row_02">
+            <!--------------------------------- right spacer col ----->
+            <!---->
+            <div class="col-md-1 my_col_01">
+                <h3> my col 01 </h3>
+            </div>
+            <!---->
+            <!------------------------------------- middle col ------->
+            <!---->
+            <div class="col-md-10 my_col_02">
+                <h1> my main col </h1>
+            </div>
+            <!---->
+            <!--------------------------------- left spacer col ------>
+            <!---->
+            <div class="col-md-10 my_col_03">
+                <h3> my col 03 </h3>
+            </div>
+            <!---->
+            <!-------------------------------------------------------->
+            <!---->
+        </div><!-- END 2nd ROW -->
+        <!---->
+        <!--============================ FOOTER STUFF ================================-->
+        <!------------------------------------------------------- also 3rd row --------->
+        <!---->
+        <div class="row my_row_03">
+            <div class="page-footer fixed-bottom myfoot
+                        font-small font-weight-light text-right pr-1">
+                        woof! [=
+            </div>
+        </div><!-- END 3rd ROW -->
+        <!---->
+        <!--======================================= SCRIPTS ETC! =====================-->
+        <!-- js scripts -->
+        <!-- bootstrap(jQ,pop,BS/JS-->
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+        </script>
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous">
+        </script>
+        <script 
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+        </script>
 
-        <!------------------------------------------------------------>
-        <!-- main part -->
-        <div class="container-fluid">
-            <div class="row">
-                <!-- 1st column: empty -->
-                <div class="col-3"> <!-- did have 'col-sm-2' -->
-                </div>
-
-                <!---------------------------------------------------->
-                <!-- 2nd column: where all the things go -->
-                <div class="col-6 middle_part"> <!-- was 'col-sm-8' -->
-                    
-                <!---------------------------------------------------->
-                </div><!-- end of middle column w/content div -->
-
-                <!-------------------------------------------------------->
-                <!-- 3rd column: empty -->
-                <div class="col-3"></div>   <!-- was 'col-sm-2' -->
-                </div>
-                <!-- end of 3-column row div -->
-                <!-------------------------------------------------------->
-            </div><!-- end of row div -->
-
-        </div><!-- closing div tag for the whole main part -->
-                <!-- header, headline, sub-head, form -->
-                <!-- (the 'container-fluid' part) -->
-
-        <!-- footer part -->
-        <div class="page-footer fixed-bottom myfoot
-                    font-small font-weight-light text-right pr-1">
-                    woof! [=
-        </div>
-    <!----------------------------------------------------------------->
-    <!-- js scripts -->
-    <!-- bootstrap(jQ,pop,BS/JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-        crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
-        crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-        crossorigin="anonymous">
-    </script>
-
-    <!-- my javascript -->
-    <script src="scripting/myscripts.js"></script>
+        <!-- my javascript -->
+        <script src="scripting/my_scripts.js"></script>
+        <!------------------------------------------------------------------------------>
+        <!---->
   </body>
 </html>
