@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>stormy</title>
+
+        <!-- my css file -->
+        <link href="mystyles.css" rel="stylesheet" type="text/css" />
+
+        <!-- bring in jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+    </head>
+<!--------------------------------------------------------------->
+    <body>
+
+        <div id="error_msg_spot"></div>
+        <div id="are_things_returning_right"></div>
+
+        <div id="top_card">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+        </div>
+
+        <div id="repos_card">
+            <div id="repo_list_spot"></div>
+        </div> 
+
+        <div id="commit_list_spot">
+            <hr>
+            <table id="commit_list_table">
+                <tr>
+                    <th> Repo </th>
+                    <th> SHA </th>
+                    <th> Timestamp </th>
+                    <th> Committer </th>
+                    <th> Commit Message </th>
+                </tr>
+            </table>
+        </div>
+
+        <!-- my javascript file -->
+        <script src="myscript.js"></script>
+
+    </body>
+<!--------------------------------------------------------------->
+</html>
