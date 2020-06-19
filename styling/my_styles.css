@@ -64,10 +64,10 @@ body {
 }
 /******************************* MY TABS *****************************/
 .my_tabs {
-    padding: 5px 5px 5px 5px;
+    padding: 1px 2px 1px 2x;
     background-color: #26004d;          color: #d9b3ff;
     border: 1px solid #d9b3ff;
-    border-radius: 9px 9px 0px 0px;
+    border-radius: 11px 11px 0px 0px;
 }
 /* li a .active {
     background-color: #26004d;
