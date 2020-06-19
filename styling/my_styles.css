@@ -195,4 +195,33 @@ a:active {
     color: #ff3333;
     text-decoration: none;
 }
-/*********************************************************************/
+/***************************************************************************************/
+/*                                 MEDIA QUERIES!                                      */
+/*=====================================================================================*/
+/* responsive stuff for the couple of spots that need that                             */
+/*      beyond what bootstrap provides anyway                                          */
+/*=====================================================================================*/
+/*================================= 'TYPICAL' PHONES ==================================*/
+@media only screen and (max-width: 500px) {
+
+}
+/*============================== OLD &/OR SKINNY PHONES ===============================*/
+/* media Query for really old/skinny phones like iPhone 5/SE.....                      */
+@media only screen and (max-width: 400px) {
+    /* so 400px wide and narrower */
+
+}
+/*============================== stupid navbar shit ===================================*/
+@media only screen and (min-width: 768px) {
+    /* ACTUALLY -- this is for Chromebook-widths..... right?                           */
+    .our_navbar {
+        height: 42px;
+    }
+}
+/*=====================================================================================*/
+/*================================== HEIGHT ===========================================*/
+/**/
+/*============================= FOR SIDEWAYS PHONES ===================================*/
+@media only screen and (max-height: 425px) { /* so 425px and shorter */
+
+}
