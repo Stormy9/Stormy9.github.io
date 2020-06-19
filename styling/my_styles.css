@@ -34,12 +34,22 @@ body {
     /* for wireframe\testing */
     /* border: 1px solid crimson; */
 }
-.col_01_image {
+.image_box {
+    text-align:center;
+}
+.me {
     max-width:96%;
     height:auto;
     text-align:center;
     margin-top:5px;
-    border:1px solid black;
+    border:1px solid #26004d;
+    border-radius:180px;
+}
+.col_01_image {
+    max-width:96%;
+    height:auto;
+    margin-top:5px;
+    border:1px solid #26004d;
     border-radius:5px;
 }
 .my_col_02 {
