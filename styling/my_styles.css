@@ -4,39 +4,92 @@ body {
 }
 /******************************* MY NAVBAR ***************************/
 .my_nav {
-    background-color: black; color: white;
+    background-color: #26004d;          color: #d9b3ff;
 }
 /***************************** MY MAIN CONTAINER-FLUID ***************/
 .my_main {
-    padding: 9px;
     /* for wireframe\testing */
-    border: 1px solid orangered;
+    /* border: 1px solid orangered;
+    margin: 5px 0px; */
+    padding: 0px;
 }
 /******************************** MY ROWS ****************************/
 .my_row_01 {
     /* for wireframe\testing */
-    border: 1px solid black;
+    /* border: 1px solid black;
+    margin: 5px 0px; */
 }
 .my_row_02 {
     /* for wireframe\testing */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .my_row_03 {
     /* for wireframe\testing */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 /****************************** MY COLUMNS ***************************/
 .my_col_01 {
+    padding-top:18px;
+    background-color: #b366ff;
     /* for wireframe\testing */
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
 }
 .my_col_02 {
+    padding-top:23px;
     /* for wireframe\testing */
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
 }
 .my_col_03 {
     /* for wireframe\testing */
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
+}
+/******************************* MY TABS *****************************/
+.my_tabs {
+    padding: 5px 5px 5px 5px;
+    background-color: #26004d;          color: #d9b3ff;
+    border: 1px solid #d9b3ff;
+    border-radius: 9px 9px 0px 0px;
+}
+/* li a .active {
+    background-color: #26004d;
+} */
+    /* so do we have to have them all & in the right order here too? */
+    .my_tabs:link {
+        color: #d9b3ff;
+        border: 1px solid #d9b3ff;
+        border-radius: 9px 9px 0px 0px;
+    }
+    .my_tabs:visited {
+        color: #d9b3ff;
+        border: 1px solid #d9b3ff;
+        border-radius: 9px 9px 0px 0px;
+    }
+    .my_tabs:hover {
+        color: #26004d;
+        border: 1px solid #d9b3ff;
+        border-radius: 9px 9px 0px 0px;
+    }
+    .my_tabs:active {
+        color: #26004d;
+        border: 1px solid #d9b3ff;
+        border-radius: 9px 9px 0px 0px;
+    }
+    .my_tabs a:hover {
+        color: #ff3333;
+    }
+    .my_tabs a:active {
+        color: #ff3333;
+    }
+.my_tab_panels {
+    /* top right bottom left */ /* like clock-wise */
+    border: 1px 1px 1px 1px; /* why is it so thick? */
+    border-style: solid solid solid solid;
+    border-color: #26004d;
+    border-radius: 1px 1px 5px 5px;
+    padding: 9px 9px 9px 9px;
+    margin: 0px 0px 5px 0px;
+    background-color: #d9b3ff;
+    font-size: 15px;
 }
 /***************************** MY FOOTER *****************************/
 .my_foot {
@@ -44,20 +97,20 @@ body {
 }
 /*************************** MY BUTTONS ******************************/
 .my_button {
-    background-color: green;    color: white;
-    border-color: green;    border-radius: 18px;
+    background-color: #26004d;    color: #d9b3ff;
+    border-color: #26004d;    border-radius: 18px;
 }
 .my_button:hover {
-    background-color: green;    color: white;
-    border: 1px solid white;
+    background-color: #26004d;    color: #d9b3ff;
+    border: 1px solid #d9b3ff;
 }
 .my_button:focus {
-    background-color: green;    color: white;
-    border: 1px solid white;
+    background-color: #26004d;    color: #d9b3ff;
+    border: 1px solid #d9b3ff;
 }
 .my_button:active {
-    background-color: green;    color: white;
-    border: 1px solid white;
+    background-color: #26004d;    color: #d9b3ff;
+    border: 1px solid #d9b3ff;
 }
 /******************************** MY LINKS ***************************/
 /* When setting styles for several link states, there are order rules:
@@ -65,19 +118,19 @@ body {
             a:active MUST come after a:hover
  */
 a:link {
-    color: red;
+    color: #d9b3ff;
     text-decoration: none;
 }
 a:visited {
-    color: green;
+    color: #d9b3ff;
     text-decoration: none;
 }
 a:hover {
-    color: hotpink;
+    color: #ff3333;
     text-decoration: none;
 }
 a:active {
-    color: blue;
+    color: #ff3333;
     text-decoration: none;
 }
 /*********************************************************************/

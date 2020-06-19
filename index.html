@@ -29,42 +29,125 @@
         
     </head>
     <!---->
-    <!--=============================== NAVBAR STUFF =============================-->
-    <!------------------------------------------- over top of main container ------->
-    <!---->
-    <div class="my_nav">
-        navbar will go here
-    </div><!-- END NAVBAR -->
-    <!---->
-    <!--========================================= MAIN/BODY ==========================-->
-    <body class="container-fluid my_main">
+    <body>
+        <!--=============================== NAVBAR STUFF =============================-->
+        <!------------------------------------------- over top of main container ------->
         <!---->
-        <!--============================== PRIMARY CONTENT ===========================-->
-        <!-------------------------------------------------------------- 1st row ------->
+        <div class="navbar navbar-fixed-top my_nav">
+            navbar will go here -- if i end up wanting one.....
+        </div><!-- END NAVBAR -->
         <!---->
-        <div class="row my_row_01">
-            <!--------------------------------- right spacer col ----->
+        <!--========================================= MAIN CONTAINER =================-->
+        <div class="container-fluid my_main"style="width:96%;">
             <!---->
-            <div class="col-md-1 my_col_01">
-                <h3> my col 01 </h3>
-            </div>
+            <!--============================== PRIMARY CONTENT =======================-->
+            <!---------------------------------------------------------- 1st row ------->
             <!---->
-            <!------------------------------------- middle col ------->
+            <div class="row my_row_01">
+                <!----------------------------------------- right spacer col ----------->
+                <!---->
+                <div class="col-md-3 my_col_01 min-vh-100">
+                    <h3> Tricia L. Holman </h3>
+                    <h6> stormcloud.enterprises@gmail.com </h5>
+                    <h6> 971-264-2643 </h5>
+                    <h7> in the beautiful Willamette Valley of Oregon </h5>
+                </div>
+                <!---->
+                <!-------------------------------------------- middle col -------------->
+                <!---->
+                <div class="col-md-9 my_col_02">
+                    
+                    <!---->
+                    <!-- this is WAAAAAY different than BS3\Petopia!!! -->
+                    <!--------------------------------- tabs top-parts ----------------->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item my_tabs ">
+                            <a class="nav-link active" id="hi-tab" data-toggle="tab" 
+                                href="#home" role="tab" 
+                                aria-controls="hi" aria-selected="true">
+                                hi!
+                            </a>
+                        </li>
+                        <li class="nav-item my_tabs ">
+                            <a class="nav-link" id="my_resume-tab" data-toggle="tab" 
+                                href="#my_resume" role="tab" 
+                                aria-controls="my_resume" aria-selected="false">
+                                my resume
+                            </a>
+                        </li>
+                        <li class="nav-item my_tabs ">
+                            <a class="nav-link" id="senior_project-tab" data-toggle="tab" 
+                                href="#senior_project" role="tab" 
+                                aria-controls="senior_project" aria-selected="false">
+                                senior project
+                            </a>
+                        </li>
+                        <li class="nav-item my_tabs ">
+                            <a class="nav-link" id="other_projects-tab" data-toggle="tab" 
+                                href="#other_projects" role="tab" 
+                                aria-controls="other_projects" aria-selected="false">
+                                other projects
+                            </a>
+                        </li>
+                        <li class="nav-item my_tabs ">
+                          <a class="nav-link" id="some_other_stuff-tab" data-toggle="tab" 
+                                href="#some_other_stuff" role="tab" 
+                                aria-controls="some_other_stuff" aria-selected="false">
+                                some other stuff
+                            </a>
+                        </li>
+                    </ul>
+                    <!---->
+                    <!------------------------------------ tab content panels ---------->
+                    <div class="tab-content my_tab_panels" id="myTabContent">
+                        <!-------------------------------------------------------------->
+                        <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                aria-labelledby="hi_tab">
+
+                            hi!
+
+                        </div>
+                        <!-------------------------------------------------------------->
+                        <div class="tab-pane fade" id="my_resume" role="tabpanel" 
+                                aria-labelledby="my_resume-tab">
+
+                            my resume
+
+                        </div>
+                        <!-------------------------------------------------------------->
+                        <div class="tab-pane fade" id="senior_project" role="tabpanel" 
+                                aria-labelledby="senior_project-tab">
+
+                            our senior project
+
+                        </div>
+                        <!-------------------------------------------------------------->
+                        <div class="tab-pane fade" id="other_projects" role="tabpanel" 
+                                aria-labelledby="other_projects-tab">
+
+                            other projects
+                        </div>
+                        <!-------------------------------------------------------------->
+                        <div class="tab-pane fade" id="some_other_stuff" role="tabpanel" 
+                                aria-labelledby="some_other_stuff-tab">
+
+                                some other stuff!   [=
+                        </div>
+                        <!-------------------------------------------------------------->
+                    </div>
+                </div><!-- END MIDDLE COLUMN -->
+                <!---->
+                <!--------------------------------- left spacer col -------------------->
+                <!---->
+                <!-- <div class="col-md my_col_03">
+
+                </div> -->
+                <!---->
+                <!-------------------------------------------------------->
+                <!---->
+            </div><!-- END 1st ROW -->
             <!---->
-            <div class="col-md-10 my_col_02">
-                <h1> my main col </h1>
-            </div>
-            <!---->
-            <!--------------------------------- left spacer col ------>
-            <!---->
-            <div class="col-md-1 my_col_03">
-                <h3> my col 03 </h3>
-            </div>
-            <!---->
-            <!-------------------------------------------------------->
-            <!---->
-        </div><!-- END 1st ROW -->
-        <!---->
+        </div><!-- END MAIN INNER CONTAINER -->
         <!--============================ FOOTER STUFF ================================-->
         <!---->
         <div class="page-footer fixed-bottom 
@@ -95,5 +178,5 @@
         <script src="scripting/my_scripts.js"></script>
         <!------------------------------------------------------------------------------>
         <!---->
-  </body>
+    </body>
 </html>
