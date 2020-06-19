@@ -148,6 +148,11 @@ body {
     height:auto; 
     margin-right:9px;
 }
+.me_online_li {
+    margin-bottom:5px;
+    font-size: 18px;
+    font-weight: bold;
+}
 /***************************** MY FOOTER *****************************/
 .my_foot {
     background-color: #26004d;  color: #d9b3ff;
