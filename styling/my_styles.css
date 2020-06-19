@@ -70,6 +70,9 @@ body {
     background-color: #26004d;          color: #d9b3ff;
     border: 1px solid #d9b3ff;
     border-radius: 11px 11px 0px 0px;
+    /* what is with the fucking font-size?  looks fine local -- 
+        and way too freaking huge live.....                          */
+    font-size:15px;
 }
 /* li a .active {
     background-color: #26004d;
