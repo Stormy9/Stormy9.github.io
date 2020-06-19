@@ -1,10 +1,12 @@
 body {
     background-color: #d9b3ff;
     color: #26004d;
+    padding-top: 18px;
 }
 /******************************* MY NAVBAR ***************************/
 .my_nav {
-    background-color: #26004d;          color: #d9b3ff;
+    background-color: #26004d;          /* color: #d9b3ff; */
+    height:18px;                        color:#26004d;
 }
 /***************************** MY MAIN CONTAINER-FLUID ***************/
 .my_main {
@@ -54,7 +56,7 @@ body {
     border-radius:5px;
 }
 .my_col_02 {
-    padding-top:23px;
+    padding-top:35px;
     /* for wireframe\testing */
     /* border: 1px solid crimson; */
 }
@@ -156,7 +158,9 @@ body {
 /***************************** MY FOOTER *****************************/
 .my_foot {
     background-color: #26004d;  color: #d9b3ff;
-}
+    height: 18px;
+    font-size:13.5px;
+ }
 /*************************** MY BUTTONS ******************************/
 .my_button {
     background-color: #26004d;    color: #d9b3ff;

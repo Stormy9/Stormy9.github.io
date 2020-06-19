@@ -31,11 +31,25 @@
     <!---->
     <body>
         <!--=============================== NAVBAR STUFF =============================-->
-        <!------------------------------------------- over top of main container ------->
+        <!----------------------------------- over top of main content container ------->
         <!---->
-        <div class="navbar navbar-fixed-top my_nav">
-            navbar will go here -- if i end up wanting one.....
-        </div><!-- END NAVBAR -->
+        <nav class="navbar navbar-default fixed-top my_nav">
+            <!--navbar will go here -- if i end up wanting one.....
+                or needing one?  don't think i need one but like the top stripe here
+            -->
+            <!-- dang it... forgot you need a container in here to make it work right -->
+            <!-- also don't forget to add top padding to body element for this 
+            -->
+            <!-- HOWEVER... why is this not working, as in, being FIXED TO THE TOP?? -->
+            <!-- suspected the 'min-vh-' class on the left column..... 
+                    but taking that out has no effect                                 -->
+            <!-- OMG!!!  the BS page SAID to use 'navbar-fixed-top'.....
+                    checked HW1 -- it's just 'fixed-top'..... NOW it works!!          
+                -->
+            <div class="container-fliud">
+                
+            </div>
+        </nav><!-- END NAVBAR -->
         <!---->
         <!--========================================= MAIN CONTAINER =================-->
         <div class="container-fluid my_main"style="width:96%;">
@@ -44,9 +58,9 @@
             <!---------------------------------------------------------- 1st row ------->
             <!---->
             <div class="row my_row_01">
-                <!----------------------------------------- right spacer col ----------->
+                <!----------------------------------------- right static col ----------->
                 <!---->
-                <div class="col-md-3 my_col_01 min-vh-100">
+                <div class="col-md-3 my_col_01 min-vh-90">
                     <h3> Tricia L. Holman </h3>
                     <h5> A.B., Computer Science \ <br> Software Engineering </h5>
                     <div>
@@ -59,8 +73,8 @@
 
                         <br><br>
 
-                    <h7 style="padding-left:9px;"> 
-                        in the beautiful Willamette Valley of Oregon! </h5>
+                    <div style="padding-left:9px;"> 
+                        in the beautiful Willamette Valley of Oregon! </div>
 
                     <div class="image_box">
                         <img src="images/willamette_valley_DonHankins.jpg"
@@ -190,7 +204,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                HTML5 + CSS3 + the DOm
+                                                HTML5 + CSS3 + the DOM
                                             </li>
                                             <li>
                                                 BootStrap
@@ -246,7 +260,7 @@
                                         </h6>
                                         <ul style="list-style-type:square;">
                                             <li>
-                                                Linux OS from CLI
+                                                Linux from CLI
                                             </li>
                                             <li>
                                                 Git \ GitHub + Bash
@@ -273,7 +287,7 @@
                                                 AWS VM's
                                             </li>
                                             <li> 
-                                                VirtualBox
+                                                VirtualBox VM's
                                             </li>
                                             <li>
                                                 PuTTY \ SSH
@@ -621,8 +635,8 @@
         </div><!-- END MAIN INNER CONTAINER -->
         <!--============================ FOOTER STUFF ================================-->
         <!---->
-        <div class="page-footer fixed-bottom 
-                    font-small font-weight-light text-right pr-1 my_foot">
+        <div class="page-footer fixed-bottom text-right 
+                    font-small font-weight-light pr-1 my_foot">
                     woof! [=
         </div>
         <!---->
