@@ -15,6 +15,7 @@ body {
 }
 /******************************** MY ROWS ****************************/
 .my_row_01 {
+    padding-bottom: 15px;
     /* for wireframe\testing */
     /* border: 1px solid black;
     margin: 5px 0px; */
@@ -104,10 +105,42 @@ body {
     border-style: solid solid solid solid;
     border-color: #26004d;
     border-radius: 1px 1px 5px 5px;
-    padding: 9px 9px 9px 9px;
-    margin: 0px 0px 5px 0px;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 15px 0px;
     background-color: #d9b3ff;
     font-size: 15px;
+}
+.my_res_left {
+    padding:9px; 
+    border-width:1px 0px 1px 1px ; 
+    border-style: solid;
+    border-color: #26004d;
+    border-radius: 1px 0px 0px 5px;
+/*     background-color:#8000ff; 
+    color:#d9b3ff; */
+}
+.my_res_right {
+    padding:9px; 
+    border:1px solid #26004d; 
+    border-radius: 0px 1px 5px 0px;
+    /* background-color:#8000ff; 
+    color:#d9b3ff; */
+}
+.my_edu_left {
+    padding:9px; 
+    border-width:1px 0px 1px 1px ; 
+    border-style: solid;
+    border-color: #26004d;
+    border-radius: 1px 0px 0px 5px;
+    /* background-color:#8000ff; 
+    color:#d9b3ff; */
+}
+.my_edu_right {
+    padding:9px; 
+    border:1px solid #26004d; 
+    border-radius: 0px 1px 5px 0px;
+    /* background-color:#8000ff; 
+    color:#d9b3ff; */
 }
 /***************************** MY FOOTER *****************************/
 .my_foot {

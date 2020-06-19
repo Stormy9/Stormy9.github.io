@@ -1,0 +1,594 @@
+#outerwrapper {
+    width: 100%;        margin: 18px 0px;      padding: 5;
+}
+#innerwrapper {
+    width: 94%;
+	margin: 0 auto;
+    background-color: #b30000;      /* dark red */
+    border: 1px solid #aaa;         border-radius: 13.5px;
+	box-shadow: 0 0 36px rgba(0,0,0,.9);
+	padding-bottom: .72em;
+}
+header {
+    /*width: 100%;*/
+    background-color: #400080;      /* deep purple ~ also tried #4d0099; */
+    margin: 0 auto;         text-align: center;
+    /*border-top: 3px solid yellow;   /* for testing */
+    /*border: 1px solid yellow;   /* testing */
+    /*border-top-left-radius: 9px;        border-top-right-radius: 9px;*/
+}
+header h1 {
+    text-align: center;
+    margin: .18em 0 18px 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 3.6em;           color: whitesmoke;
+    word-spacing: .1em;         letter-spacing: .18em;
+}
+/*~~~~~~~~~~~~~~~~~~start of NAV BAR/BUTTONS styling stuff~~~~~~~~~~~~~~~~~~*/
+nav {
+    height: auto;           /* was 72px */          /*width: 100%;*/
+    background-color: #400080;      /* deep purple ~ also tried #4d0099; */
+    border-top: .0625em solid #b30000;      /* dark red */
+    border-bottom: .5625em solid #b30000;      /* dark red */
+    /*border-left: .1875em solid #b30000;      /* dark red */
+    /*border-right: .1875em solid #b30000;      /* dark red */
+    /* why does adding a border seem to make stuff vertically center? */
+    /* at least it did, it doesn't anymore... */
+    
+    /*align-items: center;*/            /*text-align: center;*/    
+    margin: 0 auto;     /* why isn't this centering things? they don't look truly centered */
+}                       /* oddly, without really knowing how, it DOES appear vertically centered now... hmmm... */
+nav ul {
+    list-style: none;
+    margin: 1.8 auto;       /* top/bottom, left/right */
+    /*align-items: center;*/
+    text-align: center;         /* so why does it not totally appear centered? */
+}
+nav ul li {
+    display: inline-block;      /* had tried float: left; but this is better */
+    width: 9em;     /*change this to NOT a % (was at 19%) */
+    background-color: #b30000;
+    border: 1px solid #b30000;      border-radius: 18px;
+    margin: 3px 3px;      /* purple space top/bottom & right/left of faux buttons... */
+    padding: 4.5px 0;       /* red space around words in faux buttons... */
+    text-align: center;
+}
+nav ul li a {
+    display: block;
+}
+/*~~~~~~~~~~~~~~~~~~end of NAV BAR/BUTTONS styling stuff~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~start of GENERAL MAIN styling stuff~~~~~~~~~~~~~~~~~~~~~*/
+main {
+    margin-top: 0;          padding: 0 1em; 
+    background-color: #fcf4e8;      /* shade down from antiquewhite */
+    border-left: .28125em solid #400080;      border-right:  .28125em solid #400080;      /* deep purple ~ also tried #4d0099; */
+    font-family: Georgia, Times, Serif;
+}
+#label {
+    margin: 0;              padding: 0;
+    font-size: .5em;            line-height: .5em;
+}
+main h2 {
+    text-align: center;         margin: 0 auto;
+    font-family: Georgia, Times, Serif;         font-weight: bold;
+    color: #400080;      /* deep purple ~ also tried #4d0099; */
+}
+/*~~~~~~~~~~~~~~~~~~end of GENERAL MAIN styling stuff~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~just the text on the main index page~~~~~~~~~~~~~~~~~~~~*/
+main#index {
+    background-color: #fcf4e8;      /* shade down from antiquewhite */              
+}
+main#index p {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: .9em;                color: black;
+}
+/*~~~~~~~~~~~~~~~~~~start of ASIDE/QUOTE styling stuff~~~~~~~~~~~~~~~~~~~~~*/
+main aside#otherside {
+    float: right;           width: 12em;
+    background-color: #faebd7;      /*antiquewhite;*/
+    border: .1875em solid #592d0d;      /* dark chocolate */    border-radius: 36px;
+    box-shadow: 9px 9px 9px rgb(89, 45, 13);
+    margin: 1em;            padding: 1em;
+}
+main aside#otherside #othersidequote {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: 1em;         font-weight: 100;       color: #592d0d;      /* dark chocolate */    
+}
+main aside#otherside #othersideauthor {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: .72em;        font-style: italic;        color: #592d0d;      /* dark chocolate */
+    text-align: right;
+}
+main aside#excited {
+    float: right;           width: 12em;
+    background-color: #faebd7;      /*antiquewhite;*/
+    border: .1875em solid #592d0d;      /* dark chocolate */    border-radius: 36px;
+    box-shadow: 9px 9px 9px rgb(89, 45, 13);
+    margin: 1em;            padding: 1em;
+}
+main aside#excited #excitedquote {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: 1em;         font-weight: 100;       color: #592d0d;      /* dark chocolate */
+}
+main aside#excited #excitedauthor {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: .72em;        font-style: italic;        color: #592d0d;      /* dark chocolate */
+    text-align: right;
+}
+main aside#intheeye {
+    float: right;           width: 12em;
+    background-color: #faebd7;      /*antiquewhite;*/
+    border: .1875em solid #592d0d;      /* dark chocolate */    border-radius: 36px;
+    box-shadow: 9px 9px 9px rgb(89, 45, 13);
+    margin: 1em;            padding: 1em;
+}
+main aside#intheeye .intheeyequote {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: 1em;         font-weight: 100;       color: #592d0d;      /* dark chocolate */
+    text-align: right;
+}
+main aside#intheeye #intheeyeauthor {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: .72em;        font-style: italic;        color: #592d0d;      /* dark chocolate */
+    text-align: right;
+}
+main aside#ifyoufly {
+    float: right;           width: 15em;
+    background-color: #faebd7;      /*antiquewhite;*/
+    border: .1875em solid #592d0d;      /* dark chocolate */    border-radius: 36px;
+    box-shadow: 9px 9px 9px rgb(89, 45, 13);
+    margin: 1em;            padding: 1em;
+    text-align: right;
+}
+main aside#ifyoufly .ifyouflyquote {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: 1em;         font-weight: 100;       color: #592d0d;      /* dark chocolate */
+    text-align: right;
+}
+main aside#ifyoufly #ifyouflyauthor {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: .72em;        font-style: italic;        color: #592d0d;      /* dark chocolate */
+    text-align: right;
+}
+/*~~~~~~~~~~~~~~~~~~end of ASIDE/QUOTE styling stuff~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~start of RESUME styling stuff~~~~~~~~~~~~~~~~~~~~~~~~~*/
+main#resume {
+    background-color: #fcf4e8;      /* shade down from antiquewhite */
+    padding: 1em 3em;
+}
+#resume h2 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: 2.25em;          color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .09em;          word-spacing: .1em;
+}
+#resume h3 {
+    display: inline;
+    margin-bottom: 0;           margin-top: .9em;           padding-top: .9em;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: 1.8em;           color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .03em;          word-spacing: .1em;    
+    /*border-bottom: 1px solid black;*/
+}
+#resume h4 {
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: .72em;           color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .03em;          word-spacing: .1em;
+    margin-bottom: 0;           margin-top: 0;
+}
+#resume #email {
+    float: right;
+    margin-bottom: 0;       margin-top: 9px;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: .72em;           color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .03em;          word-spacing: .1em;
+    /*border: 1px solid black;*/
+}
+#resume #intro {
+    clear: both;
+    /*margin-top: 1.8em;*/      border-top: .09em solid #400080;        padding-top: .6em;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: 1em;         color: black;
+    background-color: #fcf4e8;      /* shade down from antiquewhite */
+}
+#resume h5 {
+    clear: both;        margin-bottom: 0;           margin-top: 0;      
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: 1.26em;          color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .03em;          word-spacing: .1em;
+    /*border: 1px solid orange;   /* just testing */
+}
+#resume h5#collegeskills {
+    display: inline-block;
+}
+#resume h6 {
+    margin-bottom: 0;           margin-top: 0;
+    clear: both;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: .81em;           color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .03em;          word-spacing: .1em;
+}
+#resume #workex {
+    margin-top: 1.8em;
+}
+#resume #ed {
+    margin-top: 1.8em;
+}
+#resume .college {
+    margin-left: .45em;
+}
+#resume .jobtitle {
+    float: left;
+    margin-bottom: .3em;            margin-top: 0;          margin-left: .45em;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: .81em;           font-weight: bold;          color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .03em;          word-spacing: .1em;
+}
+#resume .jobdate {
+    float: right;
+    margin-bottom: .3em;            margin-top: 0;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: .81em;           font-weight: bold;          color: #400080;      /* deep purple ~ also tried #4d0099; */
+    letter-spacing: .03em;          word-spacing: .1em;
+}
+#resume ul {
+    clear: both;
+    margin-bottom: 1.8em;           margin-left: 0;
+    /*font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size .2em;         why won't size adjust?   */
+}
+#resume ul li {
+    margin-bottom: .9em;            margin-left: 0;
+    list-style-type: square;
+    /*font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size .2em;         why won't size adjust?   */
+}
+#resume #officeadmin {
+    clear: both;
+    margin-left: .45em;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: 1em;         color: black;
+    background-color: #fcf4e8;      /* shade down from antiquewhite */
+    /*border: 1px solid green;    /* just testing */
+}
+#resume .degree {
+    float: left;
+    margin-left: .45em;         margin-bottom: .9em;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: 1em;             color: black;
+}
+#resume .grad {
+    float: right;
+    margin-bottom: .9em;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: 1em;             color: black;
+}
+#resume #otherskills {
+    clear: both;
+    margin-top: 2.7em;          margin-bottom: 0;
+}
+#resume #otherlist {
+    
+}
+#resume #collegeskills {
+    clear: both;    
+}
+#resume p {
+    clear: both;
+    background-color:antiquewhite;
+}
+/*~~~~~~~~~~~~~~~~~~end of RESUME styling stuff~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~end of 'PROJECTS' styling stuff~~~~~~~~~~~~~~~~~~~~~~~*/
+main#projects {
+    background-color: #fcf4e8;      /* shade down from antiquewhite */
+}
+main#projects section.project {
+    /*border-top: 1px solid black;*/
+    margin-left: 1em;          margin-right: 18em;
+}
+main#projects h2 {
+    margin-left: .7em;           margin-right: 12em;
+    /*border: 1px solid black;*/
+}
+main#projects h3 {
+    font-family: Georgia, Times, Serif;         font-weight: bold;      font-size: 1.17em;
+    color: #400080;      /* deep purple ~ also tried #4d0099; */
+    border-top: 1px solid #400080;       padding-top: 1.8px;
+}
+main#projects h4 {
+    font-family: Georgia, Times, Serif;         font-weight: bold;      font-size: .9em;
+    color: #400080;      /* deep purple ~ also tried #4d0099; */
+    padding-top: 1.35px;
+}
+main#projects section.project p {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: .9em;         color: black;
+}
+main#projects section.project p a {
+    color: #400080;         /*padding-left: 3em;*/      font-size: 1.08em;
+}
+main#projects section.project p a:visited {
+    color: #400080;         /*padding-left: 3em;*/      font-size: 1.08em;
+}
+/*~~~~~~~~~~~~~~~~~~end of 'PROJECTS' styling stuff~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~start of 'WOO-HOO' styling stuff~~~~~~~~~~~~~~~~~~~~~~~*/
+main#woohoo {
+    background-color: #fcf4e8;      /* shade down from antiquewhite */
+}
+main#woohoo section#stuff {
+    margin-left: 1em;           margin-right: 1em;
+}
+main#woohoo h2 {
+    margin-left: .7em;           margin-right: 13.5em;
+    /*border: 1px solid black;*/
+}
+main#woohoo p.text {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: .9em;            color: black;
+    /*margin-right: 21em;   */      padding-bottom: .45em;
+    /*border: 1px solid black;*/
+}
+/*~~~~~~~~~~~~~~~~~~end of 'WOO-HOO' styling stuff~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~start of 'EXTRAS' styling stuff~~~~~~~~~~~~~~~~~~~~~~~*/
+main#extras {
+    background-color: #fcf4e8;      /* shade down from antiquewhite */
+}
+/****************************DOGS****************************/
+main#extras section#dogs {
+    margin-left: 1em;       /*border: 1px solid black;*/
+}
+main#extras section#dogs p {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: .9em;                color: black;
+    /*margin-right: 18em;  */   
+}
+main#extras section#dogs div#dogsalbum {
+    margin-top: 1.8em;          margin-left: 3em;           margin-bottom: 3em;
+}
+main#extras section#dogs img.mydogs {
+    /*width: 135px;*/   width: 8.4375em;            /*width: 18%;*/            height: auto;
+}
+main#extras section#dogs div.scrapbook {
+    float: left;
+    /*width: 135px;*/   width: 8.4375em;        /*width: 12%;*/
+    padding: 9px 9px 0px 9px;
+    border: 1px solid #BFBFBF;  /* medium gray */
+    background-color: whitesmoke;
+    box-shadow: 9px 9px 4.5px #aaaaaa;  /* slightly darker gray */
+    margin-bottom: 3em;
+}
+main#extras section#dogs div.tipright {
+    /*float: left;*/
+    -ms-transform: rotate(4.5deg);    /* IE 9 */
+    -webkit-transform: rotate(4.5deg);    /* Safari */
+    transform: rotate(4.5deg);
+}
+main#extras section#dogs div.tipleft {
+    /*float: left;*/
+    -ms-transform: rotate(-5.4deg); /* IE 9 */
+    -webkit-transform: rotate(-5.4deg); /* Safari */
+    transform: rotate(-5.4deg);
+}
+main#extras section#dogs p.caption {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: .9em;         color: black;          font-weight: bold;
+    text-align: center;     padding-top: 0;     padding-bottom: 0;
+    width: 100%
+}
+/****************************PIZZA****************************/
+main#extras section#pizza {
+    clear: both;            margin-top: 9em;
+    border-top: 1px solid black;
+    margin-left: 1em;       margin-right: 1em;
+}
+main#extras section#pizza p {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: .9em;                color: black;
+    /*border: 1px solid black;*/
+}
+main#extras section#pizza div#pizzaalbum {
+    margin-top: 1.8em;          margin-left: 9em;           margin-bottom: 3em;
+}
+main#extras section#pizza img.mypizza {
+    width: 333px;               height: auto;
+}
+main#extras section#pizza div.scrapbook {
+    width: 333px;
+    padding: 9px 9px 0px 9px;
+    border: 1px solid #BFBFBF;  /* medium gray */
+    background-color: whitesmoke;
+    box-shadow: 9px 9px 4.5px #aaaaaa;  /* slightly darker gray */
+    margin-bottom: 3em;
+}
+main#extras section#pizza div.tipright {
+    float: left;
+    -ms-transform: rotate(4.5deg);    /* IE 9 */
+    -webkit-transform: rotate(4.5deg);    /* Safari */
+    transform: rotate(4.5deg);
+}
+main#extras section#pizza div.tipleft {
+    float: left;
+    -ms-transform: rotate(-5.4deg); /* IE 9 */
+    -webkit-transform: rotate(-5.4deg); /* Safari */
+    transform: rotate(-5.4deg);
+}
+main#extras section#pizza p.caption {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: .9em;         color: black;          font-weight: bold;
+    text-align: center;     padding-top: 0;     padding-bottom: 0;
+}
+/****************************GAMES****************************/
+main#extras section#games {
+    clear: both;            /*margin-top: 9em;*/
+    border-top: 1px solid black;
+    margin-left: 1em;       margin-right: 1em;
+}
+main#extras section#games p {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: .9em;                color: black;
+    /*border: 1px solid black;*/
+}
+main#extras section#games div#gamesalbum {
+    margin-top: 1.8em;          margin-left: 6em;           /*margin-bottom: 3em;*/
+}
+main#extras section#games img.mygames {
+    width: 225px;               height: auto;
+}
+main#extras section#games div.scrapbook {
+    width: 225px;
+    padding: 9px 9px 0px 9px;
+    border: 1px solid #BFBFBF;  /* medium gray */
+    background-color: whitesmoke;
+    box-shadow: 9px 9px 4.5px #aaaaaa;  /* slightly darker gray */
+    margin-bottom: 3em;
+}
+main#extras section#games div.tipright {
+    float: left;
+    -ms-transform: rotate(4.5deg);    /* IE 9 */
+    -webkit-transform: rotate(4.5deg);    /* Safari */
+    transform: rotate(4.5deg);
+}
+main#extras section#games div.tipleft {
+    float: left;
+    -ms-transform: rotate(-5.4deg); /* IE 9 */
+    -webkit-transform: rotate(-5.4deg); /* Safari */
+    transform: rotate(-5.4deg);
+}
+main#extras section#games p.caption {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: .9em;         color: black;          font-weight: bold;
+    text-align: center;     padding-top: 0;     padding-bottom: 0;
+}
+main#extras section#games p.clear {
+    clear: both;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: .9em;                color: black;
+}
+/****************************MSing****************************/
+main#extras section#MSing {
+    clear: both;            /*margin-top: 9em;*/
+    border-top: 1px solid black;
+    margin-left: 1em;       margin-right: 1em;
+}
+main#extras section#MSing p {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: .9em;                color: black;
+    /*border: 1px solid black;*/
+}
+main#extras section#MSing div#MSingalbum {
+    margin-top: 1.8em;          margin-left: 3em;           /*margin-bottom: 3em;*/
+}
+main#extras section#MSing img.myMSing {
+    width: 135px;               height: auto;
+}
+main#extras section#MSing div.scrapbook {
+    width: 135px;
+    padding: 9px 9px 0px 9px;
+    border: 1px solid #BFBFBF;  /* medium gray */
+    background-color: whitesmoke;
+    box-shadow: 9px 9px 4.5px #aaaaaa;  /* slightly darker gray */
+    margin-bottom: 3em;
+}
+main#extras section#MSing div.tipright {
+    float: left;
+    -ms-transform: rotate(4.5deg);    /* IE 9 */
+    -webkit-transform: rotate(4.5deg);    /* Safari */
+    transform: rotate(4.5deg);
+}
+main#extras section#MSing div.tipleft {
+    float: left;
+    -ms-transform: rotate(-5.4deg); /* IE 9 */
+    -webkit-transform: rotate(-5.4deg); /* Safari */
+    transform: rotate(-5.4deg);
+}
+main#extras section#MSing p.caption {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: .9em;         color: black;          font-weight: bold;
+    text-align: center;     padding-top: 0;     padding-bottom: 0;
+}
+main#extras section#MSing .clear {
+    clear: both;
+}
+/****************************PIANO****************************/
+main#extras section#piano {
+    clear: both;            /*margin-top: 9em;*/
+    border-top: 1px solid black;
+    margin-left: 1em;       margin-right: 1em;
+}
+main#extras section#piano p {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: .9em;                color: black;
+    /*border: 1px solid black;*/
+}
+#invention {
+    float: left;
+    width: 333;         height: auto;
+}
+main#extras section#piano div#pianoalbum {
+    float: right;
+    /*margin-top: 1.8em;*/
+    margin-left: 1.8em;
+    /*margin-bottom: 3em;*/
+}
+main#extras section#piano img.mypiano {
+    width: 333px;               height: auto;
+}
+main#extras section#piano div.scrapbook {
+    width: 333px;
+    padding: 9px 9px 0px 9px;
+    border: 1px solid #BFBFBF;  /* medium gray */
+    background-color: whitesmoke;
+    box-shadow: 9px 9px 4.5px #aaaaaa;  /* slightly darker gray */
+    margin-bottom: 3em;
+}
+main#extras section#piano p.caption {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: .9em;         color: black;          font-weight: bold;
+    text-align: center;     padding-top: 0;     padding-bottom: 0;
+}
+/****************************VOLUNTEER****************************/
+main#extras section#volunteer {
+    clear: both;            /*margin-top: 9em;*/
+    border-top: 1px solid black;
+    margin-left: 1em;       margin-right: 1em;
+}
+main#extras section#volunteer p {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: .9em;                color: black;
+}
+/*~~~~~~~~~~~~~~~~~~end of 'extras' styling stuff~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+    clear: both;            
+    background-color: antiquewhite;
+    border-top: .5625em solid #400080;      /* deep purple ~ also tried #4d0099; */
+    text-align: center;             padding: .9em;
+    font-family: Georgia, "Times New Roman", Times, Serif;
+    font-size: .54em;                    color: #400080;      /* deep purple ~ also tried #4d0099; */
+}
+/*~~~~~~~~~~~~~~~~~~stuff to style link text~~~~~~~~~~~~~~~~~~~~~~~~~*/
+a:link {
+	font-family: Verdana, sans-serif;
+	font-size: 1.26em;         color: whitesmoke;
+    letter-spacing: .09em;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, sans-serif;
+	font-size: 1.26em;         font-weight: bold;
+    letter-spacing: .09em;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, sans-serif;
+  	font-size: 1.26em;           color: #e6e6e6;
+    letter-spacing: .09em;
+	text-decoration: none;
+}
+a:active {
+	font-family: Verdana, sans-serif;
+	font-size: 1.26em;         color: #d9d9d9;
+    letter-spacing: .09em;
+	text-decoration: none;
+}
+/* Note:  I really really like this color:  #6f577e */

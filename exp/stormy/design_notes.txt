@@ -1,0 +1,33 @@
+#c2a889
+
+or 
+
+#ba9c78
+
+(colors for NWE site maybe)
+
+
+Fall '15:
+QP = 48		GPA Hours = 12
+
+Winter '16:
+QP = 60		GPA Hours = 15
+
+Spring '16:
+QP = 59		GPA Hours = 16
+
+Summer '16:
+QP = 52		GPA Hours = 15
+
+Fall '16:
+QP = 48		GPA Hours = 12
+
+Winter '17:
+QP = 48		GPA Hours = 12
+
+Spring '17:
+QP = 64		GPA Hours = 16
+_________________________________
+     379		    98
+
+379 divided by 98 = 3.867
