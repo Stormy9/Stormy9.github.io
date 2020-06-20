@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<title>Guessing Game!</title>
+    
+    <style>
+        #box {
+            margin: 0 auto;     background-color: #ffcc00;      
+            border: 3px solid #0033cc;      border-radius: 9em;
+            width: 36em;        padding: 1.8em;}
+        .rules {
+            text-align: center;     font-family: Verdana;       font-size: 1.2em;
+            margin: 0;      line-height: 1.35em;}
+        .rules3 {
+            text-align: center;     font-family: Verdana;       font-size: 1.2em;}
+        #inputs {
+            text-align: center;}
+        #numberGuessed {
+            /*width: 10.8em;*/   font-family: Verdana;   font-size: 1em;     text-align: center;     padding: .45em;    border-radius: 3em;}
+        #guess {
+            margin-left: 1em;   padding: .45em;     background-color: #cc0000;
+            border: 1px solid #cc0000;      border-radius: 3em;
+            font-family: Verdana;       color: white;       font-size: 1em;     font-weight: 700;}
+        #guess:hover {
+            box-shadow: 4.5px 4.5px 3px #999;}
+        #result {
+            text-align: center;     font-family: Verdana;   font-size: 1.2em;   line-height: 1.35em;}
+        #bottom {
+            text-align: center;     /*border: 1px solid black;*/}
+        #replay {
+            margin-left: .8em;  padding: .45em;     background-color: #cc0000;
+            border: 1px solid #cc0000;      border-radius: 3em;
+            font-family: Verdana;       color: white;   font-size: .9em;        font-weight: 700;}
+        #replay:hover {
+            box-shadow: 4.5px 4.5px 3px #999;}
+        #randomTest {
+            font-size: .72em;   color: green;}
+        #countTest {
+            font-family: Verdana;   font-size: .72em;   color: green;}        
+        #prevScore {
+            font-family: Verdana;   font-size: .72em;   color: green;}
+    </style>
+    
+    <script>
+    $(document).ready(function(){
+        var randomNumber = Math.floor((Math.random() * 100) + 1);   // getting our random number
+        $("#randomTest").text("(hint: " + randomNumber + ")");      // just for testing purposes
+
+        var currentCount = 0;     // counter seems to be working when I put it's var up here... (:
+        
+        var highScore
+        $("#highScore").text("your high score: " + highScore);       // just for testing purposes
+        
+        $("#numberGuessed").focus();    // making it so you don't have to click in box, it's ready to type something
+        
+        // assign hitting the return key to the "guess!" button...
+        $("#numberGuessed").keypress(function(event) {
+            if (event.keyCode == 13) {
+            $("#guess").click();
+        }
+        });
+        //__________________________________________________________________________________________________________
+        $("#guess").click(function guessNumber() {
+        ///////// input...
+        var numberGuessed = Number($("#numberGuessed").val());
+        //alert(numberGuessed);     // btw... this did not work outside the function, up there with the var randomNumber... 
+        //_________________________________________________________________________________________________________________
+        ///////// process & output... 
+        if (numberGuessed < 1 || numberGuessed > 100) {
+        $("#result").text("oops!  gotta guess between 1 and 100!");     $("#numberGuessed").select();       currentCount++;
+        }
+        else if ((isNaN(numberGuessed))) {
+        $("#result").text("oops!  gotta put in a number!");     $("#numberGuessed").select();       currentCount++;
+        }
+        else if (numberGuessed < randomNumber && numberGuessed < randomNumber - 20) {
+        $("#result").text("ooo... way too low!  try again...");     $("#numberGuessed").select();       currentCount++;
+        }
+        else if (numberGuessed < randomNumber) {
+        $("#result").text("a little too low!  try again");      $("#numberGuessed").select();       currentCount++;
+        }
+        else if (numberGuessed > randomNumber && numberGuessed > randomNumber + 20) {
+        $("#result").text("ooo... way too high!  try again... ");     $("#numberGuessed").select();     currentCount++;
+        }
+        else if (numberGuessed > randomNumber) {
+        $("#result").text("a little too high!  try again...");      $("#numberGuessed").select();       currentCount++;
+        }
+        else {
+        currentCount++;       // this has to go on top here, for the last guess to go into counter!
+        document.querySelector("#result").innerHTML = "woo-hoo!  you got it! <br>my number was " + randomNumber + "! it took you " + currentCount + " guesses. <br>wanna play again?  click right down there... ";
+            
+            $("#guess").prop('disabled', true);     // makes it so 'guess!' button isn't clickable once game is won
+            $("#numberGuessed").off("keypress");
+            
+            highScore = currentCount;
+            $("#highScore").text("your high score: " + highScore);
+            
+        //$("#result").text("woo-hoo!  you got it! <br>my number was " + randomNumber + "! it took you " + currentCount + " guesses. <br>wanna play again?  click right down there... ");
+        ///////// the <br>'s don't work with the jQuery way... they print to screen!
+        }
+        $("#countTest").text("current count: " + currentCount);
+        
+        // the 'play again' button...
+        $("#replay").click(function rePlay() {
+            location.reload(true);
+            $("#numberGuessed").val(" ");
+            // assign prevScore here??
+            prevScore=currentCount;
+        });
+        })});     // THIS part of jQuery is a little annoying... all these layers... getting all these parens & curly-brackets in, and in the right places!
+        //___________________________________________________________________________________________       
+    </script>
+    
+</head>
+
+<body>
+
+    <div id="box">
+        <p class="rules">I'm thinking of a number between 1 and 100... </p>
+        <p class="rules">Can you guess what it is?          <span id="randomTest"></span></p>
+        <p class="rules3">Put in your guess and click 'guess!'</p>
+
+        <div id="inputs">
+            <input type="text" id="numberGuessed" placeholder="your guess goes here..." />
+            <button id="guess">guess!</button>
+        </div>
+
+        <p id="result">...</p>
+
+        <div id="bottom">           <span id="countTest"></span>
+            <button id="replay">wanna play again?</button>          <span id="highScore"></span>
+        </div>
+
+    </div>
+    
+    <script>
+     
+    </script>
+
+</body>
+</html>
