@@ -161,6 +161,19 @@ body {
     box-shadow: 0 5px 9px 0 rgba(38, 0, 77,0.45);
     transition: 0.3s;
 }
+.other_project_img {
+    float:right;
+    border:1px solid #26004d;
+    border-radius:9px;
+    max-height:180px;
+    width:auto;
+}
+.other_project_a:link, .other_project_a:visited, 
+.other_project_a:hover, .other_project_a:active {
+    color: #ff3333;
+    text-decoration: none;
+    font-weight:bold;
+}
 .me_online_li {
     margin-bottom:5px;
     font-size: 18px;
