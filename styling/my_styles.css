@@ -153,6 +153,14 @@ body {
     height:auto; 
     margin-right:9px;
 }
+.other_project_box {
+    margin-bottom:35px;
+    border:1px solid #26004d;
+    border-radius:9px;
+    padding:9px;
+    box-shadow: 0 5px 9px 0 rgba(38, 0, 77,0.45);
+    transition: 0.3s;
+}
 .me_online_li {
     margin-bottom:5px;
     font-size: 18px;
