@@ -160,9 +160,11 @@ body {
     padding:9px;
     box-shadow: 0 5px 9px 0 rgba(38, 0, 77,0.45);
     transition: 0.3s;
+    min-height:210px;
 }
 .other_project_img {
     float:right;
+    margin-left:5px;
     border:1px solid #26004d;
     border-radius:9px;
     max-height:180px;
