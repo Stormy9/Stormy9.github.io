@@ -153,6 +153,14 @@ body {
     height:auto; 
     margin-right:9px;
 }
+.sr_project_img {
+    float:right;
+    margin-left: 5px;
+    border:1px solid #26004d;
+    border-radius:9px;
+    max-height:270px;
+    width:auto;
+}
 .other_project_box {
     margin-bottom:35px;
     border:1px solid #26004d;
