@@ -1,0 +1,275 @@
+nav#topnav {
+    width: 100%;    height: auto;   position: fixed;    top: 0;     text-align: center;
+    background-color: rgb(51, 102, 0);      /*background-color: rgba(51, 102, 0, .36);      /* this was for transparency behind buttons */
+}
+nav#topnav ul li {
+    display: inline-block;      /* Peter's fix (from nav exercise) instead of floating */
+    /*margin: .1875em .375em;     /* remmember: top-bottom, left-right */ /* this was for doing separate 'buttons' */
+    margin: 0;      /* this is for trying to make solid nav bar, snug buttons up to each other horizontally */
+    width: 8.1em;           text-align: center;                     /* why won't buttons snug up to each other horizontally?? */
+    /*border: solid 1px yellow;   /* just for testing */
+}    
+nav#topnav ul li a {
+    display: block;     /* this makes a larger clickable area... like a button... right? */
+    /*float: left;      Peter said not to float these... to do ul li as inline-block & the a's as block */
+    margin: 0;          text-align: center;
+    padding: .45em 0;     /* remember: top-bottom, left-right...  this -also- makes larger clickable area, right? */
+    font-family: Verdana, Arial, sans-serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 1em;     font-weight: 400;   letter-spacing: .09em;      text-decoration: none;
+    background-color: rgb(51, 102, 0);      /*border: 3px solid rgb(51, 102, 0);      /* forest green */    /*border-radius: 25px;*/
+    /*border: 1px solid red;    /* just for testing */
+}
+nav#topnav ul li a:link {
+    color: #f5f5f5;     /*aka whitesmoke*/
+}    
+nav#topnav ul li a:hover {
+    background-color: #59b300;      /* three steps lighter than original background-color */
+    border-left: 3px solid rgb(51, 102, 0);     border-right: 3px solid rgb(51, 102, 0);      /* forest green */
+    color: #f5f5f5;     /*aka whitesmoke*/
+}    
+nav#topnav ul li a:visited {
+    color: #d9ffb3;    /* very pale green, in same family as original background-color */ 
+}
+/*_____________________________________________*/
+#dropdownexp, #dropdownreg, #dropdownmed, #dropdownguides {
+    position: absolute;             visibility: hidden;
+    text-align: left;   /* doesn't work up here, either (tried in the a tag first) */
+    padding-left: .45em;        padding-right: .45em;   /* doesn't work up here, either (tried in the a tag first) */
+}
+nav ul li div#dropdownexp a, #dropdownreg a, #dropdownmed a, #dropdownguides a {
+    display: block;     /* they already were, before putting this here, but this is from page 268 of Web App Dev book... */
+    text-align: left;   /* why aren't they left-aligning?? */
+    padding-left: .45em;        padding-right: .45em;   /* and why isn't this working either?? */
+    /* book set a width & tiny top margin, too... */
+    /* different background & text colors?? */
+}
+/*_____________________________________________*/
+body {
+    background-color: #fcf4e8;      /* off-white - buff - cream */
+}
+a:link {
+    color: rgb(51, 102, 0);    /* same forest green */
+    text-decoration: none;
+}
+a:hover {
+    color: #604020;     /* tree-trunk brown */  /* why isn't the hover working?? */
+    text-decoration: none;
+}
+a:visited {
+    color: #260099;     /* deep lake blue */  /* this is working... */
+    text-decoration: none;
+}
+/*_____________________________________________*/
+header div#headerbar {
+    margin-left: 1px;   margin-top: 1.7em;      min-height: 101px;  /* why doesn't 'height: auto;' work here? the img doesn't stay in there... */
+    border-bottom: 3px solid rgb(51, 102, 0);    
+    /*border: 1px solid red;      /* just for testing */    /* wth does taking this out, mess up the margin-top of the h1? */
+    padding-top: 1px;   /* this makes the margin-top on the h1 work again... wtf? */
+}
+header div#headerbar img#toplogo {
+    height: 100px;      width: auto;    padding: .45em;
+    /*height: 90%;  /* why doesn't this make it a percentage of the containing element? */
+    display: inline;    /* this didn't work */      float: left;
+}
+header div#headerbar h1 {
+    text-align: right;      padding-right: .45em;
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 3.6em;     font-weight: 600;       letter-spacing: .09em;      color: rgb(51, 102, 0);
+    margin-top: 20px;    /* this doesn't do ANYTHING if you take the border off #headerbar... why? */
+    /*border: 1px solid yellow;       /* just testing */
+}
+/*_____________________________________________*/
+#columnone {    /* the container for the left column - photo, map, what to bring */
+    float: left;        width: 39%;     margin-left: 1px;   padding-right: 1em;
+    /*border: 1px solid green;    /* just testing */
+}
+#columnone #wilderness {    /* the scenic photo */
+    display: block;         position: relative;        z-index: -1;    /* didn't work... til after I added the position thing */
+    width: 100%;    height: auto;   /* okay... so why did this work now, and not the first time I tried it??  Really?? */
+    /*width: 450px;   height: auto;   /* i thought a percentage width here, was a percentage of the containing element? */
+    border-bottom: 6px solid black;     border-left: 1px solid black;   border-right: 1px solid black;
+    /*border: 1px solid green;    /* just testing */
+}
+#columnone #wilderness:hover {
+    width: 723px;        height: 480px;     z-index: 1;     /* z-index didn't work... not here anyway */
+    /* I wondered if you could enlarge the slideshow... but apparently not... at least not this way... */
+    /* is there a way to do it with JavaScript... to enlarge image but keep the slide-show going? */
+}
+#columnone .fade {      /* handles the fade-in animation */
+  -webkit-animation-name: fade;         -webkit-animation-duration: 4.5s;
+  animation-name: fade;             animation-duration: 4.5s;
+}
+@keyframes fade {       /* handles the fade-in animation ~ standard syntax */
+  from {opacity: .45}       to {opacity: 1}
+}
+@-webkit-keyframes fade {       /* handles the fade-in animation ~ syntax for Safari */
+  from {opacity: .45}       to {opacity: 1}
+}
+#columnone #map {       /* the region map */
+    display: block;
+    width: 100%;    height: auto;   /* okay... so why did this work now, and not the first time I tried it??  Really?? */
+    /*width: 450px;   height: auto;   /* i thought a percentage width here, was a percentage of the containing element? */
+    border-bottom: 6px solid black;     border-left: 1px solid black;   border-right: 1px solid black;
+    margin-bottom: 9px;
+    /*border: 1px solid green;    /* just testing */
+}
+#columnone #map:hover {
+    width: 602px;        height: 641px;     z-index: 1;     /* z-index didn't work... not here anyway */
+}
+#columnone figcaption {
+    text-align: center;     font-style: italic;
+    font-family: Verdana, Arial, Sans-Serif;        /* CONSIDER OTHER FONTS LATER */
+    font-size: .9em;        font-weight: 400;       letter-spacing: .03em;      color: black;
+}
+#columnone #bring h4 {      /* 'What to Bring:' */
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER */
+    font-size: 1.8em;     font-weight: 400;       letter-spacing: .03em;      color: rgb(51, 102, 0); 
+    margin-left: .45em;     margin-right: .45em;        margin-top: .9em; padding-bottom: .18em;
+    /*border-right: 1px solid orange;   /* just testing */
+}
+#columnone #bring ul {      /* the stuff to actually bring */
+    list-style-type: square;    /* WHY IS THIS NOT DISPLAYING??? */
+    /*border-left: .45em solid rgb(51, 102, 0);      /* okay... figured out why this wasn't displaying... typo. but now I don't want it (: */    
+    margin-left: .9em;      margin-right: .45em;    margin-bottom: .9em;
+    padding-top: .9em;      padding-bottom: .9em;       padding-right: .45em;
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER */
+    font-size: 1em;     font-weight: 300;   color: black;    
+    border-top: 3px solid rgb(51, 102, 0);   border-right: 3px solid rgb(51, 102, 0);   /* this is working... */
+    /*border: 3px solid orange;   /* just testing */
+}
+#columnone #bring ul li {
+    margin-bottom: .54em;       /* put some vertical space between list items for readability */
+    list-style-type: square;
+}
+/*_____________________________________________*/
+#columntwo #bread {     /* the area -for- the bread-crumb thing */
+    margin-left: 39%;
+    text-align: right;      padding-right: 1em;     padding-top: .45em;       padding-bottom: .45em;
+    /*border: 1px solid red;      /* just testing */
+}
+#columntwo #bread ul {
+    list-style-type: none;          /* the ul gets the list-style-type (W3Schools just does 'list-style') */
+}
+#columntwo #bread ul li {   /* the bread-crumb thing */
+    display: inline;      /* Peter's fix (from nav exercise) instead of floating */
+    text-align: right;      padding-right: .9em;
+    font-family: Verdana, Arial, sans-serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: .81em;     font-weight: 400;   letter-spacing: .03em;      color: black;
+}
+/* Add an arrow symbol > before/behind each list item */
+#columntwo #bread ul li+li:before {
+    padding-right: .9em;
+    color: black;
+    content: ">";
+}
+/*_____________________________________________*/
+#columntwo h2 {     /* 'Wilderness Backpacking' */
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 2.25em;     font-weight: 600;       letter-spacing: .09em;      color: rgb(51, 102, 0);
+    margin-left: 39%;       margin-right: .9em;     padding: .45em;     text-align: right;      margin-top: .9em;
+    /*border: 1px solid yellow;       /* just testing */
+}
+#columntwo h3 {     /* 'Take an exhilarating trip...' */
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 1.35em;     font-weight: 400;       line-height: 1.45em;      letter-spacing: .09em;      color: rgb(51, 102, 0);
+    margin-left: 39%;       margin-right: .9em;     margin-bottom: 1em;     padding: .45em .9em;        text-align: right;
+    /*border: 1px solid orange;       /* just testing */                        /* remember: top-bottom, left-right */
+}
+#columntwo article p {
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 1em;     font-weight: 300;       line-height: 1.17em;    letter-spacing: .03em;      color: black;
+    margin-left: 39%;       margin-right: .9em;
+    padding-top: .45em;     padding-left: .9em;    padding-right: .9em;   padding-bottom: 1.8em;
+    position: relative;     z-index: -1;
+    /*border: 1px solid orange;       /* just testing */
+}/*_____________________________________________*/
+#columntwo #details {   /* the container for the 'Trip Details' headline & list */
+    margin-top: 1em;    /* put some vertical space after the paragraphs & before this */
+    position: relative;     z-index: -1;
+}
+#columntwo #details h4 {    /* 'Trip Details' */
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER */
+    font-size: 1.8em;     font-weight: 400;       letter-spacing: .03em;      color: rgb(51, 102, 0); 
+    margin-left: 39%;     margin-right: .45em;    
+    padding-bottom: .18em;      /*border-bottom: 3px solid rgb(51, 102, 0);   margin-bottom: .27em;*/
+    /*border: 1px solid orange;   /* just testing */
+}
+#columntwo #details #detailitems {
+    margin-left: 39%;       padding-top: .9em;      padding-bottom: 3em; 
+    border-top: 3px solid rgb(51, 102, 0);      border-left: 3px solid rgb(51, 102, 0);
+}
+#columntwo #details span#labeldetail {  /* 'When-Where-MeetAt-Leader-Cost-Meals' */
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 1em;     font-weight: 600;       letter-spacing: .03em;      color: black;
+    padding-left: .45em;    padding-right: .63em;
+    /*border: 1px solid orange;       /* just testing */
+}
+#columntwo #details p {     /* the answers to the above */
+    font-family: Verdana, Arial, Sans-Serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 1em;     font-weight: 400;       letter-spacing: .03em;      color: black;
+    margin-right: .9em;   padding-top: .45em;     padding-bottom: .45em;
+    /*border: 1px solid blue;       /* just testing */
+}
+/*#columntwo #details p#one {
+    padding-top: .9em;      border-top: 3px solid rgb(51, 102, 0);
+}*/
+/*_____________________________________________*/
+#columntwo #details ul li#register {      /* make faux button for this */
+    margin-top: 3em;        /* HOW DO I GET THE STUPID BUTTON IN THE MIDDLE?? */
+    margin-left: 9%;       /* MAYBE I DON'T WANT IT THERE... HANG ON... */
+    /*padding: 1.125em;     /* okay... so at first, padding worked here but not on <a> tag... then somehow it did work on <a>... */
+    width: 11em;     /* width goes on <li> tag */           text-align: center;
+    /*background-color & border stuff goes on the <a> tag */
+    /*border: 1px solid blue;   /* just testing */
+}
+#columntwo #details ul li#register a {
+    padding: 1.125em 1.125em;     /* WHY IS THE PADDING NOT WORKING, WHEN THE FONTS ETC. ARE??? Oh.  Now it is.  Hmmm. */
+    background-color: rgb(51, 102, 0);      border: 3px solid rgb(51, 102, 0);      border-radius: 25px;
+    font-family: Verdana, Arial, sans-serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: 1em;     font-weight: 400;   letter-spacing: .09em;      text-decoration: none;      text-align: center;
+}
+#columntwo #details ul li#register a:link {
+    color: #f5f5f5;     /*aka whitesmoke*/
+}    
+#columntwo #details ul li#register a:hover {
+    background-color: #59b300;      /* three steps lighter than original background-color */
+    border: 3px solid rgb(51, 102, 0);
+    color: #f5f5f5;     /*aka whitesmoke*/
+}    
+#columntwo #details ul li#register a:visited {
+    color: #d9ffb3;    /* very pale green, in same family as original background-color */ 
+}
+/*_____________________________________________*/
+footer {
+    clear: both;    /* okay... why was this not working at first? it made me bat-crap crazy! */
+    width: 100%;        padding: 1em;
+    border-top: 3px solid rgb(51, 102, 0);      background-color: rgba(51, 102, 0, .36);
+    font-family: Verdana, Arial, sans-serif;    /* CONSIDER OTHER FONTS LATER... */
+    font-size: .72em;     font-weight: 400;   letter-spacing: .03em;
+}
+footer .social {
+    height: 27px;   width: auto;
+    /*float: left;      /* this works, too... sets them nice & tight to each other */
+    display: inline-block;
+}
+footer p {
+    display: inline;    float: right;   margin-top: .63em;
+    /*border: 1px solid red;    /* just testing */
+}
+/* --------- configure smaller-screens display --------- */
+/* selects for typical tablet device viewport size */
+@media only screen and (max-width: 64em) {
+    /* stuff goes in between these curly-brackets */
+    /* do you only gotta put in the stuff that's gonna be *different*?? */
+    /* will the other stuff still apply?  I think so... hmmm... */
+    /* btw that up there is taken from the Pacific project... (: */
+    
+    header div#headerbar {
+    margin-left: 1px;   margin-top: 3.6em;      min-height: 101px;  /* why doesn't 'height: auto;' work here? the img doesn't stay in there... */
+    border-bottom: 3px solid rgb(51, 102, 0);    
+    /*border: 1px solid red;      /* just for testing */    /* wth does taking this out, mess up the margin-top of the h1? */
+    padding-top: 1px;   /* this makes the margin-top on the h1 work again... wtf? */
+    padding-bottom: .63em;
+    }
+    
+}

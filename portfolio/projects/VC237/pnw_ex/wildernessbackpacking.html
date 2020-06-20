@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  
+	<link rel="shortcut icon" href="">
+	<link rel="apple-touch-icon" href="" />
+	
+	<title>NW Expeditions - Wilderness Backpacking</title>
+
+	<link href="common/css/default.css" rel="stylesheet" type="text/css">
+    <link href="common/css/nwexstyle.css" rel="stylesheet" type="text/css">
+    
+	<script src="common/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+	<script src="common/js/lib.js" type="text/javascript"></script>
+    <script src="common/js/navbar.js" type="text/javascript"></script>
+    <script src="common/js/slideshow.js" type="text/javascript"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+	<![endif]-->    
+    <!--[if lt IE 9]>
+        <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->      
+
+    <script>
+	   // Load jQuery and other Javascript after page is done loading	
+	   $( document.body ).ready(function () {
+	   });
+    </script>
+</head>
+<!---------------------------------------HEADER------------------------------------------>
+<body>
+	<header>
+        <!-- check out that horizontal nav exercise08 (week 6) for css'ing this area -->
+        <!-- FIGURE OUT HOW TO DO THE FAUX DROP-DOWN MENUS... see Ch 07 of Web App Dev book, pgs 263 to 268 -->
+        <nav id="topnav" onmouseout="hide()">   <!-- makes drop-downs hide when you're not mousing over them anymore... -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                
+                <li><a href="#" onmouseover="show('dropdownexp')" >Expeditions</a>  <!-- NOTE that the 'onmouseover' thing goes here... -->
+                    <div id="dropdownexp" onmouseover="show('dropdownexp')">        <!-- ... and here... -->
+                        <a href="#">River Rafting</a>               <!-- NOTE that all of the drop-down stuff goes INSIDE the <li> tags! -->
+                        <a href="#">Sea Kayaking</a>                <!-- this is set up just like in Ch 07 of Web App Dev Book -->
+                        <a href="#">Wilderness Backpacking</a>
+                        <a href="#">Cross-Country Skiing</a>
+                        <a href="#">Mountain Climbing</a>
+                        <a href="#">Cycling Tours</a>
+                        <a href="#">Fly Fishing</a>
+                    </div>  <!-- end tag for #dropdownexp -->   </li>
+                
+                <li><a href="#" onmouseover="show('dropdownreg')" >Register</a>
+                    <div id="dropdownreg" onmouseover="show('dropdownreg')">
+                        <a href="#">Registration Forms</a>
+                        <a href="#">Registration Receipts</a>
+                    </div>  <!-- end tag for #dropdownreg -->   </li>
+                
+                <li><a href="#" onmouseover="show('dropdownmed')" >Media</a>
+                    <div id="dropdownmed" onmouseover="show('dropdownmed')">
+                        <a href="#">Expedition Photos</a>
+                        <a href="#">Video Diaries</a>
+                        <a href="#">Customer Testimonials</a>
+                    </div>  <!-- end tag for #dropdownmed -->   </li>
+                
+                <li><a href="#" onmouseover="show('dropdownguides')" >Guides</a>
+                    <div id="dropdownguides" onmouseover="show('dropdownguides')">
+                    <a href="#">Our Very Capable Guide A</a>
+                    <a href="#">Our Very Capable Guide B</a>
+                    <a href="#">Our Very Capable Guide C</a>
+                    </div>  <!-- end tag for #dropdownguides -->    </li>
+                
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div id="headerbar">
+            <img src="common/art/NWE_Logo_Grayscale.gif" alt="Northwest Expeditions Logo" id="toplogo" />
+        
+            <h1>Northwest Expeditions</h1>
+        </div>
+    </header> 
+<!----------------------------------------COLUMN ONE----------------------------------------->    
+    <div id="columnone">
+        <!--<img src="common/art/backpacking_05.jpg" alt="backpacking_05" id="wilderness" />-->
+        
+        <img src="common/art/backpacking_05.jpg" alt="Oregon Wilderness 1" title="Oregon Wilderness 1" id="wilderness" class="wildernessslides fade">     
+        <img src="common/art/backpacking_06.jpg" alt="Oregon Wilderness 2" title="Oregon Wilderness 2" id="wilderness" class="wildernessslides fade">
+        <img src="common/art/backpacking_07.jpg" alt="Oregon Wilderness 3" title="Oregon Wilderness 3" id="wilderness" class="wildernessslides fade">
+        <img src="common/art/backpacking_08.jpg" alt="Oregon Wilderness 4" title="Oregon Wilderness 4" id="wilderness" class="wildernessslides fade">
+        <img src="common/art/backpacking_09.jpg" alt="Oregon Wilderness 5" title="Oregon Wilderness 5" id="wilderness" class="wildernessslides fade">
+        <img src="common/art/backpacking_10.jpg" alt="Oregon Wilderness 6" title="Oregon Wilderness 6" id="wilderness" class="wildernessslides fade">
+        
+        <script>showSlides()</script>   <!-- Is there some better way to call this function?? -->
+                                        <!-- Note:  it only works *after* the img tags... -->        
+                
+        <img src="common/art/map.jpg" alt="expedition map" title="Map of Expedition Area" id="map" onClick="clickBig()" />
+        <figcaption>(click to toggle map full-size)</figcaption>
+        <script>
+            /*function clickBig() {
+                var map = document.getElementById("map");
+                map.style.width = "auto";
+                map.style.height = "auto";
+            }       this totally worked to make it bigger, but I need to toggle, so jQuery toggleClass built-in function! */
+            
+            $("img").click(function() {
+                $(this).toggleClass("bigger");
+            });
+            // okay, I was wondering why ("img") worked only on the image I wanted it to... because I only added the .bigger class to that single image id!  hahaha!  (:
+            // note I didn't add the class designation in the HTML... only in the CSS... 
+        </script>
+        
+        <div id="bringcontainer">
+        <section id="bring">
+        <h4>What to Bring:</h4>
+            <ul>
+                <li>Rain jacket (or poncho), lightweight, waterproof and breathable</li>
+                <li>Sleeping bag (rated to 30-35° F), lightweight, compressible down or synthetic material is best</li>
+                <li>Sun hat with brim</li>
+                <li>Lightweight thermal underwear top and bottom, synthetic or wool</li>
+                <li>Hiking pants</li>
+                <li>Hiking shorts</li>
+                <li>Long-sleeve shirt</li>
+                <li>T-shirts</li>
+                <li>Underwear</li>
+                <li>Hiking socks</li>
+                <li>Liner socks</li>
+                <li>Swimsuit</li>
+            </ul>
+        </section>
+        </div>  <!-- closing tag for #bringcontainer -->
+    </div>      <!-- closing tag for columnone -->
+<!--------------------------------------COLUMN TWO------------------------------------------->    
+    <div id="columntwo">
+        <!-- figure out how to do breadcrumbs first... hahaha! -->
+        <nav id="bread">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Expeditions</a></li>
+                <li>Backpacking</li>
+            </ul>
+        </nav>
+        
+        <h2>Wilderness Backpacking</h2>
+    
+        <h3> Take an exhilarating trip through Northeastern Oregon's Eagle Cap Wilderness.  Ascend the peak of Eagle Cap, rising 9,595 feet above sea-level, and view alpine meadows and mountain lakes. </h3>
+    
+        <article>
+            <p>The Eagle Cap Wilderness is characterized by high alpine lakes and meadows, bare granite peaks and ridges and u-shaped valleys carved out by glaciers.  Each season brings its own unique visitors to the area.</p>
+        
+            <p>Lace up your boots and head into Oregon's remote Wallowa Mountains. Explore this wonderland of more than fifty glacial lakes, miles of streams designated as National Wild and Scenic Rivers, hundreds of soaring peaks, and open meadows with elk, deer, bighorn sheep, coyote, black bear, and cougar. Climb Aneroid, Chief Joseph, and Matterhorn Mountains; hike the Eagle River, Cliff Creek, and Deadman Canyon; or visit Razz, Blue, and Bonny Lakes. During the summer months, you might see white-tailed deer, rocky mountain elk, or black bears munching on huckleberries. On rare occasions you might spot a rocky mountain bighorn sheep or mountain goat.</p>
+        
+            <p>In the winter months turn your eyes to the sky in search of a paragrine falcon or bald eagle.  Winter months bring heavy snowfall to Eagle Cap, creating many opportunities for backcountry skiing and other snowy recreation.</p>
+        </article>
+
+        <div id="detailscontainer">
+        <section id="details">
+            <h4>Trip Details:</h4>
+                <div id="detailitems">
+                    <p id="one"><span id="labeldetail">When:</span>June 30th - July 5th, 2017</p>
+                    <p><span id="labeldetail">Where:</span>Eagle Cap Wilderness</p>
+                    <p><span id="labeldetail">Meet at:</span>Halfway, Oregon</p>
+                    <p><span id="labeldetail">Leader:</span><a href="#">Peter Hoelter</a></p> 
+                                                                <!-- not sure why this isn't behaving as a link except for the color change -->
+                    <p><span id="labeldetail">Cost:</span>$350 per person</p>
+                    <p><span id="labeldetail">Meals:</span>All meals included</p>
+                
+                    <ul>
+                        <li id="register"><a href="#">Register Now!</a></li>
+                    </ul>                       <!-- not sure why this isn't behaving as a link, either! -->
+                    
+                </div>  <!-- closing tag for #detailitems -->
+        </section>  <!-- closing tag for #details --> 
+        </div>  <!-- closing tag for #detailscontainer -->
+        
+    </div>  <!-- closing tag for #columntwo -->
+<!------------------------------------FOOTER--------------------------------------------->    
+    <footer class="group">
+        <a href="#"><img src="common/art/flatIconPack/fb_icon.jpg" alt="facebook" class="social" /></a>
+        <a href="#"><img src="common/art/flatIconPack/tw_icon.jpg" alt="twitter" class="social" /></a>
+        <a href="#"><img src="common/art/flatIconPack/ig_icon.jpg" alt="instagram" class="social" /></a>
+        <a href="#"><img src="common/art/flatIconPack/yt_icon.jpg" alt="youtube" class="social" /></a>
+        
+        <div id="footerinfo">
+            <p id="footeremail"><a href="mailto:eartha_dirt@northwestexpeditions.org">eartha_dirt@northwestexpeditions.org</a></p>
+            <p id="footercopy">&copy; 2017 Northwest Expeditions</p>
+        </div>
+    </footer>
+    
+    <script>
+        // moved to separate file once i got stuff working... script for menu drop-downs... 
+    </script>
+    
+</body>
+</html>
+
+        <!--<div id="wildernesscontainer">
+            <div class="wildernessslides fade">
+                <img src="common/art/backpacking_05.jpg" alt="Oregon Wilderness" id="wilderness">
+            </div>
+            
+            <div class="wildernessslides fade">
+                <img src="common/art/backpacking_06.jpg" alt="Oregon Wilderness" id="wilderness">
+            </div>
+            
+            <div class="wildernessslides fade">
+                <img src="common/art/backpacking_07.jpg" alt="Oregon Wilderness" id="wilderness">
+            </div>
+            
+            <div class="wildernessslides fade">
+                <img src="common/art/backpacking_08.jpg" alt="Oregon Wilderness" id="wilderness">
+            </div>
+            
+            <div class="wildernessslides fade">
+                <img src="common/art/backpacking_09.jpg" alt="Oregon Wilderness" id="wilderness">
+            </div>
+            
+            <div class="wildernessslides fade">
+                <img src="common/art/backpacking_10.jpg" alt="Oregon Wilderness" id="wilderness">
+            </div>            
+        </div>-->

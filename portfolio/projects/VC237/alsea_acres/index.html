@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+  
+	<link rel="shortcut icon" href="">
+	<link rel="apple-touch-icon" href="" />
+	
+	<title>VC237 Web Design Template v1</title>
+    
+    <link href="common/css/reset.css" rel="stylesheet" type="text/css">
+	<link href="common/css/default.css" rel="stylesheet" type="text/css">
+    <link href="common/css/styles.css" rel="stylesheet" type="text/css">
+    <!-- wait... I don't think I need the direct link to reset & styles here, w/
+            what's in the default one... -->
+    
+	<script src="common/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+	<script src="common/js/lib.js" type="text/javascript"></script>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>          <![endif]-->
+
+    <script>
+        // Load jQuery and other Javascript after page is done loading	
+        $( document.body ).ready(function () {        
+        });
+    </script>
+    
+    <!-- Important note: You MUST view your page on the VC237 class FTP server for the Typekit fonts to work.  http://vc237.cccvc.com  HTML Code for <head> area:       -->
+
+    <script src="https://use.typekit.net/egm1aon.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+    <!--CSS Code for font-family:
+        font-family: "museo-sans", Verdana, Helvetica, Arial, sans-serif;
+        Weights available:
+            Slab: 500 & 700
+            Sans: 300, 300 Italic, and 500      -->
+</head>    
+
+<body>            
+	<header>
+        <!--<img src="" id="hero" alt="cheese wheel on board and cheese bags"/>
+            PUT THIS AS BACKGROUND IMAGE FOR... SOMETHING... USING CSS       -->
+        <div id="hero">
+            <nav id="top">
+                <div id="logo">     <!-- this is that little 'tab' that hangs down -->
+                    <p>Alsea Acres</p>
+                    <p id="goatCheese">Goat Cheese</p>     <!-- this line all caps -->
+                </div>      <!-- closing tag for 'logo' div -->
+            
+                <ul>    <!-- all <li> items are all caps... 'current' is underlined -->
+                    <li class="current"><a href="#">home</a></li>
+                    <li><a href="#">where to buy</a></li>
+                    <li><a href="#">recipes</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#" id="mag"><img src="common/art/little_mag.gif" alt="little magnifying glass" /></a></li>     <!-- that little search icon goes here -->
+                    <li><a href="#" id="cart"><img src="common/art/little_cart.gif" alt="little shopping cart" /></a></li>       <!-- that little cart icon goes here -->
+                </ul>
+                
+            </nav>
+        </div>      <!-- ending tag for 'hero' div -->        
+    </header>
+    
+    <div id="wrapper">
+    
+    <section id="about">
+        <img src="common/art/AAGC_goat.jpg" id="goat" alt="one of our goats looking at you" />
+        
+        <div id="aboutText">    <!-- trying grouping headline/paragraph text together -->
+                                <!-- to keep it unified inside a box even though it's separate things -->
+        <h3>about alsea acre</h3>   <!-- this line all caps -->
+        <p>Alsea Acre specialty cheeses are produced on a small goat dairy located in an isolated valley of Oregon's Coast Range where mild winters and cool summers are ideal for the production of European style cheeses.</p>
+        </div>      <!-- closing tag for #aboutText div -->
+        
+    </section>      <!-- closing tag for #about section -->
+    
+    <section id="products">
+        <h2><span>our products</span></h2>   <!-- this line all caps -->
+        
+        <div id="columnOne">
+            <img src="common/art/AAGC_fromage.jpg" id="fromage" alt="tubs of fromage blanc" />
+            <h3>fromage blanc</h3>      <!-- this line all caps -->
+            <p>This smooth creamy fresh chevre goes from milk to cheese in less than 48 hours.  Then is shipped directly to you, to melt in your mouth, leaving a complex, somewhat lemony, somewhat nutty taste to linger on your tongue.  Eaten with crackers or good bread, or used in a salad or your favorite recipe; this chevre will add an exciting dimension to your menu palette.</p>
+        </div>  <!-- closing tag for columnOne -->        
+        
+        <div id="columnTwo">
+            <img src="common/art/AAGC_partyjar.jpg" id="partyjar" alt="our parties in a jar" />
+            <h3>party in a jar</h3>     <!-- this line all caps -->
+            <p>Smooth creamy plain chevre, marinating in Extra Virgin Olive Oil, with LOTS of flavorings IN the oil, such as: basil, garlic, kalamata olives, sundried tomatoes, pine nuts, black pepper, roasted red peppers, and rosemary.  These ingredients infuse the oil with their fresh flavors and give the chevre a rich complexity.  Eaten with crackers or good crusty bread, or used in a salad or your favorite recipe; this one should be shared with someone you love.</p>
+        </div>  <!-- closing tag for columnTwo -->
+        
+        <div id="columnThree">
+            <p class="avail">Available in 7 flavors <span id="arrow">&gt;</span></p>
+       </div>
+        
+        <div id="columnFour">   <!-- for party-jar -->
+            <p class="avail" id="jars">Available in 8 oz, 12 oz, and 16 oz jars</p>
+        </div>
+        
+        <div id="columnFive">
+            <button>Buying Options</button>        
+        </div>
+
+        <div id="columnSix">
+            <button>Buying Options</button>     <!-- for party-jar -->
+        </div>        
+    </section>      <!-- closing tag for #products --> <!-- why does this section not enclose the whole thing? -->
+    
+    <section id="news">
+        <h2><span>news</span></h2>   <!-- this line all caps -->
+        
+        <div id="newsContent">
+        <img src="common/art/AAGC_newsHero.jpg" id="miniHero" alt="cheese wheel on board and cheese bags"/>     <!--tried making background image... no... -->
+        
+        <div id="newsText">     <!-- trying grouping headline/paragraph text together -->
+                                <!-- to keep it unified inside a box even though it's separate things -->
+        <h4>what do a gathering of goat girls do for fun?</h4>   <!-- this line all caps -->
+        <p>They make CHEESE!</p>
+        <p>I have had such a great time visiting the Shaw Generations Farm, in Grampian, PA where Jenni, Karena, and Susie are starting their goat journey by milking, by making soaps and balms and salves.  A big big big garden will supplement their tables when they get into the swing of doing local Farmers' Markets.</p>
+        </div>      <!-- closing tag for newsText -->
+            
+        </div>      <!-- closing tag for newsContent -->        
+    </section>      <!-- closing tag for news -->
+    
+    </div>  <!-- closing tag for wrapper div -->
+        
+    <footer>
+        <!-- should these be in ul/li? i guess they don't need to be... -->
+        <div id="social">
+            <img src="common/art/AAGC_fbIcon.gif" class="smIcons" alt="facebook" />
+            <img src="common/art/AAGC_PntrstIcon.gif" class="smIcons" alt="pinterest" />
+            <img src="common/art/AAGC_BlgrIcon.gif" class="smIcons" alt="blogger" />
+        </div>
+        
+        <div id="contact">
+            <p id="company1">alsea acre alpines</p>     <!-- this line all caps -->
+            <p id="company2">Alsea Acre Goat Cheese</p>
+            <p id="email">luvsgoats@gmail.com</p>       <!-- this line italic -->
+            <p id="phone">1-541-487-4628</p>
+        </div>        
+    </footer>    
+</body>
+</html>

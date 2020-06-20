@@ -1,0 +1,446 @@
+/* MY STUFF GOES IN HERE */
+/* ____________________________________ */
+/* START HEADER SECTION STUFF */
+body {
+    width: 100%;
+        /*max-width: 1367px;      /* this is what i measured from PS */
+        /*max-width: 1100px;      /* Ooo!  puts a white/blank edge on right! */
+}
+header {        /* the entire top part, containing hero image, nav bar, little tab, plus the "edges" */
+    background-color: #630618;    /* ooo... try moving this to #hero... no... */
+    width: 100%;
+        /*max-width: 1100px;      /* Ooo!  puts a white/blank edge on right! */    
+}
+header div#hero {       /* for the hero image */
+    width: 86%;         height: 38.75em;      /* 620px = 38.75em... ems worked here, the 'divide-by-16' thing... */
+        /*height: auto;     /* well, this doesn't work... */       
+    margin: 0 auto;     /* the 'auto' is needed to center photo, even w/'background-position' set to 50% for left/right... ???*/        
+    padding: 0;    
+    background-color: #630618;    /* ooo... try moving this from header... just put it on both */
+    background-image: url(../art/AAGC_Hero.jpg);
+    background-position: 50% 0%;    /* why is this not centering image? I know about the "margin: 0 auto" thing but I thought this would center, too? */
+    background-repeat: no-repeat;
+    background-size: cover;   /* aha!  here we go, for the size w/o cutting things off... */
+                            /*interesting that it doesn't *shrink* a slightly-too-large photo, which I thought it would... but trims off edges... */
+    
+    /*border: 1px solid yellow;     /* just testing stuff */
+    
+        /*padding-left: 132px;  padding-right: 132px;      /* these are what i measured from PS */
+        /* photo width measured 1104px & height 621px in PS */
+        /*width: 96%;   /* I tried this width when I had background color in header & then had photo less-wide inside that... */
+        /*height: 423px;    /* this height lined up *visually* w/PS... but cuts off bottom of photo here */
+        
+        /* why is photo so much bigger, both ways, than on PS -- when I kept those measurements? it's just 'as-sliced' from PS... */
+        /* obviously it's just a "visual effect" of some kind??  I guess?? */
+    
+        /* okay... so why/how is it NOW suddenly not having any dark-red background-color showing below the photo when you shrink width of page?? */
+        /* Like it was last night?  What did I suddenly do that I'm not aware/sure of?? (morning of 05/19) */ 
+        /* and why was this SO freaking hard last night?? (middle-of-night 05/18-19) */
+}
+header nav#top {        /* this is the whole nav bar thing that overlays top of hero image, "tab" thing sits on top of it */
+    /* background-color: #4b0916;  not sure of exact hex on this one b/c of transparency... I get different values different places! */
+    background-color: rgba(75,9,22,.75);        /* find rgba code so you can do transparency */    
+    width: 100%;        /* measured 1104px in PS */     height: auto;
+    height: 6.125em;       /* measured 120px in PS... adjusted down to 98px = 6.125em */
+    
+    /*border: 3px solid yellow;     /* just for testing */
+}
+header div#logo {       /* the little 'tab' thingie... overlays top of nav bar & hero image */
+    float: left;
+    background-color: #630618;          border: .0625em solid #630618;
+    border-bottom-left-radius: 1.25em;      border-bottom-right-radius: 1.25em;        /* 18px = 1.125em */    
+    height: 4.25em;      /* measured 147px on PS... adjusted visually down to 124px, = 7.75em */    
+    margin-left: 1.5em;      /* sets distance of 'tab' from left edge of photo/stripe */
+    margin-right: 1.5em;     /* sets distance of 'tab' from menu link text */
+    padding-top: 1.5em;      /* sets distance of inner text from top edge of 'tab' */
+    padding-left: .72em;     /* sets distance of inner text from left edge of 'tab' */
+    padding-right: .72em;    /* sets distance of inner text from right edge of 'tab' */
+    text-align: center;         color: #f4e2d1;
+    font-family: "museo-slab", Verdana, Helvetica, Arial, serif;        font-weight: 500;
+    font-size: 28px;        /* get actual font size! */
+        /*font-size: 1.75em;     /* aha! EMS DON'T WORK HERE! now matter what ems you use!  */
+                            /* px is the only way to have lines even on ends... must have to do with their 'relative' nature...  */
+    
+    /*border: 1px solid yellow;*/
+}
+header #goatCheese {       /* 2nd line in that tab that overlays top of nav bar & hero image */
+    color: #f4e2d1;         text-transform: uppercase;          text-align: center;
+    font-size: 22px;        /* get actual font size! */
+        /*font-size: 1.375em;     /* aha! EMS DON'T WORK HERE! see above... */
+}
+header nav#top ul {
+        /*margin-left: 89px;    don't need this w/margin-right on 'tab' */
+        /*padding-left: 89px;     /* didn't do anything */
+    padding-top: 3em;      /* measured 72px on PS...  for vertical space above menu items */
+    
+    /*border: 1px solid yellow;     /* just testing */
+}
+header nav#top ul li {      /* the menu items */
+    display: inline-block;              text-transform: uppercase;    
+    color: #f4e2d1;         /* Peter has color: rgb(244, 226, 209); */
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;        font-weight: 500;
+    font-size: 1.125em;     /* get actual font size! */ /* 1.125em is from Peter... i had .875em... got font & weight right, though! */
+    
+    /*border: 3px solid yellow;     /* just testing */
+}
+header nav#top ul li a {        /* the link part of the menu items */
+    display: block;         text-transform: uppercase;          text-decoration: none;    
+    color: #f4e2d1;     /* Peter has color: rgb(244, 226, 209); */    
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;    font-weight: 500;
+    font-size: 1.125em;        /* get actual font size! */   /* same note as above */    
+    padding: .25em .75em;       /* makes bigger clickable area */
+    
+    /*border: 3px solid blue;     /* just testing */
+}
+header nav#top ul li.current a {
+    text-transform: uppercase;
+        /*text-decoration: underline;   /* nope, this doesn't look right... */
+    border-bottom: .125em solid #808775;   /* but width isn't right... even though it looks more like it's supposed to... */
+}
+header nav#top ul li a#mag, header nav#top ul li a#cart {
+        /*height: .75em;          width: .75em;    /* measured 23px on PS... why don't they get smaller? */
+    padding-left: .125em; padding-right: .125em;
+}
+/* END HEADER SECTION STUFF */
+/* ____________________________________ */
+/* START WRAPPER STUFF -- RUNS/FILLS IN BETWEEN HEADER & FOOTER */
+#wrapper {
+    clear: both;            width: 100%;
+        /*max-width: 1100px;      /* measured 1367px on PS... Ooo! puts white/blank edge on right! */    
+    background-color: #f4e2d1;    
+    padding-top: 4.5em;     padding-bottom: 4.5em;         /* measured 88px on PS... adjusted visually down to ?? (I forget) */
+}
+/* END WRAPPER STUFF -- RUNS/FILLS IN BETWEEN HEADER & FOOTER */
+/* ____________________________________ */
+/* START 'ABOUT' SECTION STUFF */
+#about {        /* the darker tan band/stripe containing the goat photo and 'about' text */
+    width: 100%;        height: 24.6em;      /* measured 418px on PS */
+    background-color: #c2b9a0;
+    padding-top: 1.6em;      /* measured 29px on PS... adjusted visually down to 24px */
+    padding-bottom: 3em;   /* measured 88px on PS... adjusted visually down to 48px */
+                            /* then realized it doesn't do anything b/c of section height (: */
+    padding-left: 4.25em;      /* measured 202px on PS... adjusted visually down to 160px... tried 10% */
+    padding-right: 12%;     /* measured 229px on PS... adjusted visually down to 207px... tried 10% */
+                                /* 206px on PS is how far in from right jar photo is, btw... */    
+
+    /*border: 1px solid black;      /* just testing */
+}
+#goat {     /* the cute goat photo */
+        /* photo width measured 399px & height 302px on PS */
+        /* don't need to set here, though, photo is what it is... right? */
+        /* photo is visually bigger (height & width) than on PS -- even though i kept those measurements... it's "as-sliced"... */
+        /* can't do like w/Products for positioning... not with the text to the right... */ /* wait, what? (later) */
+        /* ...and it's different w/big Hero photo up top, since it's a background image of it's element... */
+        /* width: 100px; height: auto;   okay, THESE worked to proportionally shrink photo...testing for future reference... */
+        /* but do I really *need* to make this and the 'miniHero' (in News) smaller, proportinally/visually? or leave measurements "as-sliced"? */
+    
+    float: left;    
+        /*padding-right: 1.5%;    /* spacing between photo and text... used margin on div w/text in it instead */    
+    
+    /*padding-left: 3px;      /* just for testing, to see other border lines */          
+    /*border: 3px solid green;    /* just for testing */
+}
+#about #aboutText {     /* contains both headline & paragraph */
+    margin-left: 420px;             width: 34em;
+    
+    /*border: 3px solid blue;     /* just for testing */
+}
+#about h3 {     /* 'about alsea acres' headline */
+    padding-top: 1.25em;      /* measured 115px on PS... adjusted visually down to 64px... why is 4em so huge/tall?? */
+    padding-bottom: .25em;   /* measured 22px on PS... adjusted visually down to 20px... why is 1.25em so big/tall?? */
+    color: #630618;         /* Peter has rgb(99,6,24); */    text-transform: uppercase;          
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;           font-weight: 500;
+    font-size: 2.5em;        /* get actual font size! */ /* 2.5em is from Peter... I had 2.25em, and got the weight right! */
+    width: 12em;
+    
+    /*border: 3px solid red;      /* just for testing */
+}
+#about p {              /* the 'about' paragraph text */
+    color: #000000;     /* black */
+    font-family: "Museo-Sans", Verdana, Helvetica, Arial, sans-serif;         font-weight: 300;
+    font-size: 1.5em;        /* get actual font size! */ /* 1.5em is from Peter, I had 1.25em... he didn't give weight this time... I got font right! */
+    line-height: 1.25em;                    width: 22em;
+    
+    /*border: 1px solid orange;       /* just for testing */
+}
+/* END 'ABOUT' SECTION STUFF */
+/* ____________________________________ */
+/* START 'PRODUCTS' SECTION STUFF */
+#products {     /* content not full width... two columns... same background-color as wrapper */
+    clear:  both;               background-color: transparent;  
+    margin-top: 7.2em;
+    
+    /*border: 3px solid green;        /* just testing */
+}
+#products h2 {      /* the main section headline... how do I get that split line??? */       
+        /*display: inline-block;          margin-left: 3em*/ /* this was just for trying to figure out split line, threw off floats/columns below */
+    color: #630618;     /* Peter has rbg(99,6,24); */            text-transform: uppercase;
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;           font-weight: 500;
+    font-size: 3.541em;        /* get actual font size! */ /* 3.541em is from Peter... I had 3em got font & weight right though... */   
+        /*padding-top: 1.2em;         /* measured 92px on PS... adjusted visually down to 62px */
+        /*taken out b/c of top margin on whole 'products' section */
+    padding-bottom: 1.4em;      /* measured 109px on PS... adjusted visually down to 80px */
+        /* why are ems not working here? The 'divide-by-16' thing? On some things? for instance, they were equivalent on the height in header div#hero... */             
+    padding-left: 3.2em;      /* measured 276px on PS, adjusted visually down to 242px */
+        /* ems all screwy here, too?  'Divide-by-16' thing not working... it did on... some other places... right? */
+        /* is it because it's spacing and not letters/print/type? */
+        /* btw... the vertical spacing isn't mirroring that of #news h2 */
+    
+    border-top: 4px solid #c2b9a0;    /* working on split line */
+    
+    /*border: 3px solid yellow;       /* just testing */
+}
+#products h2 span {     /* trying to make that split line... */
+    position: absolute;
+    margin-top: -34px;
+    background-color: #f4e2d1;
+    padding: 0 .4em;
+}
+#fromage {      /* the tubs photo */
+    /*width measured 472px and height 233px on PS */
+    width: 100%;        /* sets width relative to column */
+    height: auto;       /* adjusts height relative to width */
+}
+#partyjar {     /* the jars photo */
+    /*width measured 472px and height 233px on PS */
+    width: 100%;        /* sets width relative to column */
+    height: auto;       /* adjusts height relative to width */
+}
+#products h3 {      /* the 'fromage' and 'party-in-a-jar' headlines under photos */
+    color: #630618;     /* Peter has rgb(99,6,24); */         text-transform: uppercase;
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;           font-weight: 500;
+    font-size: 2.5em;        /* get actual font size! */ /* 2.5em is from Peter... I had 2em, but font & weight right (:  */
+    padding-top: 1.2em;      /* measured 54px on PS... adjusted visually down to 42px */
+    padding-bottom: .25em;   /* measured 18px on PS... adjusted visually down to 8px */
+        /* ems 'divide-by-16' thing still not working here... */
+}
+#products p {       /* paragraphs for item descriptions */  /* matches up w/columns, when you turn on borders */
+    width: 100%;    /* width measured 468px on PS */    
+    color: #000000;     /* black */
+    font-family: "Museo-Sans", Verdana, Helvetica, Arial, sans-serif;           font-weight: 300;
+    font-size: 1.125em;        /* get actual font size! */ /* 1.5em is from Peter, I had .9em... I also had weight at 300, but got font */
+    line-height: 1.2em;                                                     /* are you *sure* the weight if 500?? */
+    
+    /*border: 3px solid green;      /* just testing */
+}
+#products .avail {      /* the 'available in...' lines under descriptions */
+    color: #000000;     /* black */
+    font-family: "Museo-Sans", Verdana, Helvetica, Arial, sans-serif;         font-weight: 500;
+    font-size: 1.5em;        /* get actual font size! */ /* 1.5em is from Peter... I had 1.2em... Plus, I coulda *sworn* the text in the paragraph/descriptions was smaller than the 'Available In' lines!  And that 'Available In' was a heavier weight, too... I got weight & font right though */
+    padding-top: 3em;      /* measured 92px on PS... adjusted visually down to 72px */
+    padding-bottom: 1.6em;   /* measured 62px on PS... adjusted visually down to 48px */
+        /* ems are still being weird... why isn't the 'divide-by-16' thing working? */
+
+    /*border: 3px solid pink;     /* just testing */
+}
+#arrow {    /* that comes after 'available' for 'fromage' column */
+    color: #c2b9a0;
+    font-family: "museo-sans", Verdana, Helvetica, Arial, sans-serif;       font-weight: 500;
+    font-size: 1.5em;        /* get actual font size! */
+    margin-left: .5em;      /* why are the ems being so weird? 16px was good but 1em is huge */
+        /*margin-top: 1em;        /* why won't this push down some? */
+    margin: 0;  padding: 0;     /* just trying stuff... */
+    
+    /*border: 1px solid black;      /* just testing */
+}
+#columnOne {    /* fromage photo, headline, description */
+    width: 38%;         /* width measured 478px on PS (or close to that) */    
+    float: left;        /* stuff must be too wide... do percentages? (wait, what was going on?) */
+    margin-left: 10%;               padding: 1px;
+    
+    /*border: 3px solid blue;   /* just testing */
+}
+        /* ummm... why the different visual widths here? */
+
+#columnTwo {    /* party-jar photo, headline, description */
+    width: 38%;         /* width measured 480px on PS (or close to it) */    
+    float: right;       /* AHA!  float this one right... fixes visual width thing... */
+    margin-right: 10%;              padding: 1px;
+    
+    /*border: 3px solid blue;   /* just for testing */
+}
+#columnThree {  /* fromage 'available in' line */
+    clear: both;            float: left;        text-align: center; 
+    width: 38%;         margin-left: 10%;       padding: 1px;
+    
+    /*border: 3px solid purple;       /* for testing */
+}
+#columnFour {   /* party-jar 'available in' line */
+    float: right;           text-align: center; 
+    width: 38%;         margin-right: 10%;      padding: 1px;
+    
+    /*border: 3px solid purple;       /* for testing */
+}
+#columnFive {   /* fromage 'buying' button */
+    clear: both;            float: left;        text-align: center; 
+    width: 38%;         margin-left: 10%;       padding: 1px;
+    
+    /* border: 2px solid pink;      /* just for testing */
+}
+#columnSix{     /* party-jar 'buying' button */
+    float: right;           text-align: center; 
+    width: 38%;         margin-right: 10%;      padding: 1px;    
+    
+    /* border: 2px solid pink;      /* just for testing */
+}
+#products button {      /* does both buttons, of course */
+    margin: 0;                      background-color: #630618;
+    border: 1px solid #630618;          border-radius: .875em;    /* had 14px, ems worked right here! */    
+    width: 98%;        /* width measured 472px on PS... this sets width relative to column */
+    height: 3em;       /* measured 94px on PS... adjusted visually down to 74px... ems still being weird, 'divide-by-16 thing not working... */    
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;        font-weight: 700;
+    font-size: 1.8125em;        /* get actual font size! */ /* 1.8125em is from Peter... I had 1.5em, I got font & weight right! */
+    color: #f4e2d1;     /* Peter has rgb(244,226,209); */
+    
+    /* WHY CAN'T I GET THE BUTTONS VERTICALLY EVEN?! */ /* Aha!  Peter's idea about doing separate columns worked!  Of course.  (: */
+}
+/* END 'PRODUCTS' SECTION STUFF */
+/* ____________________________________ */
+/* START 'NEWS' SECTION STUFF */
+#news {     /* same background color as wrapper til content part (the darker tan stripe) */
+    width: 100%;            clear: both;        background-color: transparent;
+    margin-top: 6em;    padding-top: 7.2em;   
+        /* wtf?  why did it have to be padding here? margin didn't do anything... but it worked up top for #products?? */
+    
+    /*border: 3px solid green;       /* just testing */
+}
+#news h2 {      /* the main section headline */             /* how do I get that split line thing??? */
+    color: #630618;     /* Peter has rgb(99,6,24); */           text-transform: uppercase;
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;            font-weight: 500;
+    font-size: 3.541em;        /* get actual font size! */ /* 3.541em is from Peter... I had 3em, got font & weight right */    
+        /*padding-top: 1.5em;     /* measured 112px on PS... adjusted visually down to 72px */
+        /*taken out b/c of top margin on whole 'news' section */
+    padding-bottom: 1.4em;   /* measured 94px on PS... adjusted visually down to 66px */
+    padding-left: 3.2em;    /* measured 284px on PS... adjusted visually down to 228px */
+        /* ems still weird... why is the 'divide-by-16' thing not working? */
+    
+        /* Note: original design has vertical spacing different here, above & below the headline, than for 'Products'... 
+        they doesn't mirror each other... but they do now.  Heh. I couldn't take it otherwise. */
+    
+    border-top: 4px solid #c2b9a0;      /* working on split line */
+    
+    /*border: 3px  solid yellow;       /* just testing */
+}
+#news h2 span {
+    position: absolute;
+    margin-top: -34px;
+    background-color: #f4e2d1;
+    padding: 0 .4em;
+}
+#news #newsContent {    /* other darker-tan band containing mini-hero & goat girls stuff */
+    width: 100%;        height: 24em;       /* measured 385px on PS... left it that b/c photo... ems worked here */    
+    background-color: #c2b9a0;
+        /* _________________________________________________
+        /*background-image: url(../art/AAGC_newsHero.jpg);
+        /* this photo is bigger (height & width) than on PS even though i used those measurements */
+        /*background-position: 15% 0%;
+        /*background-repeat: no-repeat;
+        /*background-size: auto;          tried all this to see what it would do... */
+        /* _________________________________________________*/
+    
+        /*padding-left: 132px;      /* as measured on PS... looks way too wide... divide/16 to make ems looks too wide... */
+        /* NO-NO-NO!!! do padding *HERE*, on the stripe... not margins etc. of photo & text!!! */
+    padding-left: 5.8em;         /* tried 7.5%... but want photo to remain in place if page widened/narrowed... */
+    padding-right: 10.5%;         /* tried 10.5% works better when page is widened/narrowed... */
+    
+    /*border: 1px solid yellow;       /* just testing */
+}
+#miniHero {     /* the mini-version of the hero photo */
+    /*width measured 683px and height 385px on PS */
+        /*width: 64%; height: 80%;       /* trying to make photo smaller, but this cuts it off */
+        /* Why is photo bigger (height & width) than on PS even though i kept those measurements?? ALL the photos are... I mean, visually... */
+    
+    float: left;
+    
+        /*margin-left: 8%;    /* tried using margin here to push photo in from left, instead of using padding-left on #newsContent... */
+                            /* NO-NO-NO!!!  do the padding-left on #newsContent! */    
+        /*padding-right: 1.5%;      /* space measured 29px on PS -- pushes photo left from text, used margin on text instead */
+    
+    /*padding-left: 5px;          /* this & the border thing just for testing */
+    /* border: 1px solid green; */
+}
+#newsText {
+    margin-left: 702px;             width: 25em;   
+    
+    /*border: 3px solid blue;     /* just for testing */    
+}
+#news #newsText h4 {      /* the cute 'goat girls' headline */
+        /*margin-left: 66%;     /* tried this instead of padding-right on photo */
+        /*margin-right: 4%;     /* and this instead of padding-right on tan stripe */
+    
+    padding-top: 1.8em;      /* measured 30px on PS... vertical spacing all off b/c of difference in appearance of photo sizes... */
+                            /*ems 'divide-by-16' thing worked here... */
+        /*padding-bottom: 24px;     /* was for spacing between this & answer... BUT, using padding-top on the paragraph(s) works better... */
+    
+    color: #630618;     /* Peter has rgb(99,6,24); */         text-transform: uppercase;
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;        font-weight: 700;
+    font-size: 1.4375em;        /* get actual font size! */ /* 1em is from Peter... I had 1.125em... I coulda sworn it was over 1em, although yes, smaller than the other 'headlines'... I had weight at 500, but got font */
+    width: 16em;
+    
+    /*border: 1px solid red;      /* just for testing */
+}
+#news #newsText p {   /* the 'they make CHEESE!' and following paragraph */
+        /*margin-left: 680px;*/     /* tried this instead of padding-left on tan stripe */
+        /*margin-left: 66%;         /* tried this instead of padding-right on photo */
+        /*margin-right: 4%;         /* tried this instead of padding-right on tan stripe */   /* using padding on tan stripe & photo works better i think... */
+
+    padding-top: 1em;      /* vertical space between h4 and 1st p, and the two p's */    
+    color: #000000;     /* black */
+    font-family: "Museo-Sans", Verdana, Helvetica, Arial, sans-serif;           font-weight: 300;
+    font-size: 1.125em;        /* get actual font size! */ /* Peter didn't specify this spot... but it totally *looks* smaller than the headline... */
+    line-height: 1.125em;            /* I bumped my weight up from 300 */                        /* and much lighter-weight */    
+    width: 20em;
+    
+    /*border: 3px solid orange;       /* just for testing */
+}
+/* END 'NEWS' SECTION STUFF */
+/* ____________________________________ */
+/* START FOOTER SECTION STUFF */
+footer {
+    clear: both;                background-color: #630618;
+}
+footer #social {
+    float: left;    
+    padding-left: 8em;      /* measured 202px on PS... adjusted visually down to 162px... tried percentages, went to this */    
+    padding-top: 3em;   padding-bottom: 3em;      /* measured 54px on PS... ems close here... */
+    
+    /*border: 1px solid yellow;     /* just testing */
+}
+footer .smIcons {   /* facebook, pinterest, blogger */
+    width: 2em;     height: 2em;     /* measured 51px on PS, that's way too big here... so adjusted to these... */
+}
+footer #contact {       /* the info-block overall */
+        /*float: right;     /* nope, didn't work */    
+    text-align: right;          color: #f4e2d1;    
+    padding-top: 2em;   padding-bottom: 2em;    /* measured 42px on PS... adjusted visually down to 36px */    
+    padding-right: 8em;      /* measured 206px on PS... adjusted visually down to 162px... tried percentages, went to this */
+        /* Note:  #social & #contact are equal distances in from their respective edges  */
+    
+    /*border: 1px solid yellow;     /* just for testing */
+}
+footer #company1 {      /* Alsea Acre Alpines */
+    color: #f4e2d1;     /* Peter has rgb(244,226,209); */         text-transform: uppercase;
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;        font-weight: 500;
+    font-size: 1.125em;        /* get actual font size! */ /* 1.125em is from Peter, I had .875em... he doesn't give a weight, I got font right */
+    line-height: 1.2em;
+}
+footer #company2 {      /* Alsea Acres Goat Cheese */
+    color: #f4e2d1;     /* Peter has rgb(244,226,209); */         text-transform: uppercase;
+    font-family: "Museo-Slab", Verdana, Helvetica, Arial, serif;        font-weight: 500;
+    font-size: 1.125em;        /* get actual font size! */ /* 1.125em is from Peter, I had .875em... he doesn't give a weight, I got font right */
+    line-height: 1.2em;
+}
+footer #email {
+    color: #f4e2d1;     /* Peter has rgb(244,226,209); */              font-style: italic;
+    font-family: "Museo-Sans", Verdana, Helvetica, Arial, sans-serif;       font-weight: 300;
+    font-size: 1em;        /* get actual font size! */               line-height: 1.2em;
+        /* Peter didn't differentiate, but I swear it's smaller & sans! but went up to 1em from .875em */
+}
+footer #phone {
+    color: #f4e2d1;     /* Peter has rgb(244,226,209); */
+    font-family: "Museo-Sans", Verdana, Helvetica, Arial, sans-serif;       font-weight: 300;
+    font-size: 1em;        /* get actual font size! */               line-height: 1.2em;
+        /* Peter didn't differentiate, but I swear it's smaller & sans! but went up to 1em from .875em */
+}
+/* END FOOTER SECTION STUFF */
+/* ____________________________________ */
