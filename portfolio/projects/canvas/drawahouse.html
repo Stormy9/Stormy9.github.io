@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Drawing a House</title>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.11/fabric.min.js" integrity="sha256-7ItGuXatusoFHmZq8VJJeB5bpkbY017IVcyiV6mv68k=" crossorigin="anonymous">
+    </script>
+    
+    <style>
+    body {
+		width: 95%;
+		margin: 18px auto;
+		/*border: 1px solid black;  /* just testing */
+}
+#c {
+  border: 6px solid #442a08;
+  /*display: inline-block;  /*nope, didn't work/don't need... */
+}
+#door {
+  /*border: 1px solid red;  /* just testing */
+  float: right;
+  /*display: inline-block;  /*nope, didn't work/don't need... */
+  /*Aha!  Had to put text BEFORE canvas element in order to get it over on the side like that!  But I got it finally!*/
+  margin-left: 472px;
+  font-family: Verdana, Arial, Sans-Serif;
+}
+    </style>
+</head>
+
+<body>
+    <section id="door">
+        <p>click the door to knock &amp; see who's home!</p>
+        <p>click any of the weeds to see what happens... </p>
+        <p>and try clicking the lawn... </p>
+  </section>
+    
+  <canvas width="450" height="360" id="c"></canvas>
+    
+  <script>    
+
+// create a wrapper around native canvas element (with id="c")
+var canvas = new fabric.Canvas('c');
+var context = canvas.getContext('2d');
+////////////////////////////////////////////////////////////////////
+// make our sky rectangle
+var sky = new fabric.Rect({
+  left: 0,    top: 0,   // so start in the very corner...
+  width: 450,   height: 190,  // full width & 1/2 height (full height=360)
+  fill: '#6699ff',    // sky blue... 
+});
+// make the sky show up on the canvas
+canvas.add(sky);  // your variable name goes in the parens
+sky.set('selectable', false);   // no, you can't touch the sky... 
+sky.setGradient('fill', {
+  x1: 0,    y1: -sky.height / 2,
+  x2: 0,    y2: sky.height / 2,
+  colorStops: {
+    0: '#4d88ff',   1: '#ccdcff'
+  }
+});
+//---------------------------------
+// make our lawn rectangle
+var lawn = new fabric.Rect({
+  left: 0,    top: 190,   // left is x-axis & top is y-axis
+  width: 450,   height: 170,  // full width & 1/2 height
+  fill: '#4d9900',
+});
+canvas.add(lawn);    // plant the lawn
+lawn.set('selectable', false);   // stay off my lawn!
+lawn.on('mousedown', function() {  
+//alert("Get off my lawn!");
+  var getoff = new Audio('getoffmylawn.mp3');
+  getoff.play();        // https://stormcloudenterprises.000webhostapp.com/
+});
+//---------------------------------
+var grass1 = new fabric.Path('M 3 190 L 3 187');
+grass1.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass1);  // add some texture to the lawn
+grass1.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass2 = new fabric.Path('M 6 190 L 6 187');
+grass2.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass2);  // add some texture to the lawn
+grass2.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass3 = new fabric.Path('M 9 190 L 9 187');
+grass3.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass3);  // add some texture to the lawn
+grass3.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass4 = new fabric.Path('M 12 190 L 12 187');
+grass4.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass4);  // add some texture to the lawn
+grass4.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass5 = new fabric.Path('M 15 190 L 15 187');
+grass5.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass5);  // add some texture to the lawn
+grass5.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass6 = new fabric.Path('M 18 190 L 18 187');
+grass6.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass6);  // add some texture to the lawn
+grass6.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass7 = new fabric.Path('M 21 190 L 21 187');
+grass7.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass7);  // add some texture to the lawn
+grass7.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass8 = new fabric.Path('M 24 190 L 24 187');
+grass8.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass8);  // add some texture to the lawn
+grass8.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass9 = new fabric.Path('M 27 190 L 27 187');
+grass9.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass9);  // add some texture to the lawn
+grass9.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass10 = new fabric.Path('M 30 190 L 30 187');
+grass10.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass10);  // add some texture to the lawn
+grass10.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass11 = new fabric.Path('M 33 190 L 33 187');
+grass11.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass11);  // add some texture to the lawn
+grass11.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass12 = new fabric.Path('M 36 190 L 36 187');
+grass12.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass12);  // add some texture to the lawn
+grass12.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass13 = new fabric.Path('M 39 190 L 39 187');
+grass13.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass13);  // add some texture to the lawn
+grass13.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass14 = new fabric.Path('M 42 190 L 42 187');
+grass14.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass14);  // add some texture to the lawn
+grass14.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass15 = new fabric.Path('M 45 190 L 45 187');
+grass15.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass15);  // add some texture to the lawn
+grass15.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass16 = new fabric.Path('M 48 190 L 48 187');
+grass16.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass16);  // add some texture to the lawn
+grass16.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass17 = new fabric.Path('M 51 190 L 51 187');
+grass17.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass17);  // add some texture to the lawn
+grass17.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass18 = new fabric.Path('M 54 190 L 54 187');
+grass18.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass18);  // add some texture to the lawn
+grass18.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass19 = new fabric.Path('M 57 190 L 57 187');
+grass19.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass19);  // add some texture to the lawn
+grass19.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass20 = new fabric.Path('M 60 190 L 60 187');
+grass20.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass20);  // add some texture to the lawn
+grass20.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass21 = new fabric.Path('M 63 190 L 63 187');
+grass21.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass21);  // add some texture to the lawn
+grass21.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass22 = new fabric.Path('M 66 190 L 66 187');
+grass22.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass22);  // add some texture to the lawn
+grass22.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass23 = new fabric.Path('M 69 190 L 69 187');
+grass23.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass23);  // add some texture to the lawn
+grass23.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass24 = new fabric.Path('M 72 190 L 72 187');
+grass24.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass24);  // add some texture to the lawn
+grass24.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass25 = new fabric.Path('M 75 190 L 75 187');
+grass25.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass25);  // add some texture to the lawn
+grass25.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass26 = new fabric.Path('M 78 190 L 78 187');
+grass26.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass26);  // add some texture to the lawn
+grass26.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass27 = new fabric.Path('M 367 190 L 367 187');
+grass27.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass27);  // add some texture to the lawn
+grass27.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass28 = new fabric.Path('M 370 190 L 370 187');
+grass28.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass28);  // add some texture to the lawn
+grass28.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass29 = new fabric.Path('M 373 190 L 373 187');
+grass29.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass29);  // add some texture to the lawn
+grass29.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass30 = new fabric.Path('M 376 190 L 376 187');
+grass30.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass30);  // add some texture to the lawn
+grass30.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass31 = new fabric.Path('M 379 190 L 379 187');
+grass31.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass31);  // add some texture to the lawn
+grass31.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass32 = new fabric.Path('M 382 190 L 382 187');
+grass32.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass32);  // add some texture to the lawn
+grass32.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass33 = new fabric.Path('M 385 190 L 385 187');
+grass33.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass33);  // add some texture to the lawn
+grass33.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass34 = new fabric.Path('M 388 190 L 388 187');
+grass34.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass34);  // add some texture to the lawn
+grass34.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass35 = new fabric.Path('M 391 190 L 391 187');
+grass35.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass35);  // add some texture to the lawn
+grass35.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass36 = new fabric.Path('M 394 190 L 394 187');
+grass36.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass36);  // add some texture to the lawn
+grass36.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass37 = new fabric.Path('M 397 190 L 397 187');
+grass37.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass37);  // add some texture to the lawn
+grass37.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass38 = new fabric.Path('M 400 190 L 400 187');
+grass38.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass38);  // add some texture to the lawn
+grass38.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass39 = new fabric.Path('M 403 190 L 403 187');
+grass39.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass39);  // add some texture to the lawn
+grass39.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass40 = new fabric.Path('M 406 190 L 406 187');
+grass40.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass40);  // add some texture to the lawn
+grass40.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass41 = new fabric.Path('M 409 190 L 409 187');
+grass41.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass41);  // add some texture to the lawn
+grass41.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass42 = new fabric.Path('M 412 190 L 412 187');
+grass42.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass42);  // add some texture to the lawn
+grass42.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass43 = new fabric.Path('M 415 190 L 415 187');
+grass43.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass43);  // add some texture to the lawn
+grass43.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass44 = new fabric.Path('M 418 190 L 418 187');
+grass44.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass44);  // add some texture to the lawn
+grass44.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass45 = new fabric.Path('M 421 190 L 421 187');
+grass45.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass45);  // add some texture to the lawn
+grass45.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass46 = new fabric.Path('M 424 190 L 424 187');
+grass46.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass46);  // add some texture to the lawn
+grass46.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass47 = new fabric.Path('M 427 190 L 427 187');
+grass47.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass47);  // add some texture to the lawn
+grass47.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass48 = new fabric.Path('M 430 190 L 430 187');
+grass48.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass48);  // add some texture to the lawn
+grass48.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass49 = new fabric.Path('M 433 190 L 433 187');
+grass49.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass49);  // add some texture to the lawn
+grass49.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass50 = new fabric.Path('M 436 190 L 436 187');
+grass50.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass50);  // add some texture to the lawn
+grass50.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass51 = new fabric.Path('M 439 190 L 439 187');
+grass51.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass51);  // add some texture to the lawn
+grass51.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass52 = new fabric.Path('M 442 190 L 442 187');
+grass52.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass52);  // add some texture to the lawn
+grass52.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass53 = new fabric.Path('M 445 190 L 445 187');
+grass53.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass53);  // add some texture to the lawn
+grass53.set('selectable', false);  // I said, stay off my lawn!
+//---------------------------------
+var grass54 = new fabric.Path('M 448 190 L 448 187');
+grass54.set({              // starts...goes to
+  strokeWidth: 1, stroke: '#4d9900' 
+});
+canvas.add(grass54);  // add some texture to the lawn
+grass54.set('selectable', false);  // I said, stay off my lawn!
+//-----------------now to make it look more like home...
+var weedstem1 = new fabric.Path('M 42 305 L 42 316');
+weedstem1.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#006600' 
+});
+canvas.add(weedstem1);  // don't need to plant these, they just show up...
+weedstem1.set('selectable', false);  // don't pick the weeds...
+// make something happen when weed is clicked
+weedstem1.on('mousedown', function() {  
+  alert("Stop that!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedpuff1 = new fabric.Circle({
+  left: 40, top: 305,   radius: 2, 
+  strokeWidth: 1,   stroke: '#d9d9d9',  // slightly darker edge...
+  fill: '#f5f5f5',    // silver-white middle...
+});
+canvas.add(weedpuff1);  // puffy white-ish weed-top... 
+weedpuff1.set('selectable', false); // touch this & the weeds will multiply...
+// make something happen when weed is clicked
+weedpuff1.on('mousedown', function() {  
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedstem2 = new fabric.Path('M 92 337 L 92 348');
+weedstem2.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#006600' 
+});
+canvas.add(weedstem2);  // don't need to plant these, they just show up...
+weedstem2.set('selectable', false);  // don't pick the weeds...
+// make something happen when weed is clicked
+weedstem2.on('mousedown', function() {  
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedpuff2 = new fabric.Circle({
+  left: 90, top: 335,   radius: 2, 
+  strokeWidth: 1,   stroke: '#d9d9d9',  // slightly darker edge...
+  fill: '#f5f5f5',    // silver-white middle...
+});
+canvas.add(weedpuff2);  // puffy white-ish weed-top... 
+weedpuff2.set('selectable', false); // touch this & the weeds will multiply...
+// make something happen when weed is clicked
+weedpuff2.on('mousedown', function() {  
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedstem3 = new fabric.Path('M 142 317 L 142 328');
+weedstem3.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#006600' 
+});
+canvas.add(weedstem3);  // don't need to plant these, they just show up...
+weedstem3.set('selectable', false);  // don't pick the weeds...
+// make something happen when weed is clicked
+weedstem3.on('mousedown', function() {  
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedpuff3 = new fabric.Circle({
+  left: 140, top: 315,  radius: 2, 
+  strokeWidth: 1,   stroke: '#d9d9d9',  // slightly darker edge...
+  fill: '#f5f5f5',    // silver-white middle...
+});
+canvas.add(weedpuff3);  // puffy white-ish weed-top... 
+weedpuff3.set('selectable', false); // touch this & the weeds will multiply...
+// make something happen when weed is clicked
+weedpuff3.on('mousedown', function() {  
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedstem4 = new fabric.Path('M 302 322 L 302 333');
+weedstem4.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#006600' 
+});
+canvas.add(weedstem4);  // don't need to plant these, they just show up...
+weedstem4.set('selectable', false);  // don't pick the weeds...
+// make something happen when weed is clicked
+weedstem4.on('mousedown', function() {  
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedpuff4 = new fabric.Circle({
+  left: 301, top: 320,  radius: 2, 
+  strokeWidth: 1,   stroke: '#d9d9d9',  // slightly darker edge...
+  fill: '#f5f5f5',    // silver-white middle...
+});
+canvas.add(weedpuff4);  // puffy white-ish weed-top... 
+weedpuff4.set('selectable', false); // touch this & the weeds will multiply...
+// make something happen when weed is clicked
+weedpuff4.on('mousedown', function() { 
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedstem5 = new fabric.Path('M 352 337 L 352 348');
+weedstem5.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#006600' 
+});
+canvas.add(weedstem5);  // don't need to plant these, they just show up...
+weedstem5.set('selectable', false);  // don't pick the weeds...
+// make something happen when weed is clicked
+weedstem5.on('mousedown', function() { 
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedpuff5 = new fabric.Circle({
+  left: 351, top: 334,  radius: 2, 
+  strokeWidth: 1,   stroke: '#d9d9d9',  // slightly darker edge...
+  fill: '#f5f5f5',    // silver-white middle...
+});
+canvas.add(weedpuff5);  // puffy white-ish weed-top... 
+weedpuff5.set('selectable', false); // touch this & the weeds will multiply...
+// make something happen when weed is clicked
+weedpuff5.on('mousedown', function() { 
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedstem6 = new fabric.Path('M 412 307 L 412 318');
+weedstem6.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#006600' 
+});
+canvas.add(weedstem6);  // don't need to plant these, they just show up...
+weedstem6.set('selectable', false);  // don't pick the weeds...
+// make something happen when weed is clicked
+weedstem6.on('mousedown', function() { 
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+var weedpuff6 = new fabric.Circle({
+  left: 410, top: 305,  radius: 2, 
+  strokeWidth: 1,   stroke: '#d9d9d9',  // slightly darker edge...
+  fill: '#f5f5f5',    // silver-white middle...
+});
+canvas.add(weedpuff6);  // puffy white-ish weed-top... 
+weedpuff6.set('selectable', false); // touch this & the weeds will multiply...
+// make something happen when weed is clicked
+weedpuff6.on('mousedown', function() {  
+  alert("Stop That!  You're gonna make more weeds...");
+});
+//---------------------------------
+/////////////////////////////////////////////////////////////
+// make the house-square
+var house = new fabric.Rect({
+  left: 108,    top: 135,   // remember x then y...
+  width: 225,     height: 135,    // test out position & adjust later
+  fill: '#ffff66',    // our house used to be yellow... 
+  strokeWidth: 6,   stroke: '#fcf4e8',    // ...with off-white trim...
+                              // (how do I get it off the bottom? covered top w/roof)
+});
+// stick the house on there so it kinda looks like there's a back yard
+canvas.add(house);  
+house.set('selectable', false);   // make house unselectable
+//---------------------------------
+// make the roof-triangle
+var roof = new fabric.Triangle({
+  left: 86,   top: 81,    // gotta match it up to the house...
+  width: 270,    height: 60,   // here too, with decent overhang on the sides
+  strokeWidth: 2,   stroke: '#404040',  // dark-gray border... do i like this?
+  fill: '#4d4d4d', 
+});
+canvas.add(roof);   // put the roof on the house
+roof.set('selectable', false);  // make roof unselectable
+//---------------------------------
+var vent = new fabric.Circle({
+  radius: 14,   // distance from center to end
+  left: 236.5,    top: 135,   // x & y starting points
+  angle: 180,   // this seems to rotate the arc around the imaginary circle
+  startAngle: 0,    endAngle: Math.PI,
+  stroke: '#fcf4e8',  strokeWidth: 3, fill: '#fcf4e8',  // off-white to match trim
+});
+canvas.add(vent);
+vent.set('selectable', false);  // hands off the vent...
+/////////////////////////////////////////////////////////////////////////////
+// make a door for the house -- this is where something should happen... (:
+var door = new fabric.Rect({
+  left: 204,    top: 212,   // remember x then y...
+  width: 35,     height: 58,    // test this out and adjust
+  fill: '#993333',    // kinda dark reddish-brown
+});
+canvas.add(door);   // stick the door on the house
+door.set('selectable', false); // don't be touching the door knob...
+// make something happen when door is clicked
+door.on('mousedown', function() { 
+  var woof = new Audio('woofs3.mp3');
+  woof.play();          // https://stormcloudenterprises.000webhostapp.com/
+});
+// it works!  worked!  but makes the puffy cloud go away... seriously??
+//---------------------------------
+var doorknob = new fabric.Circle({
+  left: 229, top: 242,  radius: 4, 
+  strokeWidth: 1,   stroke: 'black',
+  fill: '#e6b800',    // kinda gold middle
+});
+canvas.add(doorknob);  // put a doorknob on the door
+doorknob.set('selectable', false); // don't be touching the door knob...
+//---------------------------------
+var doorwindow = new fabric.Rect({
+  left: 210.5,    top: 218,     width: 22,    height: 19,
+  strokeWidth: 1,   stroke: '#993333',
+  fill: '#e6e6e6',    // silvery glass
+});
+canvas.add(doorwindow);  // put a window in the door
+doorwindow.set('selectable', false); // don't touch the glass...
+//---------------------------------
+var doorpath = new fabric.Rect({
+  left: 202,    top: 274,   width: 37,    height: 80,
+  strokeWidth: 3,   stroke: '#404040',
+  fill: '#737373',    // dark gray stone path
+});
+canvas.add(doorpath);  // put a path up to the door
+doorpath.set('selectable', false); // don't be doing anything to our path...
+// omg... seriously? i got the left-top position on this 1st try... (:
+/////////////////////////////////////////////////////////////////////////////
+// make lower-left window
+var llwindow = new fabric.Rect({
+  left: 152,    top: 216,   width: 25,    height: 38,
+  strokeWidth: 3,   stroke: '#fcf4e8',  // off-white trim
+  fill: '#e6e6e6',    // silvery glass
+});
+// put lower-left window on the house
+canvas.add(llwindow);
+llwindow.set('selectable', false); // make this window unselectable
+//---------------------------------
+// make lower-right window
+var lrwindow = new fabric.Rect({
+  left: 262,    top: 216,   width: 25,    height: 38,
+  strokeWidth: 3,   stroke: '#fcf4e8',  // off-white trim
+  fill: '#e6e6e6',    // silvery glass
+});
+//put lower-right window on the house
+canvas.add(lrwindow);
+lrwindow.set('selectable', false); // make this window unselectable
+//---------------------------------
+// make upper-left window
+var ulwindow = new fabric.Rect({
+  left: 152,    top: 156,   width: 25,    height: 38,
+  strokeWidth: 3,   stroke: '#fcf4e8',  // off-white trim
+  fill: '#e6e6e6',    // silvery glass
+});
+// put upper-left window on the house
+canvas.add(ulwindow);
+ulwindow.set('selectable', false); // make this window unselectable
+//---------------------------------
+// make upper-middle window
+var umwindow = new fabric.Rect({
+  left: 208,    top: 156,   width: 25,    height: 38,
+  strokeWidth: 3,   stroke: '#fcf4e8',  // off-white trim
+  fill: '#e6e6e6',    // silvery glass
+});
+// put upper-middle window on the house
+canvas.add(umwindow);
+umwindow.set('selectable', false); // make this window unselectable
+//---------------------------------
+// make upper-right window
+var urwindow = new fabric.Rect({
+  left: 262,    top: 156,   width: 25,    height: 38,
+  strokeWidth: 3,   stroke: '#fcf4e8',  // off-white trim
+  fill: '#e3e3e3',    // silvery glass
+});
+// put upper-right window on the house
+canvas.add(urwindow);
+urwindow.set('selectable', false); // make this window unselectable
+////////////////////////////////////////////////////////////////////
+// make some TALL shrubs for the sides...
+var shrub1 = new fabric.Ellipse({
+  left: 70,    top:180,    // positions left tall bush...
+  rx: 20,     ry:45,        // sets width & height of bush... 
+  strokeWidth: 10,    stroke: "#006600",
+  fill: "#006600",
+});
+canvas.add(shrub1);   // plant left tall shrub
+shrub1.set('selectable', false); // keep outta the bushes... 
+//---------------------------------
+var shrub2 = new fabric.Ellipse({
+  left: 325,    top:180,    // positions right tall bush...
+  rx: 20,     ry:45,        // sets width & height of bush... 
+  strokeWidth: 10,    stroke: "#006600",
+  fill: "#006600",
+});
+canvas.add(shrub2);   // plant right tall shrub
+shrub2.set('selectable', false); // keep outta the bushes... 
+//---------------------------------
+var flower1 = new fabric.Circle({
+  left: 82, top: 190,   radius: 5, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower1);  // put flower1 on shrub1
+flower1.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower2 = new fabric.Circle({
+  left: 85, top: 207,   radius: 5, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower2);  // put flower2 on shrub1
+flower2.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower3 = new fabric.Circle({
+  left: 101, top: 219,  radius: 5, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower3);  // put flower3 on shrub1
+flower3.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower4 = new fabric.Circle({
+  left: 80, top: 231,   radius: 5, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower4);  // put flower4 on shrub1
+flower4.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower5 = new fabric.Circle({
+  left: 90, top: 250,   radius: 5, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower5);  // put flower5 on shrub1
+flower5.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower6 = new fabric.Circle({
+  left: 340, top: 190,  radius: 5, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower6);  // put flower6 on shrub2
+flower6.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower7 = new fabric.Circle({
+  left: 355, top: 210,  radius: 5, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower7);  // put flower7 on shrub2
+flower7.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower8 = new fabric.Circle({
+  left: 338, top: 225,  radius: 5, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower8);  // put flower8 on shrub2
+flower8.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower9 = new fabric.Circle({
+  left: 352, top: 237,  radius: 5, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower9);  // put flower9 on shrub2
+flower9.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower10 = new fabric.Circle({
+  left: 338, top: 253,  radius: 5, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower10);  // put flower10 on shrub2
+flower10.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var shrub3 = new fabric.Ellipse({
+  left: 106,    top:254,    // positions left short bush...
+  rx: 45,     ry:9,        // sets width & height of bush... 
+  strokeWidth: 10,    stroke: "#006600",
+  fill: "#006600",
+});
+canvas.add(shrub3);   // plant left short shrub
+shrub3.set('selectable', false); // keep outta the bushes... 
+//---------------------------------
+var shrub4 = new fabric.Ellipse({
+  left: 239,    top:254,    // positions right short bush...
+  rx: 45,     ry:9,        // sets width & height of bush... 
+  strokeWidth: 10,    stroke: "#006600",
+  fill: "#006600",
+});
+canvas.add(shrub4);   // plant right short shrub
+shrub4.set('selectable', false); // keep outta the bushes... 
+//---------------------------------
+var flower11 = new fabric.Circle({
+  left: 121, top: 261,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower11);  // put flower11 on shrub3
+flower11.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower12 = new fabric.Circle({
+  left: 141, top: 267,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower12);  // put flower12 on shrub3
+flower12.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower13 = new fabric.Circle({
+  left: 158, top: 263,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower13);  // put flower13 on shrub3
+flower13.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower14 = new fabric.Circle({
+  left: 178, top: 266,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#400080',  // these are purple colors
+  fill: '#6600cc',    // outline slightly darker than center
+});
+canvas.add(flower14);  // put flower14 on shrub3
+flower14.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower15 = new fabric.Circle({
+  left: 251, top: 262,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower15);  // put flower15 on shrub4
+flower15.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower16 = new fabric.Circle({
+  left: 271, top: 269,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower16);  // put flower16 on shrub4
+flower16.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower17 = new fabric.Circle({
+  left: 289, top: 261,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower17);  // put flower17 on shrub4
+flower17.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+var flower18 = new fabric.Circle({
+  left: 311, top: 268,  radius: 4, 
+  strokeWidth: 1.5,   stroke: '#800000',  // these are red colors
+  fill: '#b30000',    // outline slightly darker than center
+});
+canvas.add(flower18);  // put flower18 on shrub4
+flower18.set('selectable', false); // don't pick the flowers...
+//---------------------------------
+//////////////////////////////////////////////////////////////
+// make a sun-shine ball
+var sun = new fabric.Circle({
+  left: 10, top: 10,    radius: 30, 
+  strokeWidth: 3,   stroke: '#ff9900',
+  fill: '#ffdb4d', 
+});
+// stick the sun in the sky
+canvas.add(sun);
+sun.set('selectable', false); // this doesn't make the sun set ~ just unclickable... (:
+//---------------------------------
+// add some sun-rays... 
+var ray0 = new fabric.Path('M 20 70 L 15 86');
+ray0.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#ff9900' 
+});
+canvas.add(ray0);   // stick the ray up by the sun (this one was added later so I made it 0 because of it's placement)
+ray0.set('selectable', false);  // don't touch the sun-rays...
+//---------------------------------
+var ray1 = new fabric.Path('M 42 75 L 46 93');
+ray1.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#ff9900' 
+});
+canvas.add(ray1);   // stick the ray up by the sun
+ray1.set('selectable', false);  // don't touch the sun-rays...
+//---------------------------------
+var ray2 = new fabric.Path('M 64 65 L 76 80');
+ray2.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#ff9900' 
+});
+canvas.add(ray2);   // stick the ray up by the sun
+ray2.set('selectable', false);  // don't touch the sun-rays...
+//---------------------------------
+var ray3 = new fabric.Path('M 76 45 L 95 52');
+ray3.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#ff9900' 
+});
+canvas.add(ray3);   // stick the ray up by the sun
+ray3.set('selectable', false);  // don't touch the sun-rays...
+//---------------------------------
+var ray4 = new fabric.Path('M 74 25 L 97 25');
+ray4.set({              // starts...goes to
+  strokeWidth: 2, stroke: '#ff9900' 
+});
+canvas.add(ray4);   // stick the ray up by the sun
+ray4.set('selectable', false);  // don't touch the sun-rays...
+//////////////////////////////////////////////////////////////
+// trying my own cloud... here's the 1st puff...
+var cloud1 = new fabric.Path("M 246 48 Q 238 12 288 48");
+cloud1.set({
+  strokeWidth: 3, stroke: '#f5f5f5', fill: '#f5f5f5'  // whitesmoke
+});
+canvas.add(cloud1);   // add puff one of cloud... 
+cloud1.set('selectable', false);  // don't go poking my cloud... 
+//---------------------------------
+// trying my own cloud... here's the 2nd puff... 
+var cloud2 = new fabric.Path("M 264 48 Q 314 3 347 48");
+cloud2.set({
+  strokeWidth: 3, stroke: '#f5f5f5', fill: '#f5f5f5'  // whitesmoke
+});
+canvas.add(cloud2);
+cloud2.set('selectable', false);  // hands off my cloud... 
+//---------------------------------
+// and trying 3rd & final puff of my own cloud... 
+var cloud3 = new fabric.Path("M 327 48 Q 368 3 413 48");
+cloud3.set({
+  strokeWidth: 3, stroke: '#f5f5f5', fill: '#f5f5f5'  // whitesmoke
+});
+canvas.add(cloud3);
+cloud3.set('selectable', false);  // hands off my cloud... 
+//---------------------------------
+// Let's try a 2nd smaller cloud a little more to the right... 
+// I liked how it looked with the borrowed one that keeps disappearing still there... 
+var cloud4 = new fabric.Path("M 306 92 Q 338 42 358 92");
+cloud4.set({
+  strokeWidth: 3, stroke: '#f5f5f5', fill: '#f5f5f5'  // whitesmoke
+});
+canvas.add(cloud4);
+cloud4.set('selectable', false);  // don't touch this one either
+//---------------------------------
+// this cloud will just be a two-puff one... 
+var cloud5 = new fabric.Path("M 336 92 Q 398 54 442 92");
+cloud5.set({
+  strokeWidth: 3, stroke: '#f5f5f5', fill: '#f5f5f5'  // whitesmoke
+});
+canvas.add(cloud5);
+cloud5.set('selectable', false);  // or this part either
+//---------------------------------
+// I did it!  I made my own freaking clouds.  (:
+//////////////////////////////////////////////////////////////
+// make a cloud (borrow one, anyway... )
+//  context.beginPath();
+		// beginning point
+//		context.moveTo(290, 80);
+		// create curvy lines
+//		context.lineTo(390, 80);
+//		context.bezierCurveTo(380, 50, 340, 50, 320, 70);
+//		context.bezierCurveTo(310, 50, 270, 60, 290, 80);
+		// complete custom shape
+//		context.fillStyle = '#ffffff';
+//		context.fill();
+// why does cloud go away if you put anything (but a comment) after it?
+// or click on anything in the picture?
+    </script>
+</body>
+<!--
+* maybe some more stuff with lines... 
+    * like adding middle cross-bar to windows so they're like ours... 
+    * making a balcony (like ours)?
+    
+* it would be cool, if there was time, to figure out a curvy path to the door... but I have to do some other things.  (:
+
+* is it possible to make another object show up on a click?  Like, have something show up in a window?
+
+* Ooo!  And Daddy said a flag-pole with a flag... and a mail-box with the little flag... and a tree with apples & a bird in it... 
+  
+  and of course if I figured out the 3D part I could add on the pillars and porch roof... 
+  
+  and the brick porch... brick fence... Hmmm... there's lots more I could play around with if I had the time... 
+_________________________________________________________________________________
+* do-your-own cloud ~ I finally did-my-own cloud!
+  there wasn't a quick fabric reference for plotting the curvy stuff... which I found *really* surprising... 
+
+  so... 1st borrowed your cloud as a place-holder... but I just *had* to figure out how to make my own cloud... (:
+
+  had to look all over the place for somewhere that explained *and* gave examples... (I gotta see examples or I don't get it)... and in the fabric syntax... 
+
+  FINALLY found a few okay pages, that were at least enough to give me a good idea of what to try... and it worked!    (plus helped the book make entire sense now)
+
+  then just adjusted all the coordinates until my clouds looked like how I wanted them to look, and were positioned in the sky where I wanted them to be.  or at least close enough.  (:
+
+  the next challenge is to make it look puffy on all sides... however, I *do* have other school-work to do, along with things like feeding dogs & myself and sleeping and taking a shower now & then... so I'll do that if I get to it.  even if it's after the due-date and just for my own edification.  (:
+
+  but the big thing is:  I made my own freaking cloud!  that was the part I never got last time I tried this.  that cloud then was *totally* copied.  Heh.  (:
+_________________________________________________________________________________
+* i've searched a hundred things about adding an event to one of the objects ~ the door in this case, and *n-o-t-h-i-n-g* works, except the 'selected' thing, but is that what we want?  No!  It is not.
+  
+  The 'official' fabric tutorial says you can do a whole crap-ton of events, one being "mouse:down", which is what I'm after (or, possibly, "mouse:up").  But it doesn't work, even when copy/pasted in here.  It's getting SUPER annoying.
+  
+// okay... so, the fabric.js tutorial ONLY talked about using 'mouse:down'... as in, that syntax, with the : thing in there... after *hours* of searching around... found out for a specifc object to leave : out.  %^&#@.  The : is only if your applying it to the overall canvas.  Grrr.
+
+// At first, when testing functionality with an alert box, I finally got it working, BUT... it would always "grab" the damned door... put it on top of the knob & window, (like move-to-front) and move it all over the place... wtf?
+
+// Aha!  the tutorial implied (okay, so didn't outright say,  but definitely implied) that making something 'selectable = false' would make it so you couldn't add events to it.  Wrong.  :)
+-->
+</html>
