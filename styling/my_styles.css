@@ -115,6 +115,15 @@ body {
     background-color: #d9b3ff;
     font-size: 15px;
 }
+.quote {
+    text-align:right;
+    border:1px solid #26004d;
+    border-radius:9px;
+    padding:9px;
+    box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45);
+    transition: 0.3s;
+    min-width:90px;
+}
 .my_res_left {
     padding:9px; 
     border-width:1px 0px 1px 1px ; 
@@ -188,6 +197,15 @@ body {
     margin-bottom:5px;
     font-size: 18px;
     font-weight: bold;
+}
+.other_experience_box {
+    margin-bottom:35px;
+    border:1px solid #26004d;
+    border-radius:9px;
+    padding:9px;
+    box-shadow: 0 5px 9px 0 rgba(38, 0, 77,0.45);
+    transition: 0.3s;
+    min-height:90px;
 }
 /***************************** MY FOOTER *****************************/
 .my_foot {
