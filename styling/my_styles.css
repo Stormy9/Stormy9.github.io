@@ -190,7 +190,7 @@ body {
 }
 .other_project_inner_box {
     margin-bottom: 9px;
-    border:1px solid #26004d;
+    border:1px dotted #26004d;
     border-radius:9px;
     padding:9px;
     min-height:210px;
