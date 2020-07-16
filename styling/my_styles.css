@@ -1,12 +1,28 @@
 body {
-    background-color: #d9b3ff;
-    color: #26004d;
+    /* purples! */
+    /* background-color: #d9b3ff;
+    color: #26004d; */
+    /*
+    official 'WOU Gray'    */
+    background-color:#c4c6c8;
+    /*
+    official 'WOU Black'    */
+    color: #231f20;
     padding-top: 18px;
 }
 /******************************* MY NAVBAR ***************************/
 .my_nav {
-    background-color: #26004d;          /* color: #d9b3ff; */
-    height:18px;                        color:#26004d;
+    /* purples! */
+    /* background-color: #26004d;          /* color: #d9b3ff; */
+    /* color:#26004d; */
+    /*
+    official 'WOU Red'  */
+    /* okay there is a disconnect..... it says rgb(227,24,55) but that gives #e31837
+        it also says hex#db0a29, but that gives rgb(219, 10, 41) -- and honestly neither one looks correct!! */
+    /* the other colors at least came out looking right!!!      */
+    background-color:#b30000;
+    color:#b30000;
+    height:18px;                        
 }
 /***************************** MY MAIN CONTAINER-FLUID ***************/
 .my_main {
@@ -33,8 +49,13 @@ body {
 /****************************** MY COLUMNS ***************************/
 .my_col_01 {
     padding-top:18px;
+    /* purples! */
     background-color: #b366ff;
-    /* for wireframe\testing */
+    /* 
+        official 'WOU Silver'   */
+        background-color:#a7a9ac;  
+    /* 
+    for wireframe\testing */
     /* border: 1px solid crimson; */
 }
 .image_box {
@@ -45,14 +66,22 @@ body {
     height:auto;
     text-align:center;
     margin-top:5px;
+    /* purples! */
     border:1px solid #26004d;
+    /*
+        official 'WOU Black'    */
+        border:1px solid #231f20;
     border-radius:180px;
 }
 .col_01_image {
     max-width:96%;
     height:auto;
     margin-top:5px;
+    /* purples! */
     border:1px solid #26004d;
+    /*
+        official 'WOU Black'    */
+        border:1px solid #231f20;
     border-radius:5px;
 }
 .my_col_02 {
@@ -67,8 +96,13 @@ body {
 /******************************* MY TABS *****************************/
 .my_tabs {
     padding: 1px 2px 1px 2x;
-    background-color: #26004d;          color: #d9b3ff;
-    border: 1px solid #d9b3ff;
+    /* purples! */
+    /* background-color: #26004d;          color: #d9b3ff;
+    border: 1px solid #d9b3ff; */
+    /*
+        (un)official 'WOU Red'  */
+        background-color:#b30000;       color:#c4c6c8;
+        border:1px solid #c4c6c8;
     border-radius: 11px 11px 0px 0px;
     /* what is with the fucking font-size?  looks fine local -- 
         and way too freaking huge live.....                          */
@@ -79,48 +113,92 @@ body {
 } */
     /* so do we have to have them all & in the right order here too? */
     .my_tabs:link {
-        color: #d9b3ff;
-        border: 1px solid #d9b3ff;
+        /* purples! */
+        /* color: #d9b3ff; 
+            border: 1px solid #d9b3ff;  */
+        /*
+            official 'WOU Gray'     */
+            color:#c4c6c8;
+            border:1px solid #c4c6c8;
         border-radius: 9px 9px 0px 0px;
     }
     .my_tabs:visited {
-        color: #d9b3ff;
-        border: 1px solid #d9b3ff;
+        /* purples! */
+        /* color: #d9b3ff; 
+            border: 1px solid #d9b3ff;  */
+        /*
+            official 'WOU Gray'     */
+            color:#c4c6c8;
+            border:1px solid #c4c6c8;
         border-radius: 9px 9px 0px 0px;
     }
     .my_tabs:hover {
-        color: #26004d;
-        border: 1px solid #d9b3ff;
+        /* purples! */
+        /* color: #26004d;
+            border: 1px solid #d9b3ff; */
+        /* 
+            (un)official 'WOU Red & Gray'  */
+            color:#b30000;
+            border:1px solid #c4c6c8;
         border-radius: 9px 9px 0px 0px;
     }
     .my_tabs:active {
-        color: #26004d;
-        border: 1px solid #d9b3ff;
+        /* purples! */
+        /* color: #26004d;
+            border: 1px solid #d9b3ff; */
+        /* 
+            (un)official 'WOU Red & Gray'  */
         border-radius: 9px 9px 0px 0px;
     }
     .my_tabs a:hover {
-        color: #ff3333;
+        /* color: #ff3333; */
+        /*
+            official 'WOU Silver'   */
+        color:#a7a9ac;
     }
     .my_tabs a:active {
-        color: #ff3333;
+        /* color: #ff3333; */
+        /*
+            official 'WOU Silver'   */
+            color:#a7a9ac;
     }
 .my_tab_panels {
     /* top right bottom left */ /* like clock-wise */
     border: 1px 1px 1px 1px; /* why is it so thick? */
     border-style: solid solid solid solid;
-    border-color: #26004d;
+    /* purples */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red' */
+        /* border-color:#b30000; */
+        /* 
+            no -- official 'WOU Black'  */
+            border-color:#231f20;
     border-radius: 1px 1px 5px 5px;
     padding: 5px 5px 5px 5px;
     margin: 0px 0px 15px 0px;
-    background-color: #d9b3ff;
+    /* purples */
+    /* background-color: #d9b3ff; */
+    /* 
+        official 'WOU Gray' */
+        background-color:#c4c6c8;
     font-size: 15px;
 }
 .quote {
     text-align:right;
-    border:1px solid #26004d;
+    /* purples! */
+    /* border:1px solid #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+    border:1px solid #b30000;
     border-radius:9px;
     padding:9px;
-    box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45);
+    /* purples! */
+    /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
+    /* 
+        (un)official 'WOU Red'  
+            this is the rgb for #b30000     */
+        box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
     transition: 0.3s;
     min-width:90px;
 }
@@ -128,14 +206,22 @@ body {
     padding:9px; 
     border-width:1px 0px 1px 1px ; 
     border-style: solid;
-    border-color: #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px solid #b30000;
     border-radius: 1px 0px 0px 5px;
-/*     background-color:#8000ff; 
+    /*     background-color:#8000ff; 
     color:#d9b3ff; */
 }
 .my_res_right {
     padding:9px; 
-    border:1px solid #26004d; 
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px solid #b30000;
     border-radius: 0px 1px 5px 0px;
     /* background-color:#8000ff; 
     color:#d9b3ff; */
@@ -144,14 +230,22 @@ body {
     padding:9px; 
     border-width:1px 0px 1px 1px ; 
     border-style: solid;
-    border-color: #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px solid #b30000;
     border-radius: 1px 0px 0px 5px;
     /* background-color:#8000ff; 
     color:#d9b3ff; */
 }
 .my_edu_right {
     padding:9px; 
-    border:1px solid #26004d; 
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px solid #b30000;
     border-radius: 0px 1px 5px 0px;
     /* background-color:#8000ff; 
     color:#d9b3ff; */
@@ -165,32 +259,57 @@ body {
 .sr_project_img {
     float:right;
     margin-left: 5px;
-    border:1px solid #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px solid #b30000;
     border-radius:9px;
     max-height:270px;
     width:auto;
 }
 .other_project_box_box {
     margin-bottom:35px;
-    border:1px solid #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px solid #b30000;
     border-radius:9px;
     padding:9px 9px 0px 9px;
-    box-shadow: 0 5px 9px 0 rgba(38, 0, 77,0.45);
+    /* purples! */
+    /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
+    /* 
+        (un)official 'WOU Red'  
+            this is the rgb for #b30000     */
+            box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
     transition: 0.3s;
     min-height:210px;
 }
 .other_project_box {
     margin-bottom:35px;
-    border:1px solid #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px solid #b30000;
     border-radius:9px;
     padding:9px;
-    box-shadow: 0 5px 9px 0 rgba(38, 0, 77,0.45);
+    /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
+    /* 
+        (un)official 'WOU Red'  
+            this is the rgb for #b30000     */
+            box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
     transition: 0.3s;
     min-height:210px;
 }
 .other_project_inner_box {
     margin-bottom: 9px;
-    border:1px dotted #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px dotted #b30000;
     border-radius:9px;
     padding:9px;
     min-height:210px;
@@ -198,14 +317,19 @@ body {
 .other_project_img {
     float:right;
     margin-left:5px;
-    border:1px solid #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px dotted #b30000;
     border-radius:9px;
     max-height:180px;
     width:auto;
 }
 .other_project_a:link, .other_project_a:visited, 
 .other_project_a:hover, .other_project_a:active {
-    color: #ff3333;
+    /* color: #ff3333; */
+    color:#b30000;
     text-decoration: none;
     font-weight:bold;
 }
@@ -216,35 +340,56 @@ body {
 }
 .other_experience_box {
     margin-bottom:35px;
-    border:1px solid #26004d;
+    /* purples! */
+    /* border-color: #26004d; */
+    /* 
+        (un)official 'WOU Red'  */
+        border:1px dotted #b30000;
     border-radius:9px;
     padding:9px;
-    box-shadow: 0 5px 9px 0 rgba(38, 0, 77,0.45);
+    /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
+    /* 
+        (un)official 'WOU Red'  
+            this is the rgb for #b30000     */
+            box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
     transition: 0.3s;
     min-height:90px;
 }
 /***************************** MY FOOTER *****************************/
 .my_foot {
-    background-color: #26004d;  color: #d9b3ff;
+    /* purples! */
+    /* background-color: #26004d;  color: #d9b3ff; */
+    /*
+        (un)official 'WOU Red'  */
+        background-color:#b30000;           color:#b30000;
     height: 18px;
     font-size:13.5px;
  }
 /*************************** MY BUTTONS ******************************/
 .my_button {
-    background-color: #26004d;    color: #d9b3ff;
-    border-color: #26004d;    border-radius: 18px;
+    /* background-color: #26004d;    color: #d9b3ff;
+    border-color: #26004d;  */   
+    background-color:#b30000;   border-color:#b30000;
+    color:#c4c6c8;
+    border-radius: 18px;
 }
 .my_button:hover {
-    background-color: #26004d;    color: #d9b3ff;
-    border: 1px solid #d9b3ff;
+    /* background-color: #26004d;    color: #d9b3ff;
+    border: 1px solid #d9b3ff; */
+    background-color: #b30000;    color: #c4c6c8;
+    border: 1px solid #c4c6c8;
 }
 .my_button:focus {
-    background-color: #26004d;    color: #d9b3ff;
-    border: 1px solid #d9b3ff;
+    /* background-color: #26004d;    color: #d9b3ff;
+    border: 1px solid #d9b3ff; */
+    background-color: #b30000;    color: #c4c6c8;
+    border: 1px solid #c4c6c8;
 }
 .my_button:active {
-    background-color: #26004d;    color: #d9b3ff;
-    border: 1px solid #d9b3ff;
+    /* background-color: #26004d;    color: #d9b3ff;
+    border: 1px solid #d9b3ff; */
+    background-color: #b30000;    color: #c4c6c8;
+    border: 1px solid #c4c6c8;
 }
 /******************************** MY LINKS ***************************/
 /* When setting styles for several link states, there are order rules:
@@ -252,19 +397,23 @@ body {
             a:active MUST come after a:hover
  */
 a:link {
-    color: #d9b3ff;
+    /* color: #d9b3ff; */
+    color: #c4c6c8;
     text-decoration: none;
 }
 a:visited {
-    color: #d9b3ff;
+    /* color: #d9b3ff; */
+    color: #c4c6c8;
     text-decoration: none;
 }
 a:hover {
-    color: #ff3333;
+    /* color: #ff3333; */
+    color:#a7a9ac;
     text-decoration: none;
 }
 a:active {
-    color: #ff3333;
+    /* color: #ff3333; */
+    color:#a7a9ac;
     text-decoration: none;
 }
 /***************************************************************************************/
