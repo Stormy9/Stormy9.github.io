@@ -190,7 +190,7 @@ body {
     /* border:1px solid #26004d; */
     /* 
         (un)official 'WOU Red'  */
-    border:1px solid #b30000;
+    border:1px solid #231f20;
     border-radius:9px;
     padding:9px;
     /* purples! */
@@ -198,7 +198,7 @@ body {
     /* 
         (un)official 'WOU Red'  
             this is the rgb for #b30000     */
-        box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
+        box-shadow: 0 9px 13px 0 rgba(35, 31, 32, 0.45);
     transition: 0.3s;
     min-width:90px;
 }
@@ -210,7 +210,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px solid #b30000;
+        border:1px solid #231f20;
     border-radius: 1px 0px 0px 5px;
     /*     background-color:#8000ff; 
     color:#d9b3ff; */
@@ -221,7 +221,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px solid #b30000;
+        border:1px solid #231f20;
     border-radius: 0px 1px 5px 0px;
     /* background-color:#8000ff; 
     color:#d9b3ff; */
@@ -234,7 +234,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px solid #b30000;
+        border:1px solid #231f20;
     border-radius: 1px 0px 0px 5px;
     /* background-color:#8000ff; 
     color:#d9b3ff; */
@@ -245,7 +245,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px solid #b30000;
+        border:1px solid #231f20;
     border-radius: 0px 1px 5px 0px;
     /* background-color:#8000ff; 
     color:#d9b3ff; */
@@ -263,7 +263,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px solid #b30000;
+        border:1px solid #231f20;
     border-radius:9px;
     max-height:270px;
     width:auto;
@@ -274,7 +274,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px solid #b30000;
+        border:1px solid #231f20;
     border-radius:9px;
     padding:9px 9px 0px 9px;
     /* purples! */
@@ -282,7 +282,7 @@ body {
     /* 
         (un)official 'WOU Red'  
             this is the rgb for #b30000     */
-            box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
+            box-shadow: 0 9px 13px 0 rgba(35,31,32,0.45);
     transition: 0.3s;
     min-height:210px;
 }
@@ -292,14 +292,14 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px solid #b30000;
+        border:1px solid #231f20;
     border-radius:9px;
     padding:9px;
     /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
     /* 
         (un)official 'WOU Red'  
             this is the rgb for #b30000     */
-            box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
+            box-shadow: 0 9px 13px 0 rgba(35, 31, 32, 0.45);
     transition: 0.3s;
     min-height:210px;
 }
@@ -309,7 +309,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px dotted #b30000;
+        border:1px dotted #231f20;
     border-radius:9px;
     padding:9px;
     min-height:210px;
@@ -321,7 +321,7 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px dotted #b30000;
+        border:1px dotted #231f20;
     border-radius:9px;
     max-height:180px;
     width:auto;
@@ -344,14 +344,14 @@ body {
     /* border-color: #26004d; */
     /* 
         (un)official 'WOU Red'  */
-        border:1px dotted #b30000;
+        border:1px dotted #231f20;
     border-radius:9px;
     padding:9px;
     /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
     /* 
         (un)official 'WOU Red'  
             this is the rgb for #b30000     */
-            box-shadow: 0 9px 13px 0 rgba(179, 0, 0, 0.45);
+            box-shadow: 0 9px 13px 0 rgba(35, 31, 32, 0.45);
     transition: 0.3s;
     min-height:90px;
 }
