@@ -95,7 +95,9 @@ body {
 }
 /******************************* MY TABS *****************************/
 .my_tabs {
-    padding: 1px 2px 1px 2x;
+    /* why does it seem like my padding is so thick no matter what i do? */
+    padding: 0px 1px 0px 1x;
+    /**/
     /* purples! */
     /* background-color: #26004d;          color: #d9b3ff;
     border: 1px solid #d9b3ff; */
@@ -148,6 +150,8 @@ body {
             border: 1px solid #d9b3ff; */
         /* 
             (un)official 'WOU Red & Gray'  */
+            color:#b30000;
+            border:1px solid #c4c6c8;
         border-radius: 9px 9px 0px 0px;
     }
     .my_tabs a:hover {
@@ -196,7 +200,7 @@ body {
     /* purples! */
     /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
     /* 
-        (un)official 'WOU Red'  
+        official 'WOU Black'  
             this is the rgb for #b30000     */
         box-shadow: 0 9px 13px 0 rgba(35, 31, 32, 0.45);
     transition: 0.3s;
@@ -209,7 +213,7 @@ body {
     /* purples! */
     /* border-color: #26004d; */
     /* 
-        (un)official 'WOU Red'  */
+        official 'WOU Black'  */
         border:1px solid #231f20;
     border-radius: 1px 0px 0px 5px;
     /*     background-color:#8000ff; 
@@ -220,7 +224,7 @@ body {
     /* purples! */
     /* border-color: #26004d; */
     /* 
-        (un)official 'WOU Red'  */
+        official 'WOU Black'  */
         border:1px solid #231f20;
     border-radius: 0px 1px 5px 0px;
     /* background-color:#8000ff; 
@@ -233,7 +237,7 @@ body {
     /* purples! */
     /* border-color: #26004d; */
     /* 
-        (un)official 'WOU Red'  */
+        official 'WOU Black'  */
         border:1px solid #231f20;
     border-radius: 1px 0px 0px 5px;
     /* background-color:#8000ff; 
@@ -244,7 +248,7 @@ body {
     /* purples! */
     /* border-color: #26004d; */
     /* 
-        (un)official 'WOU Red'  */
+        official 'WOU Black'  */
         border:1px solid #231f20;
     border-radius: 0px 1px 5px 0px;
     /* background-color:#8000ff; 
@@ -262,7 +266,7 @@ body {
     /* purples! */
     /* border-color: #26004d; */
     /* 
-        (un)official 'WOU Red'  */
+        official 'WOU Black'  */
         border:1px solid #231f20;
     border-radius:9px;
     max-height:270px;
@@ -273,15 +277,14 @@ body {
     /* purples! */
     /* border-color: #26004d; */
     /* 
-        (un)official 'WOU Red'  */
+        official 'WOU Black'  */
         border:1px solid #231f20;
     border-radius:9px;
     padding:9px 9px 0px 9px;
     /* purples! */
     /* box-shadow: 0 9px 13px 0 rgba(38, 0, 77,0.45); */
     /* 
-        (un)official 'WOU Red'  
-            this is the rgb for #b30000     */
+        official 'WOU Black'      */
             box-shadow: 0 9px 13px 0 rgba(35,31,32,0.45);
     transition: 0.3s;
     min-height:210px;
