@@ -358,6 +358,15 @@ body {
     transition: 0.3s;
     min-height:90px;
 }
+/***************************** ABOUT ME ******************************/
+.doggie_pics {
+    max-height: 234px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
 /***************************** MY FOOTER *****************************/
 .my_foot {
     /* purples! */
