@@ -330,11 +330,14 @@ body {
     width:auto;
 }
 .other_project_a:link, .other_project_a:visited, 
-.other_project_a:hover, .other_project_a:active {
+.other_project_a:active {
     /* color: #ff3333; */
     color:#b30000;
     text-decoration: none;
     font-weight:bold;
+}
+.other_project_a:hover {
+    color: #4d0000;
 }
 .me_online_li {
     margin-bottom:5px;
@@ -366,6 +369,24 @@ body {
     border-radius: 5px;
     margin: 5px;
     
+}
+/******************************* FACULTY *****************************/
+.faculty_box {
+    border: 1px dotted black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 96%;
+}
+.faculty_box:hover {
+    box-shadow: 0 9px 13px 0 rgba(35,31,32,0.45);
+}
+
+.faculty_a:link {
+    color: #b30000;
+}
+.faculty_a:hover {
+    color: #4d0000;
 }
 /***************************** MY FOOTER *****************************/
 .my_foot {
